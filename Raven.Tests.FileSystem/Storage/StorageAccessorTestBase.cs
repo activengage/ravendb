@@ -4,15 +4,15 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Threading;
 
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Plugins;
-using Raven.Database.FileSystem.Storage;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Plugins;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Tests.FileSystem.Storage
+namespace Raven35.Tests.FileSystem.Storage
 {
     public abstract class StorageAccessorTestBase : IDisposable
     {
@@ -73,10 +73,10 @@ namespace Raven.Tests.FileSystem.Storage
             switch (requestedStorage)
             {
                 case "esent":
-                    storage = new Raven.Database.FileSystem.Storage.Esent.TransactionalStorage(configuration);
+                    storage = new Raven35.Database.FileSystem.Storage.Esent.TransactionalStorage(configuration);
                     break;
                 case "voron":
-                    storage = new Raven.Database.FileSystem.Storage.Voron.TransactionalStorage(configuration);
+                    storage = new Raven35.Database.FileSystem.Storage.Voron.TransactionalStorage(configuration);
                     break;
                 default:
                     throw new NotSupportedException(string.Format("Given storage type ({0}) is not supported.", requestedStorage));

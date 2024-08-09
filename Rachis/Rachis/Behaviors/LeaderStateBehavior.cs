@@ -15,8 +15,8 @@ using Rachis.Commands;
 using Rachis.Messages;
 using Rachis.Storage;
 using Rachis.Transport;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
 
 namespace Rachis.Behaviors
 {

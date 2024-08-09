@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.FileSystem
+namespace Raven35.Abstractions.FileSystem
 {
     public class FileSystemInfo
     {

@@ -5,10 +5,10 @@ using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Compression.Plugin;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Compression.Plugin;
 
-namespace Raven.Bundles.Compression.Streams
+namespace Raven35.Bundles.Compression.Streams
 {
     internal class DecompressStream : Stream
     {

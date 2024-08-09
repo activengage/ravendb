@@ -14,19 +14,19 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Routing;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.Server;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.Security;
-using Raven.Abstractions.Exceptions;
-using Raven.Database.Server.Tenancy;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.Security;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Common
+namespace Raven35.Database.Common
 {
     public abstract class ResourceApiController<TResource, TResourceLandlord> : RavenBaseApiController, IResourceApiController<TResource>
         where TResource : IResourceStore
@@ -345,7 +345,7 @@ namespace Raven.Database.Common
                     var timeout = httpException.InnerException as TimeoutException;
                     if (timeout != null)
                     {
-                        response.Headers.Add("Raven-Database-Load-In-Progress", ResourceName);
+                        response.Headers.Add("Raven35.Database-Load-In-Progress", ResourceName);
                     }
                     return response;
                 }).ConfigureAwait(false);

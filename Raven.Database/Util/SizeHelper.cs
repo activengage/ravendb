@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class SizeHelper
     {

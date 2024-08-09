@@ -4,10 +4,10 @@ using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.Extensions
+namespace Raven35.Client.Extensions
 {
     public static class Time
     {

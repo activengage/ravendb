@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class HiloTests : RavenTest
     {
@@ -29,7 +29,7 @@ namespace Raven.Tests.MailingList
                     new RavenJObject());
 
                 store.DatabaseCommands.Put(
-                    "Raven/ServerPrefixForHilo", null,
+                    "Raven35.ServerPrefixForHilo", null,
                     new RavenJObject
                     {
                         {"ServerPrefix", "2,"}

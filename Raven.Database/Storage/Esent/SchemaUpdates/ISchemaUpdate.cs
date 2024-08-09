@@ -6,11 +6,11 @@
 using System;
 using System.ComponentModel.Composition;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Impl;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Impl;
 
-namespace Raven.Storage.Esent.SchemaUpdates
+namespace Raven35.Storage.Esent.SchemaUpdates
 {
     [InheritedExport]
     public interface ISchemaUpdate

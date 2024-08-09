@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Management.Automation;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Bundles.Replication.Data;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Bundles.Replication.Data;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
-namespace Raven.Powershell
+namespace Raven35.Powershell
 {
     [Cmdlet(VerbsData.Restore, "Database")]
     public class BinaryRestoreDatabaseInClusterCmdlet : Cmdlet

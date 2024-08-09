@@ -1,11 +1,11 @@
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class BulkInsertDatabaseUrl : RavenTest
     {

@@ -14,13 +14,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
 
-namespace Raven.Database.Common
+namespace Raven35.Database.Common
 {
     public abstract class AdminResourceApiController<TResource, TResourceLandlord> : ResourceApiController<TResource, TResourceLandlord>
         where TResource : IResourceStore

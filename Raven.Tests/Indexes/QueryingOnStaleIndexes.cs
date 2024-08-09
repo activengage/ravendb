@@ -4,18 +4,18 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client.Embedded;
-using Raven.Json.Linq;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Tests.Common;
-using Raven.Tests.Storage;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Embedded;
+using Raven35.Json.Linq;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
+using Raven35.Tests.Storage;
 using Xunit;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class QueryingOnStaleIndexes: RavenTest
     {

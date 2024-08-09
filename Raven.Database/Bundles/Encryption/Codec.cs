@@ -4,12 +4,12 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Bundles.Encryption.Settings;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Bundles.Encryption.Settings;
 
-namespace Raven.Database.Bundles.Encryption
+namespace Raven35.Database.Bundles.Encryption
 {
     public class Codec
     {

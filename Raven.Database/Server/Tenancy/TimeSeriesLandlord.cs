@@ -3,16 +3,16 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Commercial;
-using Raven.Database.Config;
-using Raven.Database.TimeSeries;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Connections;
+using Raven35.Abstractions;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Commercial;
+using Raven35.Database.Config;
+using Raven35.Database.TimeSeries;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Connections;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -21,10 +21,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Database.Server.Security;
-using Raven.Abstractions.Exceptions;
+using Raven35.Database.Server.Security;
+using Raven35.Abstractions.Exceptions;
 
-namespace Raven.Database.Server.Tenancy
+namespace Raven35.Database.Server.Tenancy
 {
     public class TimeSeriesLandlord : AbstractLandlord<TimeSeriesStorage>
     {

@@ -7,12 +7,12 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class AsyncSetBasedOps : RavenTest
     {

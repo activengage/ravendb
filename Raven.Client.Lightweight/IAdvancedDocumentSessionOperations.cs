@@ -7,13 +7,13 @@
 using System;
 using System.Collections.Generic;
 
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Advanced session operations

@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Net;
-using Raven.Client.Document;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Client.Document;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
 
     public class RavenDB_1553 : IisExpressTestClient

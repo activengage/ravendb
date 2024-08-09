@@ -9,15 +9,15 @@ using System.Collections.Specialized;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Helpers;
-using Raven.Client.Metrics;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Helpers;
+using Raven35.Client.Metrics;
 
-namespace Raven.Client.Connection.Request
+namespace Raven35.Client.Connection.Request
 {
     public class ReplicationAwareRequestExecuter : IRequestExecuter
     {

@@ -2,13 +2,13 @@ using System;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
 using System.Threading.Tasks;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public abstract class SmugglerOperationDispatcher<T> where T : SmugglerOptions
     {

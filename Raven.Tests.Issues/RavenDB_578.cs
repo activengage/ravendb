@@ -1,11 +1,11 @@
-using Raven.Abstractions.Data;
-using Raven.Tests.Bundles.Replication;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Bundles.Replication;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.Threading;
-    using Raven.Client.Exceptions;
+    using Raven35.Client.Exceptions;
 
     using Xunit;
 

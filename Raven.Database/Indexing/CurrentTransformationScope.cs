@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Raven.Database.Impl;
-using Raven.Json.Linq;
+using Raven35.Database.Impl;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     internal class CurrentTransformationScope : IDisposable
     {

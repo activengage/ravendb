@@ -1,4 +1,4 @@
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     public static class JsonConverterCache
     {

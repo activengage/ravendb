@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public static class TermsQueryRunnerExtensions
     {

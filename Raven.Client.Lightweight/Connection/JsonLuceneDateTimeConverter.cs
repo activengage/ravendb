@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Text.RegularExpressions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     /// <summary>
     /// Convert a lucene data format to and from json values
@@ -23,7 +23,7 @@ namespace Raven.Client.Connection
         /// <summary>
         /// Writes the JSON representation of the object.
         /// </summary>
-        /// <param name="writer">The <see cref="T:Raven.Imports.Newtonsoft.Json.JsonWriter"/> to write to.</param>
+        /// <param name="writer">The <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonWriter"/> to write to.</param>
         /// <param name="value">The value.</param>
         /// <param name="serializer">The calling serializer.</param>
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
@@ -34,7 +34,7 @@ namespace Raven.Client.Connection
         /// <summary>
         /// Reads the JSON representation of the object.
         /// </summary>
-        /// <param name="reader">The <see cref="T:Raven.Imports.Newtonsoft.Json.JsonReader"/> to read from.</param>
+        /// <param name="reader">The <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonReader"/> to read from.</param>
         /// <param name="objectType">Type of the object.</param>
         /// <param name="existingValue">The existing value of object being read.</param>
         /// <param name="serializer">The calling serializer.</param>
@@ -69,10 +69,10 @@ namespace Raven.Client.Connection
         }
 
         /// <summary>
-        /// Gets a value indicating whether this <see cref="T:Raven.Imports.Newtonsoft.Json.JsonConverter"/> can write JSON.
+        /// Gets a value indicating whether this <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonConverter"/> can write JSON.
         /// </summary>
         /// <value>
-        /// 	<c>true</c> if this <see cref="T:Raven.Imports.Newtonsoft.Json.JsonConverter"/> can write JSON; otherwise, <c>false</c>.
+        /// 	<c>true</c> if this <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonConverter"/> can write JSON; otherwise, <c>false</c>.
         /// </value>
         public override bool CanWrite
         {

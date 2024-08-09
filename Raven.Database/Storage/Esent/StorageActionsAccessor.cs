@@ -8,15 +8,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Impl.DTC;
-using Raven.Database.Storage;
-using Raven.Database.Storage.Esent.StorageActions;
-using Raven.Database.Tasks;
-using Raven.Storage.Esent.StorageActions;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Impl.DTC;
+using Raven35.Database.Storage;
+using Raven35.Database.Storage.Esent.StorageActions;
+using Raven35.Database.Tasks;
+using Raven35.Storage.Esent.StorageActions;
 
-namespace Raven.Storage.Esent
+namespace Raven35.Storage.Esent
 {
     [CLSCompliant(false)]
     public class StorageActionsAccessor : IStorageActionsAccessor

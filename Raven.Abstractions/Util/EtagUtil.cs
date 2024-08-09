@@ -1,6 +1,6 @@
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public static class EtagUtil
     {

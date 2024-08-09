@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.Indexing
+namespace Raven35.Abstractions.Indexing
 {
     public class SpatialOptions
     {

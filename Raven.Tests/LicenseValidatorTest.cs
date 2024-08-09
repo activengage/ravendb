@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Rhino.Licensing;
 using Xunit;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class LicenseValidatorTest : NoDisposalNeeded
     {

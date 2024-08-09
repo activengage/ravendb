@@ -13,7 +13,7 @@ using Voron;
 using Voron.Impl.Backup;
 using Voron.Util.Conversion;
 
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     public class OperationBatchCommand : Command
     {

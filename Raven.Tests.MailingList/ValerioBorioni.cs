@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using Xunit;
 using System.Net;
 using System.IO;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class ValerioBorioni : RavenTest
     {

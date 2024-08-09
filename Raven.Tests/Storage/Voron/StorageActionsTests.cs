@@ -1,5 +1,5 @@
-using Raven.Database.Storage.Voron.StorageActions;
-using Raven.Tests.Common;
+using Raven35.Database.Storage.Voron.StorageActions;
+using Raven35.Tests.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Storage.Voron
+namespace Raven35.Tests.Storage.Voron
 {
     internal class MockStorageActions : StorageActionsBase
     {

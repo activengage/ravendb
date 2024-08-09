@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Triggers
+namespace Raven35.Tests.Triggers
 {
     public class DocumentQueryTriggers : RavenTest
     {

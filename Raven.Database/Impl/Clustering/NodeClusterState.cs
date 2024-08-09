@@ -1,4 +1,4 @@
-namespace Raven.Database.Impl.Clustering
+namespace Raven35.Database.Impl.Clustering
 {
     public enum NodeClusterState
     {

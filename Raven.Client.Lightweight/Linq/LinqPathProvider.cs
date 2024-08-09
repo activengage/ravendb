@@ -9,11 +9,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     public class LinqPathProvider
     {

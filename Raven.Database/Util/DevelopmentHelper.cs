@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     internal static class DevelopmentHelper
     {

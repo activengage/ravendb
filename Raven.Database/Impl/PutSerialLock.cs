@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using Lucene.Net.Store;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Impl
+namespace Raven35.Database.Impl
 {
     using System;
     using System.Threading;
 
-    using Raven.Abstractions.Extensions;
+    using Raven35.Abstractions.Extensions;
 
     public class PutSerialLock
     {

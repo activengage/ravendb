@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CounterStatsTests : RavenBaseCountersTest
     {

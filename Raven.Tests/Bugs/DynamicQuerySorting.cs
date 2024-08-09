@@ -1,21 +1,21 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Linq;
-using Raven.Database.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Linq;
+using Raven35.Database.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
-using Raven.Database.Queries;
+using Raven35.Database.Queries;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class DynamicQuerySorting : RavenTest
     {

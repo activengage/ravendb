@@ -5,21 +5,21 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Database.Bundles.ScriptedIndexResults;
-using Raven.Database.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles.ScriptedIndexResults;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Database.Bundles.ScriptedIndexResults;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles.ScriptedIndexResults;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 using System.Linq;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1601 : RavenTest
     {

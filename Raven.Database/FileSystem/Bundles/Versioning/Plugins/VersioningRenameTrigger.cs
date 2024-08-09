@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 using System.Linq;
-using Raven.Database.Bundles.Versioning.Data;
-using Raven.Database.FileSystem.Plugins;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Database.Bundles.Versioning.Data;
+using Raven35.Database.FileSystem.Plugins;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Bundles.Versioning.Plugins
+namespace Raven35.Database.FileSystem.Bundles.Versioning.Plugins
 {
     [InheritedExport(typeof(AbstractFileRenameTrigger))]
     [ExportMetadata("Bundle", "Versioning")]

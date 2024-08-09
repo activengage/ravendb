@@ -1,20 +1,20 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Embedded;
-using Raven.Client.Extensions;
-using Raven.Database;
-using Raven.Database.Extensions;
-using Raven.Database.Smuggler;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Embedded;
+using Raven35.Client.Extensions;
+using Raven35.Database;
+using Raven35.Database.Extensions;
+using Raven35.Database.Smuggler;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -25,9 +25,9 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
-using JsonTextWriter = Raven.Imports.Newtonsoft.Json.JsonTextWriter;
+using JsonTextWriter = Raven35.Imports.Newtonsoft.Json.JsonTextWriter;
 
-namespace Raven.Tests.Smuggler
+namespace Raven35.Tests.Smuggler
 {
     public class SmugglerExecutionTests : RavenTest
     {

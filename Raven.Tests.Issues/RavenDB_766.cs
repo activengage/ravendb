@@ -4,19 +4,19 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading;
-using Raven.Database.Util;
-using Raven.Tests.Common;
+using Raven35.Database.Util;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Database.Storage;
-    using Raven.Json.Linq;
+    using Raven35.Json.Linq;
     using Xunit;
     using Xunit.Extensions;
-    using Sparrow.Collections;
+    using Sparrow35.Collections;
 
     public class RavenDB_766 : RavenTest
     {

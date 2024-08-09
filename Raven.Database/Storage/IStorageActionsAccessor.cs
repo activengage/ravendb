@@ -4,10 +4,10 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
-using Raven.Database.Impl.DTC;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Impl.DTC;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public interface IStorageActionsAccessor : IDisposable
     {

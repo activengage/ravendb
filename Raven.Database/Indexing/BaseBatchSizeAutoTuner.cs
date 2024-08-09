@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
-using Raven.Abstractions;
-using Raven.Database.Config;
+using Raven35.Abstractions;
+using Raven35.Database.Config;
 using System.Linq;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Database.Storage;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
-    using Raven.Abstractions.Util;
+    using Raven35.Abstractions.Util;
 
     public abstract class BaseBatchSizeAutoTuner : ILowMemoryHandler, ITransactionalStorageNotificationHandler
     {

@@ -6,17 +6,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Bundles.Authorization;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Bundles.Authorization;
 using System.Linq;
-using Raven.Bundles.Authorization.Model;
-using Raven.Client.Connection;
-using Raven.Json.Linq;
+using Raven35.Bundles.Authorization.Model;
+using Raven35.Client.Connection;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Authorization
+namespace Raven35.Client.Authorization
 {
     public static class AuthorizationClientExtensions
     {

@@ -1,9 +1,9 @@
-﻿using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Dto.Faceted;
-using Raven.Tests.Helpers;
+﻿using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Dto.Faceted;
+using Raven35.Tests.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Faceted
+namespace Raven35.Tests.Faceted
 {
     public class DistinctAggregation : FacetTestBase
     {

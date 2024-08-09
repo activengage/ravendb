@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Storage;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Storage;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.SlowTests.Voron
+namespace Raven35.SlowTests.Voron
 {
     [Trait("VoronTest", "StorageActionsTests")]
     [Trait("VoronTest", "DocumentStorage")]

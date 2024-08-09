@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Tests.Bugs.TransformResults;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Bugs.TransformResults;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
-using User = Raven.Tests.Linq.User;
+using Raven35.Client.Linq;
+using User = Raven35.Tests.Linq.User;
 
-namespace Raven.Tests.MultiGet
+namespace Raven35.Tests.MultiGet
 {
     public class MultiGetQueries : RavenTest
     {

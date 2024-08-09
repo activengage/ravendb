@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Owin;
 
-namespace Raven.Database.Embedded
+namespace Raven35.Database.Embedded
 {
     /// <summary>
     /// This adapts HttpRequestMessages to OWIN requests, dispatches them through the OWIN pipeline, and returns the

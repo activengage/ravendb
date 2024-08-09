@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System.Runtime.CompilerServices;
 
-using Raven.Client.FileSystem;
-using Raven.Database.Extensions;
-using Raven.Tests.Common.Util;
-using Raven.Tests.Helpers;
+using Raven35.Client.FileSystem;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common.Util;
+using Raven35.Tests.Helpers;
 
-namespace Raven.Tests.FileSystem.Bundles.Encryption
+namespace Raven35.Tests.FileSystem.Bundles.Encryption
 {
     public class FileSystemEncryptionTest : RavenFilesTestBase
     {

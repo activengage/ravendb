@@ -8,7 +8,7 @@ using System.DirectoryServices;
 using System.Linq;
 using Microsoft.Web.Administration;
 
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     public static class IISExtensions
     {

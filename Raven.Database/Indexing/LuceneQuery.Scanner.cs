@@ -5,9 +5,9 @@ using GeoAPI.IO;
 using QUT.GplexBuffers;
 using QUT.Gppg;
 using Lucene.Net.QueryParsers;
-using Raven.Unix.Native;
+using Raven35.Unix.Native;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     internal partial class LuceneQueryScanner
     {

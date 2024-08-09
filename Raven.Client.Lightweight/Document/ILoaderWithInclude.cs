@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Fluent interface for specifying include paths

@@ -10,16 +10,16 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Storage.Voron.Impl;
-using Raven.Database.Util;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Storage.Voron.Impl;
+using Raven35.Database.Util;
 
 using Voron;
 using Voron.Impl;
 
-namespace Raven.Database.FileSystem.Storage.Voron.Schema
+namespace Raven35.Database.FileSystem.Storage.Voron.Schema
 {
     internal class SchemaCreator
     {

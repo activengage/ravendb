@@ -1,9 +1,9 @@
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Client.FileSystem.Listeners;
-using Raven.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Client.FileSystem.Listeners;
+using Raven35.Json.Linq;
 using System;
 using System.Linq;
 using System.Reactive.Linq;
@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 using Xunit;
 
-namespace Raven.Tests.FileSystem.ClientApi
+namespace Raven35.Tests.FileSystem.ClientApi
 {
     public class FileSessionListenersTests : RavenFilesTestWithLogs
     {

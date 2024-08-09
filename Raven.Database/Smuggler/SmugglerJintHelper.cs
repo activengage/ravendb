@@ -6,11 +6,11 @@
 using System;
 using Jint;
 using Jint.Native;
-using Raven.Abstractions.Smuggler;
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     public class SmugglerJintHelper
     {

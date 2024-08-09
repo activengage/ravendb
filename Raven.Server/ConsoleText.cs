@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Server
+namespace Raven35.Server
 {
     internal class ConsoleText
     {

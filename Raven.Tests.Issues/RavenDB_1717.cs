@@ -6,11 +6,11 @@
 
 using System.IO;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using Voron;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1717 : TransactionalStorageTestBase
     {

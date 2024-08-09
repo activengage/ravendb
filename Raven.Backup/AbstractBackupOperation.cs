@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using System.Net.Http;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
 
 using System;
 using System.Threading;
-using Raven.Client.Connection.Implementation;
+using Raven35.Client.Connection.Implementation;
 
-namespace Raven.Backup
+namespace Raven35.Backup
 {
     public abstract class AbstractBackupOperation : IDisposable
     {
@@ -36,7 +36,7 @@ namespace Raven.Backup
 
             if (parameters.NoWait)
             {
-                Console.WriteLine("Backup operation has started, status is logged at Raven/Backup/Status");
+                Console.WriteLine("Backup operation has started, status is logged at Raven35.Backup/Status");
                 return;
             }
 

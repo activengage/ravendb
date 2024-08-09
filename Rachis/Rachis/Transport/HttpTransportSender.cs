@@ -17,12 +17,12 @@ using System.Threading;
 using System.Threading.Tasks;
 
 using Rachis.Messages;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.OAuth;
-using Raven.Abstractions.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Sparrow;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.OAuth;
+using Raven35.Abstractions.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Sparrow35;
 
 namespace Rachis.Transport
 {

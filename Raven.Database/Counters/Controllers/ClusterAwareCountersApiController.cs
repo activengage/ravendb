@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Database.Raft.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Raft.Util;
 
-namespace Raven.Database.Counters.Controllers
+namespace Raven35.Database.Counters.Controllers
 {
     public class ClusterAwareCountersApiController : BaseCountersApiController
     {

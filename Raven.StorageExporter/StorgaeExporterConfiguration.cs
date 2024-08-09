@@ -1,8 +1,8 @@
 using System;
 using System.Security.Cryptography;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.StorageExporter
+namespace Raven35.StorageExporter
 {
     public class StorgaeExporterConfiguration
     {

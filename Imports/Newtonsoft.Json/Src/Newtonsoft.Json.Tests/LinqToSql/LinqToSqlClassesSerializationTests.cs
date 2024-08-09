@@ -29,14 +29,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Tests.LinqToSql;
+using Raven35.Imports.Newtonsoft.Json.Tests.LinqToSql;
 using NUnit.Framework;
 using System.Reflection;
 using System.ComponentModel;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 using System.Data.Linq.Mapping;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.LinqToSql
+namespace Raven35.Imports.Newtonsoft.Json.Tests.LinqToSql
 {
     public class LinqToSqlClassesSerializationTests : TestFixtureBase
     {

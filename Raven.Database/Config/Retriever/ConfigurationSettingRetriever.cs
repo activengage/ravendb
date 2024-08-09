@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     public class ConfigurationSettingRetriever : ConfigurationRetrieverBase<object>
     {

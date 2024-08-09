@@ -7,20 +7,20 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document.Async;
-using Raven.Client.Document.Batches;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Client.Spatial;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document.Async;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Client.Spatial;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// A query against a Raven index

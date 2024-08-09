@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Tests.Bundles.ScriptedIndexResults
+namespace Raven35.Tests.Bundles.ScriptedIndexResults
 {
     public class Animal
     {

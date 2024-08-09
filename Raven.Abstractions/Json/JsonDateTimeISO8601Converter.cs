@@ -1,9 +1,9 @@
 using System;
 using System.Globalization;
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     public class JsonDateTimeISO8601Converter : RavenJsonConverter
     {

@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Database.Common;
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Common;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Counters.Controllers
+namespace Raven35.Database.Counters.Controllers
 {
     public abstract class BaseCountersApiController : ResourceApiController<CounterStorage, CountersLandlord>
     {

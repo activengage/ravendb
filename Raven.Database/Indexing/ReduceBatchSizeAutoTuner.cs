@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class ReduceBatchSizeAutoTuner : BaseBatchSizeAutoTuner
     {

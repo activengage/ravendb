@@ -6,10 +6,10 @@
 using System;
 using Microsoft.Isam.Esent.Interop;
 using Voron.Exceptions;
-using ConcurrencyException = Raven.Abstractions.Exceptions.ConcurrencyException;
+using ConcurrencyException = Raven35.Abstractions.Exceptions.ConcurrencyException;
 using VoronConcurrencyException = Voron.Exceptions.ConcurrencyException;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public static class TransactionalStorageHelper
     {

@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Specialized;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.FileSystem.Search;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
-using Raven.Abstractions.Extensions;
-using Raven.Json.Linq;
-using Raven.Abstractions.FileSystem;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Search;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Abstractions.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Synchronization.Conflictuality
+namespace Raven35.Database.FileSystem.Synchronization.Conflictuality
 {
     public class ConflictArtifactManager
     {

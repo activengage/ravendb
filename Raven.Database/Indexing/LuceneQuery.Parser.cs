@@ -1,7 +1,7 @@
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     internal partial class LuceneQueryParser
     {

@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Database.Actions;
-using Raven.Database.Prefetching;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Database.Actions;
+using Raven35.Database.Prefetching;
 
-namespace Raven.Database.Bundles.Replication.Tasks.Handlers
+namespace Raven35.Database.Bundles.Replication.Tasks.Handlers
 {
     public class FilterReplicatedDocs : IReplicatedDocsHandler
     {

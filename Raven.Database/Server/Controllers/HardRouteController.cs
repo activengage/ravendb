@@ -5,10 +5,10 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Policy;
 using System.Web.Http;
-using Raven.Database.Server.WebApi;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Database.Server.WebApi;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     [RoutePrefix("")]
     public class HardRouteController : BaseDatabaseApiController
@@ -16,7 +16,7 @@ namespace Raven.Database.Server.Controllers
         [HttpGet][RavenRoute("favicon.ico")]
         public HttpResponseMessage FaviconGet()
         {
-            return WriteEmbeddedFile(DatabasesLandlord.SystemConfiguration.WebDir, "Raven.Database.Server.WebUI", null, "favicon.ico");
+            return WriteEmbeddedFile(DatabasesLandlord.SystemConfiguration.WebDir, "Raven35.Database.Server.WebUI", null, "favicon.ico");
         }
 
         [HttpGet][RavenRoute("clientaccesspolicy.xml")]

@@ -46,7 +46,7 @@ using System.Data;
 #endif
 using Newtonsoft.Json.Tests.TestObjects;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Tests.Converters
 {
     public class DataTableConverterTests : TestFixtureBase
     {

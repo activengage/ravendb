@@ -7,9 +7,9 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Raven.Database.Extensions;
+using Raven35.Database.Extensions;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndexCommitPointDirectory
     {

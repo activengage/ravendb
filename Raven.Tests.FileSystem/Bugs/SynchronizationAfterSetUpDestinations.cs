@@ -1,12 +1,12 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Database.Extensions;
-using Raven.Tests.FileSystem.Synchronization;
+using Raven35.Database.Extensions;
+using Raven35.Tests.FileSystem.Synchronization;
 using Xunit;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Tests.FileSystem.Bugs
+namespace Raven35.Tests.FileSystem.Bugs
 {
     public class SynchronizationAfterSetUpDestinations : RavenFilesTestWithLogs
     {

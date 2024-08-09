@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Tests.Core.Utils.Entities
+namespace Raven35.Tests.Core.Utils.Entities
 {
     public class Headquater : ISearchable
     {

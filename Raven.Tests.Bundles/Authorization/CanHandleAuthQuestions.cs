@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 extern alias client;
-using Raven.Bundles.Authorization;
+using Raven35.Bundles.Authorization;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization
+namespace Raven35.Tests.Bundles.Authorization
 {
     public class CanHandleAuthQuestions : AuthorizationTest
     {
@@ -30,7 +30,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
@@ -39,11 +39,11 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -69,19 +69,19 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" }
                 });
 
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/Managers",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -92,7 +92,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Fortune 500" }
                 });
@@ -114,19 +114,19 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" }
                 });
 
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/Managers",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -137,7 +137,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Fortune 500", "Technology/Application Software" }
                 });
@@ -159,19 +159,19 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" }
                 });
 
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/Managers",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -182,7 +182,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Fortune 500" }
                 });
@@ -204,19 +204,19 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" }
                 });
 
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/Managers",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -227,7 +227,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Fortune 500", "Technology" }
                 });
@@ -249,19 +249,19 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" }
                 });
 
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/Managers",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -272,7 +272,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Fortune 500" }
                 });
@@ -283,8 +283,8 @@ namespace Raven.Tests.Bundles.Authorization
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                var authorizationUser = s.Load<client::Raven.Bundles.Authorization.Model.AuthorizationUser>(userId);
-                Assert.True(client::Raven.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
+                var authorizationUser = s.Load<client::Raven35.Bundles.Authorization.Model.AuthorizationUser>(userId);
+                Assert.True(client::Raven35.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
             }
         }
 
@@ -293,14 +293,14 @@ namespace Raven.Tests.Bundles.Authorization
         {
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" },
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = false,
                                 Operation = operation,
@@ -313,8 +313,8 @@ namespace Raven.Tests.Bundles.Authorization
             
             using (var s = store.OpenSession(DatabaseName))
             {
-                var authorizationUser = s.Load<client::Raven.Bundles.Authorization.Model.AuthorizationUser>(userId);
-                Assert.False(client::Raven.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
+                var authorizationUser = s.Load<client::Raven35.Bundles.Authorization.Model.AuthorizationUser>(userId);
+                Assert.False(client::Raven35.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
             }
         }
 
@@ -323,19 +323,19 @@ namespace Raven.Tests.Bundles.Authorization
         {
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" },
                    
                 });
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/Managers",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -348,8 +348,8 @@ namespace Raven.Tests.Bundles.Authorization
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                var authorizationUser = s.Load<client::Raven.Bundles.Authorization.Model.AuthorizationUser>(userId);
-                Assert.True(client::Raven.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
+                var authorizationUser = s.Load<client::Raven35.Bundles.Authorization.Model.AuthorizationUser>(userId);
+                Assert.True(client::Raven35.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
             }
         }
 
@@ -362,14 +362,14 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Roles = { "Authorization/Roles/Managers" },
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = false,
                                 Operation = operation,
@@ -380,12 +380,12 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Important" },
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -411,7 +411,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
@@ -420,11 +420,11 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -450,13 +450,13 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -467,7 +467,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Companies/Important" }
                 });
@@ -489,13 +489,13 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -506,7 +506,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Companies/Important" }
                 });
@@ -528,7 +528,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
@@ -536,11 +536,11 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 Allow = true,
                                 Operation = operation,
@@ -566,7 +566,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
@@ -574,7 +574,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization());
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization());
 
                 s.SaveChanges();
             }
@@ -593,7 +593,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
@@ -616,13 +616,13 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = userId,
                     Name = "Ayende Rahien",
                     Permissions =
             {
-              new client::Raven.Bundles.Authorization.Model.OperationPermission
+              new client::Raven35.Bundles.Authorization.Model.OperationPermission
               {
                 Allow = true,
                 Operation = operation,
@@ -633,7 +633,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Tags = { "Companies/Important" }
                 });

@@ -4,15 +4,15 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Util;
-using Raven.Database.Util;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Util;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Util
+namespace Raven35.Tests.Util
 {
     public class WildcardMatching : NoDisposalNeeded
     {

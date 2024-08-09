@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class CreateIndexesRemotely :RavenTest
     {

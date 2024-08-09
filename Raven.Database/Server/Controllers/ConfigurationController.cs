@@ -10,15 +10,15 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Database.Config;
-using Raven.Database.Config.Retriever;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Database.Config;
+using Raven35.Database.Config.Retriever;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class ConfigurationController : BaseDatabaseApiController
     {

@@ -8,15 +8,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Util;
 using System.Threading.Tasks;
-using Raven.Database.Client.Aws;
-using Raven.Database.Client.Azure;
-using Raven.Tests.Common;
+using Raven35.Database.Client.Aws;
+using Raven35.Database.Client.Azure;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2181 : NoDisposalNeeded
     {

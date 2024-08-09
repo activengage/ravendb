@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
-    <AssemblyName>Raven.NetCore.Tryouts</AssemblyName>
+    <AssemblyName>Raven35.NetCore.Tryouts</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>Raven.NetCore.Tryouts</PackageId>
     <RuntimeFrameworkVersion>1.0.5</RuntimeFrameworkVersion>
@@ -12,6 +12,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\Raven.Database\RavenDB.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>Raven35.NetCore.Tryouts</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,8 +1,8 @@
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util;
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
 using System;
 using System.Collections;
@@ -12,7 +12,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     /// Allow to create indexes with multiple maps

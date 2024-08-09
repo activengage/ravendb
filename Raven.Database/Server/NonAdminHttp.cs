@@ -9,7 +9,7 @@ using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public static class NonAdminHttp
     {

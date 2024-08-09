@@ -3,7 +3,7 @@
 using System;
 using System.Reflection;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Allows users to control class loading and mandate what class to load.

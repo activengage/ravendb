@@ -1,12 +1,12 @@
 using System;
 using System.Transactions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bugs.DTC
+namespace Raven35.Tests.Bugs.DTC
 {
     public class UsingDTCForUpdates : RavenTest
     {

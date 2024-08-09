@@ -3,8 +3,8 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Client;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Client;
+using Raven35.Tests.Core.Utils.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Querying
+namespace Raven35.Tests.Core.Querying
 {
     public class Paging : RavenCoreTestBase
     {

@@ -6,16 +6,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Linq;
-using Raven.Json.Linq;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Linq;
+using Raven35.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class DocumentToJsonAndBackTest : NoDisposalNeeded
     {

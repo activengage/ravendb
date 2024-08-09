@@ -2,21 +2,21 @@ using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
-using Raven.Tests.Helpers;
-using Raven.Tests.Notifications;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.Notifications;
 using Xunit;
 
-namespace Raven.Tests.Embedded
+namespace Raven35.Tests.Embedded
 {
     public class EmbeddedTests : RavenTest
     {

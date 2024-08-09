@@ -6,11 +6,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Linq;
-namespace Raven.Database.Extensions
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+namespace Raven35.Database.Extensions
 {
     public static class CommandExtensions
     {

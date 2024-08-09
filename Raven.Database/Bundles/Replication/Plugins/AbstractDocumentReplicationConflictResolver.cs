@@ -2,12 +2,12 @@ using System;
 using System.ComponentModel.Composition;
 using System.Text;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Replication.Plugins
+namespace Raven35.Bundles.Replication.Plugins
 {
     [InheritedExport]
     public abstract class AbstractDocumentReplicationConflictResolver

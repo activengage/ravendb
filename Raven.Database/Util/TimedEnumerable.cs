@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public enum QueryTimings
     {

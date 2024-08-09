@@ -30,14 +30,14 @@ using System.Globalization;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization.Formatters;
-using Raven.Imports.Newtonsoft.Json.Converters;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Converters;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using System.Runtime.Serialization;
-using Raven.Abstractions.Json;
-using ErrorEventArgs = Raven.Imports.Newtonsoft.Json.Serialization.ErrorEventArgs;
+using Raven35.Abstractions.Json;
+using ErrorEventArgs = Raven35.Imports.Newtonsoft.Json.Serialization.ErrorEventArgs;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Serializes and deserializes objects into and from the JSON format.

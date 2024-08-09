@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
 using Xunit;
 
-namespace Raven.Tests.Faceted
+namespace Raven35.Tests.Faceted
 {
     public static class ConditionalGetHelper
     {

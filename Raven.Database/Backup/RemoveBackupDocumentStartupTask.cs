@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Backup
+namespace Raven35.Database.Backup
 {
     /// <summary>
     /// Delete the backup status document, if it indicate a backup was in progress when the server crashed / shutdown

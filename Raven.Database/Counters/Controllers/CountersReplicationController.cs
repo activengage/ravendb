@@ -5,11 +5,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Counters.Controllers
+namespace Raven35.Database.Counters.Controllers
 {
     public class CountersReplicationController : BaseCountersApiController
     {

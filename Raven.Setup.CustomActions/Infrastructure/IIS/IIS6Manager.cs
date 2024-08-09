@@ -10,7 +10,7 @@ using System.DirectoryServices;
 using System.Globalization;
 using System.Linq;
 
-namespace Raven.Setup.CustomActions.Infrastructure.IIS
+namespace Raven35.Setup.CustomActions.Infrastructure.IIS
 {
     public class IIS6Manager : IISManager
     {

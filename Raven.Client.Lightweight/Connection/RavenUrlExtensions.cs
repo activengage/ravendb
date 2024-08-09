@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Client.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Extensions;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public static class RavenUrlExtensions
     {

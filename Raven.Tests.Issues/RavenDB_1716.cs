@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1716 : RavenTest
     {
@@ -40,7 +40,7 @@ namespace Raven.Tests.Issues
 
                 // get restore status and wait for finish
                 WaitForRestore(store.DatabaseCommands);
-                WaitForDocument(store.DatabaseCommands, "Raven/Databases/db1");
+                WaitForDocument(store.DatabaseCommands, "Raven35.Databases/db1");
 
                 Assert.Equal(1, store.DatabaseCommands.ForDatabase("db1").Get("keys/1").DataAsJson.Value<int>("Key"));
             }

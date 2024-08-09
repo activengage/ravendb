@@ -24,7 +24,7 @@ using System.Xml.Serialization;
 
 #endregion
 
-namespace Raven.Imports.Newtonsoft.Json.Tests
+namespace Raven35.Imports.Newtonsoft.Json.Tests
 {
     #region Contexts
     

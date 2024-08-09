@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Database.Common;
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Common;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.TimeSeries.Controllers
+namespace Raven35.Database.TimeSeries.Controllers
 {
     public abstract class BaseTimeSeriesApiController : ResourceApiController<TimeSeriesStorage, TimeSeriesLandlord>
     {

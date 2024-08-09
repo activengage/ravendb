@@ -4,17 +4,17 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Security.Windows;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Security.Windows;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -22,13 +22,13 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Client.Extensions;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Helpers.Util;
+using Raven35.Client.Extensions;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Helpers.Util;
 
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Auth
+namespace Raven35.Tests.FileSystem.Auth
 {
     public class ClientWindowsAuth : RavenFilesTestWithLogs
     {

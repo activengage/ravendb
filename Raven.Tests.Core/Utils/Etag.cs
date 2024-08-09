@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using Xunit;
 
-namespace Raven.Tests.Core.Utils
+namespace Raven35.Tests.Core.Utils
 {
     public class EtagTests
     {

@@ -7,17 +7,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Principal;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Suggestions
+namespace Raven35.Tests.Suggestions
 {
     public class Suggestions : RavenTest, IDisposable
     {

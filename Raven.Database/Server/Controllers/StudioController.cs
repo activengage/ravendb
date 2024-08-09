@@ -6,16 +6,16 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Web.Http;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Database.Extensions;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     
     [RoutePrefix("")]
@@ -40,7 +40,7 @@ namespace Raven.Database.Server.Controllers
             }
 
             var docPath = GetRequestUrl().Replace("/raven/", "");
-            return WriteEmbeddedFile(DatabasesLandlord.SystemConfiguration.WebDir, "Raven.Database.Server.WebUI", null, docPath);
+            return WriteEmbeddedFile(DatabasesLandlord.SystemConfiguration.WebDir, "Raven35.Database.Server.WebUI", null, docPath);
         }
 
         [HttpGet]
@@ -57,7 +57,7 @@ namespace Raven.Database.Server.Controllers
 
             var url = GetRequestUrl();
             var docPath = url.StartsWith("/studio/") ? url.Substring("/studio/".Length) : url;
-            return WriteEmbeddedFile("~/Server/Html5Studio", "Raven.Database.Server.Html5Studio", "Raven.Studio.Html5", docPath);
+            return WriteEmbeddedFile("~/Server/Html5Studio", "Raven35.Database.Server.Html5Studio", "Raven35.Studio.Html5", docPath);
         }
 
         [HttpGet]

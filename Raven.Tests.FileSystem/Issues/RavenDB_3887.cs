@@ -7,13 +7,13 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3887 : RavenFilesTestBase
     {

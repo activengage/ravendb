@@ -8,21 +8,21 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Embedded;
-using Raven.Json.Linq;
-using Raven.Client.Exceptions;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Indexes;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Embedded;
+using Raven35.Json.Linq;
+using Raven35.Client.Exceptions;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Indexes;
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class DocumentStoreEmbeddedTests : RavenTest
     {

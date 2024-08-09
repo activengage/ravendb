@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Replication;
-using Raven.Database.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Replication;
+using Raven35.Database.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Replication.Tasks
+namespace Raven35.Bundles.Replication.Tasks
 {
     public class ReplicationStrategy
     {

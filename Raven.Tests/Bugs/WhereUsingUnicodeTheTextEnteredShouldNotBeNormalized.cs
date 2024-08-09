@@ -1,12 +1,12 @@
 ﻿using System.Diagnostics;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class WhereUsingUnicodeTheTextEnteredShouldNotBeNormalized : RavenTest
     {

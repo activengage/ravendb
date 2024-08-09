@@ -7,20 +7,20 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Database.Actions;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
-using Raven.Tests.MailingList;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Database.Actions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.MailingList;
 
 using Xunit;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2514 : RavenTestBase
     {

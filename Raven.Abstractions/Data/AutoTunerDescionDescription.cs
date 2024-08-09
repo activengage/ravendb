@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class AutoTunerDecisionDescription
     {

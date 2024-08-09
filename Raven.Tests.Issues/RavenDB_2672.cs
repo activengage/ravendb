@@ -5,16 +5,16 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto.Faceted;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2672 : RavenTest
     {

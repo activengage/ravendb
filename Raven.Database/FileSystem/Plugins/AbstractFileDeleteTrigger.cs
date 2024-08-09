@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 
-using Raven.Database.Plugins;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.FileSystem.Plugins
+namespace Raven35.Database.FileSystem.Plugins
 {
     [InheritedExport]
     public abstract class AbstractFileDeleteTrigger : IRequiresFileSystemInitialization

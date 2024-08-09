@@ -1,10 +1,10 @@
 using System;
-using Raven.Abstractions.Logging;
-using Raven.Tests.Common;
-using Sparrow.Collections;
+using Raven35.Abstractions.Logging;
+using Raven35.Tests.Common;
+using Sparrow35.Collections;
 using Xunit;
 
-namespace Raven.Tests.Abstractions.Logging
+namespace Raven35.Tests.Abstractions.Logging
 {
     public class LoggerExecutionWrapperTests : NoDisposalNeeded
     {

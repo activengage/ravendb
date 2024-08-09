@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Database.Config;
-using Raven.Database.FileSystem;
-using Raven.Tests.Helpers;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4065 : RavenFilesTestBase
     {

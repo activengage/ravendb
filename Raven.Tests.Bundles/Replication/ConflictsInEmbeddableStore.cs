@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Linq;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles.Versioning;
-using Raven.Tests.Common;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles.Versioning;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     using Client.Indexes;
 

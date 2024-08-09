@@ -1,4 +1,4 @@
-namespace Raven.Tests.Bugs.TransformResults
+namespace Raven35.Tests.Bugs.TransformResults
 {
     public class QuestionView
     {

@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.MEF;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Compression.Plugin;
-using Raven.Database.Plugins;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.MEF;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Compression.Plugin;
+using Raven35.Database.Plugins;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Storage.Voron
+namespace Raven35.Tests.Storage.Voron
 {
     [Trait("VoronTest", "StorageActionsTests")]
     [Trait("VoronTest", "DocumentStorage")]

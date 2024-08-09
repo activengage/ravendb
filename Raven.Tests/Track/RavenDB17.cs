@@ -1,12 +1,12 @@
 using System.Threading;
 using System.Transactions;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Track
+namespace Raven35.Tests.Track
 {
     public class RavenDB17 : RavenTest
     {

@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4065 : RavenTest
     {

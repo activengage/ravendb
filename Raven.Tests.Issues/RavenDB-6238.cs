@@ -1,17 +1,17 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
-using Raven.Database.Storage;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
+using Raven35.Database.Storage;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_6238: RavenTest
     {

@@ -11,7 +11,7 @@ using System.Threading;
 using NDesk.Options;
 using NLog;
 
-namespace Raven.Performance
+namespace Raven35.Performance
 {
     class Program
     {
@@ -165,7 +165,7 @@ namespace Raven.Performance
             {
                 if (fullDatabaseLocation == null)
                 {
-                    fullDatabaseLocation = Path.Combine(databaseLocation, string.Format("RavenDB-Build-{0}", buildNumber), "Server", "Raven.Server.exe");
+                    fullDatabaseLocation = Path.Combine(databaseLocation, string.Format("RavenDB-Build-{0}", buildNumber), "Server", "Raven35.Server.exe");
                     if (File.Exists(fullDatabaseLocation) == false)
                     {
                         throw new FileNotFoundException("RavenDB server cannot be found. Path lookup: " + fullDatabaseLocation);

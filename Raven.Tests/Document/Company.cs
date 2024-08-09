@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class Company
     {

@@ -1,11 +1,11 @@
 using System.Linq;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class BatchPatching : RavenTest
     {

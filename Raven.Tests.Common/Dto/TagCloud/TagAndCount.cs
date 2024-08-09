@@ -1,4 +1,4 @@
-namespace Raven.Tests.Common.Dto.TagCloud
+namespace Raven35.Tests.Common.Dto.TagCloud
 {
     public class TagAndCount
     {

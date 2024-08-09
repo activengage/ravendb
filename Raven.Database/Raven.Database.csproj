@@ -6,8 +6,8 @@
     <ProjectGuid>{212823CD-25E1-41AC-92D1-D6DF4D53FC85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Database</RootNamespace>
-    <AssemblyName>Raven.Database</AssemblyName>
+    <RootNamespace>Raven35.Database</RootNamespace>
+    <AssemblyName>Raven35.Database</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

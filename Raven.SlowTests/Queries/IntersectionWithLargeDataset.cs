@@ -7,15 +7,15 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Queries
+namespace Raven35.SlowTests.Queries
 {   
     public class IntersectionQueryWithLargeDataset : RavenTest
     {

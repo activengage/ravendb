@@ -1,6 +1,6 @@
 using System.ComponentModel.Composition.Primitives;
 
-namespace Raven.Database.Plugins.Catalogs
+namespace Raven35.Database.Plugins.Catalogs
 {
     public class BuiltinFilteringCatalog : FilteredCatalog
     {
@@ -13,7 +13,7 @@ namespace Raven.Database.Plugins.Catalogs
             var element = composablePartDefinition as ICompositionElement;
             if (element == null)
                 return true;
-            return element.DisplayName.StartsWith("Raven.Database") == false;
+            return element.DisplayName.StartsWith("Raven35.Database") == false;
         }
     }
 }	

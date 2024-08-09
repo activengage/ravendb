@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Common
+namespace Raven35.Database.Common
 {
     public interface IResourceLandlord<TResource> : IDisposable
         where TResource : IResourceStore

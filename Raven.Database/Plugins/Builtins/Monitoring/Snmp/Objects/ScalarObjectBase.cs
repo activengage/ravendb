@@ -8,7 +8,7 @@ using System;
 using Lextm.SharpSnmpLib;
 using Lextm.SharpSnmpLib.Pipeline;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects
 {
     public abstract class ScalarObjectBase<TData> : ScalarObject
         where TData : ISnmpData

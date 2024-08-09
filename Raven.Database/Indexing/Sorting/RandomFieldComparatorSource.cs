@@ -1,6 +1,6 @@
 using Lucene.Net.Search;
 
-namespace Raven.Database.Indexing.Sorting
+namespace Raven35.Database.Indexing.Sorting
 {
     public class RandomFieldComparatorSource : FieldComparatorSource 
     {

@@ -1,9 +1,9 @@
 using System;
 using System.Diagnostics;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Document.SessionOperations
+namespace Raven35.Client.Document.SessionOperations
 {
     public class ShardLoadOperation : LoadOperation
     {

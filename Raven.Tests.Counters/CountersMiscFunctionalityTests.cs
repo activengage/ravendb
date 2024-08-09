@@ -1,12 +1,12 @@
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using Raven.Client.Counters;
-using Raven.Database.Counters;
+using Raven35.Client.Counters;
+using Raven35.Database.Counters;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CountersMiscFunctionalityTests : RavenBaseCountersTest
     {

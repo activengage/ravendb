@@ -12,26 +12,26 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Request;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Database.Config;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Raft.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Raft.Util;
+using Raven35.Json.Linq;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class Basic : RaftTestBase
     {

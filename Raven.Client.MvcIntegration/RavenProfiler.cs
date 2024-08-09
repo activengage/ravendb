@@ -5,10 +5,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Document;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Document;
 
-namespace Raven.Client.MvcIntegration
+namespace Raven35.Client.MvcIntegration
 {
     public class RavenProfiler
     {
@@ -71,7 +71,7 @@ namespace Raven.Client.MvcIntegration
 
         private static string GetScript(string rootUrl, IEnumerable<Guid> sessionList)
         {
-            using (var stream = typeof(RavenProfiler).Assembly.GetManifestResourceStream("Raven.Client.MvcIntegration.Content.index.html"))
+            using (var stream = typeof(RavenProfiler).Assembly.GetManifestResourceStream("Raven35.Client.MvcIntegration.Content.index.html"))
             {
                 return new StreamReader(stream).ReadToEnd()
                     .Replace("'{id}'", string.Join(",", sessionList.Select(guid => "'" + guid + "'")))
@@ -84,7 +84,7 @@ namespace Raven.Client.MvcIntegration
         {
             get
             {
-                const string key = "Raven.Client.MvcIntegration.RavenProfiler.SessionList";
+                const string key = "Raven35.Client.MvcIntegration.RavenProfiler.SessionList";
 
                 if (HttpContext.Current == null)
                     return new List<Guid>();

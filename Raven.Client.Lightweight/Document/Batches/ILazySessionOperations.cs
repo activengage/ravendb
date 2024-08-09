@@ -4,10 +4,10 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client.Document.Batches
+namespace Raven35.Client.Document.Batches
 {
     /// <summary>
     ///     Specify interface for lazy operation for the session

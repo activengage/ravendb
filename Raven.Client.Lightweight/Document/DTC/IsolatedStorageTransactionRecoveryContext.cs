@@ -6,7 +6,7 @@ using System.IO.IsolatedStorage;
 using System.Transactions;
 using System.Threading;
 
-namespace Raven.Client.Document.DTC
+namespace Raven35.Client.Document.DTC
 {
     public class IsolatedStorageTransactionRecoveryContext : ITransactionRecoveryStorageContext
     {

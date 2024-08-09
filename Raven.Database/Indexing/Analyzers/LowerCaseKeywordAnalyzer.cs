@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using Lucene.Net.Analysis;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class LowerCaseKeywordAnalyzer : Analyzer
     {

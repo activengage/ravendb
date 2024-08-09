@@ -1,19 +1,19 @@
 using System;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class TriggerCanAccessFullMetadataInQueryProjection : RavenTest
     {

@@ -6,11 +6,11 @@
 using System;
 using System.IO;
 using System.Reflection;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common.Util;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common.Util;
 
-namespace Raven.Tests.Bundles.CompressionAndEncryption
+namespace Raven35.Tests.Bundles.CompressionAndEncryption
 {
     public abstract class CompressionAndEncryption : IDisposable
     {
@@ -18,14 +18,14 @@ namespace Raven.Tests.Bundles.CompressionAndEncryption
         protected readonly DocumentStore documentStore;
         private RavenDbServer ravenDbServer;
         private bool closed = false;
-        private Raven.Database.Config.RavenConfiguration settings;
+        private Raven35.Database.Config.RavenConfiguration settings;
 
         protected CompressionAndEncryption()
         {
             path = Path.GetDirectoryName(Assembly.GetAssembly(typeof(Versioning.Versioning)).CodeBase);
             path = Path.Combine(path, "TestDb").Substring(6);
-            Raven.Database.Extensions.IOExtensions.DeleteDirectory(path);
-            settings = new Raven.Database.Config.RavenConfiguration
+            Raven35.Database.Extensions.IOExtensions.DeleteDirectory(path);
+            settings = new Raven35.Database.Config.RavenConfiguration
             {
                 Port = 8079,
                 RunInUnreliableYetFastModeThatIsNotSuitableForProduction = true,
@@ -51,7 +51,7 @@ namespace Raven.Tests.Bundles.CompressionAndEncryption
             documentStore.Initialize();
         }
 
-        protected virtual void ConfigureServer(Raven.Database.Config.RavenConfiguration ravenConfiguration)
+        protected virtual void ConfigureServer(Raven35.Database.Config.RavenConfiguration ravenConfiguration)
         {
         }
 
@@ -84,7 +84,7 @@ namespace Raven.Tests.Bundles.CompressionAndEncryption
         public void Dispose()
         {
             Close();
-            Raven.Database.Extensions.IOExtensions.DeleteDirectory(path);
+            Raven35.Database.Extensions.IOExtensions.DeleteDirectory(path);
         }
     }
 }

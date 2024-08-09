@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Raven.Bundles.Encryption.Streams
+namespace Raven35.Bundles.Encryption.Streams
 {	/// <summary>
     /// Converts a struct to a byte array and back.
     /// </summary>

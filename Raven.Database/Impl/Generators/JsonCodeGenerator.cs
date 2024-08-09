@@ -1,13 +1,13 @@
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
-namespace Raven.Database.Impl.Generators
+namespace Raven35.Database.Impl.Generators
 {
     public class JsonCodeGenerator
     {

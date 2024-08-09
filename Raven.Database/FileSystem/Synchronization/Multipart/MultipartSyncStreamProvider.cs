@@ -3,11 +3,11 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
-using Raven.Abstractions.FileSystem;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Synchronization.Multipart
+namespace Raven35.Database.FileSystem.Synchronization.Multipart
 {
     public class MultipartSyncStreamProvider : MultipartStreamProvider
     {

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using Microsoft.Deployment.WindowsInstaller;
 
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     using Database.Server;
 

@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Raft
+namespace Raven35.Database.Raft
 {
     public enum ConnectivityStatus
     {

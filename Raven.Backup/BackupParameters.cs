@@ -1,5 +1,5 @@
 using System.Net;
-namespace Raven.Backup
+namespace Raven35.Backup
 {
     public class BackupParameters
     {

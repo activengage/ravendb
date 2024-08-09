@@ -4,19 +4,19 @@ using System.Linq;
 using Jint;
 using Jint.Runtime;
 
-using Raven.Abstractions.Exceptions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Document;
-using Raven.Client;
-using Raven.Json.Linq;
-using Raven.Database.Json;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client;
+using Raven35.Json.Linq;
+using Raven35.Database.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Patching
+namespace Raven35.Tests.Patching
 {
     public class AdvancedPatching : RavenTest
     {

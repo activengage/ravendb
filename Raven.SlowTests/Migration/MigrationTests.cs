@@ -9,17 +9,17 @@ using System.Globalization;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.SlowTests.Migration.Orders;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.SlowTests.Migration.Orders;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Migration
+namespace Raven35.SlowTests.Migration
 {
     public class MigrationTests : RavenTest
     {

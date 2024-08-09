@@ -26,8 +26,8 @@
     <ProjectGuid>{3E6401AC-3E33-4B61-A460-49953654A207}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Smuggler</RootNamespace>
-    <AssemblyName>Raven.Smuggler</AssemblyName>
+    <RootNamespace>Raven35.Smuggler</RootNamespace>
+    <AssemblyName>Raven35.Smuggler</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

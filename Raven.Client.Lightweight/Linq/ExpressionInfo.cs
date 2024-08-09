@@ -6,7 +6,7 @@
 using System;
 using System.Reflection;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     /// <summary>
     /// This class represents a node in an expression, usually a member - but in the case of dynamic queries the path to a member

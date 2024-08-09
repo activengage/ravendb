@@ -1,9 +1,9 @@
 using System;
 
-using Raven.Abstractions.Data;
-using Raven.Bundles.Versioning.Data;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.Versioning.Data;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     public class VersioningConfigurationRetriever : ConfigurationRetrieverBase<VersioningConfiguration>
     {

@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public static class FacetedQueryRunnerExtensions
     {

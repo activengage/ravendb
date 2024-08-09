@@ -1,14 +1,14 @@
 using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Spatial;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Spatial;
 using Spatial4n.Core.Context.Nts;
 using Spatial4n.Core.Io;
 using Spatial4n.Core.Shapes;
 
-namespace Raven.Database.Indexing.Spatial
+namespace Raven35.Database.Indexing.Spatial
 {
     /// <summary>
     /// Reads and writes shape strings

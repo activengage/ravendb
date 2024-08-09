@@ -4,7 +4,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-namespace Raven.Client.Converters
+namespace Raven35.Client.Converters
 {
     /// <summary>
     /// Interface for performing type conversions.

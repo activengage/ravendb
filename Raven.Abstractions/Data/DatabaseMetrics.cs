@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Util.MiniMetrics;
+using Raven35.Abstractions.Util.MiniMetrics;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public interface IMetricsData
     {

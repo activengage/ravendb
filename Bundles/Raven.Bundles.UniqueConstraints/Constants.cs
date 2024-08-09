@@ -1,4 +1,4 @@
-namespace Raven.Bundles.UniqueConstraints
+namespace Raven35.Bundles.UniqueConstraints
 {
     public class Constants
     {

@@ -1,7 +1,7 @@
 using System;
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.FileSystem.Connection
+namespace Raven35.Client.FileSystem.Connection
 {
     public interface IAsyncFilesCommandsImpl : IAsyncFilesCommands
     {   

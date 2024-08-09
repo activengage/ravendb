@@ -5,11 +5,11 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Globalization;
-using Raven.Abstractions.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Json.Linq;
 using System.Runtime.CompilerServices;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// A document representation:

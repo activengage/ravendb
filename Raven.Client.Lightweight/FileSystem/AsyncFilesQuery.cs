@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public class AsyncFilesQuery<T> : AbstractFilesQuery<T, AsyncFilesQuery<T>>, IAsyncFilesQuery<T>, IAsyncFilesOrderedQuery<T> where T : class
     {

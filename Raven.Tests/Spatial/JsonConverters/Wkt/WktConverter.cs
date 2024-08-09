@@ -1,9 +1,9 @@
 using System;
 using GeoAPI.Geometries;
 using NetTopologySuite.IO;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Tests.Spatial.JsonConverters.Wkt
+namespace Raven35.Tests.Spatial.JsonConverters.Wkt
 {
     public class WktConverter : JsonConverter
     {

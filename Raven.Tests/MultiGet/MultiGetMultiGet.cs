@@ -1,10 +1,10 @@
-using Raven.Client.Document;
-using Raven.Tests.Common;
-using Raven.Tests.Linq;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
+using Raven35.Tests.Linq;
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MultiGet
+namespace Raven35.Tests.MultiGet
 {
     public class MultiGetMultiGet : RavenTest
     {

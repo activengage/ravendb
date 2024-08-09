@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Entities;
 
 using Xunit;
 
-namespace Raven.Tests.Core.Session
+namespace Raven35.Tests.Core.Session
 {
     public class Includes : RavenCoreTestBase
     {

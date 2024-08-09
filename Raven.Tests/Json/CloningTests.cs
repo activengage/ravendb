@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Json
+namespace Raven35.Tests.Json
 {
     public class CloningTests : NoDisposalNeeded
     {

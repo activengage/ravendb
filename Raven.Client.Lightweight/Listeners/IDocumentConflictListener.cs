@@ -1,6 +1,6 @@
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Listeners
+namespace Raven35.Client.Listeners
 {
     /// <summary>
     /// Hooks for users that allows you to handle document replication conflicts

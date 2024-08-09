@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged
 {
     [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
     [Guid("96236A80-9DBC-11DA-9E3F-0011114AE311")]

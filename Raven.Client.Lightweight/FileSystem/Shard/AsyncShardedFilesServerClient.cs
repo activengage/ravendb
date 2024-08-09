@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.FileSystem.Shard
+namespace Raven35.Client.FileSystem.Shard
 {
     public class AsyncShardedFilesServerClient
     {

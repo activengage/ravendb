@@ -4,19 +4,19 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.IO.Compression;
 using System.Net;
 using Mono.CSharp;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class DocRefsDump : RavenTest
     {

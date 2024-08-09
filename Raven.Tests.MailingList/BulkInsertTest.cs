@@ -1,13 +1,13 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class BulkInsertTest : RavenTestBase
     {

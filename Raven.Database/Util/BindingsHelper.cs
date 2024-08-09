@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class BindingsHelper
     {

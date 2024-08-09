@@ -1,9 +1,9 @@
 using Lextm.SharpSnmpLib;
 
-using Raven.Abstractions;
-using Raven.Database.Server.WebApi;
+using Raven35.Abstractions;
+using Raven35.Database.Server.WebApi;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Server
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Server
 {
     internal class ServerLastRequestTime : ScalarObjectBase<TimeTicks>
     {

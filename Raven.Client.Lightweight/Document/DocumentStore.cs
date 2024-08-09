@@ -10,29 +10,29 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Connection.Request;
-using Raven.Client.Extensions;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Extensions;
+using Raven35.Client.Connection.Async;
 using System.Threading.Tasks;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document.Async;
-using Raven.Client.Metrics;
-using Raven.Client.Util;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document.Async;
+using Raven35.Client.Metrics;
+using Raven35.Client.Util;
 using System.Threading;
-using Raven.Abstractions.Commands;
+using Raven35.Abstractions.Commands;
 #if !DNXCORE50
-using Raven.Client.Document.DTC;
+using Raven35.Client.Document.DTC;
 #endif
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Manages access to RavenDB and open sessions to work with RavenDB.

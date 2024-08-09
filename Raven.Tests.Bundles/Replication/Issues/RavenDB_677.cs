@@ -2,17 +2,17 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Net;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bundles.Replication.Issues
+namespace Raven35.Tests.Bundles.Replication.Issues
 {
     using Abstractions.Connection;
 

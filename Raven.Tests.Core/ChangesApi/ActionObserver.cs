@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Tests.Core.ChangesApi
+namespace Raven35.Tests.Core.ChangesApi
 {
     public class ActionObserver<T> : IObserver<T>
     {

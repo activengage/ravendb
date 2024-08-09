@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Shard;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Shard;
+using Raven35.Json.Linq;
 using System.Linq;
 
-namespace Raven.Client.Document.Batches
+namespace Raven35.Client.Document.Batches
 {
     public class LazyQueryOperation<T> : ILazyOperation
     {

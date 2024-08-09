@@ -1,8 +1,8 @@
 using System.IO;
 
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     internal class PeriodicExportConfigurationRetriever : ConfigurationRetrieverBase<PeriodicExportSetup>
     {

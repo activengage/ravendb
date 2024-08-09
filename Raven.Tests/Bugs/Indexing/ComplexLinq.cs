@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class ComplexLinq : RavenTest
     {

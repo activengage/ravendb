@@ -1,14 +1,14 @@
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.Queries
+namespace Raven35.Tests.Bugs.Queries
 {
     public class QueryWithContainsOnIList : RavenTest
     {

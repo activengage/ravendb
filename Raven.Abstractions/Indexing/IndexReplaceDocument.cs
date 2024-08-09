@@ -1,8 +1,8 @@
 using System;
 
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Indexing
+namespace Raven35.Abstractions.Indexing
 {
     public class IndexReplaceDocument
     {

@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Abstractions.Util.Encryptors
+namespace Raven35.Abstractions.Util.Encryptors
 {
     using System;
 

@@ -2,13 +2,13 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.Util;
 using Raven.Imports.metrics;
 using Raven.Imports.metrics.Core;
 
-namespace Raven.Database.Bundles.SqlReplication
+namespace Raven35.Database.Bundles.SqlReplication
 {
     [CLSCompliant(false)]
     public class SqlReplicationMetricsCountersManager : IDisposable

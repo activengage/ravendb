@@ -8,19 +8,19 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Bundles.Versioning;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Bundles.Versioning;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bundles.Expiration
+namespace Raven35.Tests.Bundles.Expiration
 {
     public class Expiration : RavenTest
     {

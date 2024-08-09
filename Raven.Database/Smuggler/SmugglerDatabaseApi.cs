@@ -9,15 +9,15 @@ using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Client.Document;
-using Raven.Database.Smuggler;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Smuggler;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public class SmugglerDatabaseApi : SmugglerDatabaseApiBase
     {

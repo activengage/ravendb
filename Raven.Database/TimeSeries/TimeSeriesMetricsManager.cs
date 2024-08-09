@@ -5,7 +5,7 @@ using System.Linq;
 using Raven.Imports.metrics;
 using Raven.Imports.metrics.Core;
 
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     [CLSCompliant(false)]
     public class TimeSeriesMetricsManager

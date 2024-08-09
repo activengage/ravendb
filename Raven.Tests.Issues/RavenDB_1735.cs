@@ -7,12 +7,12 @@ using System;
 using System.Linq;
 using System.Threading;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1735 : RavenTest
     {

@@ -1,8 +1,8 @@
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Storage.Voron
+namespace Raven35.Tests.Storage.Voron
 {
     using Xunit;
     using Xunit.Extensions;

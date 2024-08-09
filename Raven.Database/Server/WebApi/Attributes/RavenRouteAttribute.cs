@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using System.Web.Http.Routing;
 
-namespace Raven.Database.Server.WebApi.Attributes
+namespace Raven35.Database.Server.WebApi.Attributes
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = true)]
     public class RavenRouteAttribute : Attribute, IDirectRouteFactory, IHttpRouteInfoProvider

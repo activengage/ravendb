@@ -10,12 +10,12 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
 using Directory = System.IO.Directory;
-using Raven.Database.Extensions;
+using Raven35.Database.Extensions;
 
-namespace Raven.Database.Backup
+namespace Raven35.Database.Backup
 {
     public class DirectoryBackup
     {

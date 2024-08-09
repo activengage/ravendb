@@ -6,22 +6,22 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Smuggler
+namespace Raven35.Tests.FileSystem.Smuggler
 {
     public partial class SmugglerExecutionTests : RavenFilesTestWithLogs
     {

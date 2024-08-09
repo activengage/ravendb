@@ -1,10 +1,10 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection.Async;
 
-namespace Raven.Client.Document.Async
+namespace Raven35.Client.Document.Async
 {
     public class NagleAsyncDocumentSession : AsyncDocumentSession
     {

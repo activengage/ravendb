@@ -6,12 +6,12 @@ using System.IO.Compression;
 using System.Linq;
 using System.Web;
 using System.Web.Routing;
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions;
-using Raven.Client.Document;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Client.Document;
 
-namespace Raven.Client.MvcIntegration
+namespace Raven35.Client.MvcIntegration
 {
     public class RavenProfilingHandler : IRouteHandler, IHttpHandler
     {
@@ -90,7 +90,7 @@ namespace Raven.Client.MvcIntegration
             {
                 var value = cache.GetOrAdd(path, s =>
                 {
-                    using (var stream = typeof(RavenProfilingHandler).Assembly.GetManifestResourceStream("Raven.Client.MvcIntegration.Content." + path.Replace("/", ".")))
+                    using (var stream = typeof(RavenProfilingHandler).Assembly.GetManifestResourceStream("Raven35.Client.MvcIntegration.Content." + path.Replace("/", ".")))
                     {
                         return new StreamReader(stream).ReadToEnd();
                     }

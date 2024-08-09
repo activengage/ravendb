@@ -4,17 +4,17 @@ using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Client.Shard;
-using Raven.Server;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Shard;
+using Raven35.Server;
+using Raven35.Tests.Helpers;
 using Xunit;
 using System.Threading.Tasks;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDb_3071 : RavenTestBase
     {

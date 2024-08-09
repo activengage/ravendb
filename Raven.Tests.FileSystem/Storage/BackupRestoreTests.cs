@@ -10,16 +10,16 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.FileSystem;
-using Raven.Database.Extensions;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.FileSystem;
+using Raven35.Database.Extensions;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Storage
+namespace Raven35.Tests.FileSystem.Storage
 {
     /// <summary>
     /// RavenDB-2699
@@ -86,7 +86,7 @@ namespace Raven.Tests.FileSystem.Storage
             using (var store = NewStore(requestedStorage: requestedStorage, runInMemory: false, customConfig:config =>
             {
                 config.Settings["Raven/Esent/CircularLog"] = "false";
-                config.Settings["Raven/Voron/AllowIncrementalBackups"] = "true";
+                config.Settings["Raven35.Voron/AllowIncrementalBackups"] = "true";
                 config.Storage.Voron.AllowIncrementalBackups = true;
             }, fileSystemName: "FS1"))
             {
@@ -131,7 +131,7 @@ namespace Raven.Tests.FileSystem.Storage
             using (var store = (FilesStore)NewStore(requestedStorage: requestedStorage, runInMemory: false, customConfig: config =>
             {
                 config.Settings["Raven/Esent/CircularLog"] = "false";
-                config.Settings["Raven/Voron/AllowIncrementalBackups"] = "true";
+                config.Settings["Raven35.Voron/AllowIncrementalBackups"] = "true";
                 config.Storage.Voron.AllowIncrementalBackups = true;
             }, fileSystemName: "RavenDB_2824_one"))
             {
@@ -149,7 +149,7 @@ namespace Raven.Tests.FileSystem.Storage
             using (var store = (FilesStore)NewStore(index: 1, requestedStorage: requestedStorage, runInMemory: false, customConfig: config =>
             {
                 config.Settings["Raven/Esent/CircularLog"] = "false";
-                config.Settings["Raven/Voron/AllowIncrementalBackups"] = "true";
+                config.Settings["Raven35.Voron/AllowIncrementalBackups"] = "true";
                 config.Storage.Voron.AllowIncrementalBackups = true;
             }, fileSystemName: "RavenDB_2824_two"))
             {

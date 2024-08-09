@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     public class RavenJsonTextReader : JsonTextReader
     {

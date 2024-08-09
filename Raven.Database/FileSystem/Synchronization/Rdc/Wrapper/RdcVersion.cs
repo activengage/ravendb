@@ -1,4 +1,4 @@
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper
 {
     public class RdcVersion
     {

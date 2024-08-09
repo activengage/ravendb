@@ -6,16 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
-using Raven.Database.Storage;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
+using Raven35.Database.Storage;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class Batches : RavenTest
     {

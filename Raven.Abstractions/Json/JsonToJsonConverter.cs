@@ -1,11 +1,11 @@
 using System;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions.Linq;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     public class JsonToJsonConverter : JsonConverter
     {

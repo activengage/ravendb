@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using Lucene.Net.Analysis.Standard;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_10 : RavenTest
     {

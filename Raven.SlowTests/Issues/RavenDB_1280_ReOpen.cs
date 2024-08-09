@@ -9,13 +9,13 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 using Xunit.Extensions;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_1280_ReOpen : RavenTest
     {

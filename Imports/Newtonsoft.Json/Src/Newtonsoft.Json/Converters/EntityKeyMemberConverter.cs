@@ -25,11 +25,11 @@
 
 #if !(NET20 || NETFX_CORE || PORTABLE40 || PORTABLE)
 using System;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 using System.Globalization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts an Entity Framework EntityKey to and from JSON.

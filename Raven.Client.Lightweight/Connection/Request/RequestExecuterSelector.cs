@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Connection.Request
+namespace Raven35.Client.Connection.Request
 {
 
     // Since failover behavior can change over time (ie. due to remote configuration)

@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
 
-using Raven.Bundles.UniqueConstraints;
-using Raven.Client.Embedded;
-using Raven.Client.UniqueConstraints;
-using Raven.Tests.Common;
+using Raven35.Bundles.UniqueConstraints;
+using Raven35.Client.Embedded;
+using Raven35.Client.UniqueConstraints;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Bundles.UniqueConstraints
+namespace Raven35.Tests.Bundles.UniqueConstraints
 {
     public abstract class UniqueConstraintsTest : RavenTest
     {

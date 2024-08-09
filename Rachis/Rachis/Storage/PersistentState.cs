@@ -10,8 +10,8 @@ using Rachis.Interfaces;
 using Rachis.Messages;
 using Rachis.Transport;
 
-using Raven.Abstractions.Logging;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Logging;
+using Raven35.Imports.Newtonsoft.Json;
 
 using Voron;
 using Voron.Impl;

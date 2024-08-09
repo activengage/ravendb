@@ -1,10 +1,10 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Replication;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Replication;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     public abstract class ConventionBase
     {

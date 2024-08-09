@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 
-namespace Raven.Database.Client
+namespace Raven35.Database.Client
 {
     public abstract class RavenStorageClient : IDisposable
     {

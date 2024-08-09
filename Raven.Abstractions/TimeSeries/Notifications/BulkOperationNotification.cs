@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Abstractions.TimeSeries.Notifications
+namespace Raven35.Abstractions.TimeSeries.Notifications
 {
     public class BulkOperationNotification : TimeSeriesNotification
     {

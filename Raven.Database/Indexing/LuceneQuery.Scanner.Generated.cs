@@ -35,7 +35,7 @@ using System.Diagnostics.CodeAnalysis;
 
 using QUT.GplexBuffers;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {   
     /// <summary>
     /// Summary Canonical example of GPLEX automaton

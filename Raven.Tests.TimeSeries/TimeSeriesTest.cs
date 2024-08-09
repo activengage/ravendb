@@ -1,8 +1,8 @@
-using Raven.Abstractions.TimeSeries;
-using Raven.Database.Config;
-using Raven.Database.TimeSeries;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database.Config;
+using Raven35.Database.TimeSeries;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesTest
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Bundles.Authorization
+namespace Raven35.Bundles.Authorization
 {
     public class OperationAllowedResult
     {

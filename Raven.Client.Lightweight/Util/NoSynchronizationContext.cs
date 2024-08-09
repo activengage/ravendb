@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public static class NoSynchronizationContext
     {

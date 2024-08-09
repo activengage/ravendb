@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Linq;
 using Microsoft.Web.Administration;
 
-namespace Raven.Setup.CustomActions.Infrastructure.IIS
+namespace Raven35.Setup.CustomActions.Infrastructure.IIS
 {
     public class IIS7UpwardsManager : IISManager
     {

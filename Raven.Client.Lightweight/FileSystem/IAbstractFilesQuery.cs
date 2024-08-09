@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IAbstractFilesQuery<T>
     {

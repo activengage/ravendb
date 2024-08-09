@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
 
-namespace Raven.Database.Bundles.Replication.Data
+namespace Raven35.Database.Bundles.Replication.Data
 {
     public class ReplicationTopology
     {

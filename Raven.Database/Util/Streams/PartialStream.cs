@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Raven.Database.Util.Streams
+namespace Raven35.Database.Util.Streams
 {
     public class PartialStream : Stream
     {

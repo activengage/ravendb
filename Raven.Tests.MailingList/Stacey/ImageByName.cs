@@ -1,9 +1,9 @@
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Common.Analyzers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common.Analyzers;
 
-namespace Raven.Tests.MailingList.Stacey
+namespace Raven35.Tests.MailingList.Stacey
 {
     public class ImageByName : AbstractIndexCreationTask<Image, ImageByName.ReduceResult>
     {

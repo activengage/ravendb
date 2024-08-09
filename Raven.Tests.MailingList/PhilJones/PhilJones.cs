@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Linq;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.PhilJones
+namespace Raven35.Tests.MailingList.PhilJones
 {
     public class PhilJones1 : NoDisposalNeeded
     {
@@ -63,7 +63,7 @@ namespace Raven.Tests.MailingList.PhilJones
             {
                 using (var documentStore = new EmbeddableDocumentStore { Configuration = { RunInMemory = true, RunInUnreliableYetFastModeThatIsNotSuitableForProduction = true } })
                 {
-                    documentStore.Conventions.DefaultQueryingConsistency = Raven.Client.Document.ConsistencyOptions.QueryYourWrites;
+                    documentStore.Conventions.DefaultQueryingConsistency = Raven35.Client.Document.ConsistencyOptions.QueryYourWrites;
                     documentStore.Initialize();
 
                     new Foos_BarProjection().Execute(documentStore);

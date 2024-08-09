@@ -2,12 +2,12 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.Document;
-using Raven.Client.Util;
-using Raven.Abstractions;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.Document;
+using Raven35.Client.Util;
+using Raven35.Abstractions;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     /// Generate index definition from linq expressions

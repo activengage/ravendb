@@ -1,11 +1,11 @@
-namespace Raven.Client.UniqueConstraints
+namespace Raven35.Client.UniqueConstraints
 {
     using System;
     using System.Linq;
     using Listeners;
     using Json.Linq;
 
-    using Constants = Raven.Bundles.UniqueConstraints.Constants;
+    using Constants = Raven35.Bundles.UniqueConstraints.Constants;
 
     public class UniqueConstraintsStoreListener : IDocumentStoreListener
     {

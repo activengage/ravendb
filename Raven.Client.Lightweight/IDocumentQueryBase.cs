@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     A query against a Raven index

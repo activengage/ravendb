@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Storage.Voron.StorageActions.StructureSchemas
+namespace Raven35.Database.Storage.Voron.StorageActions.StructureSchemas
 {
     public enum MappedResultFields
     {

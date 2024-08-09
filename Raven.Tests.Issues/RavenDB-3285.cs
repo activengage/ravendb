@@ -6,15 +6,15 @@ using System.Runtime.CompilerServices;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3285 : RavenTestBase
     {

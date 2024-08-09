@@ -1,14 +1,14 @@
 using System.IO;
 using System.Linq;
-using Raven.Client.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Bson;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Bson;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Queries
+namespace Raven35.Tests.Bugs.Queries
 {
     public class Floats : RavenTest
     {

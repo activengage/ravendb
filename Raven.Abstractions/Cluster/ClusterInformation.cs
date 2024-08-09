@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Abstractions.Cluster
+namespace Raven35.Abstractions.Cluster
 {
     public class ClusterInformation
     {

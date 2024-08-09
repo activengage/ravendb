@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Raven.Abstractions.Util.MiniMetrics
+namespace Raven35.Abstractions.Util.MiniMetrics
 {
     public class Clock
     {

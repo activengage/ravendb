@@ -6,16 +6,16 @@
 using System;
 using System.Threading;
 
-using Raven.Client.Connection;
-using Raven.Client.Exceptions;
-using Raven.Tests.Bugs;
-using Raven.Tests.Bundles.Replication;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Client.Connection;
+using Raven35.Client.Exceptions;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Bundles.Replication;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2571 : ReplicationBase
     {

@@ -1,9 +1,9 @@
 using System;
-using Raven.Client.Bundles.Versioning;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Client.Bundles.Versioning;
+using Raven35.Imports.Newtonsoft.Json;
 using Xunit;
 
-namespace Raven.Tests.Bundles.Versioning.Bugs
+namespace Raven35.Tests.Bundles.Versioning.Bugs
 {
     public class VersioningWithGuidIds : VersioningTest
     {

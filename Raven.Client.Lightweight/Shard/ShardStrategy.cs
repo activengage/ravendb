@@ -7,12 +7,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Client.Document;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     /// <summary>
     /// Default shard strategy for the sharding document store

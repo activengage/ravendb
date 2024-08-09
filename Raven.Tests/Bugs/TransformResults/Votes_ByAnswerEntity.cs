@@ -1,7 +1,7 @@
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.TransformResults
+namespace Raven35.Tests.Bugs.TransformResults
 {
     public class Votes_ByAnswerEntity : AbstractIndexCreationTask<AnswerVote>
     {

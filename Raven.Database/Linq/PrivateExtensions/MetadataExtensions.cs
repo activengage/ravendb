@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Linq;
 
-namespace Raven.Database.Linq.PrivateExtensions
+namespace Raven35.Database.Linq.PrivateExtensions
 {
     public static class MetadataExtensions
     {

@@ -1,7 +1,7 @@
-using Raven.Abstractions.FileSystem;
-using Raven.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.FileSystem.Listeners
+namespace Raven35.Client.FileSystem.Listeners
 {
     public interface IMetadataChangeListener
     {

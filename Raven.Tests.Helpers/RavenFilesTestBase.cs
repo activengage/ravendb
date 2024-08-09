@@ -14,22 +14,22 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Server;
-using Raven.Tests.Helpers.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Server;
+using Raven35.Tests.Helpers.Util;
 
-namespace Raven.Tests.Helpers
+namespace Raven35.Tests.Helpers
 {
     public class RavenFilesTestBase : IDisposable
     {

@@ -10,16 +10,16 @@ using System.Web.Http.Filters;
 using System.Web.Http.Results;
 using Jint.Runtime;
 using Lucene.Net.Search;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Exceptions.Subscriptions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
-using Raven.Database.FileSystem.Controllers;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Exceptions.Subscriptions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
+using Raven35.Database.FileSystem.Controllers;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.WebApi.Filters
+namespace Raven35.Database.Server.WebApi.Filters
 {
     public class RavenExceptionFilterAttribute : ExceptionFilterAttribute
     {

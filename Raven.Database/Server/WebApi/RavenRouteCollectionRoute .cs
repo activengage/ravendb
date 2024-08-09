@@ -12,7 +12,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Web.Http.Routing;
 
-namespace Raven.Database.Server.WebApi
+namespace Raven35.Database.Server.WebApi
 {
     internal class RavenRouteCollectionRoute : IHttpRoute, IReadOnlyCollection<IHttpRoute>
     {

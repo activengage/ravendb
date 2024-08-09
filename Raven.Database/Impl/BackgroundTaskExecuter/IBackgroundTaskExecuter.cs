@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public interface IBackgroundTaskExecuter
     {

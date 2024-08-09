@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq.Expressions;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Abstractions.Linq
+namespace Raven35.Abstractions.Linq
 {
     public class DynamicNullObject : DynamicObject, IEnumerable<object>, IComparable
     {

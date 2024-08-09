@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bundles.ScriptedIndexResults
+namespace Raven35.Tests.Bundles.ScriptedIndexResults
 {
     public class Animals_Stats : AbstractIndexCreationTask<Animal, Animals_Stats.Result>
     {

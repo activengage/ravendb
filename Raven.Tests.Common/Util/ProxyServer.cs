@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     public class ProxyServer : IDisposable
     {

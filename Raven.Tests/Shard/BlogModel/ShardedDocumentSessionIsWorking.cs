@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using Xunit;
 
-namespace Raven.Tests.Shard.BlogModel
+namespace Raven35.Tests.Shard.BlogModel
 {
     public class ShardedDocumentSessionIsWorking : ShardingScenario
     {

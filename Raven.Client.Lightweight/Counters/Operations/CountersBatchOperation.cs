@@ -7,17 +7,17 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Extensions;
-using Raven.Imports.Newtonsoft.Json.Bson;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Extensions;
+using Raven35.Imports.Newtonsoft.Json.Bson;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Counters.Operations
+namespace Raven35.Client.Counters.Operations
 {
     public sealed class CountersBatchOperation : CounterOperationsBase, IDisposable
     {

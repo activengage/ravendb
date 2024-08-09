@@ -1,14 +1,14 @@
 using System.Globalization;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Indexing.Spatial;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Indexing.Spatial;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class ShapeStringConverterTests : NoDisposalNeeded
     {

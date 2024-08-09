@@ -8,13 +8,13 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_1754 : RavenTest
     {

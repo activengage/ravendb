@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
 using System.Xml;
 
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     using System.Threading;
     using System.Windows.Forms;
@@ -18,7 +18,7 @@ namespace Raven.Setup.CustomActions
 
         static LicenseActions()
         {
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Raven.Setup.CustomActions.RavenDB.public"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Raven35.Setup.CustomActions.RavenDB.public"))
             {
                 if (stream == null)
                     throw new InvalidOperationException("Could not find public key for the license");

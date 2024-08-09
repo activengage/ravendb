@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Specialized;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Plugins;
-using Raven.Database.FileSystem.Storage.Esent;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Plugins;
+using Raven35.Database.FileSystem.Storage.Esent;
+using Raven35.Database.Plugins;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class StorageTest : IDisposable
     {

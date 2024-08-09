@@ -2,9 +2,9 @@ using System;
 using System.Linq;
 using System.Reflection;
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Database.Linq.PrivateExtensions;
+using Raven35.Database.Linq.PrivateExtensions;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class DynamicExtensionMethodsTranslator : DepthFirstAstVisitor<object, object>

@@ -4,9 +4,9 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Generate a hilo key for each given type

@@ -1,10 +1,10 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
-using Raven.Database.Server;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
 
-namespace Raven.Tests.Triggers.Bugs
+namespace Raven35.Tests.Triggers.Bugs
 {
     public class AuditTrigger : AbstractPutTrigger
     {

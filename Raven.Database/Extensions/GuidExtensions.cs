@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class GuidExtensions
     {

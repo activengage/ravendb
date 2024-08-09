@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Storage.Esent.StorageActions
+namespace Raven35.Database.Storage.Esent.StorageActions
 {
     public partial class DocumentStorageActions
     {

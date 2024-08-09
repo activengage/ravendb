@@ -19,11 +19,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Xml;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.Client.Azure
+namespace Raven35.Database.Client.Azure
 {
     public class RavenAzureClient : RavenStorageClient
     {

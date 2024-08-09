@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Client.FileSystem;
-using Raven.Abstractions.FileSystem;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Client.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc
+namespace Raven35.Database.FileSystem.Synchronization.Rdc
 {
     public class RemoteRdcManager
     {

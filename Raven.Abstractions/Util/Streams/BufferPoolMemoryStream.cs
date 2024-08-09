@@ -7,9 +7,9 @@
 using System;
 using System.Diagnostics;
 using System.IO;
-using Sparrow;
+using Sparrow35;
 
-namespace Raven.Abstractions.Util.Streams
+namespace Raven35.Abstractions.Util.Streams
 {
     public class BufferPoolMemoryStream : Stream
     {       

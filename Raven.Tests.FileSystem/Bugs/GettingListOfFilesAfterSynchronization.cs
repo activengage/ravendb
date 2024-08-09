@@ -1,9 +1,9 @@
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Bugs
+namespace Raven35.Tests.FileSystem.Bugs
 {
     public class GettingListOfFilesAfterSynchronization : RavenFilesTestWithLogs
     {

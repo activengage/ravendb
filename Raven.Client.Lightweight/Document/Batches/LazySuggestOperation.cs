@@ -1,11 +1,11 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client.Shard;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Shard;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document.Batches
+namespace Raven35.Client.Document.Batches
 {
     public class LazySuggestOperation : ILazyOperation
     {

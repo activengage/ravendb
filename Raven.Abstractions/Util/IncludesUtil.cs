@@ -1,11 +1,11 @@
 using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public class IncludesUtil
     {

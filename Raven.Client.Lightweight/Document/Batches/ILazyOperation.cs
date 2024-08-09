@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Client.Shard;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Shard;
 
-namespace Raven.Client.Document.Batches
+namespace Raven35.Client.Document.Batches
 {
     public interface ILazyOperation
     {

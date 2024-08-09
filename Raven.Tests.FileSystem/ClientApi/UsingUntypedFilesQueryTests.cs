@@ -1,5 +1,5 @@
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.ClientApi
+namespace Raven35.Tests.FileSystem.ClientApi
 {
     public class UsingUntypedFilesQueryTests
     {

@@ -17,27 +17,27 @@ using System.Web.Http;
 using CsvHelper;
 using Jint;
 using Jint.Parser;
-using Raven.Abstractions;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Versioning.Triggers;
-using Raven.Client.Util;
-using Raven.Database.Actions;
-using Raven.Database.Bundles.SqlReplication;
-using Raven.Database.Extensions;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Database.Smuggler;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Versioning.Triggers;
+using Raven35.Client.Util;
+using Raven35.Database.Actions;
+using Raven35.Database.Bundles.SqlReplication;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Database.Smuggler;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class StudioTasksController : BaseDatabaseApiController
     {
@@ -48,12 +48,12 @@ namespace Raven.Database.Server.Controllers
         {
             var documentsController = new DocumentsController();
             documentsController.InitializeFrom(this);
-            var httpResponseMessage = documentsController.DocGet("Raven/StudioConfig");
+            var httpResponseMessage = documentsController.DocGet("Raven35.StudioConfig");
             if (httpResponseMessage.StatusCode != HttpStatusCode.NotFound)
                 return httpResponseMessage.WithNoCache();
 
             documentsController.SetResource(DatabasesLandlord.SystemDatabase);
-            return documentsController.DocGet("Raven/StudioConfig").WithNoCache();
+            return documentsController.DocGet("Raven35.StudioConfig").WithNoCache();
         }
 
         [HttpGet]
@@ -357,7 +357,7 @@ for(var customFunction in customFunctions) {{
                 return GetMessageWithString("You cannot create sample data in a database that already contains documents", HttpStatusCode.BadRequest);
             }
 
-            using (var sampleData = typeof(StudioTasksController).Assembly.GetManifestResourceStream("Raven.Database.Server.Assets.EmbeddedData.Northwind.dump"))
+            using (var sampleData = typeof(StudioTasksController).Assembly.GetManifestResourceStream("Raven35.Database.Server.Assets.EmbeddedData.Northwind.dump"))
             {
                 var dataDumper = new DatabaseDataDumper(Database) { Options = { OperateOnTypes = ItemType.Documents | ItemType.Indexes | ItemType.Transformers, ShouldExcludeExpired = false } };
                 await dataDumper.ImportData(new SmugglerImportOptions<RavenConnectionStringOptions> { FromStream = sampleData }).ConfigureAwait(false);
@@ -465,7 +465,7 @@ for(var customFunction in customFunctions) {{
         [RavenRoute("databases/{databaseName}/studio-tasks/createSampleDataClass")]
         public Task<HttpResponseMessage> CreateSampleDataClass()
         {
-            using (var sampleData = typeof(StudioTasksController).Assembly.GetManifestResourceStream("Raven.Database.Server.Assets.EmbeddedData.NorthwindHelpData.cs"))
+            using (var sampleData = typeof(StudioTasksController).Assembly.GetManifestResourceStream("Raven35.Database.Server.Assets.EmbeddedData.NorthwindHelpData.cs"))
             {
                 if (sampleData == null)
                     return GetEmptyMessageAsTask();

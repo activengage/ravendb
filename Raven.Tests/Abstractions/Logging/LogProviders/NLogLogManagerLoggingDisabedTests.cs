@@ -1,16 +1,16 @@
 using System;
-using Raven.Abstractions.Logging.LogProviders;
+using Raven35.Abstractions.Logging.LogProviders;
 using NLog.Config;
 using NLog.Targets;
-using Raven.Tests.Common.Attributes;
+using Raven35.Tests.Common.Attributes;
 using Xunit;
 using LogLevel = NLog.LogLevel;
 
-namespace Raven.Tests.Abstractions.Logging.LogProviders
+namespace Raven35.Tests.Abstractions.Logging.LogProviders
 {
     public class NLogLogManagerLoggingDisabedTests : IDisposable
     {
-        private Raven.Abstractions.Logging.ILog sut;
+        private Raven35.Abstractions.Logging.ILog sut;
         private MemoryTarget target;
 
         private void ConfigureLogger(NLog.LogLevel nlogLogLevel)
@@ -36,45 +36,45 @@ namespace Raven.Tests.Abstractions.Logging.LogProviders
         public void For_Trace_Then_should_not_log()
         {
             ConfigureLogger(LogLevel.Trace);
-            AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel.Trace);
+            AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel.Trace);
         }
 
         [Fact]
         public void For_Debug_Then_should_not_log()
         {
             ConfigureLogger(LogLevel.Debug);
-            AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel.Debug);
+            AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel.Debug);
         }
 
         [Fact]
         public void For_Info_Then_should_not_log()
         {
             ConfigureLogger(LogLevel.Info);
-            AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel.Info);
+            AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel.Info);
         }
 
         [Fact]
         public void For_Warn_Then_should_not_log()
         {
             ConfigureLogger(LogLevel.Warn);
-            AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel.Warn);
+            AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel.Warn);
         }
 
         [Fact]
         public void For_Error_Then_should_not_log()
         {
             ConfigureLogger(LogLevel.Error);
-            AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel.Error);
+            AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel.Error);
         }
 
         [Fact]
         public void For_Fatal_Then_should_not_log()
         {
             ConfigureLogger(LogLevel.Fatal);
-            AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel.Fatal);
+            AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel.Fatal);
         }
 
-        private void AssertShouldNotLog(Raven.Abstractions.Logging.LogLevel logLevel)
+        private void AssertShouldNotLog(Raven35.Abstractions.Logging.LogLevel logLevel)
         {
             sut.Log(logLevel, () => "m");
             sut.Log(logLevel, () => "m", new Exception("e"));

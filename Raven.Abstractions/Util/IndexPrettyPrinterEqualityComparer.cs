@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public class IndexPrettyPrinterEqualityComparer : IEqualityComparer<string>
     {

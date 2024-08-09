@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Json.Utilities
+namespace Raven35.Json.Utilities
 {
     internal static class StringUtils
     {

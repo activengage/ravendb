@@ -7,9 +7,9 @@
 using System;
 using System.ComponentModel.Composition;
 
-using Raven.Database.Storage.Voron.Impl;
+using Raven35.Database.Storage.Voron.Impl;
 
-namespace Raven.Database.Storage.Voron.Schema
+namespace Raven35.Database.Storage.Voron.Schema
 {
     [InheritedExport]
     internal interface ISchemaUpdate

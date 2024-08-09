@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Monitor.Memory
+namespace Raven35.Monitor.Memory
 {
     public class MemoryUssageReportDoc
     {

@@ -7,9 +7,9 @@
 using System;
 using System.Diagnostics;
 using System.Net;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Counters
+namespace Raven35.Abstractions.Counters
 {
     public class CounterReplicationDestination
     {

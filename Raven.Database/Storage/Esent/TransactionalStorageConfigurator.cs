@@ -4,10 +4,10 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Raven.Database.Config;
-using Raven.Database.Storage.Esent;
+using Raven35.Database.Config;
+using Raven35.Database.Storage.Esent;
 
-namespace Raven.Storage.Esent
+namespace Raven35.Storage.Esent
 {
     public class TransactionalStorageConfigurator : StorageConfigurator
     {

@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.DtcTests
+namespace Raven35.DtcTests
 {
     public class SaveChangesAsync : RavenTest
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Client.Document;
+using Raven35.Client.Document;
 
-namespace Raven.NetCore.Tryouts
+namespace Raven35.NetCore.Tryouts
 {
     public class Program
     {

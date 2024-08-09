@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Transactions;
-using Raven.Abstractions;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RavenDbRecoveryTests : RavenTest
     {

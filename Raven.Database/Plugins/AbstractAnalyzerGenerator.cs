@@ -2,7 +2,7 @@ using System.ComponentModel.Composition;
 using Lucene.Net.Analysis;
 using Lucene.Net.Documents;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     public abstract class AbstractAnalyzerGenerator : IRequiresDocumentDatabaseInitialization

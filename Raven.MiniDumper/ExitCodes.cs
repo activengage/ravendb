@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.MiniDumper
+namespace Raven35.MiniDumper
 {
     internal enum ExitCodes
     {

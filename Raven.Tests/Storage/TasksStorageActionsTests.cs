@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 
 using System.Collections.Generic;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     using System;
     using Database.Tasks;

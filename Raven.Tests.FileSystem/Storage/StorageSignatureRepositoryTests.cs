@@ -1,12 +1,12 @@
 using System.IO;
 using System.Linq;
 
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class StorageSignatureRepositoryTests : StorageTest
     {

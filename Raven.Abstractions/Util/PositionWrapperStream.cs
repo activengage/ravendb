@@ -6,7 +6,7 @@
 using System;
 using System.IO;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public class PositionWrapperStream : Stream
     {

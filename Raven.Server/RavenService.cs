@@ -8,10 +8,10 @@ using System.Diagnostics;
 using System.Reflection;
 using System.ServiceProcess;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
 
-namespace Raven.Server
+namespace Raven35.Server
 {
     internal partial class RavenService : ServiceBase
     {

@@ -6,27 +6,27 @@
 extern alias client;
 using System.Collections.Generic;
 
-using Raven.Client;
+using Raven35.Client;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization.Bugs
+namespace Raven35.Tests.Bundles.Authorization.Bugs
 {
     public class Mojo2 : AuthorizationTest
     {
         private static void SetupRoles(IDocumentSession session)
         {
-            session.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+            session.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
             {
                 Id = "Users"
             });
 
-            session.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+            session.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
             {
                 Id = "Administrators",
                 Permissions =
                     {
-                        new client::Raven.Bundles.Authorization.Model.OperationPermission
+                        new client::Raven35.Bundles.Authorization.Model.OperationPermission
                         {
                             Allow = true,
                             Operation = "Library/Manage"
@@ -38,27 +38,27 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
         private static void SetupUsers(IDocumentSession session)
         {
-            session.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+            session.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
             {
                 Id = "andrea",
                 Roles = { "Users", "Administrators" },
             });
 
-            session.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+            session.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
             {
                 Id = "administrator",
                 Roles = { "Users", "Administrators" },
             });
 
             //Paolo is a Users with permission for Library/Fake
-            session.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+            session.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
             {
                 Id = "paolo",
                 Roles = { "Users" },
                 Permissions =
-                    new List<client::Raven.Bundles.Authorization.Model.OperationPermission>
+                    new List<client::Raven35.Bundles.Authorization.Model.OperationPermission>
                     {
-                        new client::Raven.Bundles.Authorization.Model.OperationPermission
+                        new client::Raven35.Bundles.Authorization.Model.OperationPermission
                         {Allow = true, Operation = "Library/Fake"}
                     }
             });
@@ -78,13 +78,13 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             {
                 var library = new Library { Id = "library/andrea-lib" };
                 session.Store(library);
-                var documentAuthorization = new client::Raven.Bundles.
+                var documentAuthorization = new client::Raven35.Bundles.
                     Authorization.Model.
                     DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.
+                            new client::Raven35.Bundles.
                                 Authorization.Model.
                                 DocumentPermission
                             {
@@ -92,7 +92,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                                 Operation = "Library/View",
                                 User = "andrea"
                             },
-                            new client::Raven.Bundles.
+                            new client::Raven35.Bundles.
                                 Authorization.Model.
                                 DocumentPermission
                             {
@@ -103,14 +103,14 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                             }
                         }
                 };
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, library,
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, library,
                     documentAuthorization);
                 session.SaveChanges();
             }
 
             using (IDocumentSession session = store.OpenSession(DatabaseName))
             {
-                var paolo = session.Load<client::Raven.Bundles.Authorization.Model.AuthorizationUser>("paolo");
+                var paolo = session.Load<client::Raven35.Bundles.Authorization.Model.AuthorizationUser>("paolo");
 
                 //Paolo is a Users
                 Assert.True(paolo.Roles.Exists(mc => mc.Equals("Users")));
@@ -119,8 +119,8 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                 Assert.True(!paolo.Roles.Exists(mc => mc.Equals("Administrators")));
 
 
-                client::Raven.Bundles.Authorization.OperationAllowedResult paoloCanView =
-                    client::Raven.Client.Authorization.AuthorizationClientExtensions.IsOperationAllowedOnDocument(session.Advanced,
+                client::Raven35.Bundles.Authorization.OperationAllowedResult paoloCanView =
+                    client::Raven35.Client.Authorization.AuthorizationClientExtensions.IsOperationAllowedOnDocument(session.Advanced,
                                                                                                                   "paolo",
                                                                                                                   "Library/View",
                                                                                                                   "library/andrea-lib");
@@ -129,8 +129,8 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                 Assert.True(!paoloCanView.IsAllowed);
 
 
-                client::Raven.Bundles.Authorization.OperationAllowedResult paoloCanMange =
-                    client::Raven.Client.Authorization.AuthorizationClientExtensions.IsOperationAllowedOnDocument(session.Advanced,
+                client::Raven35.Bundles.Authorization.OperationAllowedResult paoloCanMange =
+                    client::Raven35.Client.Authorization.AuthorizationClientExtensions.IsOperationAllowedOnDocument(session.Advanced,
                                                                                                                   "paolo",
                                                                                                                   "Library/Manage",
                                                                                                                   "library/andrea-lib");

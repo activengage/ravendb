@@ -7,12 +7,12 @@ using System.Linq;
 #if !DNXCORE50
 using Lucene.Net.Analysis;
 #endif
-using Raven.Client.Indexes;
-using Raven.Client.Linq.Indexing;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq.Indexing;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Core.Utils.Indexes
+namespace Raven35.Tests.Core.Utils.Indexes
 {
     public class Users_ByName : AbstractIndexCreationTask<User>
     {

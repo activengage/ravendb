@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Client.Linq;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Client.Linq;
 using Xunit;
 
-namespace Raven.Tests.Core.Querying
+namespace Raven35.Tests.Core.Querying
 {
     public class Filtering : RavenCoreTestBase
     {

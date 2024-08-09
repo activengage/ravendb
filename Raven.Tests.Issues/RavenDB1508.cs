@@ -1,17 +1,17 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB1508 : RavenTest
     {
@@ -40,7 +40,7 @@ namespace Raven.Tests.Issues
                                 from b in f.Bars
                                 select new BarViewModel() { FooName = f.Name, Number = b.Number };
 
-                StoreAllFields(Raven.Abstractions.Indexing.FieldStorage.Yes);
+                StoreAllFields(Raven35.Abstractions.Indexing.FieldStorage.Yes);
                 Sort(x=>x.Number, SortOptions.Float);
             }
         }

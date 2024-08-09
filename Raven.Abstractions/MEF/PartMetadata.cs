@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.MEF
+namespace Raven35.Abstractions.MEF
 {
     public class PartMetadata : IPartMetadata
     {

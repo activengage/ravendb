@@ -8,16 +8,16 @@ using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Json;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Server.Runner.Data;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Json;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Server.Runner.Data;
 
 using System;
 using System.Collections.Generic;
@@ -26,7 +26,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web.Http;
 
-namespace Raven.Tests.Server.Runner.Controllers
+namespace Raven35.Tests.Server.Runner.Controllers
 {
     public class ServersController : ApiController
     {

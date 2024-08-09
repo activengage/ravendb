@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Raven.Abstractions.Util.MiniMetrics
+namespace Raven35.Abstractions.Util.MiniMetrics
 {
 
     public sealed class MeterMetric : IDisposable

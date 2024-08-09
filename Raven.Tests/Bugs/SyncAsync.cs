@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class SyncAsync : RavenTestBase
     {

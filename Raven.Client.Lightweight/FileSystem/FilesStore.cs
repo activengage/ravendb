@@ -6,17 +6,17 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Extensions;
-using Raven.Client.FileSystem.Changes;
-using Raven.Client.FileSystem.Connection;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Client.Util;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Extensions;
+using Raven35.Client.FileSystem.Changes;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Client.Util;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public class FilesStore : IFilesStore
     {

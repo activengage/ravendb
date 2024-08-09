@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Database.Util;
-using Raven.Json.Linq;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class BulkInsertChangeNotification : DocumentChangeNotification
     {

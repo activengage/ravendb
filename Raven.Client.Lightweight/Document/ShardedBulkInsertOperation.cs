@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
-using Raven.Client.Extensions;
-using Raven.Client.Shard;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Extensions;
+using Raven35.Client.Shard;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class ShardedBulkInsertOperation : IDisposable
     {

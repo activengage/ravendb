@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Database.Linq.PrivateExtensions;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Database.Linq.PrivateExtensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class JBA : RavenTest
     {

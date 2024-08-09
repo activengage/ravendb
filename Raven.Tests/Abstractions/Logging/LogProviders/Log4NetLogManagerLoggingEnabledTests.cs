@@ -1,14 +1,14 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Logging.LogProviders;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Logging.LogProviders;
 using Xunit;
 using log4net.Appender;
 using log4net.Config;
 using log4net.Core;
 using LogManager = log4net.LogManager;
 
-namespace Raven.Tests.Abstractions.Logging.LogProviders
+namespace Raven35.Tests.Abstractions.Logging.LogProviders
 {
     public class Log4NetLogManagerLoggingEnabledTests : IDisposable
     {

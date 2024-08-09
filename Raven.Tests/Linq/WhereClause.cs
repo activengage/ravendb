@@ -5,15 +5,15 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Linq;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Linq;
+using Raven35.Imports.Newtonsoft.Json;
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class WhereClause : IDisposable
     {

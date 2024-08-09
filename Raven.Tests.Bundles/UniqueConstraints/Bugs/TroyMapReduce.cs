@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
 
-using Raven.Client.Indexes;
-using Raven.Client.UniqueConstraints;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Client.UniqueConstraints;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class TroyMapReduce : RavenTest
     {
@@ -19,7 +19,7 @@ namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
 
         protected override void ModifyConfiguration(InMemoryRavenConfiguration configuration)
         {
-            configuration.Catalog.Catalogs.Add(new AssemblyCatalog(typeof(Raven.Bundles.UniqueConstraints.UniqueConstraintsPutTrigger).Assembly));
+            configuration.Catalog.Catalogs.Add(new AssemblyCatalog(typeof(Raven35.Bundles.UniqueConstraints.UniqueConstraintsPutTrigger).Assembly));
         }
 
         protected override void ModifyStore(Client.Document.DocumentStore store)

@@ -5,11 +5,11 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Exceptions;
-using Raven.Database;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Database;
 
-namespace Raven.Bundles.Replication.Impl
+namespace Raven35.Bundles.Replication.Impl
 {
     internal class ReplicationHiLo
     {

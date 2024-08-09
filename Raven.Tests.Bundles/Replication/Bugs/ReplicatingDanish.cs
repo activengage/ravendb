@@ -1,10 +1,10 @@
 using System.Threading;
-using Raven.Tests.Bundles.Versioning;
-using Raven.Tests.Common;
+using Raven35.Tests.Bundles.Versioning;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication.Bugs
+namespace Raven35.Tests.Bundles.Replication.Bugs
 {
     public class ReplicatingDanish : ReplicationBase
     {

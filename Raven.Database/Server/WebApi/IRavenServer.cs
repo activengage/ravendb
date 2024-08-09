@@ -1,6 +1,6 @@
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Server.WebApi
+namespace Raven35.Database.Server.WebApi
 {
     public interface IRavenServer
     {

@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.TestBase
+namespace Raven35.Tests.TestBase
 {
     public class RavenTestBaseTests : RavenTestBase
     {

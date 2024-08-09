@@ -4,7 +4,7 @@ using System.Linq;
 
 using Rachis.Transport;
 
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
 namespace Rachis.Storage
 {

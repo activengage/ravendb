@@ -1,10 +1,10 @@
 using System.Linq;
 
-using Raven.Tests.Common;
-using Raven.Tests.MailingList.PhilJones;
+using Raven35.Tests.Common;
+using Raven35.Tests.MailingList.PhilJones;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Strange_select_behaviour_in_query_tests : RavenTest
     {

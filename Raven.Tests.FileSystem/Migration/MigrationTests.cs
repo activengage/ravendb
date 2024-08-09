@@ -9,19 +9,19 @@ using System.IO.Compression;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Extensions;
 using FileSystemInfo = System.IO.FileSystemInfo;
 
-namespace Raven.Tests.FileSystem.Migration
+namespace Raven35.Tests.FileSystem.Migration
 {
     public class MigrationTests : RavenFilesTestBase
     {

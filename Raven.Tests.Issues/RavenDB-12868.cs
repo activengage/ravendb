@@ -1,5 +1,5 @@
-﻿using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
+﻿using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_12868:RavenTest
     {
@@ -61,7 +61,7 @@ namespace Raven.Tests.Issues
                 store.DatabaseCommands.PutIndex("erroneoudIndex", index);
 
                 WaitForIndexing(store);
-                Raven.Abstractions.Data.IndexingError[] errors = null;
+                Raven35.Abstractions.Data.IndexingError[] errors = null;
                 errors = store.DatabaseCommands.GetStatistics().Errors;
 
                 SpinWait.SpinUntil(() => {

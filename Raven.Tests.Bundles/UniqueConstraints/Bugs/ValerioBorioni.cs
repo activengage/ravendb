@@ -5,12 +5,12 @@
 // //-----------------------------------------------------------------------
 using System;
 
-using Raven.Client.UniqueConstraints;
+using Raven35.Client.UniqueConstraints;
 
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class ValerioBorioni : UniqueConstraintsTest
     {

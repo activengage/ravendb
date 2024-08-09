@@ -6,12 +6,12 @@
 using System;
 using System.Dynamic;
 using System.Linq.Expressions;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 using System.Linq;
-using Raven.Abstractions.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     /// <summary>
     /// Convert a dynamic variable to a json value and vice versa
@@ -21,7 +21,7 @@ namespace Raven.Abstractions.Json
         /// <summary>
         /// Writes the JSON representation of the object.
         /// </summary>
-        /// <param name="writer">The <see cref="T:Raven.Imports.Newtonsoft.Json.JsonWriter"/> to write to.</param>
+        /// <param name="writer">The <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonWriter"/> to write to.</param>
         /// <param name="value">The value.</param>
         /// <param name="serializer">The calling serializer.</param>
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
@@ -57,7 +57,7 @@ namespace Raven.Abstractions.Json
         /// <summary>
         /// Reads the JSON representation of the object.
         /// </summary>
-        /// <param name="reader">The <see cref="T:Raven.Imports.Newtonsoft.Json.JsonReader"/> to read from.</param>
+        /// <param name="reader">The <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonReader"/> to read from.</param>
         /// <param name="objectType">Type of the object.</param>
         /// <param name="existingValue">The existing value of object being read.</param>
         /// <param name="serializer">The calling serializer.</param>

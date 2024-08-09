@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.FileSystem.Util;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class SynchronizationOfDestinationsTests : RavenFilesTestWithLogs
     {

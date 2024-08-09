@@ -8,17 +8,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-using Raven.Database.Indexing;
-using Raven.Database.Storage;
-using Raven.Database.Util;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Database.Indexing;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_863 : RavenTest
     {

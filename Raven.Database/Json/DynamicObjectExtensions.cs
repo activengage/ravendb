@@ -6,7 +6,7 @@
 using System;
 using Lucene.Net.Documents;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     public static class DynamicObjectExtensions
     {

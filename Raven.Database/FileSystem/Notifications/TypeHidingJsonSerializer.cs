@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Concurrent;
 using System.Runtime.Serialization;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Notifications
+namespace Raven35.Database.FileSystem.Notifications
 {
     /// <summary>
     ///     We don't want to pollute our API with details about the types of our notification objects, so we bind

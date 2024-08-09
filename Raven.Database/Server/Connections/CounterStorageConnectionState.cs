@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Abstractions.Counters;
-using Sparrow.Collections;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Abstractions.Counters;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class CounterStorageConnectionState
     {

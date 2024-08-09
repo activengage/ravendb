@@ -10,15 +10,15 @@ using Lucene.Net.Index;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
-using Raven.Tests.Indexes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
+using Raven35.Tests.Indexes;
 using Xunit;
 using Version = Lucene.Net.Util.Version;
 
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class WiseShrek : RavenTest
     {

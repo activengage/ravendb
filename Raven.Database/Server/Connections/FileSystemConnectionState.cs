@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
 
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class FileSystemConnectionState
     {

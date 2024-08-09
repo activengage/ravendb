@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Counters;
-using Raven.Database.Config;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Counters;
+using Raven35.Database.Config;
 using Xunit;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CounterAuthTests : RavenBaseCountersTest
     {

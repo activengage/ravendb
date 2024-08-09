@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class LowerCaseWhitespaceTokenizer : LowerCaseKeywordTokenizer
     {

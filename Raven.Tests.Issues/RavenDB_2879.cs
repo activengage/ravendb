@@ -1,12 +1,12 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Client.Indexes;
-using Raven.Tests.Helpers;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2879 : RavenTestBase
     {

@@ -7,9 +7,9 @@ using System.Linq;
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database
 {
     public class DatabaseLoadedCount : ScalarObjectBase<Integer32>
     {

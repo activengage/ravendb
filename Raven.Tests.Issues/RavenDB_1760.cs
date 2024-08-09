@@ -3,17 +3,17 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles;
-using Raven.Tests.Bundles.Replication;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles;
+using Raven35.Tests.Bundles.Replication;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1760 : ReplicationBase
     {

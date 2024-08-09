@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Runtime.Serialization;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Exceptions
+namespace Raven35.Abstractions.Exceptions
 {
     /// <summary>
     /// This exception is raised when querying an index that was disabled because the error rate exceeded safety margins

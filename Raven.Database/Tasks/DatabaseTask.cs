@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System;
 using System.IO;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Tasks
+namespace Raven35.Database.Tasks
 {
     public abstract class DatabaseTask
     {

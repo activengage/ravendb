@@ -5,14 +5,14 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.TimeSeries
+namespace Raven35.Client.TimeSeries
 {
     public partial class TimeSeriesStore
     {

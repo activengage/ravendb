@@ -5,29 +5,29 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Util;
-using Raven.Database.Common;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Database.Queries;
-using Raven.Database.Server.Abstractions;
-using Raven.Database.Server.Connections;
-using Raven.Database.TimeSeries.Notifications;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Common;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Database.Queries;
+using Raven35.Database.Server.Abstractions;
+using Raven35.Database.Server.Connections;
+using Raven35.Database.TimeSeries.Notifications;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
 using Voron;
 using Voron.Trees;
 using Voron.Trees.Fixed;
 using Voron.Util;
 using Voron.Util.Conversion;
-using Constants = Raven.Abstractions.Data.Constants;
+using Constants = Raven35.Abstractions.Data.Constants;
 using Transaction = Voron.Impl.Transaction;
 
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     public class TimeSeriesStorage : IResourceStore, IDisposable
     {

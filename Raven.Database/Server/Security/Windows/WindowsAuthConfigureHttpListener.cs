@@ -1,10 +1,10 @@
 using System;
 using System.Net;
 using System.Text.RegularExpressions;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 using System.Linq;
 
-namespace Raven.Database.Server.Security.Windows
+namespace Raven35.Database.Server.Security.Windows
 {
     public class WindowsAuthConfigureHttpListener
     {

@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Impl
+namespace Raven35.Database.Impl
 {
     public interface IUuidGenerator
     {

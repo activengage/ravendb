@@ -7,9 +7,9 @@ using System;
 
 using Microsoft.Owin.Hosting;
 
-using Raven.Database.Server;
+using Raven35.Database.Server;
 
-namespace Raven.Tests.Server.Runner
+namespace Raven35.Tests.Server.Runner
 {
     public class ServerRunner : IDisposable
     {

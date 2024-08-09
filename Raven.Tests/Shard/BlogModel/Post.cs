@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Tests.Shard.BlogModel
+namespace Raven35.Tests.Shard.BlogModel
 {
     public class Post
     {

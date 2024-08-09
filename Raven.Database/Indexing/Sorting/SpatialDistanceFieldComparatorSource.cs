@@ -1,10 +1,10 @@
 using System;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using Spatial4n.Core.Shapes;
 
-namespace Raven.Database.Indexing.Sorting
+namespace Raven35.Database.Indexing.Sorting
 {
     public struct DistanceValue : IComparable
     {

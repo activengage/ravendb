@@ -7,19 +7,19 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Shard;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Shard;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RDoc_391 : RavenTest
     {

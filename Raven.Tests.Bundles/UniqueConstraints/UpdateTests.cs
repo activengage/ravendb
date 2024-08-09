@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints
+namespace Raven35.Tests.Bundles.UniqueConstraints
 {
     public class UpdateTests : UniqueConstraintsTest
     {
@@ -15,15 +15,15 @@ namespace Raven.Tests.Bundles.UniqueConstraints
                 session.SaveChanges();
 
                 // Ensures constraint was created
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
                 Assert.NotNull(DocumentStore.DatabaseCommands.Get("users/1"));
 
                 user.Email = "bar@foo.com";
                 session.SaveChanges();
 
                 // Both docs should be deleted
-                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("bar@foo.com")));
+                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("bar@foo.com")));
             }
         }
 
@@ -38,17 +38,17 @@ namespace Raven.Tests.Bundles.UniqueConstraints
                 session.SaveChanges();
 
                 // Ensures constraint was created
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task1")));
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task2")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task1")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task2")));
                 Assert.NotNull(DocumentStore.DatabaseCommands.Get("users/1"));
 
                 user.TaskIds = new[] {"Task1", "Task3"};
             
                 session.SaveChanges();
                 
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task1")));
-                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task2")));
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task3")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task1")));
+                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task2")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("Task3")));
             }
         }
     }

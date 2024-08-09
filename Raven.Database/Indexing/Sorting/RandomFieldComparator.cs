@@ -2,7 +2,7 @@ using System;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 
-namespace Raven.Database.Indexing.Sorting
+namespace Raven35.Database.Indexing.Sorting
 {
     public class RandomFieldComparator : FieldComparator
     {

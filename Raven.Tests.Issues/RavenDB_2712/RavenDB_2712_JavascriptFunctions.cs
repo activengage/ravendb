@@ -4,16 +4,16 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Extensions;
-using Raven.Database.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Extensions;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues.RavenDB_2712
+namespace Raven35.Tests.Issues.RavenDB_2712
 {
     public class RavenDB_2712_JavascriptFunctions : GlobalConfigurationTest
     {

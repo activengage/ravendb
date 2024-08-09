@@ -5,14 +5,14 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Tasks;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Tasks;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class Tasks : RavenTest
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Reflection;
 
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     public class JsonDictionaryDateTimeKeysConverter : RavenJsonConverter
     {

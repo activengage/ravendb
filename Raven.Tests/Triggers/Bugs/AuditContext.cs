@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Data;
 
-namespace Raven.Tests.Triggers.Bugs
+namespace Raven35.Tests.Triggers.Bugs
 {
     public static class AuditContext
     {

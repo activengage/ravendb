@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     [JsonObject(MemberSerialization.OptIn)]
     public class ListTestClass

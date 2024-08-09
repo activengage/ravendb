@@ -4,16 +4,16 @@ using System.Linq;
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.BR;
 using Lucene.Net.Documents;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Bundles.MoreLikeThis;
-using Raven.Client.Indexes;
-using Raven.Database.Indexing;
-using Raven.Database.Plugins;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Bundles.MoreLikeThis;
+using Raven35.Client.Indexes;
+using Raven35.Database.Indexing;
+using Raven35.Database.Plugins;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4836 : RavenTestBase
     {

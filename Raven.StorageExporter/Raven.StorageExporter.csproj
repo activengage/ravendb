@@ -7,8 +7,8 @@
     <ProjectGuid>{44C65E90-D6D8-40D6-A114-9FB12EFB0D90}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.StorageExporter</RootNamespace>
-    <AssemblyName>Raven.StorageExporter</AssemblyName>
+    <RootNamespace>Raven35.StorageExporter</RootNamespace>
+    <AssemblyName>Raven35.StorageExporter</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>

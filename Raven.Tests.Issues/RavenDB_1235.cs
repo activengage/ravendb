@@ -3,19 +3,19 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Replication;
-using Raven.Tests.Common;
-using Raven.Tests.MailingList;
+using Raven35.Abstractions.Replication;
+using Raven35.Tests.Common;
+using Raven35.Tests.MailingList;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
 
-    using Raven.Client;
-    using Raven.Client.Document;
-    using Raven.Client.Shard;
-    using Raven.Server;
+    using Raven35.Client;
+    using Raven35.Client.Document;
+    using Raven35.Client.Shard;
+    using Raven35.Server;
 
     using Xunit;
 

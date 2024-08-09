@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.TimeSeries
+namespace Raven35.Abstractions.TimeSeries
 {
     public class TimeSeriesMetrics
     {

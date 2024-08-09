@@ -9,7 +9,7 @@ using System.Configuration;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     public class RavenConfiguration : InMemoryRavenConfiguration
     {

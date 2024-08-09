@@ -7,9 +7,9 @@ using System.IO;
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Storage
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Storage
 {
     public class DatabaseIndexStorageDiskRemainingSpace : DatabaseScalarObjectBase<Gauge32>
     {

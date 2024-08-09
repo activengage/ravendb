@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.Serialization;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper
 {
     [Serializable]
     public class RdcException : Exception

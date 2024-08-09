@@ -34,15 +34,15 @@ using System.Xml;
 #if !(NET20 || PORTABLE40)
 using System.Xml.Linq;
 #endif
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 using System.Reflection;
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     #region XmlNodeWrappers
 #if !NETFX_CORE && !PORTABLE && !PORTABLE40

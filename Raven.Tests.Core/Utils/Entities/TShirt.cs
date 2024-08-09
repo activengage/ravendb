@@ -5,7 +5,7 @@
 // ----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Tests.Core.Utils.Entities
+namespace Raven35.Tests.Core.Utils.Entities
 {
     public class TShirt
     {

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using FILETIME = System.Runtime.InteropServices.ComTypes.FILETIME;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class WhoIsLocking
     {

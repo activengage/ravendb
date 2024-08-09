@@ -9,7 +9,7 @@ using System.Linq;
 using System.ServiceModel.Security.Tokens;
 using ICSharpCode.NRefactory.CSharp;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class CaptureSelectNewFieldNamesVisitor : DepthFirstAstVisitor<object, object>

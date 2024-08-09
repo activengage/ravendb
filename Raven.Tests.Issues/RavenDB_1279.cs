@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Client.Document;
+using Raven35.Client.Document;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
 //	public class RavenDB_1279 : RavenTest
 //	{
@@ -21,14 +21,14 @@ namespace Raven.Tests.Issues
 //		{
 //		}
 //
-//		public Raven.Client.IDocumentStore store { get; set; }
+//		public Raven35.Client.IDocumentStore store { get; set; }
 //
 //		public RavenDB_1279()
 //		{
 //			store = new DocumentStore { Url = "http://calypso:8080", DefaultDatabase = "Foo" };
 //
 //			store.Initialize();
-//			Raven.Client.Indexes.IndexCreation.CreateIndexes(typeof(Orders_ByEmployee).Assembly, store);
+//			Raven35.Client.Indexes.IndexCreation.CreateIndexes(typeof(Orders_ByEmployee).Assembly, store);
 //
 //		}
 //

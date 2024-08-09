@@ -3,14 +3,14 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Raft.Commands;
-using Raven.Database.Raft.Util;
-using Raven.Database.Server.Tenancy;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Raft.Commands;
+using Raven35.Database.Raft.Util;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Raft.Storage.Handlers
+namespace Raven35.Database.Raft.Storage.Handlers
 {
     public class DatabaseDeletedCommandHandler : CommandHandler<DatabaseDeletedCommand>
     {

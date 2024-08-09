@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.LinqToSql
+namespace Raven35.Imports.Newtonsoft.Json.Tests.LinqToSql
 {
     public class GuidByteArrayConverter : JsonConverter
     {

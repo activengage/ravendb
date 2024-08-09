@@ -8,18 +8,18 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.MultiTenancy
+namespace Raven35.Tests.Bugs.MultiTenancy
 {
     public class Basic : RavenTest
     {
@@ -164,7 +164,7 @@ namespace Raven.Tests.Bugs.MultiTenancy
                 {
                     session.Store(new DatabaseDocument
                     {
-                        Id = "Raven/Databases/Northwind",
+                        Id = "Raven35.Databases/Northwind",
                         Settings =
                             {
                                 { Constants.RunInMemory, "true"},

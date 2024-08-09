@@ -6,16 +6,16 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection.Async
+namespace Raven35.Client.Connection.Async
 {
     public class AsyncAdminServerClient : IAsyncAdminDatabaseCommands, IAsyncGlobalAdminDatabaseCommands
     {

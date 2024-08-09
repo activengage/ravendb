@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security;
 using ICSharpCode.NRefactory.CSharp;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class ThrowOnInvalidMethodCalls : DepthFirstAstVisitor<object, object>
@@ -34,7 +34,7 @@ namespace Raven.Database.Linq.Ast
         {
             new ForbiddenMethod(
                 names: new[] { "Now", "UtcNow" },
-                typeAliases: new[] { "DateTime", "System.DateTime", "DateTimeOffset", "System.DateTimeOffset", "SystemTime", "Abstractions.SystemTime", "Raven.Abstractions.SystemTime" },
+                typeAliases: new[] { "DateTime", "System.DateTime", "DateTimeOffset", "System.DateTimeOffset", "SystemTime", "Abstractions.SystemTime", "Raven35.Abstractions.SystemTime" },
                 error: @"Cannot use {0} during a map or reduce phase.
 The map or reduce functions must be referentially transparent, that is, for the same set of values, they always return the same results.
 Using {0} invalidate that premise, and is not allowed"),

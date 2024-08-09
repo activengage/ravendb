@@ -6,9 +6,9 @@
 
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     /// <summary>
     /// Information required to resolve the appropriate shard for an entity / entity and key

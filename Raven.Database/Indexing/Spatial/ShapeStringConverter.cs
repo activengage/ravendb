@@ -2,9 +2,9 @@ using System;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Database.Indexing.Spatial
+namespace Raven35.Database.Indexing.Spatial
 {
     /// <summary>
     /// Converts spatial strings to WKT, if they aren't already

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.TimeSeries
+namespace Raven35.Client.TimeSeries
 {
     public partial class TimeSeriesStore
     {

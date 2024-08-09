@@ -6,12 +6,12 @@
 using System.Linq;
 using System.Reflection;
 
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2984 : NoDisposalNeeded
     {

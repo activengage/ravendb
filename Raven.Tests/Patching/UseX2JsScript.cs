@@ -2,13 +2,13 @@ using System;
 using System.IO;
 using System.Reflection;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Patching
+namespace Raven35.Tests.Patching
 {
     public class UseX2JsScript: IDisposable
     {
@@ -25,7 +25,7 @@ namespace Raven.Tests.Patching
                 }
             };
 
-            const string name = @"Raven.Tests.Patching.x2js.js";
+            const string name = @"Raven35.Tests.Patching.x2js.js";
             var manifestResourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(name);
             var code = new StreamReader(manifestResourceStream).ReadToEnd();
 
@@ -57,7 +57,7 @@ namespace Raven.Tests.Patching
                 }
             };
 
-            const string name = @"Raven.Tests.Patching.x2js.js";
+            const string name = @"Raven35.Tests.Patching.x2js.js";
             var manifestResourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(name);
             var code = new StreamReader(manifestResourceStream).ReadToEnd();
 

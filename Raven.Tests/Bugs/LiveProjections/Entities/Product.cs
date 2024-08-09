@@ -1,4 +1,4 @@
-namespace Raven.Tests.Bugs.LiveProjections.Entities
+namespace Raven35.Tests.Bugs.LiveProjections.Entities
 {
     using System.Collections.Generic;
 

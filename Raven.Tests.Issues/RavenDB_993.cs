@@ -7,19 +7,19 @@ using System.IO;
 using System.Net;
 
 using Lucene.Net.Support;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
-    using Raven.Abstractions.Connection;
+    using Raven35.Abstractions.Connection;
 
     public class RavenDB_993 : ReplicationBase
     {

@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Concurrent;
 using System.Reactive.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Notifications
+namespace Raven35.Tests.Notifications
 {
     public class Filtered : RavenTest
     {

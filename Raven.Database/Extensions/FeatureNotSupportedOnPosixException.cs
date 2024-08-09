@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     [Serializable]
     public class FeatureNotSupportedOnPosixException : Exception

@@ -8,17 +8,17 @@ using System.Threading;
 using System.Windows.Markup;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
-using Raven.Abstractions;
+using Raven35.Abstractions;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Database.Config;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Database.Config;
 using Voron.Util;
 using Task = System.Threading.Tasks.Task;
-using Raven.Abstractions.Logging;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndexSearcherHolder
     {

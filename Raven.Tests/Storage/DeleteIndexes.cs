@@ -3,16 +3,16 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Abstractions.Indexing;
-using Raven.Client.Embedded;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Embedded;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class DeleteIndexes : RavenTest
     {

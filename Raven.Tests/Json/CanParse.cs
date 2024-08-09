@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Json
+namespace Raven35.Tests.Json
 {
     public class CanParse : IDisposable
     {

@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class Clustering : RavenTest
     {

@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Database.Common;
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Common;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.FileSystem.Controllers
+namespace Raven35.Database.FileSystem.Controllers
 {
     public class BaseAdminFileSystemApiController : AdminResourceApiController<RavenFileSystem, FileSystemsLandlord>
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Server;
+using Raven35.Abstractions.Extensions;
+using Raven35.Server;
 using Xunit;
 
-namespace Raven.Tests.Shard.BlogModel
+namespace Raven35.Tests.Shard.BlogModel
 {
     public class CanQueryOnlyUsers : ShardingScenario
     {

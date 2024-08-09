@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Json.Linq;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
-using Constants = Raven.Abstractions.Data.Constants;
-namespace Raven.Tests.Conflicts
+using Constants = Raven35.Abstractions.Data.Constants;
+namespace Raven35.Tests.Conflicts
 {
     public class ShouldntCreateConflictIfIdentical : ReplicationBase
     {

@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Debug
+namespace Raven35.Debug
 {
     public class ThreadInfo
     {

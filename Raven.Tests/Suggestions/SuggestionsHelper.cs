@@ -6,12 +6,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Suggestions
+namespace Raven35.Tests.Suggestions
 {
     public static class SuggestionsHelper
     {

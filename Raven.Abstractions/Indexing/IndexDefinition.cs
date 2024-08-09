@@ -6,12 +6,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Indexing
+namespace Raven35.Abstractions.Indexing
 {
     /// <summary>
     /// A definition of a RavenIndex

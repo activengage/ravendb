@@ -7,12 +7,12 @@ using System.Collections.Specialized;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using Raven.Client.Connection;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Connection.Profiling;
-using Raven.Json.Linq;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Util.Auth
+namespace Raven35.Client.Util.Auth
 {
     internal class SingleAuthTokenRetriever
     {

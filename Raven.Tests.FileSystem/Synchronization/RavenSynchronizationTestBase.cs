@@ -1,8 +1,8 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.FileSystem;
+using Raven35.Client.FileSystem;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class RavenSynchronizationTestBase : RavenFilesTestWithLogs
     {

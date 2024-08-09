@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Tests.MailingList.RobStats
+namespace Raven35.Tests.MailingList.RobStats
 {
     public class Summary
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Raven.Client.Helpers
+namespace Raven35.Client.Helpers
 {
     internal static class EnvironmentHelper
     {

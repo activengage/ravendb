@@ -1,9 +1,9 @@
 using System.Runtime.CompilerServices;
 
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Bundles.Versioning
+namespace Raven35.Tests.Bundles.Versioning
 {
     public class VersioningTest : RavenTest
     {
@@ -21,23 +21,23 @@ namespace Raven.Tests.Bundles.Versioning
 
             using (var session = store.OpenSession())
             {
-                session.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                session.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                 {
                     Exclude = true,
                     Id = "Raven/Versioning/Users",
                 });
-                session.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                session.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                 {
                     Exclude = true,
                     Id = "Raven/Versioning/Comments",
                 });
-                session.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                session.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                 {
                     Exclude = false,
                     Id = "Raven/Versioning/Products",
                     ExcludeUnlessExplicit = true,
                 });
-                session.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                session.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                 {
                     Exclude = false,
                     Id = "Raven/Versioning/DefaultConfiguration",

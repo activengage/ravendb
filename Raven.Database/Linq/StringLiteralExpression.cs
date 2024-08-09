@@ -1,7 +1,7 @@
 using System;
 using ICSharpCode.NRefactory.CSharp;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     [CLSCompliant(false)]
     public class StringLiteralExpression : PrimitiveExpression

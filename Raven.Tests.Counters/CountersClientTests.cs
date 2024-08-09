@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Util;
-using Raven.Client.Counters;
-using Raven.Database.Counters;
-using Raven.Database.Extensions;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Counters;
+using Raven35.Database.Counters;
+using Raven35.Database.Extensions;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CountersClientTests : RavenBaseCountersTest
     {

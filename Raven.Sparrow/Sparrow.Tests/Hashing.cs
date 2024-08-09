@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Xunit;
 
-namespace Sparrow.Tests
+namespace Sparrow35.Tests
 {
     public class HashingTests
     {

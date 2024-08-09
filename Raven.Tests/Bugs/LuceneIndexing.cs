@@ -3,13 +3,13 @@ using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Version = Lucene.Net.Util.Version;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class LuceneIndexing : NoDisposalNeeded
     {

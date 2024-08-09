@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.Composition.Primitives;
 using System.Linq;
 
-namespace Raven.Database.Plugins.Catalogs
+namespace Raven35.Database.Plugins.Catalogs
 {
     public class BundlesFilteredCatalog : FilteredCatalog
     {

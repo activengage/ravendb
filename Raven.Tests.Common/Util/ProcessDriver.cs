@@ -7,9 +7,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     [CLSCompliant(false)]
     public abstract class ProcessDriver : CriticalFinalizerObject, IDisposable

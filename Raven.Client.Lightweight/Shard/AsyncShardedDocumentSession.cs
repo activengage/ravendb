@@ -9,22 +9,22 @@ using System.Dynamic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
-using Raven.Client.Document.Batches;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Connection.Async;
 using System.Threading.Tasks;
-using Raven.Client.Connection;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Json.Linq;
+using Raven35.Client.Connection;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     /// <summary>
     /// Implements Unit of Work for accessing a set of sharded RavenDB servers
@@ -674,7 +674,7 @@ namespace Raven.Client.Shard
         #endregion
 
         /// <summary>
-        /// Saves all the changes to the Raven server.
+        /// Saves all the changes to the Raven35.Server.
         /// </summary>
         async Task IAsyncDocumentSession.SaveChangesAsync(CancellationToken token)
         {

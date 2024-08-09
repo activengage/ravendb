@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     public static class RavenQueryableExtensions
     {

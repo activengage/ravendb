@@ -5,16 +5,16 @@
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Shard;
-using Raven.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Shard;
+using Raven35.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
 using Rhino.Mocks;
 using Xunit;
 
-namespace Raven.Tests.Shard
+namespace Raven35.Tests.Shard
 {
     public class WhenUsingShardedServers : RavenTest
     {

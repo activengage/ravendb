@@ -1,13 +1,13 @@
 using System;
 using System.IO;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class SmugglerTests : RavenTest
     {

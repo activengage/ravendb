@@ -2,12 +2,12 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Bugs.MultiMap
+namespace Raven35.Tests.Bugs.MultiMap
 {
     public class MultiMapWithoutReduce : RavenTest
     {

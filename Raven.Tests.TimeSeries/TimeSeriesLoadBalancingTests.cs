@@ -1,9 +1,9 @@
 /*using System.Threading.Tasks;
 using FluentAssertions;
-using Raven.Abstractions.Replication;
+using Raven35.Abstractions.Replication;
 using Xunit.Extensions;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesLoadBalancingTests : RavenBaseTimeSeriesTest
     {

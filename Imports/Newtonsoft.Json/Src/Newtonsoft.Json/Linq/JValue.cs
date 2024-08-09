@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using System.Globalization;
-using Raven.Abstractions.Json;
+using Raven35.Abstractions.Json;
 #if !(NET35 || NET20 || PORTABLE40)
 using System.Dynamic;
 using System.Linq.Expressions;
@@ -37,7 +37,7 @@ using System.Numerics;
 
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a value in JSON (string, integer, date, etc).

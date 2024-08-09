@@ -6,9 +6,9 @@
 using System;
 using System.IO;
 
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Smuggler.Data
+namespace Raven35.Abstractions.Smuggler.Data
 {
     [Obsolete("Use RavenFS instead.")]
     public class AttachmentExportInfo

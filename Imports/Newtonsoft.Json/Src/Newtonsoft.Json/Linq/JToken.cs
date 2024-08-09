@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json.Linq.JsonPath;
+using Raven35.Imports.Newtonsoft.Json.Linq.JsonPath;
 #if !(NET35 || NET20 || PORTABLE40)
 using System.Dynamic;
 using System.Linq.Expressions;
@@ -35,19 +35,19 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using System.Diagnostics;
 using System.Globalization;
 using System.Collections;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 using System.Reflection;
 
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents an abstract JSON token.

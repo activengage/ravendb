@@ -1,8 +1,8 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Logging;
-using Raven.Client.FileSystem.Impl;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.FileSystem.Impl;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public abstract class InMemoryFilesSessionOperations : IDisposable
     {

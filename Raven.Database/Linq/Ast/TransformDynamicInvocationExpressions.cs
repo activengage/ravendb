@@ -7,7 +7,7 @@ using System;
 using System.Linq;
 using ICSharpCode.NRefactory.CSharp;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class TransformDynamicInvocationExpressions : DepthFirstAstVisitor<object, object>

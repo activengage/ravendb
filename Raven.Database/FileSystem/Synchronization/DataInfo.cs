@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class DataInfo
     {

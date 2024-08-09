@@ -1,11 +1,11 @@
 using System.IO;
 using System.Net;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.RobinM
+namespace Raven35.Tests.MailingList.RobinM
 {
     public class AttachmentsStatic : RavenTest
     {

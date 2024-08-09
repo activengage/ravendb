@@ -1,9 +1,9 @@
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 using System;
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class ConnectionStringParsing : NoDisposalNeeded
     {

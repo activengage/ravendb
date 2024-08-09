@@ -1,4 +1,4 @@
-namespace Raven.SimulatedWorkLoad.Model
+namespace Raven35.SimulatedWorkload.Model
 {
     public class User
     {

@@ -26,6 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <Use64BitIISExpress />
+    <AssemblyName>Raven35.Studio.Html5</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
     <GulpCleanTask>clean</GulpCleanTask>

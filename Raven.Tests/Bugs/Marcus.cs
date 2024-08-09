@@ -1,8 +1,8 @@
 using System.Linq;
-using Raven.Client.Embedded;
+using Raven35.Client.Embedded;
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class Marcus 
     {

@@ -1,6 +1,6 @@
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Client.FileSystem.Listeners
+namespace Raven35.Client.FileSystem.Listeners
 {
     public interface IFilesDeleteListener
     {

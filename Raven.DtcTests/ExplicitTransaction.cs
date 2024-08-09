@@ -4,13 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Threading;
-using Raven.Client.Connection;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
+using Raven35.Client.Connection;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class ExplicitTransaction : RavenTest
     {

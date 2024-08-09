@@ -8,9 +8,9 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public static class HttpExtensions
     {

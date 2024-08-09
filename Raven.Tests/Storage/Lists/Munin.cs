@@ -6,12 +6,12 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Json.Linq;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Storage.Lists
+namespace Raven35.Tests.Storage.Lists
 {
     public class Munin : AbstractDocumentStorageTest
     {

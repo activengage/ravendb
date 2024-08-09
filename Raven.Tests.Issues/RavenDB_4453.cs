@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Raven.Tests.Bundles.Replication;
-using Raven.Tests.Common;
+using Raven35.Tests.Bundles.Replication;
+using Raven35.Tests.Common;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4453 : RavenTest
     {

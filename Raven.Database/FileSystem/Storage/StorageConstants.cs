@@ -1,4 +1,4 @@
-namespace Raven.Database.FileSystem.Storage
+namespace Raven35.Database.FileSystem.Storage
 {
     public class StorageConstants
     {

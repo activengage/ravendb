@@ -6,13 +6,13 @@
 using System.IO;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Tests.Bundles.PeriodicExports;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Bundles.PeriodicExports;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3190 : RavenTest
     {

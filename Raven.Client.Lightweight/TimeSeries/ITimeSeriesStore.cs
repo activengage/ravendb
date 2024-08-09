@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.TimeSeries;
-using Raven.Client.TimeSeries.Changes;
-using Raven.Client.TimeSeries.Replication;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Client.TimeSeries.Changes;
+using Raven35.Client.TimeSeries.Replication;
 
-namespace Raven.Client.TimeSeries
+namespace Raven35.Client.TimeSeries
 {
     public interface ITimeSeriesStore : IDisposalNotification
     {

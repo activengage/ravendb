@@ -7,10 +7,10 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Database.DiskIO;
+using Raven35.Database.DiskIO;
 using Xunit;
 
-namespace Raven.SlowTests.DiskIO
+namespace Raven35.SlowTests.DiskIO
 {
     public class DiskIOTest
     {

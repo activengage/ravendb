@@ -25,7 +25,7 @@
 
 using System;
 using System.Collections;
-using Raven.Imports.Newtonsoft.Json.Schema;
+using Raven35.Imports.Newtonsoft.Json.Schema;
 #if !(NET35 || NET20 || PORTABLE || PORTABLE40 || MONO)
 using System.Collections.Concurrent;
 #endif
@@ -41,19 +41,19 @@ using System.Runtime.Serialization;
 using System.Security.Permissions;
 #endif
 using System.Xml.Serialization;
-using Raven.Imports.Newtonsoft.Json.Converters;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Converters;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 using System.Runtime.CompilerServices;
-using Raven.Abstractions.Json;
+using Raven35.Abstractions.Json;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Serialization
+namespace Raven35.Imports.Newtonsoft.Json.Serialization
 {
     internal struct ResolverContractKey : IEquatable<ResolverContractKey>
     {

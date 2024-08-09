@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Raft.Dto
+namespace Raven35.Database.Raft.Dto
 {
     public class ReplicationState
     {

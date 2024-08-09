@@ -8,13 +8,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util;
-using Raven.Database.Indexing;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Indexing;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Data
+namespace Raven35.Database.Data
 {
     public class DynamicQueryMapping
     {

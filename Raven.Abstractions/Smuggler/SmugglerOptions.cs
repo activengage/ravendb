@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Threading;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Smuggler
+namespace Raven35.Abstractions.Smuggler
 {
     public abstract class SmugglerOptions
     {

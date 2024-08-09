@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public class TermsQueryRunner
     {

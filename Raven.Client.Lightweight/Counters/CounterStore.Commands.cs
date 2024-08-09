@@ -3,12 +3,12 @@ using System.Globalization;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.Counters
+namespace Raven35.Client.Counters
 {
     public partial class CounterStore
     {

@@ -6,11 +6,11 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Bugs
+namespace Raven35.Tests.FileSystem.Bugs
 {
     public class SynchronizationOfFileInsideDirectory : RavenFilesTestWithLogs
     {

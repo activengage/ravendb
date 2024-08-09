@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using Lextm.SharpSnmpLib;
 
-using Raven.Abstractions;
-using Raven.Database.Server.Tenancy;
+using Raven35.Abstractions;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Indexes
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Indexes
 {
     public class DatabaseIndexTimeSinceLastQuery : DatabaseIndexScalarObjectBase<TimeTicks>
     {

@@ -4,7 +4,7 @@
     <VersionPrefix>3.5.0</VersionPrefix>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <RuntimeFrameworkVersion>2.0.5</RuntimeFrameworkVersion>
-    <AssemblyName>Raven.Tests.Core</AssemblyName>
+    <AssemblyName>Raven35.Tests.Core</AssemblyName>
     <PackageId>Raven.Tests.Core</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <RuntimeIdentifiers>win7-x64;win8-x64;win81-x64;win10-x64</RuntimeIdentifiers>
@@ -20,6 +20,7 @@
     <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\Raven.Database\RavenDB.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>Raven35.Tests.Core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

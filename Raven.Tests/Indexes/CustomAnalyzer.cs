@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using Lucene.Net.Analysis;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class CustomAnalyzer : KeywordAnalyzer
     {

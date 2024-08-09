@@ -4,16 +4,16 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Util;
-using Raven.Client.Counters;
-using Raven.Database.Extensions;
-using Raven.Database.Smuggler;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Counters;
+using Raven35.Database.Extensions;
+using Raven35.Database.Smuggler;
 using Xunit;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class SmugglerTests : RavenBaseCountersTest
     {

@@ -7,15 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     /// Interface for managing access to RavenDB and open sessions.

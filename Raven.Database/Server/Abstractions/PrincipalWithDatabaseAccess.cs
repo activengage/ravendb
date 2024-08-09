@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Principal;
 
-namespace Raven.Database.Server.Abstractions
+namespace Raven35.Database.Server.Abstractions
 {
     internal class PrincipalWithDatabaseAccess : IPrincipal
     {

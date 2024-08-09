@@ -6,11 +6,11 @@
 using System;
 using System.Threading.Tasks;
 
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class TaskBasedOperationState : IOperationState
     {

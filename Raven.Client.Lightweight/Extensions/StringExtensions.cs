@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace Raven.Client.Extensions
+namespace Raven35.Client.Extensions
 {
     internal static class StringExtensions
     {

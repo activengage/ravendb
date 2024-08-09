@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.MEF;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Plugins
+namespace Raven35.Database.FileSystem.Plugins
 {
     public static class TriggerExtensions
     {

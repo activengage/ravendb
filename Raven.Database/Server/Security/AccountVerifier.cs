@@ -6,7 +6,7 @@
 using System;
 using System.DirectoryServices.AccountManagement;
 
-namespace Raven.Database.Server.Security
+namespace Raven35.Database.Server.Security
 {
     public static class AccountVerifier
     {

@@ -6,13 +6,13 @@
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Indexes.Recovery
+namespace Raven35.Tests.Indexes.Recovery
 {
     public class MapReduceIndexRecoveryTests : RavenTest
     {

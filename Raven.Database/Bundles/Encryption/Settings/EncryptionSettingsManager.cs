@@ -4,16 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Json.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Database.Common;
-using Raven.Database.FileSystem;
-using Raven.Database.Server.Abstractions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Database.Common;
+using Raven35.Database.FileSystem;
+using Raven35.Database.Server.Abstractions;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Encryption.Settings
+namespace Raven35.Database.Bundles.Encryption.Settings
 {
     internal static class EncryptionSettingsManager
     {

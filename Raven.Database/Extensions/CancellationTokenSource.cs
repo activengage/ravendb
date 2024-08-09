@@ -7,7 +7,7 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class CancellationTokenSourceExtensions
     {

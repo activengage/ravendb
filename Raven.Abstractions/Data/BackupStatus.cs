@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class BackupStatus
     {
@@ -17,7 +17,7 @@ namespace Raven.Abstractions.Data
             Error
         }
 
-        public const string RavenBackupStatusDocumentKey = "Raven/Backup/Status";
+        public const string RavenBackupStatusDocumentKey = "Raven35.Backup/Status";
 
         public BackupStatus()
         {

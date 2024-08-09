@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Tests.Common
+namespace Raven35.Tests.Common
 {
     public abstract class NoDisposalNeeded : IDisposable
     {

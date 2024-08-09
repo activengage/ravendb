@@ -1,7 +1,7 @@
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Bugs.Iulian
+namespace Raven35.Tests.Bugs.Iulian
 {
     using System.Linq;
     using Xunit;

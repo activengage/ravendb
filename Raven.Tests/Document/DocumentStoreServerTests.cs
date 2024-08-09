@@ -9,24 +9,24 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Abstractions;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Json.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
-using Raven.Tests.Indexes;
-using Raven.Tests.Spatial;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Json.Linq;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
+using Raven35.Tests.Indexes;
+using Raven35.Tests.Spatial;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class DocumentStoreServerTests : RavenTest
     {

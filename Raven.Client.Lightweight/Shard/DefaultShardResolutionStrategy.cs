@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     public class DefaultShardResolutionStrategy : IShardResolutionStrategy
     {

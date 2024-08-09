@@ -7,19 +7,19 @@ using System.Net.Http;
 
 using Rachis.Transport;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Database.Raft;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Raft.Util;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Database.Raft;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Raft.Util;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Helpers;
 
 using System;
 using System.Collections.Generic;
@@ -29,12 +29,12 @@ using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Channels;
 using System.Threading;
 using Rachis;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Request;
-using Raven.Tests.Common;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Request;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Raft
+namespace Raven35.Tests.Raft
 {
     public class RaftTestBase : RavenTest
     {

@@ -1,18 +1,18 @@
 using System;
 using System.IO;
 using System.Net;
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
-namespace Raven.Tests.MultiGet
+namespace Raven35.Tests.MultiGet
 {
     public class MultiGetBasic : RavenTest
     {

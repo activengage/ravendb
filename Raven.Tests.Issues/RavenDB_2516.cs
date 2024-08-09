@@ -9,22 +9,22 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client.Connection;
-using Raven.Database.Bundles.Replication.Data;
-using Raven.Database.Config;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client.Connection;
+using Raven35.Database.Bundles.Replication.Data;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2516 : ReplicationBase
     {

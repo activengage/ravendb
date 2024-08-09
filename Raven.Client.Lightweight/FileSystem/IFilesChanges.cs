@@ -1,7 +1,7 @@
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Client.Changes;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Client.Changes;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IFilesChanges : IConnectableChanges<IFilesChanges>
     {

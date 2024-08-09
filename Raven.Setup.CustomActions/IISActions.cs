@@ -10,9 +10,9 @@ using System.Threading;
 using System.Windows.Forms;
 using Microsoft.Deployment.WindowsInstaller;
 using Microsoft.Win32;
-using Raven.Setup.CustomActions.Infrastructure.IIS;
+using Raven35.Setup.CustomActions.Infrastructure.IIS;
 
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     using System.Diagnostics;
 

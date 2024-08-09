@@ -1,11 +1,11 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Request;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Request;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
 using System;
 using System.Collections.Generic;
@@ -13,11 +13,11 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.FileSystem.Connection
+namespace Raven35.Client.FileSystem.Connection
 {
     /// <summary>
     /// Replication and failover management on the client side

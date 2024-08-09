@@ -10,21 +10,21 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using Lucene.Net.Documents;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Linq;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Linq;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 using System.Runtime.CompilerServices;
-using Sparrow;
+using Sparrow35;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     internal class AnonymousObjectToLuceneDocumentConverter
     {

@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class ParallelTxDelete : RavenTest
     {

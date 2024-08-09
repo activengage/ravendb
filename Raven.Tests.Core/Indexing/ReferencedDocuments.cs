@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
 using Xunit;
-using Raven.Tests.Core.Utils.Transformers;
+using Raven35.Tests.Core.Utils.Transformers;
 using System.Collections.Generic;
 
-namespace Raven.Tests.Core.Indexing
+namespace Raven35.Tests.Core.Indexing
 {
     public class ReferencedDocuments : RavenCoreTestBase
     {

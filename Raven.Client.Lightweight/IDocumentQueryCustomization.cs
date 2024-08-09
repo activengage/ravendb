@@ -8,11 +8,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Spatial;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Spatial;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Customize the document query

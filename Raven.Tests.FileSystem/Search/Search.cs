@@ -1,12 +1,12 @@
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using Xunit;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class Search : RavenFilesTestWithLogs
     {

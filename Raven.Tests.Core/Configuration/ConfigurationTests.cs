@@ -12,16 +12,16 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Util;
 
 using Xunit;
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
-namespace Raven.Tests.Core.Configuration
+namespace Raven35.Tests.Core.Configuration
 {
     public class ConfigurationTests
     {

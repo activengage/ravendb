@@ -1,6 +1,6 @@
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     public delegate bool AfterStreamExecutedDelegate(ref RavenJObject document);
 }

@@ -6,9 +6,9 @@
 using System;
 using System.ComponentModel;
 using System.Linq;
-using Raven.Database.Linq;
+using Raven35.Database.Linq;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     [CLSCompliant(false)]
     [DisplayName("Compiled/View")]

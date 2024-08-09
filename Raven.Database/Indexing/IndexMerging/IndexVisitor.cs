@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Database.Linq.Ast;
+using Raven35.Database.Linq.Ast;
 
-namespace Raven.Database.Indexing.IndexMerging
+namespace Raven35.Database.Indexing.IndexMerging
 {
     internal class IndexVisitor : DepthFirstAstVisitor
     {

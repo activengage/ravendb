@@ -6,10 +6,10 @@
 using System;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Bundles.SqlReplication;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Bundles.SqlReplication;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     public class SqlReplicationConfigurationRetriever : ConfigurationRetrieverBase<SqlReplicationConnections<SqlReplicationConnections.PredefinedSqlConnectionWithConfigurationOrigin>>
     {

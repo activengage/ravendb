@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Owin.Hosting;
 using Owin;
-using Raven.Database.Config;
-using Raven.Database.Embedded;
-using Raven.Database.Impl;
-using Raven.Database.Server.Security.Windows;
+using Raven35.Database.Config;
+using Raven35.Database.Embedded;
+using Raven35.Database.Impl;
+using Raven35.Database.Server.Security.Windows;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public sealed class OwinHttpServer : IDisposable
     {

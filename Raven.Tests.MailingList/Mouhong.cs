@@ -1,12 +1,12 @@
 using System.Diagnostics;
 using System.Linq;
-using Raven.Client.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Linq;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Mouhong : RavenTest
     {
@@ -110,8 +110,8 @@ namespace Raven.Tests.MailingList
                         i.Letter
                     };
 
-//                Index(x => x.Weight, Raven.Abstractions.Indexing.FieldIndexing.NotAnalyzed);
-                Sort(x => x.Weight, Raven.Abstractions.Indexing.SortOptions.Double);
+//                Index(x => x.Weight, Raven35.Abstractions.Indexing.FieldIndexing.NotAnalyzed);
+                Sort(x => x.Weight, Raven35.Abstractions.Indexing.SortOptions.Double);
             }
         }
     }

@@ -26,7 +26,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Imports.Newtonsoft.Json.Schema
+namespace Raven35.Imports.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

@@ -7,10 +7,10 @@
 
 using System;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Abstractions.Logging
+namespace Raven35.Abstractions.Logging
 {
     public static class LogContext
     {

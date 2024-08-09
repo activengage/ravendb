@@ -4,10 +4,10 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     /// <summary>
     /// Extension to json objects

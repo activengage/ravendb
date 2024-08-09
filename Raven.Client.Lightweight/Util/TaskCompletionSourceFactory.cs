@@ -6,7 +6,7 @@
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     internal static class TaskCompletionSourceFactory
     {

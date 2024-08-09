@@ -13,14 +13,14 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 using Rachis;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Extensions;
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Extensions;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 using Voron;
 
-namespace Raven.Database.JsConsole
+namespace Raven35.Database.JsConsole
 {
     public class AdminJsConsole
     {
@@ -73,11 +73,11 @@ namespace Raven.Database.JsConsole
 #else
                 cfg.AllowDebuggerStatement(false);
 #endif                
-                cfg.AllowClr(typeof(DocumentDatabase).Assembly/*Raven.Database*/, typeof(RavenJObject).Assembly/*Raven.Abstractions*/
-                    ,typeof(Slice).Assembly/*Voron*/,typeof(Sparrow.Memory).Assembly/*Sparrow*/,typeof(RaftEngine).Assembly/*Rachis*/
+                cfg.AllowClr(typeof(DocumentDatabase).Assembly/*Raven35.Database*/, typeof(RavenJObject).Assembly/*Raven35.Abstractions*/
+                    ,typeof(Slice).Assembly/*Voron*/,typeof(Sparrow35.Memory).Assembly/*Sparrow35./,typeof(RaftEngine).Assembly/*Rachis*/
                     ,typeof(Analyzer).Assembly/*Lucene*/, typeof(Term).Assembly/*Lucene*/, typeof(BooleanQuery).Assembly/*Lucene*/);
                 /*bundles are dynamically loaded so we can't reference them unless they are loaded by MEF*/
-                var bundles = AppDomain.CurrentDomain.GetAssemblies().Where(a=>a.FullName.StartsWith("Raven.Bundles."));
+                var bundles = AppDomain.CurrentDomain.GetAssemblies().Where(a=>a.FullName.StartsWith("Raven35.Bundles."));
                 cfg.AllowClr(bundles.ToArray());
                 cfg.LimitRecursion(1024);
                 cfg.MaxStatements(int.MaxValue);

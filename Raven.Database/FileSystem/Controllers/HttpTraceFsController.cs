@@ -1,10 +1,10 @@
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Web.Http;
-using Raven.Database.Server.Connections;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Database.Server.Connections;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.FileSystem.Controllers
+namespace Raven35.Database.FileSystem.Controllers
 {
     public class HttpTraceFsController : BaseFileSystemApiController
     {

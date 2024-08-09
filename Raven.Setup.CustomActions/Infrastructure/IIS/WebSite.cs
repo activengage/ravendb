@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Setup.CustomActions.Infrastructure.IIS
+namespace Raven35.Setup.CustomActions.Infrastructure.IIS
 {
     public class WebSite
     {

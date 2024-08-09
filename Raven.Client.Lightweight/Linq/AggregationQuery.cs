@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     public class AggregationQuery<T> : AggregationQuery
     {

@@ -6,12 +6,12 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
-using Raven.Abstractions.Data;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Triggers
+namespace Raven35.Database.Bundles.Replication.Triggers
 {
     [ExportMetadata("Bundle", "Replication")]
     [ExportMetadata("Order", 10000)]

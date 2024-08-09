@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
     /// <summary>
     /// Data class for replication config document, available on a destination server

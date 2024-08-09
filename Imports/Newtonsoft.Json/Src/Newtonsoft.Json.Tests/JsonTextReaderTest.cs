@@ -42,12 +42,12 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 using System.IO;
 using System.Xml;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests
+namespace Raven35.Imports.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonTextReaderTest : TestFixtureBase

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Server.Security.OAuth
+namespace Raven35.Database.Server.Security.OAuth
 {
-    using Raven.Abstractions.Util.Encryptors;
+    using Raven35.Abstractions.Util.Encryptors;
 
     internal static class OAuthServerHelper
     {

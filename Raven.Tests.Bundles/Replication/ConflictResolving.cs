@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
 using System.Net.Http;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     public class ConflictResolving: ReplicationBase
     {

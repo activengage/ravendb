@@ -44,9 +44,9 @@ using NUnit.Framework;
 #if !(NETFX_CORE || NET20)
 using System.Runtime.Serialization.Json;
 #endif
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.Serialization
+namespace Raven35.Imports.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class WebApiIntegrationTests : TestFixtureBase

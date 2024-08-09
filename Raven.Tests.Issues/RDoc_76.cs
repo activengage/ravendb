@@ -6,13 +6,13 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RDoc_76 : RavenTest
     {
@@ -129,7 +129,7 @@ namespace Raven.Tests.Issues
                 }
             });
 
-            Assert.Equal("Id convention for synchronous operation was not found for entity Raven.Tests.Issues.RDoc_76+Bedroom, but convention for asynchronous operation exists.", exception.Message);
+            Assert.Equal("Id convention for synchronous operation was not found for entity Raven35.Tests.Issues.RDoc_76+Bedroom, but convention for asynchronous operation exists.", exception.Message);
 
             exception = await AssertAsync.Throws<InvalidOperationException>(async () =>
             {
@@ -146,7 +146,7 @@ namespace Raven.Tests.Issues
                 }
             });
 
-            Assert.Equal("Id convention for asynchronous operation was not found for entity Raven.Tests.Issues.RDoc_76+Bedroom, but convention for synchronous operation exists.", exception.Message);
+            Assert.Equal("Id convention for asynchronous operation was not found for entity Raven35.Tests.Issues.RDoc_76+Bedroom, but convention for synchronous operation exists.", exception.Message);
         }
 
         [Fact]

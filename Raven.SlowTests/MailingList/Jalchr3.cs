@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.MailingList
+namespace Raven35.SlowTests.MailingList
 {
     public class Jalchr3 : RavenTest
     {

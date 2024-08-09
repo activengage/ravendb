@@ -6,12 +6,12 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Client.FileSystem;
-using Raven.Database.Extensions;
+using Raven35.Client.FileSystem;
+using Raven35.Database.Extensions;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3955 : RavenFilesTestWithLogs
     {

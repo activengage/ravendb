@@ -1,14 +1,14 @@
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Tests.Bugs.QueryOptimizer;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Bugs.QueryOptimizer;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Querying
+namespace Raven35.Tests.Querying
 {
     public class SkipDuplicates : RavenTest
     {

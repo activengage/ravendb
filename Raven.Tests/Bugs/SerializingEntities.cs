@@ -6,14 +6,14 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Client.Embedded;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Client.Embedded;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class SerializingEntities : RavenTest
     {

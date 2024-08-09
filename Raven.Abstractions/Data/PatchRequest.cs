@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 using System.Linq;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// A patch request for a specified document

@@ -1,10 +1,10 @@
 using System;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues.Ravendb718
+namespace Raven35.Tests.Issues.Ravendb718
 {
     public class DateTime_LoadTests : RavenTest
     {

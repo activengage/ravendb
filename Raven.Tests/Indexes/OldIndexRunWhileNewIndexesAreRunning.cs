@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class OldIndexRunWhileNewIndexesAreRunning : RavenTest
     {

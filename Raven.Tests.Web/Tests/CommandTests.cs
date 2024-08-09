@@ -6,9 +6,9 @@
 
 using System.Threading.Tasks;
 
-using Raven.Tests.Common.Attributes;
+using Raven35.Tests.Common.Attributes;
 
-namespace Raven.Tests.Web.Tests
+namespace Raven35.Tests.Web.Tests
 {
     public class CommandTests : WebTestBase
     {

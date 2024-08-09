@@ -19,9 +19,9 @@ using Rachis.Messages;
 using Rachis.Storage;
 using Rachis.Transport;
 using Rachis.Utils;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Imports.Newtonsoft.Json;
 
 namespace Rachis
 {

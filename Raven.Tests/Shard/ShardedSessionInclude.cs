@@ -4,18 +4,18 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Client;
-using Raven.Client.Shard;
+using Raven35.Client;
+using Raven35.Client.Shard;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Shard
+namespace Raven35.Tests.Shard
 {
     public class ShardedSessionInclude : RavenTest
     {

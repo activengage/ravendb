@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 using System.IO;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     public abstract class AbstractDocumentCodec : IRequiresDocumentDatabaseInitialization

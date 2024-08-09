@@ -6,19 +6,19 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Server;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Server;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {    
     public class RavenDB_1594 : RavenTest
     {
@@ -30,8 +30,8 @@ namespace Raven.SlowTests.Issues
         {
             path = NewDataPath();
             pathsToDelete.Add("~/Databases");
-            Raven.Database.Extensions.IOExtensions.DeleteDirectory(path);
-            var config = new Raven.Database.Config.RavenConfiguration
+            Raven35.Database.Extensions.IOExtensions.DeleteDirectory(path);
+            var config = new Raven35.Database.Config.RavenConfiguration
                             {
                                 Port = 8079,
                                 RunInUnreliableYetFastModeThatIsNotSuitableForProduction = true,

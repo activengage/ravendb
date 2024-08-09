@@ -6,15 +6,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
 
-namespace Raven.Tests.Queries
+namespace Raven35.Tests.Queries
 {   
     public class IntersectionQuery : RavenTest
     {

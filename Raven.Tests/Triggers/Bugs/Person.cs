@@ -1,4 +1,4 @@
-namespace Raven.Tests.Triggers.Bugs
+namespace Raven35.Tests.Triggers.Bugs
 {
     public class Person
     {

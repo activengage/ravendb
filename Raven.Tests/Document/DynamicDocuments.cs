@@ -6,12 +6,12 @@
 using System.Collections.Generic;
 using System.Dynamic;
 using Microsoft.CSharp.RuntimeBinder;
-using Raven.Abstractions.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {        
     public class DynamicDocuments : RavenTest
     {

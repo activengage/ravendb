@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 
-using Raven.Database.FileSystem.Util;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Plugins.Builtins
+namespace Raven35.Database.FileSystem.Plugins.Builtins
 {
     [InheritedExport(typeof(AbstractFileReadTrigger))]
     public class HideDownloadingFileTrigger : AbstractFileReadTrigger

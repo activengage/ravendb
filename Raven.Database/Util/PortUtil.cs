@@ -6,9 +6,9 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Web;
 using System.Xml;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class PortUtil
     {

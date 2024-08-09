@@ -3,11 +3,11 @@ using System.Text.RegularExpressions;
 using Lucene.Net.Analysis;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Indexing;
 using Version = Lucene.Net.Util.Version;
 
-namespace Raven.Database.FileSystem.Search
+namespace Raven35.Database.FileSystem.Search
 {
     public class SimpleFilesQueryParser : QueryParser
     {

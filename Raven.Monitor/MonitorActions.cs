@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     [Flags]
     internal enum MonitorActions

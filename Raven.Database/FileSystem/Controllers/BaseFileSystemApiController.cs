@@ -8,23 +8,23 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Web;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util.Streams;
-using Raven.Database.Common;
-using Raven.Database.FileSystem.Actions;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Notifications;
-using Raven.Database.FileSystem.Search;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.FileSystem.Synchronization.Conflictuality;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util.Streams;
+using Raven35.Database.Common;
+using Raven35.Database.FileSystem.Actions;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Notifications;
+using Raven35.Database.FileSystem.Search;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Synchronization.Conflictuality;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Controllers
+namespace Raven35.Database.FileSystem.Controllers
 {
     public abstract class BaseFileSystemApiController : ResourceApiController<RavenFileSystem, FileSystemsLandlord>
     {
@@ -219,11 +219,11 @@ namespace Raven.Database.FileSystem.Controllers
             public int Start;
         }
 
-        protected Raven.Abstractions.FileSystem.FileSystemInfo GetSourceFileSystemInfo()
+        protected Raven35.Abstractions.FileSystem.FileSystemInfo GetSourceFileSystemInfo()
         {
             var json = GetHeader(SyncingMultipartConstants.SourceFileSystemInfo);
 
-            return RavenJObject.Parse(json).JsonDeserialization<Raven.Abstractions.FileSystem.FileSystemInfo>();
+            return RavenJObject.Parse(json).JsonDeserialization<Raven35.Abstractions.FileSystem.FileSystemInfo>();
         }
 
         protected virtual RavenJObject GetFilteredMetadataFromHeaders(IEnumerable<KeyValuePair<string, IEnumerable<string>>> headers)

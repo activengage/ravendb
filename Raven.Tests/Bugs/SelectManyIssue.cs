@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class SelectManyIssue : RavenTest
     {

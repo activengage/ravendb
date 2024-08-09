@@ -6,13 +6,13 @@
 using System;
 using System.IO;
 using Lucene.Net.Analysis;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
 using Xunit;
 using System.Linq;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class ThrowingAnalyzer : RavenTest
     {

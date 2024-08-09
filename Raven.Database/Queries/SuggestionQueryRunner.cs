@@ -8,16 +8,16 @@ using System.IO;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Database.Actions;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Database.Actions;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 using SpellChecker.Net.Search.Spell;
 using Task = System.Threading.Tasks.Task;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public class SuggestionQueryRunner
     {

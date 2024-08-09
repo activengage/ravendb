@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Raven.Abstractions.TimeSeries;
-using Raven.Database.TimeSeries;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database.TimeSeries;
 using Voron;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesTests : TimeSeriesTest
     {

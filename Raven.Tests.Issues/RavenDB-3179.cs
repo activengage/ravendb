@@ -5,18 +5,18 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using FizzWare.NBuilder.Extensions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Client.Listeners;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
-using Raven.Tests.MailingList;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.MailingList;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3179 :RavenTestBase
     {

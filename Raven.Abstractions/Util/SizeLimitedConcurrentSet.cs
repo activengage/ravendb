@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class SizeLimitedConcurrentSet<T>
     {

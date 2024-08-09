@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public delegate object DynamicGetter(object target);
 

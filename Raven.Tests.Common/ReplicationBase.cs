@@ -11,28 +11,28 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Listeners;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Common.Util;
-using Raven.Tests.Helpers.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Listeners;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Common.Util;
+using Raven35.Tests.Helpers.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Common
+namespace Raven35.Tests.Common
 {
     public abstract class ReplicationBase : RavenTest
     {

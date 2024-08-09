@@ -1,11 +1,11 @@
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3113 : RavenTestBase
     {
@@ -34,7 +34,7 @@ namespace Raven.Tests.Issues
                 store.Initialize();
                 store.DatabaseCommands.GlobalAdmin.CreateDatabase(new DatabaseDocument
                 {
-                    Id = "Raven/Databases/FooDB",
+                    Id = "Raven35.Databases/FooDB",
                     Settings =
                     {
                         { Constants.ActiveBundles, "Versioning"},

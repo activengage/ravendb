@@ -7,20 +7,20 @@ using System;
 using System.Linq;
 using System.Threading;
 using Rachis;
-using Raven.Abstractions;
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Database.Config;
-using Raven.Database.Raft.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Database.Config;
+using Raven35.Database.Raft.Util;
+using Raven35.Json.Linq;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class WithFailovers : RaftTestBase
     {

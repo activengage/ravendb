@@ -1,13 +1,13 @@
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 using System;
 using System.Reflection;
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RavenProjectionGuid : RavenTest
     {

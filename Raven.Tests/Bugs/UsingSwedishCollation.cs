@@ -5,15 +5,15 @@
 //-----------------------------------------------------------------------
 
 using System;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Indexing;
-using Raven.Database.Indexing.Collation.Cultures;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Indexing;
+using Raven35.Database.Indexing.Collation.Cultures;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class UsingSwedishCollation : RavenTest
     {

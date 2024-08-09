@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     public class PluginsStatus
     {

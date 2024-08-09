@@ -1,6 +1,6 @@
 using System.Web.Http;
 
-namespace Raven.Tests.Web
+namespace Raven35.Tests.Web
 {
     public static class WebApiConfig
     {

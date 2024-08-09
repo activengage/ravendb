@@ -6,15 +6,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Arun : RavenTest
     {
@@ -31,7 +31,7 @@ namespace Raven.Tests.MailingList
                     Publisher = "DC",
                     Contributors = new List<Contributor>()
                     {
-                        new Contributor() {Name = "Jack Sparrow"},
+                        new Contributor() {Name = "Jack Sparrow35.},
                         new Contributor() {Name = "Will Smith"},
                         new Contributor() {Name = "Wayne Rooney"}
                     },

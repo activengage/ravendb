@@ -1,15 +1,15 @@
-using Raven.Abstractions;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Bugs.LiveProjections
+namespace Raven35.Tests.Bugs.LiveProjections
 {
     using System;
     using System.Linq;
-    using Raven.Client.Linq;
-    using Raven.Tests.Bugs.LiveProjections.Entities;
-    using Raven.Tests.Bugs.LiveProjections.Indexes;
-    using Raven.Tests.Bugs.LiveProjections.Views;
+    using Raven35.Client.Linq;
+    using Raven35.Tests.Bugs.LiveProjections.Entities;
+    using Raven35.Tests.Bugs.LiveProjections.Indexes;
+    using Raven35.Tests.Bugs.LiveProjections.Views;
     using Xunit;
 
     public class LiveProjectionOnTasks : RavenTest

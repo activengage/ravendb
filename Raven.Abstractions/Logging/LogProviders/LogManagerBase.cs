@@ -2,9 +2,9 @@ using System;
 using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Reflection;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Abstractions.Logging.LogProviders
+namespace Raven35.Abstractions.Logging.LogProviders
 {
     public abstract class LogManagerBase : ILogManager
     {

@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public interface IIndexingStorageActions : IDisposable
     {

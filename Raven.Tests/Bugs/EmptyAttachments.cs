@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class EmptyAttachments : RavenTest
     {
@@ -32,7 +32,7 @@ namespace Raven.Tests.Bugs
 
                 store.SystemDatabase.TransactionalStorage.Batch(accessor =>
                 {
-                    accessor.Attachments.GetAttachmentsAfter(Raven.Abstractions.Data.Etag.Empty, 100, long.MaxValue).ToList();
+                    accessor.Attachments.GetAttachmentsAfter(Raven35.Abstractions.Data.Etag.Empty, 100, long.MaxValue).ToList();
                 });
             }
         }

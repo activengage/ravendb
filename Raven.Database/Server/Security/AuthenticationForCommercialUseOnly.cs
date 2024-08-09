@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Commercial;
-using Raven.Database.Plugins;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Commercial;
+using Raven35.Database.Plugins;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Security
+namespace Raven35.Database.Server.Security
 {
     public class AuthenticationForCommercialUseOnly : IStartupTask
     {

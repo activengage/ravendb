@@ -1,4 +1,4 @@
-namespace Raven.Tests.NestedIndexing
+namespace Raven35.Tests.NestedIndexing
 {
     public class Item
     {

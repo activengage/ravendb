@@ -8,14 +8,14 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Storage.Esent.Schema.Updates
+namespace Raven35.Database.FileSystem.Storage.Esent.Schema.Updates
 {
     public class From04To05 : IFileSystemSchemaUpdate
     {

@@ -10,14 +10,14 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
-using Raven.Client.Document.Batches;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     ///<summary>
     /// Extensions to the linq syntax

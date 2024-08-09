@@ -1,10 +1,10 @@
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using Xunit;
 using System;
 using System.Collections.Generic;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class EmptyValues : UniqueConstraintsTest
     {

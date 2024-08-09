@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 using System.Linq;
 
-namespace Raven.Json.Linq
+namespace Raven35.Json.Linq
 {
     internal class DictionaryWithParentSnapshot : IDictionary<string, RavenJToken>
     {

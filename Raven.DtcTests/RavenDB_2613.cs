@@ -7,11 +7,11 @@
 using System;
 using System.Transactions;
 
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.DtcTests
+namespace Raven35.DtcTests
 {
     public class RavenDB_2613 : RavenTestBase
     {

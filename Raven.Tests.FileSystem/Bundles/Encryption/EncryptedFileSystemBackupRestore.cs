@@ -11,17 +11,17 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.Extensions;
-using Raven.Client.FileSystem;
-using Raven.Database.Extensions;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.Extensions;
+using Raven35.Client.FileSystem;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Bundles.Encryption
+namespace Raven35.Tests.FileSystem.Bundles.Encryption
 {
     public class EncryptedFileSystemBackupRestore : FileSystemEncryptionTest
     {

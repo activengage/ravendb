@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public enum AnonymousUserAccessMode
     {

@@ -1,7 +1,7 @@
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.TransformResults
+namespace Raven35.Tests.Bugs.TransformResults
 {
     public class Answers_ByQuestion : AbstractIndexCreationTask<AnswerVote, AnswerViewItem>
     {
@@ -30,7 +30,7 @@ namespace Raven.Tests.Bugs.TransformResults
                                    DecimalTotal = g.Sum(x => x.DecimalTotal)
                                };
 
-            this.IndexSortOptions.Add(x => x.VoteTotal, Raven.Abstractions.Indexing.SortOptions.Int);
+            this.IndexSortOptions.Add(x => x.VoteTotal, Raven35.Abstractions.Indexing.SortOptions.Int);
         }
     }
 

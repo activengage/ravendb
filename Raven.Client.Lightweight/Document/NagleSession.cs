@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class NagleSession : DocumentSession
     {
@@ -15,7 +15,7 @@ namespace Raven.Client.Document
         }
 
         /// <summary>
-        /// Saves all the changes to the Raven server.
+        /// Saves all the changes to the Raven35.Server.
         /// </summary>
         public override void SaveChanges()
         {

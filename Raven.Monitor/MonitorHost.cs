@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Owin;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     using WebSocketAccept = Action<IDictionary<string, object>, // options
     Func<IDictionary<string, object>, Task>>; // callback

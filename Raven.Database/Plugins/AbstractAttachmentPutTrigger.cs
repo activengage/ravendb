@@ -6,10 +6,10 @@
 using System;
 using System.ComponentModel.Composition;
 using System.IO;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     [Obsolete("Use RavenFS instead.")]

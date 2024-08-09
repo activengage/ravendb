@@ -5,16 +5,16 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class QueryWithReservedCharacters : RavenTest
     {

@@ -7,7 +7,7 @@ using Rachis.Commands;
 using Rachis.Interfaces;
 using Rachis.Messages;
 
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
 namespace Rachis.Tests
 {

@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Raven.Abstractions.Replication;
+using Raven35.Abstractions.Replication;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CounterLoadBalancingTests : RavenBaseCountersTest
     {

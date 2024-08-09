@@ -10,15 +10,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Issues;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Issues;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_1359 : RavenTest
     {

@@ -8,12 +8,12 @@ using System.Collections.Generic;
 using System.Linq;
 using ICSharpCode.NRefactory.CSharp;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.Indexing.IndexMerging
+namespace Raven35.Database.Indexing.IndexMerging
 {
     public class IndexMerger
     {

@@ -4,22 +4,22 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using Rachis.Transport;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Config;
-using Raven.Database.Raft;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Raft.Util;
-using Raven.Database.Server.Security;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.Raft;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Raft.Util;
+using Raven35.Database.Server.Security;
 
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Util;
-using Raven.Client.Document;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document;
 using Xunit;
 
-namespace Raven.Tests.Raft
+namespace Raven35.Tests.Raft
 {
     public class RaftWithAuth : RaftTestBase
     {

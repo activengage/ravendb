@@ -1,10 +1,10 @@
 using System;
 using System.Security.Principal;
 
-using Raven.Database.Common;
-using Raven.Database.Server.Abstractions;
+using Raven35.Database.Common;
+using Raven35.Database.Server.Abstractions;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class WebSocketRequest
     {

@@ -20,31 +20,31 @@ using Lucene.Net.Index;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
 using Lucene.Net.Util;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.MEF;
-using Raven.Abstractions.Util;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.Data;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
-using Raven.Database.Queries;
-using Raven.Database.Storage;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
-using Constants = Raven.Abstractions.Data.Constants;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.MEF;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Database.Queries;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
+using Constants = Raven35.Abstractions.Data.Constants;
 using Directory = Lucene.Net.Store.Directory;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     /// <summary>
     /// 	Thread safe, single instance for the entire application

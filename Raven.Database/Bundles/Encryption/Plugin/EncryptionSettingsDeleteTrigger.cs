@@ -1,8 +1,8 @@
 using System.ComponentModel.Composition;
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
 
-namespace Raven.Bundles.Encryption.Plugin
+namespace Raven35.Bundles.Encryption.Plugin
 {
     [InheritedExport(typeof(AbstractDeleteTrigger))]
     [ExportMetadata("Order", 10000)]

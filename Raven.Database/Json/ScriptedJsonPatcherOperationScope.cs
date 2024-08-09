@@ -10,10 +10,10 @@ using System.Linq;
 using Jint;
 using Jint.Native;
 
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     internal abstract class ScriptedJsonPatcherOperationScope : JintOperationScope
     {

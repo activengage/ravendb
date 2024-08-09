@@ -10,8 +10,8 @@
     <ProjectGuid>{4E087ECB-E7CA-4891-AC3C-3C76702715B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Client</RootNamespace>
-    <AssemblyName>Raven.Client.Lightweight</AssemblyName>
+    <RootNamespace>Raven35.Client</RootNamespace>
+    <AssemblyName>Raven35.Client.Lightweight</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>

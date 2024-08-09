@@ -3,18 +3,18 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 using Xunit;
 
-namespace Raven.Tests.Core.Querying
+namespace Raven35.Tests.Core.Querying
 {
     public class Searching : RavenCoreTestBase
     {

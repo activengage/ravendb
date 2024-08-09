@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Client.Changes;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Client.Changes;
 
-namespace Raven.Client.Counters.Changes
+namespace Raven35.Client.Counters.Changes
 {
     public interface ICountersChanges : IConnectableChanges<ICountersChanges>
     {

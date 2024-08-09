@@ -1,15 +1,15 @@
-﻿using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Client.UniqueConstraints;
+﻿using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Client.UniqueConstraints;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     class MyCustomDocumentSession : IDocumentSession
     {

@@ -7,7 +7,7 @@ using Lucene.Net.Index;
 using Lucene.Net.Search;
 using System.Linq;
 
-namespace Raven.Database.Indexing.LuceneIntegration
+namespace Raven35.Database.Indexing.LuceneIntegration
 {
     public interface IRavenLuceneMethodQuery
     {

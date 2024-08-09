@@ -6,11 +6,11 @@
 extern alias client;
 using System;
 
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Connection;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization
+namespace Raven35.Tests.Bundles.Authorization
 {
     public class Writing : AuthorizationTest
     {
@@ -23,7 +23,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = UserId,
                     Name = "Ayende Rahien",
@@ -31,14 +31,14 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization());// deny everyone
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization());// deny everyone
 
                 s.SaveChanges();
             }
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Rename");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Rename");
                 company.Name = "Stampeding Rhinos";
                 s.Store(company);
 
@@ -46,7 +46,7 @@ namespace Raven.Tests.Bundles.Authorization
 
                 Assert.Contains("OperationVetoedException", e.Message);
                 Assert.Contains("PUT vetoed on document companies/1", e.Message);
-                Assert.Contains("Raven.Bundles.Authorization.Triggers.AuthorizationPutTrigger", e.Message);
+                Assert.Contains("Raven35.Bundles.Authorization.Triggers.AuthorizationPutTrigger", e.Message);
                 Assert.Contains("Could not find any permissions for operation: Company/Rename on companies/1 for user Authorization/Users/Ayende", e.Message);
             }
         }
@@ -60,7 +60,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = UserId,
                     Name = "Ayende Rahien",
@@ -68,11 +68,11 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 Allow = true,
                                 User = UserId,
@@ -86,7 +86,7 @@ namespace Raven.Tests.Bundles.Authorization
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Rename");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Rename");
                 s.Load<Company>(company.Id).Name = "Stampeding Rhinos";
 
             
@@ -103,7 +103,7 @@ namespace Raven.Tests.Bundles.Authorization
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = UserId.ToUpper(),
                     Name = "Ayende Rahien",
@@ -111,11 +111,11 @@ namespace Raven.Tests.Bundles.Authorization
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 Allow = true,
                                 User = UserId.ToUpper(),
@@ -129,7 +129,7 @@ namespace Raven.Tests.Bundles.Authorization
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId.ToLower(), "Company/Rename");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId.ToLower(), "Company/Rename");
                 s.Load<Company>(company.Id).Name = "Stampeding Rhinos";
 
                 Assert.DoesNotThrow(() =>  s.SaveChanges());

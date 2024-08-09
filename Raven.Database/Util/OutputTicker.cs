@@ -6,7 +6,7 @@
 using System;
 using System.Timers;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class OutputTicker : IDisposable
     {

@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     internal class ListenableStream : Stream
     {

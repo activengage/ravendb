@@ -1,5 +1,5 @@
 using System.Reflection;
-using Raven.Tests.Common.Attributes;
+using Raven35.Tests.Common.Attributes;
 
 [assembly: EnsureTestCleanup]
 [assembly: PerTestLogger]

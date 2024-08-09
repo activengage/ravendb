@@ -1,10 +1,10 @@
 
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
 
-namespace Raven.Client.Bundles.Versioning
+namespace Raven35.Client.Bundles.Versioning
 {
     public static class VersioningExtensions
     {

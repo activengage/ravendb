@@ -8,7 +8,7 @@ using System.Configuration.Install;
 using System.Diagnostics;
 using System.ServiceProcess;
 
-namespace Raven.Server
+namespace Raven35.Server
 {
     [RunInstaller(true)]
     public partial class ProjectInstaller : Installer

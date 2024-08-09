@@ -25,7 +25,7 @@
 
 using System.Collections;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
 #if !(NETFX_CORE || DNXCORE50)
     public class TypedSubHashtable

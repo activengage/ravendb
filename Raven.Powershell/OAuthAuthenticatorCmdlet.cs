@@ -4,9 +4,9 @@ using System.Management.Automation;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.OAuth;
+using Raven35.Abstractions.OAuth;
 
-namespace Raven.Powershell
+namespace Raven35.Powershell
 {
     [Cmdlet(VerbsLifecycle.Request, "OAuthToken")]
     [OutputType(typeof(string))]

@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Util;
 
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class DocumentsConnectionState
     {

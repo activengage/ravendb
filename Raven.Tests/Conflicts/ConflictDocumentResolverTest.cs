@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FizzWare.NBuilder.Extensions;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Conflicts
+namespace Raven35.Tests.Conflicts
 {
     public class ConflictDocumentResolverTest : ReplicationBase
     {

@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Config.Settings
+namespace Raven35.Database.Config.Settings
 {
     internal class BooleanSetting : Setting<bool>
     {

@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     
     public class GatherAllCollector : Collector

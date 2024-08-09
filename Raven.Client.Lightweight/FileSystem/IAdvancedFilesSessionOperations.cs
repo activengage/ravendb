@@ -1,6 +1,6 @@
-using Raven.Abstractions.Exceptions;
+using Raven35.Abstractions.Exceptions;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IAdvancedFilesSessionOperations
     {

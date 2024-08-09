@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading;
-using Raven.Abstractions.Logging;
-using Sparrow.Collections;
+using Raven35.Abstractions.Logging;
+using Sparrow35.Collections;
 
-namespace Raven.Abstractions.Util.MiniMetrics
+namespace Raven35.Abstractions.Util.MiniMetrics
 {
     /// <summary>
     /// Utility class to schedule an Action to be executed repeatedly according to the interval.

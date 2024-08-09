@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Mono.CSharp;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Linq;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Linq;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class CurrentIndexingScope : IDisposable
     {

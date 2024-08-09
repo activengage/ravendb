@@ -6,12 +6,12 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Client.Spatial;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Client.Spatial;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     /// <summary>
     /// An implementation of <see cref="IOrderedQueryable{T}"/> with Raven specific operation

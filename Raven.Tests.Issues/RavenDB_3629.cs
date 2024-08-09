@@ -1,10 +1,10 @@
 using System.Linq;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3629 : ReplicationBase
     {

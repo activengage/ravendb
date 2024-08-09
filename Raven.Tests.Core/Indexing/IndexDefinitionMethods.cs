@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
 using Xunit;
 
-namespace Raven.Tests.Core.Indexing
+namespace Raven35.Tests.Core.Indexing
 {
     public class IndexDefinitionMethods : RavenCoreTestBase
     {

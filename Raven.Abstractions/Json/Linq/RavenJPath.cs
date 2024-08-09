@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Raven.Json.Utilities;
+using Raven35.Json.Utilities;
 
-namespace Raven.Json.Linq
+namespace Raven35.Json.Linq
 {
     public class RavenJPath
     {

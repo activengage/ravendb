@@ -1,11 +1,11 @@
 ﻿using System;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto.Faceted;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class ReplicationHiloReset : ReplicationBase
     {

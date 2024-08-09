@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndexingWorkStats
     {

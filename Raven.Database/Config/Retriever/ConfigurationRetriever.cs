@@ -8,15 +8,15 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Commercial;
-using Raven.Database.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Commercial;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
 using System.Linq;
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     public class ConfigurationRetriever : IDisposable
     {

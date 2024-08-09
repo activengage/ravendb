@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Helpers;
 using Xunit;
-using TransactionInformation = Raven.Abstractions.Data.TransactionInformation;
+using TransactionInformation = Raven35.Abstractions.Data.TransactionInformation;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2334 : RavenTestBase
     {

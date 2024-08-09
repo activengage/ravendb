@@ -7,21 +7,21 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Indexes.Recovery
+namespace Raven35.Tests.Indexes.Recovery
 {
     using Client.Connection;
     using Imports.Newtonsoft.Json.Linq;
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Extensions;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Extensions;
+    using Raven35.Json.Linq;
 
     public class MapIndexRecoveryTests : RavenTest
     {

@@ -1,9 +1,9 @@
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     namespace First
     {
@@ -22,7 +22,7 @@ namespace Raven.Tests.Bugs
             {
                 store.DatabaseCommands.Put("alphas/1", null, RavenJObject.Parse("{ 'Foo': 'Bar'}"),
                                            RavenJObject.Parse(
-                                               "{'Raven-Clr-Type': 'Raven.Tests.Bugs.Second.Alpha', 'Raven-Entity-Name': 'Alphas' }"));
+                                               "{'Raven-Clr-Type': 'Raven35.Tests.Bugs.Second.Alpha', 'Raven-Entity-Name': 'Alphas' }"));
 
                 using (var session = store.OpenSession())
                 {

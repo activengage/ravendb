@@ -3,14 +3,14 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.Caching;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
-using Raven.Database.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Impl
+namespace Raven35.Database.Impl
 {
     public class DocumentCacher : IDocumentCacher, ILowMemoryHandler
     {

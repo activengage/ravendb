@@ -8,9 +8,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-using Raven.Abstractions.Util.Encryptors;
+using Raven35.Abstractions.Util.Encryptors;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndexingUtil
     {

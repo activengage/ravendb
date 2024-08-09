@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Plugins;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Tasks
+namespace Raven35.Database.Tasks
 {
     public class CleanupTestIndexesTask : IStartupTask, IDisposable
     {

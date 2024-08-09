@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Database.FileSystem.Storage.Exceptions
+namespace Raven35.Database.FileSystem.Storage.Exceptions
 {
     [Serializable]
     public class FileExistsException : Exception

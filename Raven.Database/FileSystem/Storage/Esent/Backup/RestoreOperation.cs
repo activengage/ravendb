@@ -8,13 +8,13 @@ using System.IO;
 
 using Microsoft.Isam.Esent.Interop;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
 
 using System.Linq;
 
-namespace Raven.Database.FileSystem.Storage.Esent.Backup
+namespace Raven35.Database.FileSystem.Storage.Esent.Backup
 {
     internal class RestoreOperation : BaseRestoreOperation
     {
@@ -50,7 +50,7 @@ namespace Raven.Database.FileSystem.Storage.Esent.Backup
 
             bool hideTerminationException = false;
             JET_INSTANCE instance;
-            Raven.Storage.Esent.TransactionalStorage.CreateInstance(out instance, "restoring " + Guid.NewGuid());
+            Raven35.Storage.Esent.TransactionalStorage.CreateInstance(out instance, "restoring " + Guid.NewGuid());
             try
             {
                 Configuration.Storage.Esent.JournalsStoragePath = journalLocation;
@@ -61,7 +61,7 @@ namespace Raven.Database.FileSystem.Storage.Esent.Backup
                         Path.Combine(
                             new DirectoryInfo(databaseLocation).Parent.FullName, new DirectoryInfo(databaseLocation).Name + "Data"));
 
-                Raven.Storage.Esent.TransactionalStorage.DisableIndexChecking(instance);
+                Raven35.Storage.Esent.TransactionalStorage.DisableIndexChecking(instance);
 
                 if (fileThatGetsCreatedButDoesntSeemLikeItShould.Exists)
                 {

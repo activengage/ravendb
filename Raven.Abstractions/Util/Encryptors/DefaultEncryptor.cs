@@ -7,9 +7,9 @@ using System;
 using System.IO;
 using System.Security.Cryptography;
 
-using Sparrow;
+using Sparrow35;
 
-namespace Raven.Abstractions.Util.Encryptors
+namespace Raven35.Abstractions.Util.Encryptors
 {
     public sealed class DefaultEncryptor : EncryptorBase<DefaultEncryptor.DefaultHashEncryptor, FipsEncryptor.FipsSymmetricalEncryptor, FipsEncryptor.FipsAsymmetricalEncryptor>
     {

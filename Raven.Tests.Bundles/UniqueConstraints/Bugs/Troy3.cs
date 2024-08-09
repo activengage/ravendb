@@ -1,11 +1,11 @@
 using System;
 
-using Raven.Client.Document;
-using Raven.Client.UniqueConstraints;
+using Raven35.Client.Document;
+using Raven35.Client.UniqueConstraints;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class Troy3 : UniqueConstraintsTest
     {

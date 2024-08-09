@@ -6,7 +6,7 @@
 using System.Collections.Generic;
 using System.Dynamic;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class CustomDynamicClass : DynamicObject
     {

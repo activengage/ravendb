@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Tests.Indexes.Recovery
+namespace Raven35.Tests.Indexes.Recovery
 {
     public class Recovery
     {

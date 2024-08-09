@@ -3,15 +3,15 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Extensions;
-using Raven.Database.Config;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Extensions;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Issues.RavenDB_2712
+namespace Raven35.Tests.Issues.RavenDB_2712
 {
     public class RavenDB_2712_Quotas : GlobalConfigurationTest
     {

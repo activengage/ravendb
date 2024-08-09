@@ -4,15 +4,15 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Json.Linq;
-using Raven.Database.Storage;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Database.Storage;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 using System.Threading;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class MappedResults : RavenTest
     {

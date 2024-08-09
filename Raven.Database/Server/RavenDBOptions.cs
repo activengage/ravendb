@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Threading;
 using Lucene.Net.Search;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
-using Raven.Database.DiskIO;
-using Raven.Database.Plugins;
-using Raven.Database.Raft;
-using Raven.Database.Server.Connections;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.Tenancy;
-using Raven.Database.Server.WebApi;
-using Raven.Database.Storage.Esent;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
+using Raven35.Database.DiskIO;
+using Raven35.Database.Plugins;
+using Raven35.Database.Raft;
+using Raven35.Database.Server.Connections;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Database.Server.WebApi;
+using Raven35.Database.Storage.Esent;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public sealed class RavenDBOptions : IDisposable
     {

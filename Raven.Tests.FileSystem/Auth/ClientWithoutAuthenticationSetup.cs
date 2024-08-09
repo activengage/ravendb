@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using Xunit;
-using Raven.Client.FileSystem;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.Extensions;
+using Raven35.Client.FileSystem;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.Extensions;
 
-namespace Raven.Tests.FileSystem.Auth
+namespace Raven35.Tests.FileSystem.Auth
 {
     public class ClientWithoutAuthenticationSetup : RavenFilesTestWithLogs
     {

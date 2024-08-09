@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Shard;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Shard;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3420 : RavenTestBase
     {

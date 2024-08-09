@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.Storage.Voron.Impl
+namespace Raven35.Database.Storage.Voron.Impl
 {
     public class Tables
     {

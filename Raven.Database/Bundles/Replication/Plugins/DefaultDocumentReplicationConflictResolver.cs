@@ -1,13 +1,13 @@
-namespace Raven.Database.Bundles.Replication.Plugins
+namespace Raven35.Database.Bundles.Replication.Plugins
 {
     using System;
     using System.ComponentModel.Composition;
     using System.Linq;
 
     using Abstractions.Data;
-    using Raven.Bundles.Replication.Plugins;
+    using Raven35.Bundles.Replication.Plugins;
     using Impl;
-    using Raven.Json.Linq;
+    using Raven35.Json.Linq;
 
     [ExportMetadata("Bundle", "Replication")]
     [InheritedExport(typeof(AbstractDocumentReplicationConflictResolver))]

@@ -2,16 +2,16 @@ using System;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Exceptions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Exceptions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     internal class MultiGetOperation
     {

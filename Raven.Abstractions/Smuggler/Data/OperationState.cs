@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.Smuggler.Data
+namespace Raven35.Abstractions.Smuggler.Data
 {
     public class OperationState : LastEtagsInfo
     {

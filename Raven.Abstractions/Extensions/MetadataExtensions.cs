@@ -9,12 +9,12 @@ using System.Collections.Specialized;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using System.Net.Http;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     /// <summary>
     /// Extensions for handling metadata
@@ -26,7 +26,7 @@ namespace Raven.Abstractions.Extensions
             // Raven internal headers
             Constants.SerializedSizeOnDisk,
             Constants.RavenServerBuild,
-            "Raven-Client-Version",
+            "Raven35.Client-Version",
             "Non-Authoritative-Information",
             "Raven-Timer-Request",
             "Raven-Authenticated-User",

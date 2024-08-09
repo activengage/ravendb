@@ -12,7 +12,7 @@ using System.Text;
 using Expression = System.Linq.Expressions.Expression;
 using LambdaExpression = System.Linq.Expressions.LambdaExpression;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     ///<summary>
     /// Extensions for Linq expressions

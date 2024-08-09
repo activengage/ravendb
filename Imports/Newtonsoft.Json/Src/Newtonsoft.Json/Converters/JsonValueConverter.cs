@@ -29,10 +29,10 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Security;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using Windows.Data.Json;
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="IJsonValue"/> to and from JSON.

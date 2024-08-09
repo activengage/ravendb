@@ -10,14 +10,14 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Bundles.Replication.Tasks;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Bundles.Replication.Tasks;
 using Raven.Imports.metrics;
 using Raven.Imports.metrics.Core;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     [CLSCompliant(false)]
     public class MetricsCountersManager : IDisposable

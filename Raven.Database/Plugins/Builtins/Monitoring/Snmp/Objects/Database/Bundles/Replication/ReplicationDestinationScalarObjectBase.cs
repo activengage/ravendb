@@ -7,11 +7,11 @@ using System.Linq;
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client.Connection;
-using Raven.Database.Server.Tenancy;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client.Connection;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Bundles.Replication
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Bundles.Replication
 {
     public abstract class ReplicationDestinationScalarObjectBase<TData> : DatabaseBundleScalarObjectBase<TData>
         where TData : ISnmpData

@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Util.Streams;
-using Raven.Database.Util.Streams;
+using Raven35.Abstractions.Util.Streams;
+using Raven35.Database.Util.Streams;
 
-namespace Raven.Database.Storage.Voron.Impl
+namespace Raven35.Database.Storage.Voron.Impl
 {
     internal class Index : TableBase
     {

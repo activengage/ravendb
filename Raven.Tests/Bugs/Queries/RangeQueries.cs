@@ -1,14 +1,14 @@
 using System;
 using System.Collections;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Collections.Generic;
-using Raven.Database.Indexing;
+using Raven35.Database.Indexing;
 
-namespace Raven.Tests.Bugs.Queries
+namespace Raven35.Tests.Bugs.Queries
 {
     public class RangeQueries : RavenTest
     {

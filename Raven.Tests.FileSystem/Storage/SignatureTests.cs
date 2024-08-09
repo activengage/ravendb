@@ -10,7 +10,7 @@ using System.Text;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Storage
+namespace Raven35.Tests.FileSystem.Storage
 {
     public class SignatureTests : StorageAccessorTestBase
     {

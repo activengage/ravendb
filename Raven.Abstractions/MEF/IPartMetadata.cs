@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Raven.Abstractions.MEF
+namespace Raven35.Abstractions.MEF
 {
     public interface IPartMetadata
     {

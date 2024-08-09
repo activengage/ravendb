@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Net.Http;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public static class HttpMethods
     {

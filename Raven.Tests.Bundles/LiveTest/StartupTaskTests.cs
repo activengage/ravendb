@@ -9,18 +9,18 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Bundles.LiveTest;
-using Raven.Client.Embedded;
-using Raven.Client.Extensions;
-using Raven.Client.FileSystem;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Bundles.LiveTest;
+using Raven35.Client.Embedded;
+using Raven35.Client.Extensions;
+using Raven35.Client.FileSystem;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.LiveTest
+namespace Raven35.Tests.Bundles.LiveTest
 {
     public class StartupTaskTests : RavenTest
     {

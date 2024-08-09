@@ -4,18 +4,18 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Smuggler;
-using Raven.Bundles.Versioning.Data;
-using Raven.Client.FileSystem.Bundles.Versioning;
-using Raven.Database.FileSystem.Bundles.Versioning;
-using Raven.Smuggler;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Client.FileSystem.Bundles.Versioning;
+using Raven35.Database.FileSystem.Bundles.Versioning;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     //public class RavenDB_5584: RavenFilesTestBase
     //{

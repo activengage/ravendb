@@ -8,15 +8,15 @@ using System;
 using System.IO;
 using System.Linq;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Plugins.Builtins
+namespace Raven35.Database.Plugins.Builtins
 {
     public class CheckIncrementalBackupStatus : IServerStartupTask
     {
@@ -42,7 +42,7 @@ namespace Raven.Database.Plugins.Builtins
 
             int nextStart = 0;
             var databases = systemDatabase.Documents
-                .GetDocumentsWithIdStartingWith("Raven/Databases/", null, null, 0, int.MaxValue, systemDatabase.WorkContext.CancellationToken, ref nextStart);
+                .GetDocumentsWithIdStartingWith("Raven35.Databases/", null, null, 0, int.MaxValue, systemDatabase.WorkContext.CancellationToken, ref nextStart);
 
             foreach (var database in databases)
             {
@@ -60,7 +60,7 @@ namespace Raven.Database.Plugins.Builtins
                 }
                 if (!IsIncrementalBackupIsAllowed(databaseLandLord,db)) continue;
 
-                var dbStatusKey =  "Raven/BackupStatus/" + dbName;
+                var dbStatusKey =  "Raven35.BackupStatus/" + dbName;
 
                 var incrementalBackupStatus = systemDatabase.Documents.Get(dbStatusKey, null);
                 if (incrementalBackupStatus == null) continue;
@@ -104,7 +104,7 @@ namespace Raven.Database.Plugins.Builtins
             }
             else
             {
-                fileName = Path.Combine(folder, "Raven.voron");
+                fileName = Path.Combine(folder, "Raven35.Voron");
                 if (File.Exists(fileName))
                 {
                     fi = new FileInfo(fileName);
@@ -118,7 +118,7 @@ namespace Raven.Database.Plugins.Builtins
         private static bool IsIncrementalBackupIsAllowed(DatabasesLandlord databaseLandlord,DatabaseDocument dbDoc)
         {
             // check if DatabaseDocument contains either of the incremental flags
-            bool isVoronIncrementalBackup = dbDoc.Settings.ContainsKey("Raven/Voron/AllowIncrementalBackups");
+            bool isVoronIncrementalBackup = dbDoc.Settings.ContainsKey("Raven35.Voron/AllowIncrementalBackups");
             bool isEsentCircularLog = dbDoc.Settings.ContainsKey("Raven/Esent/CircularLog");
             if ( isVoronIncrementalBackup || isEsentCircularLog)
             {
@@ -127,13 +127,13 @@ namespace Raven.Database.Plugins.Builtins
                     return (isEsentCircularLog) ? false : true;
 
                 }
-                else if (isVoronIncrementalBackup && bool.TryParse(dbDoc.Settings["Raven/Voron/AllowIncrementalBackups"], out isVoronIncrementalBackup))
+                else if (isVoronIncrementalBackup && bool.TryParse(dbDoc.Settings["Raven35.Voron/AllowIncrementalBackups"], out isVoronIncrementalBackup))
                 {
                     return isVoronIncrementalBackup;
                 }
             }
             // if not check if system configuration has one of the incremental flags up.
-            string isVoronIncrementalBackupStr = databaseLandlord.SystemConfiguration.Settings["Raven/Voron/AllowIncrementalBackups"];
+            string isVoronIncrementalBackupStr = databaseLandlord.SystemConfiguration.Settings["Raven35.Voron/AllowIncrementalBackups"];
             string isEsentCircularLogStr = databaseLandlord.SystemConfiguration.Settings["Raven/Esent/CircularLog"];
             if (isVoronIncrementalBackupStr != null || isEsentCircularLogStr != null)
             {

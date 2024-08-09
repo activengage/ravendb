@@ -24,9 +24,9 @@
 #endregion
 
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json.Tests.TestObjects;
+using Raven35.Imports.Newtonsoft.Json.Tests.TestObjects;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class DictionaryInterfaceClass
     {

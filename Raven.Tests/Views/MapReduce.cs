@@ -4,18 +4,18 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Threading;
-using Raven.Client.Embedded;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Json.Linq;
-using Raven.Database;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Json.Linq;
+using Raven35.Database;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Views
+namespace Raven35.Tests.Views
 {
     public class MapReduce : RavenTest
     {

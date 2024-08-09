@@ -1,10 +1,10 @@
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Config;
-using Raven.Tests.Bundles.Versioning;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Config;
+using Raven35.Tests.Bundles.Versioning;
 using Xunit;
 
-namespace Raven.Tests.Bundles.Encryption
+namespace Raven35.Tests.Bundles.Encryption
 {
     public class WithoutEncryption : Encryption
     {

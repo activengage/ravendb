@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Database.Storage.Voron.Impl;
+using Raven35.Database.Storage.Voron.Impl;
 
 using Voron;
 using Voron.Impl;
 using System.Text;
 
-namespace Raven.Database.Storage.Voron.Schema.Updates
+namespace Raven35.Database.Storage.Voron.Schema.Updates
 {
     internal abstract class SchemaUpdateBase : ISchemaUpdate
     {

@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Storage.Bugs
+namespace Raven35.Tests.Storage.Bugs
 {
     using System.Linq;
     using Xunit;

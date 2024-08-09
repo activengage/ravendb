@@ -6,15 +6,15 @@
 using System;
 using System.Linq;
 using System.Security;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class BlockedMethods : IDisposable
     {

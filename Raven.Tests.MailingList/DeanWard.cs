@@ -1,20 +1,20 @@
 using System.ComponentModel.Composition.Hosting;
-using Raven.Database.Plugins;
-using Raven.Tests.Common;
+using Raven35.Database.Plugins;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
-    using Raven.Abstractions.Indexing;
-    using Raven.Client.Indexes;
+    using Raven35.Abstractions.Indexing;
+    using Raven35.Client.Indexes;
 
     public class DeanWard : RavenTest
     {
         public class FilterEverything : AbstractReadTrigger
         {
-            public override ReadVetoResult AllowRead(string key, Raven.Json.Linq.RavenJObject metadata, ReadOperation operation, Raven.Abstractions.Data.TransactionInformation transactionInformation)
+            public override ReadVetoResult AllowRead(string key, Raven35.Json.Linq.RavenJObject metadata, ReadOperation operation, Raven35.Abstractions.Data.TransactionInformation transactionInformation)
             {
                 if (operation == ReadOperation.Query)
                     return ReadVetoResult.Ignore;

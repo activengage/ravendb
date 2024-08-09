@@ -9,7 +9,7 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Documents;
 using System.Linq;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public sealed class RavenPerFieldAnalyzerWrapper : Analyzer
     {

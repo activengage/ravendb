@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public class SmugglerExportIncremental
     {
-        public const string RavenDocumentKey = "Raven/Smuggler/Export/Incremental";
+        public const string RavenDocumentKey = "Raven35.Smuggler/Export/Incremental";
 
         public Dictionary<string, ExportIncremental> ExportIncremental { get; set; }
 

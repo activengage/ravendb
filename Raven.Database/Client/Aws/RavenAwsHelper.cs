@@ -8,7 +8,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Raven.Database.Client.Aws
+namespace Raven35.Database.Client.Aws
 {
     public static class RavenAwsHelper
     {

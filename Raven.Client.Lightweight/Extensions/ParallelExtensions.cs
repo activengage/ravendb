@@ -3,14 +3,14 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Extensions
+namespace Raven35.Client.Extensions
 {
     internal static class ParallelExtensions
     {

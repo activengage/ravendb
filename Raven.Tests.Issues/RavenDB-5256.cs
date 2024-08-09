@@ -6,15 +6,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Shard;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Shard;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_5256 : RavenTest
     {

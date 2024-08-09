@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 using System;
 using Lucene.Net.Documents;
-using Raven.Database.Indexing;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Plugins.Builtins
+namespace Raven35.Database.Plugins.Builtins
 {
     public class SpatialDynamicCompilationExtension : AbstractDynamicCompilationExtension
     {

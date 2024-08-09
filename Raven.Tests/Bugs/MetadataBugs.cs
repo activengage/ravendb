@@ -1,13 +1,13 @@
 using System;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Client.Document;
-using Raven.Tests.Bugs.Identifiers;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Tests.Bugs.Identifiers;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class MetadataBugs : IisExpressTestClient
     {

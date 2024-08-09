@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.ComponentModel.Composition;
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.CascadeDelete
+namespace Raven35.Bundles.CascadeDelete
 {
     [InheritedExport(typeof(AbstractDeleteTrigger))]
     [ExportMetadata("Bundle", "Cascade Delete")]

@@ -1,14 +1,14 @@
 using System;
 using System.Security.Cryptography;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Security.OAuth
+namespace Raven35.Database.Server.Security.OAuth
 {
-    using Raven.Abstractions.Util.Encryptors;
+    using Raven35.Abstractions.Util.Encryptors;
 
     public class AccessToken
     {

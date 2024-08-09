@@ -6,9 +6,9 @@
 using System;
 using System.ComponentModel.Composition;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.FileSystem.Storage.Esent.Schema
+namespace Raven35.Database.FileSystem.Storage.Esent.Schema
 {
     [InheritedExport]
     public interface IFileSystemSchemaUpdate

@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Backup
+namespace Raven35.Backup
 {
     /// <summary>
     /// Class used to determinate is user wants to perform database backup or file system backup.

@@ -20,22 +20,22 @@ using System.Threading.Tasks;
 using System.Runtime.Remoting.Messaging;
 #endif
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Profiling;
-using Raven.Json.Linq;
-using Raven.Abstractions;
-using Raven.Client.Extensions;
-using Raven.Client.Metrics;
-using Raven.Client.Util;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Client.Extensions;
+using Raven35.Client.Metrics;
+using Raven35.Client.Util;
 
-namespace Raven.Client.Connection.Implementation
+namespace Raven35.Client.Connection.Implementation
 {
     /// <summary>
     /// A representation of an HTTP json request to the RavenDB server
@@ -176,7 +176,7 @@ namespace Raven.Client.Connection.Implementation
                     httpClient.DefaultRequestHeaders.AcceptEncoding.Add(new StringWithQualityHeaderValue("gzip"));
             }
 
-            headers.Add("Raven-Client-Version", ClientVersion);
+            headers.Add("Raven35.Client-Version", ClientVersion);
             WriteMetadata(requestParams.Metadata);
             requestParams.UpdateHeaders(headers);
         }
@@ -273,14 +273,14 @@ namespace Raven.Client.Connection.Implementation
         private void AssertServerVersionSupported()
         {
 #if !DNXCORE50
-            if ((CallContext.GetData(Constants.Smuggler.CallContext) as bool?) == true) // allow Raven.Smuggler to work against old servers
+            if ((CallContext.GetData(Constants.Smuggler.CallContext) as bool?) == true) // allow Raven35.Smuggler to work against old servers
                 return;
 #endif
 
             var serverBuildString = ResponseHeaders[Constants.RavenServerBuild];
             int serverBuild;
 
-            // server doesn't return Raven-Server-Build in case of requests failures, thus we firstly check for header presence 
+            // server doesn't return Raven35.Server-Build in case of requests failures, thus we firstly check for header presence 
             if (string.IsNullOrEmpty(serverBuildString) == false && int.TryParse(serverBuildString, out serverBuild))
             {
                 if (serverBuild < MinimumServerVersion && serverBuild != CustomBuildVersion)

@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Util;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Util;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1539 : RavenTestBase
     {

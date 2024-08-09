@@ -1,13 +1,13 @@
 using System;
 using System.Threading;
 
-using Raven.Client.Extensions;
-using Raven.Database.Config;
-using Raven.Tests.Helpers;
+using Raven35.Client.Extensions;
+using Raven35.Database.Config;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_2143 : RavenTestBase
     {

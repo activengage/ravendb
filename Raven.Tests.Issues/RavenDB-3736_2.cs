@@ -1,16 +1,16 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3736_2 : RavenTestBase
     {
@@ -52,14 +52,14 @@ namespace Raven.Tests.Issues
 
 
                     store.DatabaseCommands.ForDatabase("Source")
-                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                         {
                             Exclude = false,
                             Id = "DefaultConfiguration",
                             MaxRevisions = 5
                         }), new RavenJObject());
                     store.DatabaseCommands.ForDatabase("Dest")
-                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                         {
                             Exclude = false,
                             Id = "DefaultConfiguration",
@@ -108,7 +108,7 @@ namespace Raven.Tests.Issues
                         }
                     }));
 
-                    Assert.Contains("PUT vetoed on document worker/1/revisions/1 by Raven.Bundles.Versioning.Triggers.VersioningPutTrigger because: Creating a historical revision is not allowed", e.Message);
+                    Assert.Contains("PUT vetoed on document worker/1/revisions/1 by Raven35.Bundles.Versioning.Triggers.VersioningPutTrigger because: Creating a historical revision is not allowed", e.Message);
 
                 }
             }
@@ -152,14 +152,14 @@ namespace Raven.Tests.Issues
 
 
                     store.DatabaseCommands.ForDatabase("Source")
-                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                         {
                             Exclude = false,
                             Id = "DefaultConfiguration",
                             MaxRevisions = 5
                         }), new RavenJObject());
                     store.DatabaseCommands.ForDatabase("Dest")
-                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                        .Put("Raven/Versioning/DefaultConfiguration", null, RavenJObject.FromObject(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                         {
                             Exclude = false,
                             Id = "DefaultConfiguration",

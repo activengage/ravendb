@@ -3,17 +3,17 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.TimeSeries;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.TimeSeries;
-using Raven.Database.TimeSeries.Backup;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Tests.Helpers.Util;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.TimeSeries;
+using Raven35.Database.TimeSeries.Backup;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Tests.Helpers.Util;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class BackupRestoreTests : IDisposable
     {

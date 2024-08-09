@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     [Obsolete("Use RavenFS instead.")]
     public class AttachmentForIndexing 

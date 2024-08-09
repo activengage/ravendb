@@ -7,14 +7,14 @@ using System;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Util;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Util;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_7412 : RavenFilesTestBase
     {

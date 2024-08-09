@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Lucene.Net.Analysis;
 using Lucene.Net.Documents;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public interface IIndexExtension : IDisposable
     {

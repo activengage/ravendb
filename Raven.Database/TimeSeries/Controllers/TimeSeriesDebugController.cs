@@ -4,12 +4,12 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Util;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.TimeSeries.Controllers
+namespace Raven35.Database.TimeSeries.Controllers
 {
     [RoutePrefix("ts/debug")]
     public class TimeSeriesDebugController : BaseDatabaseApiController

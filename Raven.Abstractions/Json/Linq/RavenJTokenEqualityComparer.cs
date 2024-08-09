@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Json.Linq
+namespace Raven35.Abstractions.Json.Linq
 {
     /// <summary>
     /// Compares tokens to determine whether they are equal.

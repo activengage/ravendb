@@ -7,7 +7,7 @@ using System;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 
-namespace Raven.Database.Indexing.Sorting.Custom
+namespace Raven35.Database.Indexing.Sorting.Custom
 {
     public class CustomSortFieldCompartor : FieldComparator
     {

@@ -5,15 +5,15 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Smuggler;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Smuggler
+namespace Raven35.Tests.FileSystem.Smuggler
 {
     public class SmugglingConfigurations_RavenDB_3347 : RavenFilesTestBase
     {

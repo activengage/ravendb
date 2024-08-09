@@ -1,6 +1,6 @@
-﻿using Raven.Imports.Newtonsoft.Json;
+﻿using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Util.MiniMetrics
+namespace Raven35.Abstractions.Util.MiniMetrics
 {
     /// <summary>
     /// The value reported by a Meter Tickable

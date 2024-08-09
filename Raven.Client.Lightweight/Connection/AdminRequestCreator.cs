@@ -9,14 +9,14 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class AdminRequestCreator
     {
@@ -36,7 +36,7 @@ namespace Raven.Client.Connection
         {
             if (databaseDocument.Settings.ContainsKey("Raven/DataDir") == false)
                 throw new InvalidOperationException("The Raven/DataDir setting is mandatory");
-            var dbname = databaseDocument.Id.Replace("Raven/Databases/", "");
+            var dbname = databaseDocument.Id.Replace("Raven35.Databases/", "");
             MultiDatabase.AssertValidName(dbname);
             doc = RavenJObject.FromObject(databaseDocument);
             doc.Remove("Id");

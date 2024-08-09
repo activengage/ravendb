@@ -1,15 +1,15 @@
 using System.Linq;
 using System.Threading;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.Bugs.TransformResults
+namespace Raven35.Tests.Bugs.TransformResults
 {
     public class SortHintTester : RavenTest
     {

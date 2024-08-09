@@ -1,18 +1,18 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Holt : RavenTest
     {

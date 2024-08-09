@@ -8,10 +8,10 @@ using System.Collections.Concurrent;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.Connection.Request
+namespace Raven35.Client.Connection.Request
 {
     public class FailureTimeSeries
     {

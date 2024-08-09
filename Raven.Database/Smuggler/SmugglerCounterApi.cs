@@ -1,16 +1,16 @@
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Client.Counters;
-using Raven.Database.Counters;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Client.Counters;
+using Raven35.Database.Counters;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using System;
 using System.Diagnostics;
 using System.Globalization;
@@ -19,7 +19,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     public class SmugglerCounterApi : ISmugglerApi<CounterConnectionStringOptions, SmugglerCounterOptions, CounterOperationState>
     {

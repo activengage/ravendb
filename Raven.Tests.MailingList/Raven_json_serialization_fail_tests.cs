@@ -1,11 +1,11 @@
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
-    public class Raven_json_serialization_fail_tests : RavenTest
+    public class Raven35.Json_serialization_fail_tests : RavenTest
     {
         [JsonObject(IsReference = true)]
         public class Contract

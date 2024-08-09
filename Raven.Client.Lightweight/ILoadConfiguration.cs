@@ -1,8 +1,8 @@
 using System;
 
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     public interface ILoadConfiguration
     {

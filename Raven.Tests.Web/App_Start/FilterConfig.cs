@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace Raven.Tests.Web
+namespace Raven35.Tests.Web
 {
     public class FilterConfig
     {

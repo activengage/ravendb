@@ -4,9 +4,9 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Server.Abstractions
+namespace Raven35.Database.Server.Abstractions
 {
     public static class UrlExtension
     {

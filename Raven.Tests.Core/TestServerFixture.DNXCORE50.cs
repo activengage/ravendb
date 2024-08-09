@@ -1,8 +1,8 @@
 ﻿#if DNXCORE50
-using Raven.Abstractions.Connection;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,12 +10,12 @@ using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Raven.Tests.Core
+namespace Raven35.Tests.Core
 {
     public class TestServerFixture : IDisposable
     {
         public const int Port = 8070;
-        public const string ServerName = "Raven.Tests.Core.Server";
+        public const string ServerName = "Raven35.Tests.Core.Server";
 
         public IDocumentStore DocumentStore { get; private set; }
 
@@ -49,7 +49,7 @@ namespace Raven.Tests.Core
                 RunInMemory = true,
                 Settings =
                 {
-                    { "Raven/ServerName", ServerName }
+                    { "Raven35.ServerName", ServerName }
                 }
             };
 
@@ -111,7 +111,7 @@ namespace Raven.Tests.Core
         {
             Console.WriteLine("Killing the ServerRunner");
 
-            var processes = Process.GetProcessesByName("Raven.Tests.Server.Runner.exe");
+            var processes = Process.GetProcessesByName("Raven35.Tests.Server.Runner.exe");
             foreach (var p in processes)
             {
                 try
@@ -132,9 +132,9 @@ namespace Raven.Tests.Core
         private static string GetServerRunnerPath()
         {
 #if DEBUG
-            var path = "Raven.Tests.Server.Runner/bin/Debug/Raven.Tests.Server.Runner.exe";
+            var path = "Raven35.Tests.Server.Runner/bin/Debug/Raven35.Tests.Server.Runner.exe";
 #else
-            var path = "Raven.Tests.Server.Runner/bin/Release/Raven.Tests.Server.Runner.exe";
+            var path = "Raven35.Tests.Server.Runner/bin/Release/Raven35.Tests.Server.Runner.exe";
 #endif
 
             var tries = 10;
@@ -153,7 +153,7 @@ namespace Raven.Tests.Core
             }
 
             if (File.Exists(path) == false)
-                throw new InvalidOperationException(string.Format("Could not locate 'Raven.Tests.Server.Runner' in '{0}'.", path));
+                throw new InvalidOperationException(string.Format("Could not locate 'Raven35.Tests.Server.Runner' in '{0}'.", path));
 
             return path;
         }

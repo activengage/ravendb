@@ -1,13 +1,13 @@
 using System.Web;
-using Raven.Abstractions.Data;
-using Raven.Database.Bundles.MoreLikeThis;
-using Raven.Database.Server.Controllers;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Bundles.MoreLikeThis;
+using Raven35.Database.Server.Controllers;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.MoreLikeThis
+namespace Raven35.Tests.Bundles.MoreLikeThis
 {
     public class MoreLikeThisQueryParametersTests : NoDisposalNeeded
     {

@@ -6,13 +6,13 @@
 using System;
 using System.Linq;
 using System.Reflection;
-using Raven.Tests.Bugs.Identifiers;
-using Raven.Tests.Common.Attributes;
+using Raven35.Tests.Bugs.Identifiers;
+using Raven35.Tests.Common.Attributes;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class NoNonDisposableTests : IDisposable
     {

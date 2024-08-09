@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 using Voron;
 using Voron.Impl;
 using Voron.Trees;
 using Voron.Util.Conversion;
 
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     public class TimeSeriesLogStorage
     {

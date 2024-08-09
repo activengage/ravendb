@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Replication;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization.Conflictuality.Resolvers;
-using Raven.Json.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Replication;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization.Conflictuality.Resolvers;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Synchronization.Conflictuality
+namespace Raven35.Database.FileSystem.Synchronization.Conflictuality
 {
     public class ConflictResolver
     {

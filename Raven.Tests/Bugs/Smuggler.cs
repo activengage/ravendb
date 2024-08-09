@@ -1,11 +1,11 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class Smuggler : NoDisposalNeeded
     {
@@ -14,7 +14,7 @@ namespace Raven.Tests.Bugs
         {
             var connectionStringOptions = new RavenConnectionStringOptions {Url = "http://localhost:8080", DefaultDatabase = "test"};
             var rootDatabaseUrl = GetRootDatabaseUrl(connectionStringOptions.Url);
-            var docUrl = rootDatabaseUrl + "/docs/Raven/Databases/" + connectionStringOptions.DefaultDatabase;
+            var docUrl = rootDatabaseUrl + "/docs/Raven35.Databases/" + connectionStringOptions.DefaultDatabase;
             Console.WriteLine(docUrl);
         }
 

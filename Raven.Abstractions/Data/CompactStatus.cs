@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class CompactStatus
     {
@@ -15,7 +15,7 @@ namespace Raven.Abstractions.Data
 
         public static string RavenDatabaseCompactStatusDocumentKey(string databaseName)
         {
-            return "Raven/Database/Compact/Status/" + databaseName;
+            return "Raven35.Database/Compact/Status/" + databaseName;
         }
 
         public static string RavenFilesystemCompactStatusDocumentKey(string fileSystemName)

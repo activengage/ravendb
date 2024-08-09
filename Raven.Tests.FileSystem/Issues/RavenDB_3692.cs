@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Extensions;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3692 : RavenFilesTestBase
     {

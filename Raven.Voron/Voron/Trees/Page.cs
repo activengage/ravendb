@@ -9,8 +9,8 @@ using Voron.Impl.Paging;
 
 namespace Voron.Trees
 {
-    using Sparrow;
-    using Sparrow.Platform;
+    using Sparrow35;
+    using Sparrow35.Platform;
     using System.Runtime.CompilerServices;
     using Voron.Util;
 

@@ -16,25 +16,25 @@ using System.Threading.Tasks;
 using System.Transactions;
 #endif
 
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document.Batches;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document.Batches;
 #if !DNXCORE50
-using Raven.Client.Document.DTC;
+using Raven35.Client.Document.DTC;
 #endif
-using Raven.Client.Exceptions;
-using Raven.Client.Extensions;
-using Raven.Client.Util;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Client.Exceptions;
+using Raven35.Client.Extensions;
+using Raven35.Client.Util;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Abstract implementation for in memory session operations

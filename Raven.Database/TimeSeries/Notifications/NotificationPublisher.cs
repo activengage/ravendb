@@ -1,7 +1,7 @@
-﻿using Raven.Abstractions.TimeSeries.Notifications;
-using Raven.Database.Server.Connections;
+﻿using Raven35.Abstractions.TimeSeries.Notifications;
+using Raven35.Database.Server.Connections;
 
-namespace Raven.Database.TimeSeries.Notifications
+namespace Raven35.Database.TimeSeries.Notifications
 {
     public class NotificationPublisher
     {

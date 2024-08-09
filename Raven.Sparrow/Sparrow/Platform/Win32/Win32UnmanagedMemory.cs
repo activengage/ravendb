@@ -4,7 +4,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Security;
 
-namespace Sparrow.Platform
+namespace Sparrow35.Platform
 {
     public static unsafe partial class UnmanagedMemory
     {

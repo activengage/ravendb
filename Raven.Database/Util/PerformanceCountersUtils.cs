@@ -7,7 +7,7 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class PerformanceCountersUtils
     {

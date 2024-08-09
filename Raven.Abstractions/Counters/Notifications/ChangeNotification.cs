@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.Counters.Notifications
+namespace Raven35.Abstractions.Counters.Notifications
 {
     public class ChangeNotification : CounterStorageNotification
     {

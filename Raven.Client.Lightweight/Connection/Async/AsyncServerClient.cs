@@ -4,33 +4,33 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Raven.Abstractions;
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Util;
-using Raven.Client.Changes;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Connection.Request;
-using Raven.Client.Document;
-using Raven.Client.Exceptions;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Client.Metrics;
-using Raven.Client.Util.Auth;
-using Raven.Database.Data;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Document;
+using Raven35.Client.Exceptions;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Client.Metrics;
+using Raven35.Client.Util.Auth;
+using Raven35.Database.Data;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
 using System;
 using System.Collections;
@@ -45,9 +45,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Client.Connection.Async
+namespace Raven35.Client.Connection.Async
 {
     public class AsyncServerClient : IAsyncDatabaseCommands, IAsyncInfoDatabaseCommands
     {

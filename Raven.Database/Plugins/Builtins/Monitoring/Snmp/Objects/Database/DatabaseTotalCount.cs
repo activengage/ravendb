@@ -7,9 +7,9 @@ using System.Threading;
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database
 {
     public class DatabaseTotalCount : ScalarObjectBase<Integer32>
     {

@@ -8,16 +8,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Web.Http.Controllers;
-using Raven.Database.Counters.Controllers;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.Controllers.Admin;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Database.TimeSeries.Controllers;
-using Raven.Tests.Common;
+using Raven35.Database.Counters.Controllers;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.Controllers.Admin;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Database.TimeSeries.Controllers;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
 
     public class PossibleConflict

@@ -1,14 +1,14 @@
 using System;
 using System.Threading;
 using System.Transactions;
-using Raven.Json.Linq;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
-using TransactionInformation = Raven.Abstractions.Data.TransactionInformation;
+using TransactionInformation = Raven35.Abstractions.Data.TransactionInformation;
 
-namespace Raven.Tests.Bugs.DTC
+namespace Raven35.Tests.Bugs.DTC
 {
     public class UsingDtcForDelete : RavenTest
     {

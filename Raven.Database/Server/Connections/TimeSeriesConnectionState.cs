@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.TimeSeries.Notifications;
-using Sparrow.Collections;
+using Raven35.Abstractions.TimeSeries.Notifications;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class TimeSeriesConnectionState
     {

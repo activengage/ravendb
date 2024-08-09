@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using Xunit;
-using Raven.Tests.Common;
-using RTP = Raven.Database.Impl.BackgroundTaskExecuter.RavenThreadPool;
+using Raven35.Tests.Common;
+using RTP = Raven35.Database.Impl.BackgroundTaskExecuter.RavenThreadPool;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class TP_Issues : RavenTest
     {

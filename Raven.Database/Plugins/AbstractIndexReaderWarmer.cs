@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Lucene.Net.Index;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     /// <summary>
     /// Allows warming of an indexreader before it is returned by the indexwriter

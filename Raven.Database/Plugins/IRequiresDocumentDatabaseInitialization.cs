@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     internal interface IRequiresDocumentDatabaseInitialization
     {

@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 
-namespace Raven.Tests.Migration.Utils
+namespace Raven35.Tests.Migration.Utils
 {
     public class ServerRunner : IDisposable
     {

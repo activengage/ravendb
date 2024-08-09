@@ -26,7 +26,7 @@
 using System;
 using System.IO;
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
     internal class Base64Encoder
     {

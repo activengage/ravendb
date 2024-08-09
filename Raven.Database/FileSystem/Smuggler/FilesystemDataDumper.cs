@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
 
-namespace Raven.Database.FileSystem.Smuggler
+namespace Raven35.Database.FileSystem.Smuggler
 {
     public class FilesystemDataDumper : SmugglerFilesApiBase
     {

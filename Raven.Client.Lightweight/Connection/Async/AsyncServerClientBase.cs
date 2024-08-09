@@ -1,15 +1,15 @@
 using System.Net.Http;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
 using System;
 using System.Collections.Specialized;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.Extensions;
-using Raven.Client.Metrics;
+using Raven35.Client.Extensions;
+using Raven35.Client.Metrics;
 
-namespace Raven.Client.Connection.Async
+namespace Raven35.Client.Connection.Async
 {
     public abstract class AsyncServerClientBase<TConvention, TReplicationInformer> : IDisposalNotification
         where TConvention : ConventionBase, new()

@@ -1,12 +1,12 @@
 using System;
 using System.Threading.Tasks;
 using System.Linq;
-using Raven.Abstractions.TimeSeries;
-using Raven.Client.Extensions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Client.Extensions;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class AdminClientTests : RavenBaseTimeSeriesTest
     {

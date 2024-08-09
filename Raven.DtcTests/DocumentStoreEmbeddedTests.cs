@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System.Threading;
 using System.Transactions;
-using Raven.Client.Embedded;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
 using Xunit;
 
-namespace Raven.DtcTests
+namespace Raven35.DtcTests
 {
     public class DocumentStoreEmbeddedTests : RavenTest
     {

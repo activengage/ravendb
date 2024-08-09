@@ -1,10 +1,10 @@
 using System.Linq;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     //https://groups.google.com/forum/#!topic/ravendb/srfAG3vrmCk
     public class RavenDB_1472 : RavenTest

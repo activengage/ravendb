@@ -1,9 +1,9 @@
 using System;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
 
-namespace Raven.Database.FileSystem.Infrastructure
+namespace Raven35.Database.FileSystem.Infrastructure
 {
     public class UuidGenerator
     {

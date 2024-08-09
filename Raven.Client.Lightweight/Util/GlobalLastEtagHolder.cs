@@ -1,6 +1,6 @@
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public class GlobalLastEtagHolder : ILastEtagHolder
     {

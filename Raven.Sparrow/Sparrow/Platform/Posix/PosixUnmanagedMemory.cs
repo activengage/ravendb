@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sparrow.Platform
+namespace Sparrow35.Platform
 {
     public static unsafe partial class UnmanagedMemory
     {

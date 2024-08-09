@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Diagnostics.Tracing.Parsers.MicrosoftWindowsTCPIP;
 
-namespace Raven.Monitor.Memory
+namespace Raven35.Monitor.Memory
 {
     internal class MemoryPerformanceMonitor : IMonitor
     {

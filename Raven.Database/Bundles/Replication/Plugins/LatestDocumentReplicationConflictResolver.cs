@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 using System.ComponentModel.Composition;
-using Raven.Abstractions.Data;
-using Raven.Bundles.Replication.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.Replication.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Plugins
+namespace Raven35.Database.Bundles.Replication.Plugins
 {
     [PartNotDiscoverable]
     public class LatestDocumentReplicationConflictResolver : AbstractDocumentReplicationConflictResolver

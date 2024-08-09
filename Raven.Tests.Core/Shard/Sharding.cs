@@ -1,7 +1,7 @@
-using Raven.Client;
-using Raven.Client.Shard;
-using Raven.Tests.Core.Replication;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Client;
+using Raven35.Client.Shard;
+using Raven35.Tests.Core.Replication;
+using Raven35.Tests.Core.Utils.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Shard
+namespace Raven35.Tests.Core.Shard
 {
     public class Sharding : RavenReplicationCoreTest
     {

@@ -4,15 +4,15 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.IO;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1595 : RavenTest
     {

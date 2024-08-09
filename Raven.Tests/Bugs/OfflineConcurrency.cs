@@ -1,17 +1,17 @@
 using System;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class OfflineConcurrency : RavenTest
     {
         [Fact]
         public void Successful()
         {
-            Raven.Abstractions.Data.Etag guid;
+            Raven35.Abstractions.Data.Etag guid;
 
             using(var store = NewDocumentStore())
             {
@@ -49,7 +49,7 @@ namespace Raven.Tests.Bugs
                 {
                     session.Advanced.UseOptimisticConcurrency = true;
                     var entity = new User { Id = "users/1" }; 
-                    session.Store(entity,Raven.Abstractions.Data.Etag.InvalidEtag);
+                    session.Store(entity,Raven35.Abstractions.Data.Etag.InvalidEtag);
                     Assert.Throws<ConcurrencyException>(() => session.SaveChanges());
                 }
             }

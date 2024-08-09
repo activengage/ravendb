@@ -9,18 +9,18 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client.Connection.Async;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client.Connection.Async;
+using Raven35.Json.Linq;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class Documents : RaftTestBase
     {

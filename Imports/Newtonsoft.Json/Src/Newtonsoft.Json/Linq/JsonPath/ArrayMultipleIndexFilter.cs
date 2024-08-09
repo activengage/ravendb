@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq.JsonPath
+namespace Raven35.Imports.Newtonsoft.Json.Linq.JsonPath
 {
     internal class ArrayMultipleIndexFilter : PathFilter
     {

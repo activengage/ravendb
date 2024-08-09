@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using System.Linq;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public static class SuggestionQueryExtensions
     {

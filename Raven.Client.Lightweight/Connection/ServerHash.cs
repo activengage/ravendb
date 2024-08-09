@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-using Raven.Abstractions.Util.Encryptors;
+using Raven35.Abstractions.Util.Encryptors;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public static class ServerHash
     {

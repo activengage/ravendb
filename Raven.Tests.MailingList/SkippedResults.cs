@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class SkippedResults : RavenTest
     {
@@ -70,7 +70,7 @@ namespace Raven.Tests.MailingList
                         skippedResults += statistics.SkippedResults;
                         recordsToSkip = pageSize * pageNumber + skippedResults;
 
-                        // I found this in the Raven.Tests.MailingList.Vlad.WillOnlyGetPost2Once() method
+                        // I found this in the Raven35.Tests.MailingList.Vlad.WillOnlyGetPost2Once() method
                         //recordsToSkip = pageSize * pageNumber + statistics.SkippedResults;
                     }
 

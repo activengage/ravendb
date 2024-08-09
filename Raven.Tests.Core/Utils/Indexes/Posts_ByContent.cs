@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Core.Utils.Entities;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Core.Utils.Indexes
+namespace Raven35.Tests.Core.Utils.Indexes
 {
     public class Posts_ByContent : AbstractIndexCreationTask<Post>
     {

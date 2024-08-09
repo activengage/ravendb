@@ -1,10 +1,10 @@
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.PhilJones
+namespace Raven35.Tests.MailingList.PhilJones
 {
     public class Projections : RavenTest
     {

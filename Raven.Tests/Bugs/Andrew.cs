@@ -7,16 +7,16 @@ using System.CodeDom;
 using System.Linq;
 using System.Threading;
 using System.Web.SessionState;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Bugs.LiveProjections.Entities;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bugs.LiveProjections.Entities;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Task = System.Threading.Tasks.Task;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class Andrew :  RavenTest
     {

@@ -11,14 +11,14 @@ using System.Security.Principal;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Raven.Abstractions.Streaming;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Database.Server.Tenancy;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Streaming;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Counters.Controllers
+namespace Raven35.Database.Counters.Controllers
 {
     public class CounterStreamsController : ClusterAwareCountersApiController
     {

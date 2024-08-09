@@ -1,13 +1,13 @@
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
-using Raven.Tests.Core.Utils.Transformers;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
+using Raven35.Tests.Core.Utils.Transformers;
 
 using System.Collections.Generic;
 using System.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Core.Querying
+namespace Raven35.Tests.Core.Querying
 {
     public class StaticIndexes : RavenCoreTestBase
     {

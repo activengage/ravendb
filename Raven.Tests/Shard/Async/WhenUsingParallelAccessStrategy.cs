@@ -5,14 +5,14 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Util;
-using Raven.Client.Document;
-using Raven.Client.Shard;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document;
+using Raven35.Client.Shard;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
 using Xunit;
 
-namespace Raven.Tests.Shard.Async
+namespace Raven35.Tests.Shard.Async
 {
     public class WhenUsingParallelAccessStrategy  : RavenTest
     {

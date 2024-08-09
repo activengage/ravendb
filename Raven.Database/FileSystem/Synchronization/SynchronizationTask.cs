@@ -5,28 +5,28 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.FileSystem.Notifications;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Notifications;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 using System.Diagnostics;
 using System.Threading;
-using Raven.Client.Connection;
-using Raven.Client.Extensions;
+using Raven35.Client.Connection;
+using Raven35.Client.Extensions;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class SynchronizationTask : IDisposable
     {

@@ -6,9 +6,9 @@
 using System;
 using System.Linq;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.FileSystem.Storage.Esent.Schema.Updates
+namespace Raven35.Database.FileSystem.Storage.Esent.Schema.Updates
 {
     public class From03To04 : IFileSystemSchemaUpdate
     {

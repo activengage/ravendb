@@ -5,16 +5,16 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Analysis.Tokenattributes;
 using Lucene.Net.Util;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Analyzers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Analyzers;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class NGramSearch : RavenTest
     {

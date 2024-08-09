@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
 namespace Testing

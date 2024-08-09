@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 using System.IO;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Plugins
+namespace Raven35.Database.FileSystem.Plugins
 {
     [InheritedExport]
     public abstract class AbstractFileCodec : IRequiresFileSystemInitialization

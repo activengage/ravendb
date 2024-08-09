@@ -5,19 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Storage;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Storage;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class NonIncrementalBackupRestoreTest : TransactionalStorageTestBase
     {
@@ -79,7 +79,7 @@ namespace Raven.Tests
                 Settings =
                 {
                     {"Raven/Esent/CircularLog", "false"},
-                    {"Raven/Voron/AllowIncrementalBackups", "true"}
+                    {"Raven35.Voron/AllowIncrementalBackups", "true"}
                 }
 
             }, new DatabaseRestoreRequest

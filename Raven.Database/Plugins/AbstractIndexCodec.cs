@@ -6,7 +6,7 @@
 using System.ComponentModel.Composition;
 using System.IO;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     public abstract class AbstractIndexCodec : IRequiresDocumentDatabaseInitialization

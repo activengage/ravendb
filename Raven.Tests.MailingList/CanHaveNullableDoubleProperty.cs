@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class CanHaveNullableDoubleProperty : RavenTestBase
     {

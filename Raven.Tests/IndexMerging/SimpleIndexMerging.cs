@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 using System.Text.RegularExpressions;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.IndexMerging
+namespace Raven35.Tests.IndexMerging
 {
     public class SimpleIndexMerging : RavenTest
     {

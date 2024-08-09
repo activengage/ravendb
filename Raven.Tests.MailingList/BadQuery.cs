@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class BadQuery : RavenTestBase
     {

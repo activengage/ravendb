@@ -11,11 +11,11 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Search;
 using Lucene.Net.Search.Function;
 using Lucene.Net.Search.Spans;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing.LuceneIntegration;
-using Raven.Database.Queries;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing.LuceneIntegration;
+using Raven35.Database.Queries;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class SimpleQueryParser
     {

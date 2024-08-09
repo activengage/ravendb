@@ -7,19 +7,19 @@ using System;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client.Connection;
-using Raven.Client.Indexes;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client.Connection;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common.Dto;
 
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class Indexes : RaftTestBase
     {

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 
 using Xunit;
-namespace Raven.Tests.Utils
+namespace Raven35.Tests.Utils
 {
     public class DictionaryComparerTest : RavenTest
     {

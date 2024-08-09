@@ -9,22 +9,22 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions.Subscriptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Extensions;
-using Raven.Client.Util;
-using Raven.Json.Linq;
-using Sparrow.Collections;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions.Subscriptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Extensions;
+using Raven35.Client.Util;
+using Raven35.Json.Linq;
+using Sparrow35.Collections;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public delegate void BeforeBatch();
 

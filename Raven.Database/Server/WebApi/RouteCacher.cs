@@ -11,7 +11,7 @@ using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Routing;
 
-namespace Raven.Database.Server.WebApi
+namespace Raven35.Database.Server.WebApi
 {
     public static class RouteCacher
     {

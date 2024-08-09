@@ -7,11 +7,11 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Backup;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Backup;
 
-namespace Raven.Storage.Esent.Backup
+namespace Raven35.Storage.Esent.Backup
 {
     public class EsentBackup
     {

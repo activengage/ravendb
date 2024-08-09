@@ -1,14 +1,14 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Abstractions.Replication;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Client.FileSystem.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Extensions;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class FailoverFailImmediately : RavenSynchronizationTestBase
     {

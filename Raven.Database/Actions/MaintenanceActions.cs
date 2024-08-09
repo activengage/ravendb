@@ -12,18 +12,18 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Json.Linq;
 using Voron.Impl.Backup;
 
-namespace Raven.Database.Actions
+namespace Raven35.Database.Actions
 {
     public class MaintenanceActions : ActionsBase
     {
@@ -105,17 +105,17 @@ namespace Raven.Database.Actions
 
             bool enableIncrementalBackup;
             if (incrementalBackup &&
-                TransactionalStorage is Raven.Storage.Esent.TransactionalStorage &&
+                TransactionalStorage is Raven35.Storage.Esent.TransactionalStorage &&
                 (bool.TryParse(Database.Configuration.Settings[Constants.Esent.CircularLog], out enableIncrementalBackup) == false || enableIncrementalBackup))
             {
                 throw new InvalidOperationException("In order to run incremental backups using Esent you must have circular logging disabled");
             }
 
             if (incrementalBackup &&
-                TransactionalStorage is Raven.Storage.Voron.TransactionalStorage &&
+                TransactionalStorage is Raven35.Storage.Voron.TransactionalStorage &&
                 Database.Configuration.Storage.Voron.AllowIncrementalBackups == false)
             {
-                throw new InvalidOperationException("In order to run incremental backups using Voron you must have the appropriate setting key (Raven/Voron/AllowIncrementalBackups) set to true");
+                throw new InvalidOperationException("In order to run incremental backups using Voron you must have the appropriate setting key (Raven35.Voron/AllowIncrementalBackups) set to true");
             }
 
             Database.Documents.Put(BackupStatus.RavenBackupStatusDocumentKey, null, RavenJObject.FromObject(new BackupStatus

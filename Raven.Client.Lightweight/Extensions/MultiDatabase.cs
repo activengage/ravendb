@@ -1,12 +1,12 @@
 using System;
 using System.IO;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.TimeSeries;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.TimeSeries;
 
-namespace Raven.Client.Extensions
+namespace Raven35.Client.Extensions
 {
     ///<summary>
     /// Methods to create multitenant databases
@@ -23,7 +23,7 @@ namespace Raven.Client.Extensions
 
             var dbDoc = new DatabaseDocument
             {
-                Id = "Raven/Databases/" + name,
+                Id = "Raven35.Databases/" + name,
                 Settings =
                 {
                     {"Raven/DataDir", Path.Combine("~", name)},

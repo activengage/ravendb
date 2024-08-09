@@ -8,12 +8,12 @@ using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Database.Util;
+using Raven35.Database.Util;
 using System.Linq;
-using Raven.Database.Storage;
-using Sparrow.Collections;
+using Raven35.Database.Storage;
+using Sparrow35.Collections;
 
-namespace Raven.Storage.Esent.StorageActions
+namespace Raven35.Storage.Esent.StorageActions
 {
     public class OptimizedDeleter
     {

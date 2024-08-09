@@ -1,12 +1,12 @@
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
-using Raven.Database.Server.Security.Windows;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
+using Raven35.Database.Server.Security.Windows;
 
-namespace Raven.Database.Server.Security.Triggers
+namespace Raven35.Database.Server.Security.Triggers
 {
     class WindowsAuthPutTrigger : AbstractPutTrigger
     {
-        public override VetoResult AllowPut(string key, Raven.Json.Linq.RavenJObject document, Raven.Json.Linq.RavenJObject metadata, TransactionInformation transactionInformation)
+        public override VetoResult AllowPut(string key, Raven35.Json.Linq.RavenJObject document, Raven35.Json.Linq.RavenJObject metadata, TransactionInformation transactionInformation)
         {
             if (key == "Raven/Authorization/WindowsSettings" && Authentication.IsEnabled == false)
                 return VetoResult.Deny("Cannot setup Windows Authentication without a valid commercial license.");
@@ -14,7 +14,7 @@ namespace Raven.Database.Server.Security.Triggers
             return VetoResult.Allowed;
         }
 
-        public override void AfterPut(string key, Raven.Json.Linq.RavenJObject document, Raven.Json.Linq.RavenJObject metadata, Etag etag, Raven.Abstractions.Data.TransactionInformation transactionInformation)
+        public override void AfterPut(string key, Raven35.Json.Linq.RavenJObject document, Raven35.Json.Linq.RavenJObject metadata, Etag etag, Raven35.Abstractions.Data.TransactionInformation transactionInformation)
         {
             if (key == "Raven/Authorization/WindowsSettings")
                 WindowsRequestAuthorizer.InvokeWindowsSettingsChanged();

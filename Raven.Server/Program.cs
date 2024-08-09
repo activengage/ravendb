@@ -21,25 +21,25 @@ using System.Xml;
 using Microsoft.Win32;
 using NDesk.Options;
 using NLog.Config;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
-using Raven.Database;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.DiskIO;
-using Raven.Database.Server;
-using Raven.Database.Util;
-using Raven.Client.Connection;
-using Raven.Client.Extensions;
-using Raven.Database.FileSystem.Util;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
+using Raven35.Database;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.DiskIO;
+using Raven35.Database.Server;
+using Raven35.Database.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Extensions;
+using Raven35.Database.FileSystem.Util;
 
-namespace Raven.Server
+namespace Raven35.Server
 {
-    using Raven.Abstractions.Util;
+    using Raven35.Abstractions.Util;
 
     public static class Program
     {
@@ -746,13 +746,13 @@ Configuration databaseOptions:
             try
             {
                 var ravenConfiguration = new RavenConfiguration();
-                if (File.Exists(Path.Combine(backupLocation, "Raven.voron")))
+                if (File.Exists(Path.Combine(backupLocation, "Raven35.Voron")))
                 {
-                    ravenConfiguration.DefaultStorageTypeName = typeof(Raven.Storage.Voron.TransactionalStorage).AssemblyQualifiedName;
+                    ravenConfiguration.DefaultStorageTypeName = typeof(Raven35.Storage.Voron.TransactionalStorage).AssemblyQualifiedName;
                 }
                 else if (Directory.Exists(Path.Combine(backupLocation, "new")))
                 {
-                    ravenConfiguration.DefaultStorageTypeName = typeof(Raven.Storage.Esent.TransactionalStorage).AssemblyQualifiedName;
+                    ravenConfiguration.DefaultStorageTypeName = typeof(Raven35.Storage.Esent.TransactionalStorage).AssemblyQualifiedName;
                 }
                 MaintenanceActions.Restore(ravenConfiguration, new DatabaseRestoreRequest
                 {
@@ -829,7 +829,7 @@ Configuration databaseOptions:
             if (File.Exists(nlogPath))
                 return;// that overrides the default config
 
-            using (var stream = typeof(Program).Assembly.GetManifestResourceStream("Raven.Server.DefaultLogging.config"))
+            using (var stream = typeof(Program).Assembly.GetManifestResourceStream("Raven35.Server.DefaultLogging.config"))
             using (var reader = XmlReader.Create(stream))
             {
                 NLog.LogManager.Configuration = new XmlLoggingConfiguration(reader, "default-config");

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Server.Security.Windows
+namespace Raven35.Database.Server.Security.Windows
 {
     public class WindowsAuthDocument
     {

@@ -46,13 +46,13 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Raven.Imports.Newtonsoft.Json.Bson;
+using Raven35.Imports.Newtonsoft.Json.Bson;
 using System.IO;
-using Raven.Imports.Newtonsoft.Json.Tests.Serialization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Tests.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.Bson
+namespace Raven35.Imports.Newtonsoft.Json.Tests.Bson
 {
     [TestFixture]
     public class BsonReaderTests : TestFixtureBase

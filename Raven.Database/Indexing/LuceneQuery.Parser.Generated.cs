@@ -17,7 +17,7 @@ using System.Globalization;
 using System.Text;
 using QUT.Gppg;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
 internal enum Token {error=2,EOF=3,NOT=4,OR=5,AND=6,
     INTERSECT=7,PLUS=8,MINUS=9,OPEN_CURLY_BRACKET=10,CLOSE_CURLY_BRACKET=11,OPEN_SQUARE_BRACKET=12,

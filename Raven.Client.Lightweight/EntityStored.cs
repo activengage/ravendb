@@ -3,7 +3,7 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     /// Delegate definition when an entity is stored in the session

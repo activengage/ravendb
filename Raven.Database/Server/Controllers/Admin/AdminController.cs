@@ -11,43 +11,43 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.MEF;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Database.Actions;
-using Raven.Database.Backup;
-using Raven.Database.Config;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.MEF;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Actions;
+using Raven35.Database.Backup;
+using Raven35.Database.Config;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
 using Rachis;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Document;
-using Raven.Database.DiskIO;
-using Raven.Database.Extensions;
-using Raven.Database.Plugins;
-using Raven.Database.Server.Connections;
-using Raven.Database.FileSystem;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Document;
+using Raven35.Database.DiskIO;
+using Raven35.Database.Extensions;
+using Raven35.Database.Plugins;
+using Raven35.Database.Server.Connections;
+using Raven35.Database.FileSystem;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
 using Voron.Impl.Backup;
 
-using Raven.Database.Bundles.Replication.Data;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Database.Counters.Replication;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.Smuggler;
-using MaintenanceActions = Raven.Database.Actions.MaintenanceActions;
+using Raven35.Database.Bundles.Replication.Data;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Database.Counters.Replication;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.Smuggler;
+using MaintenanceActions = Raven35.Database.Actions.MaintenanceActions;
 
-namespace Raven.Database.Server.Controllers.Admin
+namespace Raven35.Database.Server.Controllers.Admin
 {
     [RoutePrefix("")]
     public class AdminController : BaseAdminDatabaseApiController
@@ -214,7 +214,7 @@ namespace Raven.Database.Server.Controllers.Admin
                 }
                 else
                 {
-                    var jsonDocument = DatabasesLandlord.SystemDatabase.Documents.Get("Raven/Databases/" + Database.Name, null);
+                    var jsonDocument = DatabasesLandlord.SystemDatabase.Documents.Get("Raven35.Databases/" + Database.Name, null);
                     if (jsonDocument != null)
                     {
                         backupRequest.DatabaseDocument = jsonDocument.DataAsJson.JsonDeserialization<DatabaseDocument>();
@@ -290,7 +290,7 @@ namespace Raven.Database.Server.Controllers.Admin
             if (databaseName == Constants.SystemDatabase)
                 return GetMessageWithString("Cannot do an online restore for the <system> database", HttpStatusCode.BadRequest);
 
-            var existingDatabase = Database.Documents.GetDocumentMetadata("Raven/Databases/" + databaseName, null);
+            var existingDatabase = Database.Documents.GetDocumentMetadata("Raven35.Databases/" + databaseName, null);
             if (existingDatabase != null)
                 return GetMessageWithString("Cannot do an online restore for an existing database, delete the database " + databaseName + " and restore again.", HttpStatusCode.BadRequest);
 
@@ -309,9 +309,9 @@ namespace Raven.Database.Server.Controllers.Admin
             }
 
             if (File.Exists(Path.Combine(restoreRequest.BackupLocation, BackupMethods.Filename)))
-                ravenConfiguration.DefaultStorageTypeName = typeof(Raven.Storage.Voron.TransactionalStorage).AssemblyQualifiedName;
+                ravenConfiguration.DefaultStorageTypeName = typeof(Raven35.Storage.Voron.TransactionalStorage).AssemblyQualifiedName;
             else if (Directory.Exists(Path.Combine(restoreRequest.BackupLocation, "new")))
-                ravenConfiguration.DefaultStorageTypeName = typeof(Raven.Storage.Esent.TransactionalStorage).AssemblyQualifiedName;
+                ravenConfiguration.DefaultStorageTypeName = typeof(Raven35.Storage.Esent.TransactionalStorage).AssemblyQualifiedName;
 
             ravenConfiguration.CustomizeValuesForDatabaseTenant(databaseName);
             ravenConfiguration.Initialize();
@@ -394,7 +394,7 @@ namespace Raven.Database.Server.Controllers.Admin
                     DatabasesLandlord
                         .SystemDatabase
                         .Documents
-                        .Put("Raven/Databases/" + databaseName, null, RavenJObject.FromObject(databaseDocument), new RavenJObject(), null);
+                        .Put("Raven35.Databases/" + databaseName, null, RavenJObject.FromObject(databaseDocument), new RavenJObject(), null);
 
                     restoreStatus.Messages.Add("The new database was created");
                     restoreStatus.State = RestoreStatusState.Completed;
@@ -1059,18 +1059,18 @@ namespace Raven.Database.Server.Controllers.Admin
                     if (Debugger.IsAttached) throw new InvalidOperationException("Cannot get stacktraces when debugger is attached");
 
                     ravenDebugDir = Path.Combine(Database.Configuration.TempPath, Path.GetRandomFileName());
-                    var ravenDebugExe = Path.Combine(ravenDebugDir, "Raven.Debug.exe");
+                    var ravenDebugExe = Path.Combine(ravenDebugDir, "Raven35.Debug.exe");
                     var ravenDebugOutput = Path.Combine(ravenDebugDir, "stacktraces.txt");
 
                     Directory.CreateDirectory(ravenDebugDir);
 
                     if (Environment.Is64BitProcess)
                     {
-                        ExtractResource("Raven.Database.Util.Raven.Debug.x64.Raven.Debug.exe", ravenDebugExe);
+                        ExtractResource("Raven35.Database.Util.Raven35.Debug.x64.Raven35.Debug.exe", ravenDebugExe);
                     }
                     else
                     {
-                        ExtractResource("Raven.Database.Util.Raven.Debug.x86.Raven.Debug.exe", ravenDebugExe);
+                        ExtractResource("Raven35.Database.Util.Raven35.Debug.x86.Raven35.Debug.exe", ravenDebugExe);
                     }
 
                     var process = new Process

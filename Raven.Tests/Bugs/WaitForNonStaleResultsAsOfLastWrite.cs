@@ -1,11 +1,11 @@
 using System.Threading;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class WaitForNonStaleResultsAsOfLastWrite : RavenTest
     {

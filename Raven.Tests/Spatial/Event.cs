@@ -6,7 +6,7 @@
 
 using System;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class Event
     {

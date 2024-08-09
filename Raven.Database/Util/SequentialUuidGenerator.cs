@@ -1,9 +1,9 @@
 using System;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Database.Impl;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Impl;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class SequentialUuidGenerator : IUuidGenerator
     {

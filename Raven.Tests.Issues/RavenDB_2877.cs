@@ -7,19 +7,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Database.Config;
-using Raven.Database.Server.Controllers;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Database.Config;
+using Raven35.Database.Server.Controllers;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2877 : RavenTest
     {

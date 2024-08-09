@@ -9,15 +9,15 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Core.BulkInsert;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.BulkInsert;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Core.ChangesApi
+namespace Raven35.Tests.Core.ChangesApi
 {
     public class WebsocketsTests : RavenTestBase
     {

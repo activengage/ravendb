@@ -6,16 +6,16 @@
 using System;
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
-using Raven.Client.Embedded;
-using Raven.Json.Linq;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
-using Raven.Tests.Storage;
+using Raven35.Client.Embedded;
+using Raven35.Json.Linq;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Storage;
 using Xunit;
 
-namespace Raven.Tests.Triggers
+namespace Raven35.Tests.Triggers
 {
     public class AttachmentPutTriggers: RavenTest
     {
@@ -52,7 +52,7 @@ namespace Raven.Tests.Triggers
                                                                                        db.Attachments.PutStatic("ayende", null, new MemoryStream(new byte[] { 1, 2, 3, 4, 5, 6 }),
                                                                                                     new RavenJObject()));
 
-            Assert.Equal("PUT vetoed on attachment ayende by Raven.Tests.Triggers.RefuseBigAttachmentPutTrigger because: Attachment is too big", operationVetoedException.Message);
+            Assert.Equal("PUT vetoed on attachment ayende by Raven35.Tests.Triggers.RefuseBigAttachmentPutTrigger because: Attachment is too big", operationVetoedException.Message);
         }
     }
 }

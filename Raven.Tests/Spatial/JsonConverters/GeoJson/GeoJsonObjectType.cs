@@ -8,7 +8,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 // From: https://code.google.com/p/nettopologysuite/source/browse/#svn%2Ftrunk%2FNetTopologySuite.IO%2FNetTopologySuite.IO.GeoJSON
-namespace Raven.Tests.Spatial.JsonConverters.GeoJson
+namespace Raven35.Tests.Spatial.JsonConverters.GeoJson
 {
     /// <summary>
     /// Defines the GeoJSON Objects types as defined in the <see cref="http://geojson.org/geojson-spec.html#geojson-objects">geojson.org v1.0 spec</see>.

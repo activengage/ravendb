@@ -1,4 +1,4 @@
-namespace Raven.Tests.Bugs.LiveProjections
+namespace Raven35.Tests.Bugs.LiveProjections
 {
     public class Person
     {

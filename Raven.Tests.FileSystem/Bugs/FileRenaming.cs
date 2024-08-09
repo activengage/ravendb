@@ -1,10 +1,10 @@
-using Raven.Json.Linq;
-using Raven.Tests.FileSystem.Storage;
+using Raven35.Json.Linq;
+using Raven35.Tests.FileSystem.Storage;
 using System.Linq;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Bugs
+namespace Raven35.Tests.FileSystem.Bugs
 {
     public class FileRenaming : StorageAccessorTestBase
     {

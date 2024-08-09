@@ -7,13 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Jint.Native;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Tasks.Handlers
+namespace Raven35.Database.Bundles.Replication.Tasks.Handlers
 {
     public class FilterAndTransformSpecifiedCollections : IReplicatedDocsHandler
     {

@@ -11,8 +11,8 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Logging;
 
 namespace Rachis.Transport
 {

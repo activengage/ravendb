@@ -1,7 +1,7 @@
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System.Collections.Specialized;
 
-namespace Raven.Database.FileSystem.Storage
+namespace Raven35.Database.FileSystem.Storage
 {
     public class CopyFileOperation
     {

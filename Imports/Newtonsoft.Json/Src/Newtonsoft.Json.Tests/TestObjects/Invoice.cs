@@ -26,7 +26,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class Invoice
     {

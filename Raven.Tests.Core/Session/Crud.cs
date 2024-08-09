@@ -6,14 +6,14 @@
 using System;
 using System.Dynamic;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Transformers;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Transformers;
 using Xunit;
-using Raven.Client.Exceptions;
+using Raven35.Client.Exceptions;
 
-namespace Raven.Tests.Core.Session
+namespace Raven35.Tests.Core.Session
 {
     public class Crud : RavenCoreTestBase
     {
@@ -188,7 +188,7 @@ namespace Raven.Tests.Core.Session
                 using (var session = store.OpenSession())
                 {
                     var e = Assert.Throws<InvalidOperationException>(() => session.Delete(new User()));
-                    Assert.Equal("Raven.Tests.Core.Utils.Entities.User is not associated with the session, cannot delete unknown entity instance", e.Message);
+                    Assert.Equal("Raven35.Tests.Core.Utils.Entities.User is not associated with the session, cannot delete unknown entity instance", e.Message);
                 }
             }
         }

@@ -3,13 +3,13 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Database.Plugins;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Server.Security.Triggers
+namespace Raven35.Database.Server.Security.Triggers
 {
     public class OAuthPutTrigger : AbstractPutTrigger
     {
-        public override VetoResult AllowPut(string key, Raven.Json.Linq.RavenJObject document, Raven.Json.Linq.RavenJObject metadata, Raven.Abstractions.Data.TransactionInformation transactionInformation)
+        public override VetoResult AllowPut(string key, Raven35.Json.Linq.RavenJObject document, Raven35.Json.Linq.RavenJObject metadata, Raven35.Abstractions.Data.TransactionInformation transactionInformation)
         {
             if (key != null && key.StartsWith("Raven/ApiKeys/") && Authentication.IsEnabled == false)
                 return VetoResult.Deny("Cannot setup OAuth Authentication without a valid commercial license.");

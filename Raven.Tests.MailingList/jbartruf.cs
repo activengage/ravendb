@@ -1,9 +1,9 @@
-using Raven.Client.Embedded;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class jbartruf : RavenTest
     {

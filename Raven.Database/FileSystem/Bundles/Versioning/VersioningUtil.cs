@@ -6,15 +6,15 @@
 using System;
 using System.IO;
 using Lucene.Net.Documents;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Versioning.Data;
-using Raven.Database.Bundles.Versioning.Data;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Database.Bundles.Versioning.Data;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Bundles.Versioning
+namespace Raven35.Database.FileSystem.Bundles.Versioning
 {
     public static class VersioningUtil
     {

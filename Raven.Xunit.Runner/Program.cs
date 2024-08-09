@@ -3,7 +3,7 @@ using System.Linq;
 
 using Xunit;
 
-namespace Raven.Xunit.Runner
+namespace Raven35.Xunit.Runner
 {
     public class Program
     {

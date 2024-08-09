@@ -3,12 +3,12 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 
-namespace Raven.Tests.Bundles.Encryption
+namespace Raven35.Tests.Bundles.Encryption
 {
     public abstract class Encryption : RavenTest
     {

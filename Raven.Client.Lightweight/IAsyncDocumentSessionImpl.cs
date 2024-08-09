@@ -7,11 +7,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Client.Document.Batches;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Client.Document.Batches;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     /// Interface for document session using async approaches

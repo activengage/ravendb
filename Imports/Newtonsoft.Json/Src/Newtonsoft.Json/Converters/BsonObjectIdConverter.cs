@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using Raven.Imports.Newtonsoft.Json.Bson;
+using Raven35.Imports.Newtonsoft.Json.Bson;
 using System.Globalization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="BsonObjectId"/> to and from JSON and BSON.

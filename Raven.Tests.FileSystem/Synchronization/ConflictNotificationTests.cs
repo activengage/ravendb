@@ -4,14 +4,14 @@ using System.IO;
 using System.Reactive.Linq;
 using System.Reactive.Threading.Tasks;
 using System.Threading.Tasks;
-using Raven.Tests.Helpers;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using Xunit;
-using Raven.Json.Linq;
-using Raven.Client.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
+using Raven35.Json.Linq;
+using Raven35.Client.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class ConflictNotificationTests : RavenFilesTestWithLogs
     {

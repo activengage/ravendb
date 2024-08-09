@@ -6,10 +6,10 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.Embedded
+namespace Raven35.Database.Embedded
 {
     internal class ResponseStream : Stream
     {

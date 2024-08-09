@@ -6,16 +6,16 @@
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Server.Controllers;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Abstractions.TimeSeries.Notifications;
-using Raven.Database.Server.Controllers.Admin;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Server.Controllers;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Abstractions.TimeSeries.Notifications;
+using Raven35.Database.Server.Controllers.Admin;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class TransportState : IDisposable
     {
@@ -151,10 +151,10 @@ namespace Raven.Database.Server.Connections
             }
         }
 
-        public event Action<object, Raven.Abstractions.Counters.Notifications.BulkOperationNotification> OnCounterBulkOperationNotification = delegate { };
-        public event Action<object, Raven.Abstractions.TimeSeries.Notifications.BulkOperationNotification> OnTimeSeriesBulkOperationNotification = delegate { };
+        public event Action<object, Raven35.Abstractions.Counters.Notifications.BulkOperationNotification> OnCounterBulkOperationNotification = delegate { };
+        public event Action<object, Raven35.Abstractions.TimeSeries.Notifications.BulkOperationNotification> OnTimeSeriesBulkOperationNotification = delegate { };
 
-        public void Send(Raven.Abstractions.Counters.Notifications.BulkOperationNotification bulkOperationNotification)
+        public void Send(Raven35.Abstractions.Counters.Notifications.BulkOperationNotification bulkOperationNotification)
         {
             OnCounterBulkOperationNotification(this, bulkOperationNotification);
             foreach (var connectionState in connections)
@@ -163,7 +163,7 @@ namespace Raven.Database.Server.Connections
             }
         }
 
-        public void Send(Raven.Abstractions.TimeSeries.Notifications.BulkOperationNotification bulkOperationNotification)
+        public void Send(Raven35.Abstractions.TimeSeries.Notifications.BulkOperationNotification bulkOperationNotification)
         {
             OnTimeSeriesBulkOperationNotification(this, bulkOperationNotification);
             foreach (var connectionState in connections)

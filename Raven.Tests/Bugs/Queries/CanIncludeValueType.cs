@@ -5,15 +5,15 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.Bugs.Queries
+namespace Raven35.Tests.Bugs.Queries
 {
     public class CanIncludeValueType : RavenTest, IDisposable
     {

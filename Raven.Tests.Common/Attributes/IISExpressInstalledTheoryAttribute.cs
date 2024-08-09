@@ -5,7 +5,7 @@ using System.IO;
 using Xunit.Extensions;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     [CLSCompliant(false)]
     public class IISExpressInstalledTheoryAttribute : TheoryAttribute

@@ -1,15 +1,15 @@
 using System.Linq;
 using System.Net;
 using System.Text;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Helpers;
 using System.Collections.Generic;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3460 : RavenTestBase
     {

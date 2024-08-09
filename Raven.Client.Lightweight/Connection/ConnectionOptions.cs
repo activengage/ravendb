@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Net;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public static class ConnectionOptions
     {

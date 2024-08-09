@@ -8,14 +8,14 @@ using System.Collections.Generic;
 using System.IO;
 using Microsoft.Isam.Esent.Interop;
 using System.Linq;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Impl;
-using Raven.Database.Plugins;
-using Raven.Storage.Esent;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Impl;
+using Raven35.Database.Plugins;
+using Raven35.Storage.Esent;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Storage.Esent.Debug
+namespace Raven35.Database.Storage.Esent.Debug
 {
     public class EsentUtil
     {

@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.Config.Settings
+namespace Raven35.Database.Config.Settings
 {
     internal class NullableIntegerSetting : Setting<int?>
     {

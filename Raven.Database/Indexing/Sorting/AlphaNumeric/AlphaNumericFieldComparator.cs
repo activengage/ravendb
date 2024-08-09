@@ -4,7 +4,7 @@ using System.Security;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 
-namespace Raven.Database.Indexing.Sorting.AlphaNumeric
+namespace Raven35.Database.Indexing.Sorting.AlphaNumeric
 {
     public class AlphaNumericFieldComparator : FieldComparator
     {

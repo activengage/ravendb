@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Abstractions.Exceptions
+namespace Raven35.Abstractions.Exceptions
 {
     [Serializable]
     public class ImplicitFetchFieldsFromDocumentNotAllowedException : Exception

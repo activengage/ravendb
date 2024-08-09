@@ -1,11 +1,11 @@
-using Raven.Bundles.Versioning.Data;
-using Raven.Client;
-using Raven.Client.Bundles.Versioning;
-using Raven.Tests.Common;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Client;
+using Raven35.Client.Bundles.Versioning;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Versioning.Bugs
+namespace Raven35.Tests.Bundles.Versioning.Bugs
 {
     public class MultiTenant : RavenTest
     {

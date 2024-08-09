@@ -3,14 +3,14 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Embedded;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Embedded;
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 using System.Linq;
 
-namespace Raven.Tests.Faceted
+namespace Raven35.Tests.Faceted
 {
     public class AggregationFacet : RavenTest
     {

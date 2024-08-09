@@ -9,12 +9,12 @@ using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Core.Replication
+namespace Raven35.Tests.Core.Replication
 {
     public class RavenReplicationCoreTest : RavenCoreTestBase
     {

@@ -3,7 +3,7 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Raven.Bundles.Authorization.Model
+namespace Raven35.Bundles.Authorization.Model
 {
     public interface IPermission
     {

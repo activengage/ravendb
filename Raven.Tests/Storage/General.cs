@@ -5,11 +5,11 @@
 //-----------------------------------------------------------------------
 using System;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class General : RavenTest
     {

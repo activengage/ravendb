@@ -1,8 +1,8 @@
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Raven.Tests.Web.Startup))]
-namespace Raven.Tests.Web
+[assembly: OwinStartup(typeof(Raven35.Tests.Web.Startup))]
+namespace Raven35.Tests.Web
 {
     public partial class Startup
     {

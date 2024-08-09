@@ -1,17 +1,17 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public abstract class HiLoKeyGeneratorBase
     {
         protected const string RavenKeyGeneratorsHilo = "Raven/Hilo/";
-        protected const string RavenKeyServerPrefix = "Raven/ServerPrefixForHilo";
+        protected const string RavenKeyServerPrefix = "Raven35.ServerPrefixForHilo";
 
         protected readonly string tag;
         protected long capacity;

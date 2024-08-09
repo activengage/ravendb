@@ -1,16 +1,16 @@
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Dto.Faceted;
-using Raven.Tests.Faceted;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Dto.Faceted;
+using Raven35.Tests.Faceted;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using Xunit;
 
-namespace Raven.Tests.Bugs.Facets
+namespace Raven35.Tests.Bugs.Facets
 {
 
     public class FacetsCreationTest : FacetTestBase

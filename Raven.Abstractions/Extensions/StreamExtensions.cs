@@ -9,13 +9,13 @@ using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 using System.Runtime.InteropServices;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util.Streams;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util.Streams;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     /// <summary>
     /// Extensions for working with streams

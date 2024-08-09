@@ -6,13 +6,13 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4690 : RavenFilesTestBase
     {

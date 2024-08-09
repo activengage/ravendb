@@ -8,15 +8,15 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Embedded;
-using Raven.Database.Bundles.SqlReplication;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Embedded;
+using Raven35.Database.Bundles.SqlReplication;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Bundles.SqlReplication
+namespace Raven35.Tests.Bundles.SqlReplication
 {
     public class CanReplicateToArraysInPostgresSQL : RavenTest
     {

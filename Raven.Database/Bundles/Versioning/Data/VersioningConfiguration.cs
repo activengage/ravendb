@@ -3,7 +3,7 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Raven.Bundles.Versioning.Data
+namespace Raven35.Bundles.Versioning.Data
 {
     public class VersioningConfiguration
     {

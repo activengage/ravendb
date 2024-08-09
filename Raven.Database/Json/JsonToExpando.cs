@@ -3,11 +3,11 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Abstractions.Linq;
-using Raven.Database.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Linq;
+using Raven35.Database.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     public static class JsonToExpando
     {

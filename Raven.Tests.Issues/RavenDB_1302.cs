@@ -6,13 +6,13 @@
 using System;
 using System.Globalization;
 using System.Threading;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1302 : RavenTest
     {

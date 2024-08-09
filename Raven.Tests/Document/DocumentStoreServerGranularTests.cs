@@ -1,10 +1,10 @@
 using System.Net;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class DocumentStoreServerGranularTests : NoDisposalNeeded
     {

@@ -5,15 +5,15 @@ using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Web;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Common;
-using Raven.Database.Server.Abstractions;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.Tenancy;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Common;
+using Raven35.Database.Server.Abstractions;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class WebSocketsRequestParser
     {

@@ -1,7 +1,7 @@
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bundles.Versioning.Bugs
+namespace Raven35.Tests.Bundles.Versioning.Bugs
 {
     public class RavenDB_438 : VersioningTest
     {
@@ -10,7 +10,7 @@ namespace Raven.Tests.Bundles.Versioning.Bugs
         {
             using (var s = documentStore.OpenSession())
             {
-                s.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                s.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                 {
                     Exclude = false,
                     Id = "Raven/Versioning/DefaultConfiguration",

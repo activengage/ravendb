@@ -1,12 +1,12 @@
 using Lucene.Net.Analysis;
 using Lucene.Net.Search;
-using Raven.Database.Indexing;
-using Raven.Database.Indexing.LuceneIntegration;
-using Raven.Tests.Common;
+using Raven35.Database.Indexing;
+using Raven35.Database.Indexing.LuceneIntegration;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_626 : NoDisposalNeeded
     {

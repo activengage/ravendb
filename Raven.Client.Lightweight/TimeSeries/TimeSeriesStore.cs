@@ -1,19 +1,19 @@
 using System;
 using System.Net;
 using System.Net.Http;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Extensions;
-using Raven.Client.TimeSeries.Changes;
-using Raven.Client.TimeSeries.Replication;
-using Raven.Client.Util;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Extensions;
+using Raven35.Client.TimeSeries.Changes;
+using Raven35.Client.TimeSeries.Replication;
+using Raven35.Client.Util;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Client.TimeSeries
+namespace Raven35.Client.TimeSeries
 {
     /// <summary>
     /// Implements client-side time series functionality

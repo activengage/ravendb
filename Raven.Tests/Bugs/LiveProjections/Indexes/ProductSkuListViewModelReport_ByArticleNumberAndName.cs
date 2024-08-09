@@ -1,16 +1,16 @@
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Bugs.LiveProjections.Indexes
+namespace Raven35.Tests.Bugs.LiveProjections.Indexes
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
 
-    using Raven.Client.Indexes;
-    using Raven.Database.Indexing;
-    using Raven.Tests.Bugs.LiveProjections.Entities;
-    using Raven.Tests.Bugs.LiveProjections.Views;
+    using Raven35.Client.Indexes;
+    using Raven35.Database.Indexing;
+    using Raven35.Tests.Bugs.LiveProjections.Entities;
+    using Raven35.Tests.Bugs.LiveProjections.Views;
 
     public class ProductSkuListViewModelReport_ByArticleNumberAndName : AbstractIndexCreationTask<ProductSku>
     {

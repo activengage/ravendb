@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Abstractions.Exceptions;
+using Raven35.Abstractions.Exceptions;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class ThrowOnInvalidMethodCallsForTransformResults : DepthFirstAstVisitor<object,object>

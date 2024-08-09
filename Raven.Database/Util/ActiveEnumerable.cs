@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class ActiveEnumerable<T> : IEnumerable<T>, IEnumerator<T>
     {

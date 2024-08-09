@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection.Profiling;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization.Conflictuality;
-using Raven.Json.Linq;
-using Raven.Client.FileSystem;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization.Conflictuality;
+using Raven35.Json.Linq;
+using Raven35.Client.FileSystem;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public abstract class SynchronizationWorkItem : IHoldProfilingInformation
     {

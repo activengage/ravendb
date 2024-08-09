@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Client.Metrics
+namespace Raven35.Client.Metrics
 {
     /// <summary>
     /// Provides support for timing values

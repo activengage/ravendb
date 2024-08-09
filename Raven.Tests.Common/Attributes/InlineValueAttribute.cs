@@ -4,7 +4,7 @@ using System.Reflection;
 
 using Xunit.Extensions;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     [CLSCompliant(false)]
     public class InlineValueAttribute : DataAttribute

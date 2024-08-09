@@ -9,17 +9,17 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Database.Bundles.PeriodicExports;
-using Raven.Database.Extensions;
-using Raven.Database.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Database.Bundles.PeriodicExports;
+using Raven35.Database.Extensions;
+using Raven35.Database.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.PeriodicExports
+namespace Raven35.Tests.Bundles.PeriodicExports
 {
     public class PeriodicBackupTests : RavenTest
     {

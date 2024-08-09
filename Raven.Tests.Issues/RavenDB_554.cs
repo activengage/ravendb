@@ -1,16 +1,16 @@
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.IO;
     using System.Linq;
     using System.Net;
     using System.Threading;
 
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Extensions;
-    using Raven.Abstractions.Indexing;
-    using Raven.Client.Document;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Extensions;
+    using Raven35.Abstractions.Indexing;
+    using Raven35.Client.Document;
 
     using Xunit;
 

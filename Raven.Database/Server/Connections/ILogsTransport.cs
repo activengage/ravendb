@@ -1,8 +1,8 @@
 using System;
 
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public interface ILogsTransport : IDisposable
     {

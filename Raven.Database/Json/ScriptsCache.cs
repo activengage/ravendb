@@ -5,12 +5,12 @@ using System.Linq;
 using System.Threading;
 using Jint;
 using Jint.Parser;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     [CLSCompliant(false)]
     public class ScriptsCache

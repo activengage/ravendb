@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Raven.Abstractions
+namespace Raven35.Abstractions
 {
     public class DescriptionAttribute : Attribute
     {

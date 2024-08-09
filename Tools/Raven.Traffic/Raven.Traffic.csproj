@@ -7,8 +7,8 @@
     <ProjectGuid>{5BB7F2B6-CE06-4F1F-9D12-8E25E60FF06F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Traffic</RootNamespace>
-    <AssemblyName>Raven.Traffic</AssemblyName>
+    <RootNamespace>Raven35.Traffic</RootNamespace>
+    <AssemblyName>Raven.35Traffic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>

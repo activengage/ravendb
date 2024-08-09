@@ -3,12 +3,12 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // ----------------------------------------------------------------------
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Core.Utils.Entities;
 using System.Linq;
 
-namespace Raven.Tests.Core.Utils.Indexes
+namespace Raven35.Tests.Core.Utils.Indexes
 {
     public class Companies_SortByName : AbstractIndexCreationTask<Company>
     {
@@ -21,9 +21,9 @@ namespace Raven.Tests.Core.Utils.Indexes
             Sort(c => c.Name, SortOptions.String);
 
 #if !DNXCORE50
-            Analyzers.Add(c => c.Name, typeof(Raven.Database.Indexing.Collation.Cultures.PlCollationAnalyzer).ToString());
+            Analyzers.Add(c => c.Name, typeof(Raven35.Database.Indexing.Collation.Cultures.PlCollationAnalyzer).ToString());
 #else
-            Analyzers.Add(c => c.Name, "Raven.Database.Indexing.Collation.Cultures.PlCollationAnalyzer");
+            Analyzers.Add(c => c.Name, "Raven35.Database.Indexing.Collation.Cultures.PlCollationAnalyzer");
 #endif
         }
     }

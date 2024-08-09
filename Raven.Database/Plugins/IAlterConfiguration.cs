@@ -1,7 +1,7 @@
 using System.ComponentModel.Composition;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     public interface IAlterConfiguration

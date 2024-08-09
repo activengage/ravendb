@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     public partial class JsonTextReader
     {

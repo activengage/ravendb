@@ -9,7 +9,7 @@ using System.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization.Bugs
+namespace Raven35.Tests.Bundles.Authorization.Bugs
 {
     public class LoadingSavedInfo : AuthorizationTest
     {
@@ -22,7 +22,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = UserId,
                     Name = "Ayende Rahien",
@@ -30,11 +30,11 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                                        {
-                                               new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                                               new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                                                {
                                                        User = UserId,
                                                        Allow = true,
@@ -50,7 +50,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             {
                 using (var s = store.OpenSession(DatabaseName))
                 {
-                    client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
+                    client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
 
                     var c = s.Load<Company>(company.Id);
                     c.Name = "other " + i;
@@ -62,7 +62,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
 
                 var load = s.Load<Company>(company.Id);
                 Assert.NotNull(load);
@@ -79,7 +79,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             };
             using (var s = store.OpenSession(DatabaseName))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = UserId,
                     Name = "Ayende Rahien",
@@ -87,11 +87,11 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                                        {
-                                               new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                                               new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                                                {
                                                        User = UserId,
                                                        Allow = true,
@@ -107,7 +107,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             {
                 using (var s = store.OpenSession(DatabaseName))
                 {
-                    client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
+                    client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
 
                     var c = s.Query<Company>().Customize(x => x.WaitForNonStaleResults(TimeSpan.FromSeconds(3))).First();
                     c.Name = "other " + i;
@@ -119,7 +119,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
 
                 var load = s.Load<Company>(company.Id);
                 Assert.NotNull(load);

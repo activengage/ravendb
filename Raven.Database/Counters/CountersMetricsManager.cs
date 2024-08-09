@@ -2,11 +2,11 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Database.Util;
+using Raven35.Database.Util;
 using Raven.Imports.metrics;
 using Raven.Imports.metrics.Core;
 
-namespace Raven.Database.Counters
+namespace Raven35.Database.Counters
 {
     [CLSCompliant(false)]
     public class CountersMetricsManager : IDisposable

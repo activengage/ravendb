@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     [Serializable]
     public class OptimisticConcurrencyViolationException : Exception

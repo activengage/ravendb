@@ -17,16 +17,16 @@ using Lucene.Net.Spatial.Queries;
 using Lucene.Net.Spatial.Util;
 using NetTopologySuite;
 using NetTopologySuite.Geometries;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Spatial;
-using Raven.Database.Indexing.Spatial;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Spatial;
+using Raven35.Database.Indexing.Spatial;
 using Spatial4n.Core.Context.Nts;
 using Spatial4n.Core.Distance;
 using Spatial4n.Core.Shapes;
-using SpatialRelation = Raven.Abstractions.Indexing.SpatialRelation;
+using SpatialRelation = Raven35.Abstractions.Indexing.SpatialRelation;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class SpatialField
     {

@@ -6,7 +6,7 @@
 using System.Net.Http;
 using System.Text;
 
-namespace Raven.Database.Server.WebApi
+namespace Raven35.Database.Server.WebApi
 {
     public class  MultiGetSafeStringContent : StringContent
     {

@@ -6,7 +6,7 @@
 using System;
 using System.ComponentModel.Composition;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     [Obsolete("Use RavenFS instead.")]

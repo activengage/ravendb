@@ -8,12 +8,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Client.Spatial;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Client.Spatial;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     A query against a Raven index

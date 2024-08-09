@@ -15,20 +15,20 @@ using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Indexing;
-using Raven.Database.Indexing.Sorting;
-using Raven.Database.Indexing.Sorting.AlphaNumeric;
-using Raven.Database.Indexing.Sorting.Custom;
-using Raven.Database.Linq;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Indexing;
+using Raven35.Database.Indexing.Sorting;
+using Raven35.Database.Indexing.Sorting.AlphaNumeric;
+using Raven35.Database.Indexing.Sorting.Custom;
+using Raven35.Database.Linq;
+using Raven35.Database.Util;
 
 using Spatial4n.Core.Shapes;
 using Spatial4n.Core.Shapes.Impl;
-using Constants = Raven.Abstractions.Data.Constants;
+using Constants = Raven35.Abstractions.Data.Constants;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class IndexingExtensions
     {

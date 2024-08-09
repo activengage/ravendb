@@ -1,19 +1,19 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Connection;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.ClientApi
+namespace Raven35.Tests.FileSystem.ClientApi
 {
     public class FileSessionTests : RavenFilesTestWithLogs
     {

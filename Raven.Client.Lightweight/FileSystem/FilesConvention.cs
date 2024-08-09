@@ -1,14 +1,14 @@
 using System;
 
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection;
-using Raven.Client.FileSystem.Connection;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection;
+using Raven35.Client.FileSystem.Connection;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     /// <summary>
     /// The set of conventions used by the <see cref="FilesConvention"/> which allow the users to customize
-    /// the way the Raven client API behaves
+    /// the way the Raven35.Client API behaves
     /// </summary>
     public class FilesConvention : QueryConvention
     {

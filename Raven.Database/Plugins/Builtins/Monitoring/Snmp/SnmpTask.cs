@@ -16,16 +16,16 @@ using Lextm.SharpSnmpLib;
 using Lextm.SharpSnmpLib.Messaging;
 using Lextm.SharpSnmpLib.Pipeline;
 using Lextm.SharpSnmpLib.Security;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Commercial;
-using Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database;
-using Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Server;
-using Raven.Database.Server;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Commercial;
+using Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database;
+using Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Server;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp
 {
     public class SnmpTask : IServerStartupTask
     {

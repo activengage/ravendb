@@ -14,7 +14,7 @@ using NLog.Targets;
 using NLog.Targets.Wrappers;
 using Xunit;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public class PerTestLogger : BeforeAfterTestAttribute
     {

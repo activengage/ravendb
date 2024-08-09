@@ -7,8 +7,8 @@
     <ProjectGuid>{51D4913D-E932-46A8-983E-26D4602A6B3F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.ApiToken</RootNamespace>
-    <AssemblyName>Raven.ApiToken</AssemblyName>
+    <RootNamespace>Raven35.ApiToken</RootNamespace>
+    <AssemblyName>Raven35.ApiToken</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

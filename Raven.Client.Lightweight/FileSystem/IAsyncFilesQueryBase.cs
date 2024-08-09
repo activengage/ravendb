@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IAsyncFilesOrderedQueryBase<T, out TSelf> : IAsyncFilesQueryBase<T,TSelf> where TSelf : IAsyncFilesQueryBase<T, TSelf>
     {

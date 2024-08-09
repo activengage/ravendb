@@ -7,9 +7,9 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Connection;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public class HttpClientCache : IDisposable
     {

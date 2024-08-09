@@ -9,13 +9,13 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Globalization;
 using System.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Linq
+namespace Raven35.Abstractions.Linq
 {
     public interface IDynamicJsonObject
     {

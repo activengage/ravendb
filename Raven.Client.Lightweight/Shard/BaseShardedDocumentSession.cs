@@ -2,17 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Document.Batches;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     public abstract class BaseShardedDocumentSession<TDatabaseCommands> : InMemoryDocumentSessionOperations, IDocumentQueryGenerator, ITransactionalDocumentSession
         where TDatabaseCommands : class

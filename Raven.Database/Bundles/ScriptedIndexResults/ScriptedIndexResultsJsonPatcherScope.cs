@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Jint;
 using Jint.Native;
-using Raven.Abstractions.Data;
-using Raven.Database.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Json;
 
-namespace Raven.Database.Bundles.ScriptedIndexResults
+namespace Raven35.Database.Bundles.ScriptedIndexResults
 {
     internal class ScriptedIndexResultsJsonPatcherScope : DefaultScriptedJsonPatcherOperationScope
     {

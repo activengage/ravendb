@@ -1,11 +1,11 @@
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System.Linq;
 
-namespace Raven.Tests.Bugs.Entities
+namespace Raven35.Tests.Bugs.Entities
 {
     public class CanSaveUpdateAndRead : RavenTest
     {

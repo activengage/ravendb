@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using System.Management.Automation;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
-namespace Raven.Powershell
+namespace Raven35.Powershell
 {
     [Cmdlet(VerbsData.Backup, "Database")]
     public class DatabaseBackupCmdlet : Cmdlet
@@ -49,7 +49,7 @@ namespace Raven.Powershell
                     return;
                 }
 
-                var databaseId = "Raven/Databases/" + DatabaseName;
+                var databaseId = "Raven35.Databases/" + DatabaseName;
 
                 var databaseDocuments = store.DatabaseCommands.ForSystemDatabase().Get(databaseId).DataAsJson.Deserialize(typeof(DatabaseDocument), store.Conventions) as DatabaseDocument;
                 

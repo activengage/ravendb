@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
-using Raven.Tests.Web.Models;
+using Raven35.Tests.Web.Models;
 
 using Xunit;
 
-namespace Raven.Tests.Web.Tests
+namespace Raven35.Tests.Web.Tests
 {
     public abstract class WebTestBase : IUseFixture<WebTestFixture>
     {

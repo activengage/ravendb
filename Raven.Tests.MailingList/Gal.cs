@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Gal : RavenTest
     {

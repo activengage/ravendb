@@ -7,25 +7,25 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Database.Extensions;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Database.Extensions;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Database.Data;
-using Raven.Client;
+using Raven35.Database.Data;
+using Raven35.Client;
 using System.IO;
-using Raven.Client.Document;
-using Raven.Client.Linq;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
 using System.Threading;
 using System.Diagnostics;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class UsingRavenQueryProvider : RavenTest
     {

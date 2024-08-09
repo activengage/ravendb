@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Bundles.SqlReplication
+namespace Raven35.Database.Bundles.SqlReplication
 {
     internal static class SqlReplicationClassifier
     {

@@ -7,7 +7,7 @@ using System;
 using System.Linq;
 using Xunit;
 
-namespace Raven.Tests.Querying
+namespace Raven35.Tests.Querying
 {
     public class DynamicIndexesWithCollections : RavenTest
     {
@@ -51,7 +51,7 @@ namespace Raven.Tests.Querying
 
                 using (var s = store.OpenSession())
                 {
-                  var stats = new Raven.Client.RavenQueryStatistics();
+                  var stats = new Raven35.Client.RavenQueryStatistics();
                     var results = s.Query<Blog>()
             .Statistics(out stats)
                         .Customize(x => x.WaitForNonStaleResultsAsOfNow(TimeSpan.FromSeconds(5)))

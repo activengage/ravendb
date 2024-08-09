@@ -6,7 +6,7 @@
 using System;
 using System.Globalization;
 
-namespace Raven.Database.Indexing.Collation
+namespace Raven35.Database.Indexing.Collation
 {
     public class AbstractCultureCollationAnalyzer : CollationAnalyzer
     {

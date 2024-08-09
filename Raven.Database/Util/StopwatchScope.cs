@@ -6,7 +6,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     internal class StopwatchScope : IDisposable
     {

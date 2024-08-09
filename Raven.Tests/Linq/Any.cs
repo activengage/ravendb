@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class Any : RavenTest
     {

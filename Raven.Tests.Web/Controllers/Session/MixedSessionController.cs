@@ -11,14 +11,14 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Indexes;
-using Raven.Tests.Common.Dto;
-using Raven.Tests.Web.Models.Transformers;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common.Dto;
+using Raven35.Tests.Web.Models.Transformers;
 
-namespace Raven.Tests.Web.Controllers.Session
+namespace Raven35.Tests.Web.Controllers.Session
 {
     public class MixedSessionController : RavenSyncApiController
     {

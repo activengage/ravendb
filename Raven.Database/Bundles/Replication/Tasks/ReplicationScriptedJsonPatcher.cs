@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System;
 using Jint;
-using Raven.Abstractions.Data;
-using Raven.Database;
-using Raven.Database.Extensions;
-using Raven.Database.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Database;
+using Raven35.Database.Extensions;
+using Raven35.Database.Json;
 
-namespace Raven.Bundles.Replication.Tasks
+namespace Raven35.Bundles.Replication.Tasks
 {
     internal class ReplicationScriptedJsonPatcher : ScriptedJsonPatcher
     {

@@ -1,15 +1,15 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Linq;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Linq;
 using Xunit;
 
-namespace Raven.Tests.MultiGet
+namespace Raven35.Tests.MultiGet
 {
     public class MultiGetCaching : RavenTest
     {

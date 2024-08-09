@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Security.Policy;
 
-namespace Raven.ApiToken
+namespace Raven35.ApiToken
 {
     public class TokenFetcherConfiguration
     {

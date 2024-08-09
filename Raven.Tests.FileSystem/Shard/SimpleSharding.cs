@@ -4,11 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
-using Raven.Json.Linq;
-using Raven.Client.FileSystem.Shard;
-using Raven.Client.FileSystem;
+using Raven35.Json.Linq;
+using Raven35.Client.FileSystem.Shard;
+using Raven35.Client.FileSystem;
 
-namespace Raven.Tests.FileSystem.Shard
+namespace Raven35.Tests.FileSystem.Shard
 {
     public class SimpleSharding : RavenFilesTestWithLogs
     {

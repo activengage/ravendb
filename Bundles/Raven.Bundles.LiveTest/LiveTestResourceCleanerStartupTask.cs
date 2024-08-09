@@ -8,16 +8,16 @@ using System.Configuration;
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Extensions;
-using Raven.Database.Plugins;
-using Raven.Database.Server;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Extensions;
+using Raven35.Database.Plugins;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.LiveTest
+namespace Raven35.Bundles.LiveTest
 {
     public class LiveTestResourceCleanerStartupTask : IServerStartupTask
     {
@@ -32,7 +32,7 @@ namespace Raven.Bundles.LiveTest
             options = serverOptions;
 
             int val;
-            if (int.TryParse(ConfigurationManager.AppSettings["Raven/Bundles/LiveTest/Tenants/MaxIdleTimeForTenantResource"], out val) == false)
+            if (int.TryParse(ConfigurationManager.AppSettings["Raven35.Bundles/LiveTest/Tenants/MaxIdleTimeForTenantResource"], out val) == false)
                 val = 900;
 
             maxTimeResourceCanBeIdle = TimeSpan.FromSeconds(val);

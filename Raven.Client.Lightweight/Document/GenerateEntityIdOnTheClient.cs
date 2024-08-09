@@ -4,10 +4,10 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.CSharp.RuntimeBinder;
 
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class GenerateEntityIdOnTheClient
     {

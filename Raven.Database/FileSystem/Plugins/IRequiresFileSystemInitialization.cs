@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.FileSystem.Plugins
+namespace Raven35.Database.FileSystem.Plugins
 {
     public interface IRequiresFileSystemInitialization
     {

@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3264
     {

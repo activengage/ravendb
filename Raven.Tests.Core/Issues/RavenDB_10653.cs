@@ -7,7 +7,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using Xunit;
 
-namespace Raven.Tests.Core.Issues
+namespace Raven35.Tests.Core.Issues
 {
     public class RavenDB_10653 : RavenCoreTestBase
     {

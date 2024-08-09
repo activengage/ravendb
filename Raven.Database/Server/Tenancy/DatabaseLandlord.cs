@@ -1,12 +1,12 @@
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Commercial;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Connections;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Commercial;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Connections;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -17,11 +17,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Database.Server.Security;
-using Raven.Abstractions.Exceptions;
-using Raven.Database.Raft.Dto;
+using Raven35.Database.Server.Security;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Database.Raft.Dto;
 
-namespace Raven.Database.Server.Tenancy
+namespace Raven35.Database.Server.Tenancy
 {
     public class DatabasesLandlord : AbstractLandlord<DocumentDatabase>
     {
@@ -30,7 +30,7 @@ namespace Raven.Database.Server.Tenancy
         public event Action<string> OnDatabaseLoaded = delegate { };
 
         private bool initialized;
-        private const string DATABASES_PREFIX = "Raven/Databases/";
+        private const string DATABASES_PREFIX = "Raven35.Databases/";
         public override string ResourcePrefix { get { return DATABASES_PREFIX; } }
 
         public int MaxIdleTimeForTenantDatabaseInSec { get; private set; }
@@ -328,7 +328,7 @@ namespace Raven.Database.Server.Tenancy
 
         private void OnDatabaseBackupCompleted(DocumentDatabase db)
         {
-            var dbStatusKey = "Raven/BackupStatus/" + db.Name;
+            var dbStatusKey = "Raven35.BackupStatus/" + db.Name;
             var statusDocument = db.Documents.Get(dbStatusKey, null);
             DatabaseOperationsStatus status;
             if (statusDocument == null)
@@ -355,7 +355,7 @@ namespace Raven.Database.Server.Tenancy
                     var numberOfAllowedDbs = int.Parse(maxDatabases);
 
                     int nextPageStart = 0;
-                    var databases = systemDatabase.Documents.GetDocumentsWithIdStartingWith("Raven/Databases/", null, null, 0, numberOfAllowedDbs, CancellationToken.None, ref nextPageStart).ToList();
+                    var databases = systemDatabase.Documents.GetDocumentsWithIdStartingWith("Raven35.Databases/", null, null, 0, numberOfAllowedDbs, CancellationToken.None, ref nextPageStart).ToList();
                     if (databases.Count > numberOfAllowedDbs)
                         throw new InvalidOperationException(
                             "You have reached the maximum number of databases that you can have according to your license: " + numberOfAllowedDbs + Environment.NewLine +
@@ -400,7 +400,7 @@ namespace Raven.Database.Server.Tenancy
             {
                 if (notification.Id == null)
                     return;
-                const string ravenDbPrefix = "Raven/Databases/";
+                const string ravenDbPrefix = "Raven35.Databases/";
                 if (notification.Id.StartsWith(ravenDbPrefix, StringComparison.InvariantCultureIgnoreCase) == false)
                     return;
                 var dbName = notification.Id.Substring(ravenDbPrefix.Length);

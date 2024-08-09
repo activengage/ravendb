@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using NDesk.Options;
 
-namespace Raven.MiniDumper
+namespace Raven35.MiniDumper
 {
     public class Program
     {
@@ -33,7 +33,7 @@ namespace Raven.MiniDumper
         private void Initialize()
         {
             optionSet = new OptionSet();
-            optionSet.Add("process-id=", OptionCategory.None, "ProcessID to dump (Default = Look for Raven.Server.exe)", processId => options.ProcessId = int.Parse(processId));
+            optionSet.Add("process-id=", OptionCategory.None, "ProcessID to dump (Default = Look for Raven35.Server.exe)", processId => options.ProcessId = int.Parse(processId));
             optionSet.Add("path-of-dump=", OptionCategory.None, "Path of output dump file (Default = Temp Directory)", path => options.DumpPath = path);
             optionSet.Add("path-of-pdbs=", OptionCategory.None, "Path to look for and copy all PDBs file (Default = Path of <process-id>)", path => options.PdbsPath = path);
             optionSet.Add("dump=", OptionCategory.None, "Set dump option which might be one or more (seperated with ',') of these : "
@@ -52,22 +52,22 @@ namespace Raven.MiniDumper
         {
             if (options.ProcessId <= 0)
             {
-                var proc = Process.GetProcessesByName("Raven.Server");
+                var proc = Process.GetProcessesByName("Raven35.Server");
                 switch (proc.Length)
                 {
                     case 0:
-                        Console.WriteLine("ProcessID (--process-id) is empty, and no Raven.Server process was found.");
+                        Console.WriteLine("ProcessID (--process-id) is empty, and no Raven35.Server process was found.");
                         Environment.Exit((int)ExitCodes.InvalidArguments);
                         break;
 
                     case 1:
-                        NotifyAssumption($"--process-id was not specified, assuming you meant Raven.Server process {proc[0].Id}");
+                        NotifyAssumption($"--process-id was not specified, assuming you meant Raven35.Server process {proc[0].Id}");
                         options.ProcessId = proc[0].Id;
                         if (options.PdbsPath == null)
                             options.PdbsPath = Path.GetDirectoryName(proc[0].MainModule.FileName);
                         break;
                     default:
-                        Console.WriteLine("ProcessID (--process-id) is empty, and there is more than a single Raven.Server process in the system, specify which one to use!");
+                        Console.WriteLine("ProcessID (--process-id) is empty, and there is more than a single Raven35.Server process in the system, specify which one to use!");
                         Environment.Exit((int)ExitCodes.InvalidArguments);
                         break;
                 }

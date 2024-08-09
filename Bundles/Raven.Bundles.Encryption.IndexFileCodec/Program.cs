@@ -5,10 +5,10 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Bundles.Encryption.Streams;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Bundles.Encryption.Streams;
 
-namespace Raven.Bundles.Encryption.IndexFileCodec
+namespace Raven35.Bundles.Encryption.IndexFileCodec
 {
     class Program
     {
@@ -29,7 +29,7 @@ namespace Raven.Bundles.Encryption.IndexFileCodec
             {
                 Console.Error.WriteLine(@"Raven index file codec
 
-Usage: Raven.Bundles.Encryption.IndexFileCodec {method} {key} {filename} {input} {output}
+Usage: Raven35.Bundles.Encryption.IndexFileCodec {method} {key} {filename} {input} {output}
 
 This tool only uses standard input and output for IO.
 Method may be encrypt or decrypt.

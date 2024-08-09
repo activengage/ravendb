@@ -3,20 +3,20 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Storage.Voron
+namespace Raven35.Tests.Storage.Voron
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Text;
 
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Exceptions;
-    using Raven.Database.Storage;
-    using Raven.Database.Tasks;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Exceptions;
+    using Raven35.Database.Storage;
+    using Raven35.Database.Tasks;
+    using Raven35.Json.Linq;
 
     using Xunit;
     using Xunit.Extensions;

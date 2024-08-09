@@ -6,8 +6,8 @@
     <ProjectGuid>{3B90EB20-AEA3-4972-8219-936F1A62768C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Server</RootNamespace>
-    <AssemblyName>Raven.Server</AssemblyName>
+    <RootNamespace>Raven35.Server</RootNamespace>
+    <AssemblyName>Raven35.Server</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

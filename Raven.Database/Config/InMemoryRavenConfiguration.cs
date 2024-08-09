@@ -15,21 +15,21 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Database.Extensions;
-using Raven.Database.Indexing;
-using Raven.Database.Plugins.Catalogs;
-using Raven.Database.Server;
-using Raven.Database.FileSystem.Util;
-using Raven.Database.Storage;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Database.Extensions;
+using Raven35.Database.Indexing;
+using Raven35.Database.Plugins.Catalogs;
+using Raven35.Database.Server;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
 using Enum = System.Enum;
-using Raven.Abstractions;
-using Raven.Database.Impl;
+using Raven35.Abstractions;
+using Raven35.Database.Impl;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     public class InMemoryRavenConfiguration
     {
@@ -957,7 +957,7 @@ namespace Raven.Database.Config
         /// <summary>
         /// The directory to search for RavenDB's WebUI. 
         /// This is usually only useful if you are debugging RavenDB's WebUI. 
-        /// Default: ~/Raven/WebUI 
+        /// Default: ~/Raven35.WebUI 
         /// </summary>
         public string WebDir { get; set; }
 
@@ -989,7 +989,7 @@ namespace Raven.Database.Config
                 // add new one
                 if (Directory.Exists(pluginsDirectory))
                 {
-                    var patterns = Settings["Raven/BundlesSearchPattern"] ?? "*.dll";
+                    var patterns = Settings["Raven35.BundlesSearchPattern"] ?? "*.dll";
                     foreach (var pattern in patterns.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries))
                     {
                         Catalog.Catalogs.Add(new BuiltinFilteringCatalog(new DirectoryCatalog(pluginsDirectory, pattern)));
@@ -1338,10 +1338,10 @@ namespace Raven.Database.Config
             switch (typeName.ToLowerInvariant())
             {
                 case EsentTypeName:
-                    typeName = typeof(Raven.Storage.Esent.TransactionalStorage).AssemblyQualifiedName;
+                    typeName = typeof(Raven35.Storage.Esent.TransactionalStorage).AssemblyQualifiedName;
                     break;
                 case VoronTypeName:
-                    typeName = typeof(Raven.Storage.Voron.TransactionalStorage).AssemblyQualifiedName;
+                    typeName = typeof(Raven35.Storage.Voron.TransactionalStorage).AssemblyQualifiedName;
                     break;
                 default:
                     throw new ArgumentException("Invalid storage engine type name: " + typeName);

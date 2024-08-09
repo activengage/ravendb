@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Data
+namespace Raven35.Database.Data
 {
     public class DiskSpaceNotification
     {

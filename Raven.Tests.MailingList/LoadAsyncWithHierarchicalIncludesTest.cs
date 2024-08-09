@@ -5,7 +5,7 @@ namespace RavenDbIssues
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using Raven.Tests.Helpers;
+    using Raven35.Tests.Helpers;
 
     public class LoadAsyncWithHierarchicalIncludesTest : RavenTestBase
     {

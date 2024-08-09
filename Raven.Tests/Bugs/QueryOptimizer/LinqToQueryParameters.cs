@@ -1,11 +1,11 @@
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Database.Linq.Ast;
-using Raven.Tests.Common;
+using Raven35.Database.Linq.Ast;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs.QueryOptimizer
+namespace Raven35.Tests.Bugs.QueryOptimizer
 {
     public class LinqToQueryParameters : NoDisposalNeeded
     {

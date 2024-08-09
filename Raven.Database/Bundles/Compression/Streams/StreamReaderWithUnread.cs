@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Bundles.Compression.Streams
+namespace Raven35.Bundles.Compression.Streams
 {
     internal class StreamReaderWithUnread
     {

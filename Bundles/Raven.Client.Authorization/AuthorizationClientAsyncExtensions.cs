@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Authorization;
-using Raven.Bundles.Authorization.Model;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document.Async;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Authorization;
+using Raven35.Bundles.Authorization.Model;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document.Async;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Authorization
+namespace Raven35.Client.Authorization
 {
     public static class RavenAuthorizationExtensions
     {

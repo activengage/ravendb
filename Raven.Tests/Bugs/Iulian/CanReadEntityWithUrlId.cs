@@ -1,10 +1,10 @@
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Iulian
+namespace Raven35.Tests.Bugs.Iulian
 {
     public class CanReadEntityWithUrlId : RavenTest
     {

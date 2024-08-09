@@ -1,15 +1,15 @@
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using Xunit;
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using System.Collections.Concurrent;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Subscriptions
+namespace Raven35.Tests.Subscriptions
 {
     public class SubscriptionsPaths:RavenTest
     {

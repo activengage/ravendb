@@ -11,16 +11,16 @@ using Lucene.Net.Store;
 
 using Microsoft.Win32.SafeHandles;
 
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Extensions;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Extensions;
+using Raven35.Database.Plugins;
 
-using Sparrow;
+using Sparrow35;
 
 using Voron.Platform.Win32;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class LuceneCodecDirectory : FSDirectory
     {

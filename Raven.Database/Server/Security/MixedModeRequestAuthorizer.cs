@@ -5,14 +5,14 @@ using System.Diagnostics;
 using System.Net;
 using System.Net.Http;
 using System.Security.Principal;
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.Security.OAuth;
-using Raven.Database.Server.Security.Windows;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.Security.OAuth;
+using Raven35.Database.Server.Security.Windows;
 using System.Linq;
 
-namespace Raven.Database.Server.Security
+namespace Raven35.Database.Server.Security
 {
     public class MixedModeRequestAuthorizer : AbstractRequestAuthorizer
     {

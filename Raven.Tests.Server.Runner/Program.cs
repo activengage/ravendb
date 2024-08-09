@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 
-using Raven.Tests.Server.Runner.Data;
+using Raven35.Tests.Server.Runner.Data;
 
-namespace Raven.Tests.Server.Runner
+namespace Raven35.Tests.Server.Runner
 {
     using System;
 

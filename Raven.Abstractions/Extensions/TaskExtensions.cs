@@ -5,10 +5,10 @@ using System.Security;
 using System.Threading;
 using System.Threading.Tasks;
 #if DNXCORE50
-using Raven.Abstractions.Exceptions;
+using Raven35.Abstractions.Exceptions;
 #endif
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     public static class TaskExtensions
     {

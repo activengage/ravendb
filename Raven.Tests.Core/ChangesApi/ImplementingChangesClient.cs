@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Core.ChangesApi
+namespace Raven35.Tests.Core.ChangesApi
 {
     public class ImplementingChangesClient : RavenCoreTestBase
     {

@@ -3,12 +3,12 @@ using System.Reactive.Linq;
 using System.Reactive.Threading.Tasks;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Counters.Notifications;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Counters.Notifications;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CountersChangesTests : RavenBaseCountersTest
     {

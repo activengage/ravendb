@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Tasks
+namespace Raven35.Database.Tasks
 {
     public class TouchReferenceDocumentIfChangedTask : DatabaseTask
     {

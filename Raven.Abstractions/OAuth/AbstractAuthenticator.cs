@@ -2,9 +2,9 @@ using System;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Connection;
 
-namespace Raven.Abstractions.OAuth
+namespace Raven35.Abstractions.OAuth
 {
     public abstract class AbstractAuthenticator
     {

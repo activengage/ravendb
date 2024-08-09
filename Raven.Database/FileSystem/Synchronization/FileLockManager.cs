@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class FileLockManager
     {

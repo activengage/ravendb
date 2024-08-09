@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class DtcAndTouchDocument : RavenTest
     {
@@ -28,7 +28,7 @@ namespace Raven.Tests.Bugs
                     Id = "tx",
                     Timeout = TimeSpan.FromDays(1)
                 };
-                Raven.Abstractions.Data.Etag etag;
+                Raven35.Abstractions.Data.Etag etag;
                 
                 store.SystemDatabase.Documents.Put("test", putResult.ETag, new RavenJObject(), new RavenJObject(), transactionInformation);
 

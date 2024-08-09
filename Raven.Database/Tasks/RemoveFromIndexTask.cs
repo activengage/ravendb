@@ -5,12 +5,12 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing;
 using System.Linq;
-using Raven.Database.Storage;
+using Raven35.Database.Storage;
 
-namespace Raven.Database.Tasks
+namespace Raven35.Database.Tasks
 {
     public class RemoveFromIndexTask : DatabaseTask
     {

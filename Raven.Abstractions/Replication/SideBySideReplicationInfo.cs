@@ -1,6 +1,6 @@
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
     public class SideBySideReplicationInfo
     {

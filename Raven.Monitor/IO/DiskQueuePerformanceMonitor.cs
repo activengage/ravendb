@@ -6,9 +6,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Monitor.IO.Data;
+using Raven35.Monitor.IO.Data;
 
-namespace Raven.Monitor.IO
+namespace Raven35.Monitor.IO
 {
     internal class DiskQueuePerformanceMonitor : IMonitor
     {

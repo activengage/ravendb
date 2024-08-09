@@ -1,7 +1,7 @@
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Tokenattributes;
 
-namespace Raven.Tests.Common.Analyzers
+namespace Raven35.Tests.Common.Analyzers
 {
     public class NGramTokenFilter : TokenFilter
     {

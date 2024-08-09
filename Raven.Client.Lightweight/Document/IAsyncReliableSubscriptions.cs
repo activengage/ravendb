@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public interface IAsyncReliableSubscriptions : IDisposable
     {

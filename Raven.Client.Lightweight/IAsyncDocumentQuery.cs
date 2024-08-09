@@ -4,12 +4,12 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Client.Spatial;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Client.Spatial;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Asynchronous query against a raven index

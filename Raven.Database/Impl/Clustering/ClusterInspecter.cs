@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 
-namespace Raven.Database.Impl.Clustering
+namespace Raven35.Database.Impl.Clustering
 {
     public class ClusterInspecter
     {

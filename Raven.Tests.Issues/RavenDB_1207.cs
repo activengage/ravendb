@@ -4,17 +4,17 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Connection;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System;
     using System.Linq;
 
-    using Raven.Abstractions.Indexing;
-    using Raven.Client;
-    using Raven.Client.Indexes;
+    using Raven35.Abstractions.Indexing;
+    using Raven35.Client;
+    using Raven35.Client.Indexes;
 
     using Xunit;
 

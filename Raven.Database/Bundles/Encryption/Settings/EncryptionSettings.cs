@@ -1,10 +1,10 @@
 using System;
 using System.Security.Cryptography;
-using Raven.Abstractions.Data;
-using Raven.Database.Bundles.Encryption;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Bundles.Encryption;
 using Expression = System.Linq.Expressions.Expression;
 
-namespace Raven.Bundles.Encryption.Settings
+namespace Raven35.Bundles.Encryption.Settings
 {
     public class EncryptionSettings
     {

@@ -1,13 +1,13 @@
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.Collections.Generic;
     using System.Linq;
     using Database.Storage;
-    using Raven.Json.Linq;
+    using Raven35.Json.Linq;
     using Xunit;
     using Xunit.Extensions;
 

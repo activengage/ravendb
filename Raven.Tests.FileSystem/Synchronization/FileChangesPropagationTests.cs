@@ -1,7 +1,7 @@
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 using System;
 using System.IO;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class FileChangesPropagationTests : RavenFilesTestWithLogs
     {

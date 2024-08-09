@@ -4,20 +4,20 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
-using Raven.Client.Extensions;
+using Raven35.Client.Extensions;
 
-namespace Raven.Tests.Bundles.Replication.Bugs
+namespace Raven35.Tests.Bundles.Replication.Bugs
 {
     public class ApiKeysWithMultiTenancy : ReplicationBase
     {

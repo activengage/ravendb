@@ -5,9 +5,9 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
-using Raven.Database.Server.Controllers.Admin;
+using Raven35.Database.Server.Controllers.Admin;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public abstract class AdminBundlesApiController : BaseAdminDatabaseApiController
     {

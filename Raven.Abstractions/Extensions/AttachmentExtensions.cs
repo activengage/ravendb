@@ -1,12 +1,12 @@
 using System;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     using System.IO;
     using System.Linq;
 
-    using Raven.Abstractions.Data;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Data;
+    using Raven35.Json.Linq;
 
     [Obsolete("Use RavenFS instead.")]
     public static class AttachmentExtensions

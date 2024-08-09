@@ -6,9 +6,9 @@
 
 using System;
 
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
-namespace Raven.Tests.Common
+namespace Raven35.Tests.Common
 {
     public abstract class TransactionalStorageTestBase : RavenTest
     {

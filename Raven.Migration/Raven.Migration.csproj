@@ -7,8 +7,8 @@
     <ProjectGuid>{E6C2EAA5-B5BC-4BE2-B981-0064E819DBEB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Migration</RootNamespace>
-    <AssemblyName>Raven.Migration</AssemblyName>
+    <RootNamespace>Raven35.Migration</RootNamespace>
+    <AssemblyName>Raven35.Migration</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

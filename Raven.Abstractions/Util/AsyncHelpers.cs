@@ -11,9 +11,9 @@ using System.Runtime.ExceptionServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public static class AsyncHelpers
     {

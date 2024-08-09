@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class SubscriptionConnectionOptions
     {

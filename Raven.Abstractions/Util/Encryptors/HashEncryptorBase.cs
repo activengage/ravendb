@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.Util.Encryptors
+namespace Raven35.Abstractions.Util.Encryptors
 {
     using System;
     using System.Security.Cryptography;

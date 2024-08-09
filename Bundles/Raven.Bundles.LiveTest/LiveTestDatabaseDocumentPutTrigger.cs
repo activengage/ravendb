@@ -7,13 +7,13 @@ using System;
 using System.Configuration;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.LiveTest
+namespace Raven35.Bundles.LiveTest
 {
     public class LiveTestDatabaseDocumentPutTrigger : AbstractPutTrigger
     {
@@ -59,11 +59,11 @@ namespace Raven.Bundles.LiveTest
                 bundles.Add("Quotas");
 
             int hardLimitInKb;
-            if (int.TryParse(ConfigurationManager.AppSettings["Raven/Bundles/LiveTest/Quotas/Size/HardLimitInKB"], out hardLimitInKb) == false) 
+            if (int.TryParse(ConfigurationManager.AppSettings["Raven35.Bundles/LiveTest/Quotas/Size/HardLimitInKB"], out hardLimitInKb) == false) 
                 hardLimitInKb = QuotasHardLimitInKb;
 
             int softMarginInKb;
-            if (int.TryParse(ConfigurationManager.AppSettings["Raven/Bundles/LiveTest/Quotas/Size/SoftLimitInKB"], out softMarginInKb) == false)
+            if (int.TryParse(ConfigurationManager.AppSettings["Raven35.Bundles/LiveTest/Quotas/Size/SoftLimitInKB"], out softMarginInKb) == false)
                 softMarginInKb = QuotasSoftMarginInKb;
 
             settings[Constants.ActiveBundles] = string.Join(";", bundles);

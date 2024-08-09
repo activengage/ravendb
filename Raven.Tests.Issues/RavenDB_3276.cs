@@ -4,16 +4,16 @@ using System.IO;
 using System.IO.Compression;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json.Bson;
-using Raven.Tests.Helpers;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json.Bson;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3276 : RavenTestBase
     {
@@ -22,7 +22,7 @@ namespace Raven.Tests.Issues
         {
             //http://[DB url]/databases/[DB name]/bulk_docs
             var httpRequestFactory = new HttpJsonRequestFactory(1);
-            const string body = "[{\"Key\":\"TestEntities/1\",\"Method\":\"PUT\",\"Document\":{\"Items\":{\"\":\"value for empty string\"}},\"Metadata\":{\"Raven-Entity-Name\":\"TestEntities\",\"Raven-Clr-Type\":\"Raven.Tests.Issues.RavenDB_3276+TestEntity, Raven.Tests.Issues\"},\"AdditionalData\":null,\"Etag\":\"00000000-0000-0000-0000-000000000000\"}]";
+            const string body = "[{\"Key\":\"TestEntities/1\",\"Method\":\"PUT\",\"Document\":{\"Items\":{\"\":\"value for empty string\"}},\"Metadata\":{\"Raven-Entity-Name\":\"TestEntities\",\"Raven-Clr-Type\":\"Raven35.Tests.Issues.RavenDB_3276+TestEntity, Raven35.Tests.Issues\"},\"AdditionalData\":null,\"Etag\":\"00000000-0000-0000-0000-000000000000\"}]";
 
             using (var store = NewRemoteDocumentStore())
             {

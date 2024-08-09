@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Isam.Esent.Interop;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     /// <summary>
     /// Modified implementation from original at: 

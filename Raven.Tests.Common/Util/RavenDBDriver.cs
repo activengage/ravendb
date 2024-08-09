@@ -3,12 +3,12 @@ using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Tests.Helpers.Util;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Helpers.Util;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     [CLSCompliant(false)]
     public class RavenDBDriver : ProcessDriver
@@ -30,17 +30,17 @@ namespace Raven.Tests.Common.Util
         {
             IOExtensions.DeleteDirectory(_dataDir);
 
-            var exePath = GetPath("Raven.Server.Exe");
-            var configPath = GetPath("Raven.Server.Exe.Config");
+            var exePath = GetPath("Raven35.Server.Exe");
+            var configPath = GetPath("Raven35.Server.Exe.Config");
 
             if (!File.Exists(exePath))
             {
-                throw new Exception("Could not find Raven.server.exe");
+                throw new Exception("Could not find Raven35.Server.exe");
             }
 
             if (!File.Exists(configPath))
             {
-                throw new Exception("Could not find Raven.server.exe.config");
+                throw new Exception("Could not find Raven35.Server.exe.config");
             }
 
             StartProcess(exePath, string.Format("--ram --set=Raven/Port==8079 --msgBox --set=Raven/AnonymousAccess==Admin --set=Raven/Encryption/FIPS=={0} --set=Raven/DataDir=={1}", ConfigurationHelper.UseFipsEncryptionAlgorithms, _dataDir));
@@ -104,8 +104,8 @@ namespace Raven.Tests.Common.Util
         {
             string retPath = Path.GetDirectoryName(Assembly.GetAssembly(typeof(RavenDBDriver)).CodeBase);
 
-            // We need to have the Raven.Server.exe.config file, with the assemblyRedirect
-            retPath = retPath.Replace("Raven.Tests", "Raven.Server");
+            // We need to have the Raven35.Server.exe.config file, with the assemblyRedirect
+            retPath = retPath.Replace("Raven35.Tests", "Raven35.Server");
             
             return Path.Combine(retPath, subFolderName).Substring(6); //remove leading file://
         }

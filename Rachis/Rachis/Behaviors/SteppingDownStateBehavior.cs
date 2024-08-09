@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Linq;
 using Rachis.Messages;
 
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
 namespace Rachis.Behaviors
 {

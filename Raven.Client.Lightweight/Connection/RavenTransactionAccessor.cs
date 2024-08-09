@@ -8,11 +8,11 @@ using System;
 using System.Collections.Generic;
 using System.Transactions;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-using TransactionInformation = Raven.Abstractions.Data.TransactionInformation;
+using TransactionInformation = Raven35.Abstractions.Data.TransactionInformation;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     /// <summary>
     /// Provide access to the current transaction 

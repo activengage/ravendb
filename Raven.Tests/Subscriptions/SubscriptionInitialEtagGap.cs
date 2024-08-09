@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Subscriptions
+namespace Raven35.Tests.Subscriptions
 {
     public class SubscriptionInitialEtagGap : RavenTest
     {
@@ -34,7 +34,7 @@ namespace Raven.Tests.Subscriptions
                 {
                     for (int i = 0; i < 50; i++)
                     {
-                        biPeople.Store(new Raven.Tests.Common.Dto.Company()
+                        biPeople.Store(new Raven35.Tests.Common.Dto.Company()
                         {
                             Name = "Something Inc. #" + i
                         }, "companies/"+i);
@@ -86,7 +86,7 @@ namespace Raven.Tests.Subscriptions
                 {
                     for (int i = 0; i < 50; i++)
                     {
-                        biCompanies.Store(new Raven.Tests.Common.Dto.Company()
+                        biCompanies.Store(new Raven35.Tests.Common.Dto.Company()
                         {
                             Name = "Something Inc. #" + i
                         }, "companies/"+i);
@@ -105,7 +105,7 @@ namespace Raven.Tests.Subscriptions
                 {
                     for (int i = 0; i < 50; i++)
                     {
-                        biCompanies.Store(new Raven.Tests.Common.Dto.Company()
+                        biCompanies.Store(new Raven35.Tests.Common.Dto.Company()
                         {
                             Name = "Something Inc. #" + i
                         }, "companies/" + i);

@@ -4,10 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
-using Raven.Database.Plugins.Builtins;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Database.Plugins.Builtins;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     [RoutePrefix("")]
     public class SilverlightController : BaseDatabaseApiController
@@ -56,7 +56,7 @@ namespace Raven.Database.Server.Controllers
                 }
             });
 
-            return matchingPath != null ? WriteFile(matchingPath) : WriteEmbeddedFile(DatabasesLandlord.SystemConfiguration.WebDir, "Raven.Database.Server.WebUI", null, "Raven.Studio.xap");
+            return matchingPath != null ? WriteFile(matchingPath) : WriteEmbeddedFile(DatabasesLandlord.SystemConfiguration.WebDir, "Raven35.Database.Server.WebUI", null, "Raven35.Studio.xap");
         }
 
         public static IEnumerable<string> GetPaths(string fileName, string webDir)

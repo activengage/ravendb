@@ -1,15 +1,15 @@
 using System.Globalization;
 using System.Threading;
 
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 using System.Linq;
 using Xunit.Extensions;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class DecimalQueries : RavenTest
     {

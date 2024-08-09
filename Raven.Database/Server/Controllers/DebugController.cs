@@ -16,26 +16,26 @@ using System.Web.Http.Controllers;
 using System.Web.Http.Routing;
 using ICSharpCode.NRefactory.CSharp;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Actions;
-using Raven.Database.Bundles.SqlReplication;
-using Raven.Database.Config;
-using Raven.Database.Common;
-using Raven.Database.Linq;
-using Raven.Database.Linq.Ast;
-using Raven.Database.Server.WebApi;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Database.Storage;
-using Raven.Database.Util;
-using Raven.Json.Linq;
-using IOExtensions = Raven.Database.Extensions.IOExtensions;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Actions;
+using Raven35.Database.Bundles.SqlReplication;
+using Raven35.Database.Config;
+using Raven35.Database.Common;
+using Raven35.Database.Linq;
+using Raven35.Database.Linq.Ast;
+using Raven35.Database.Server.WebApi;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
+using IOExtensions = Raven35.Database.Extensions.IOExtensions;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     [RoutePrefix("")]
     public class DebugController : BaseDatabaseApiController
@@ -886,7 +886,7 @@ namespace Raven.Database.Server.Controllers
 
         [HttpGet]
         [RavenRoute("debug/routes")]
-        [Description(@"Output the debug information for all the supported routes in Raven Server.")]
+        [Description(@"Output the debug information for all the supported routes in Raven35.Server.")]
         public HttpResponseMessage Routes()
         {
             var routes = new SortedDictionary<string, RouteInfo>();

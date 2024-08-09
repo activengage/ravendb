@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 using ICSharpCode.SharpZipLib.BZip2;
 using ICSharpCode.SharpZipLib.Tar;
 using NLog;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Extensions;
 
-namespace Raven.Performance
+namespace Raven35.Performance
 {
     public class Tester
     {

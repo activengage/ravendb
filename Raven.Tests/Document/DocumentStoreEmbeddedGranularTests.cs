@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
-using Raven.Client.Embedded;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class DocumentStoreEmbeddedGranularTests : RavenTest, IDisposable
     {

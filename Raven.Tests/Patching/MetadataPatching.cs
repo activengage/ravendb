@@ -1,13 +1,13 @@
 
-using Raven.Abstractions.Data;
-using Raven.Database.Data;
-using Raven.Database.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Data;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Patching
+namespace Raven35.Tests.Patching
 {
     public class MetadataPatching : RavenTest
     {

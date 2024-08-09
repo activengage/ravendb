@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Plugins;
-using Raven.Database.Storage;
-using Raven.Database.Util;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Plugins;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
 
-namespace Raven.IndexCleaner
+namespace Raven35.IndexCleaner
 {
     public class IndexCleaner
     {

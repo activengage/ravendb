@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Database
+namespace Raven35.Database
 {
     public class MemoryStatisticsPosix
     {

@@ -9,13 +9,13 @@ using System.Threading;
 using System.Transactions;
 #endif
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.Connection;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.Connection;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Generate hilo numbers against a RavenDB document

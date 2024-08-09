@@ -13,7 +13,7 @@ using NDesk.Options;
 
 using Newtonsoft.Json;
 
-namespace Raven.Debug
+namespace Raven35.Debug
 {
     public class Program
     {

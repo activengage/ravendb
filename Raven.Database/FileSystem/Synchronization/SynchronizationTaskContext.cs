@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class SynchronizationTaskContext : IDisposable
     {

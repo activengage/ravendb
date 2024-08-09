@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged
 {
     public static class RdcBufferTools
     {

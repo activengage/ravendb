@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using HtmlAgilityPack;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Linq;
 
-namespace Raven.Database.Linq.PrivateExtensions
+namespace Raven35.Database.Linq.PrivateExtensions
 {
     /// <summary>
     /// Extension methods that we are translating on dynamic objects during the 

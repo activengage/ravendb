@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Helpers;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Class7 : RavenTestBase
     {

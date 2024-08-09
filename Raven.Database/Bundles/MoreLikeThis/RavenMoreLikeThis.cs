@@ -3,7 +3,7 @@ using System.IO;
 using Lucene.Net.Index;
 using Lucene.Net.Util;
 
-namespace Raven.Database.Bundles.MoreLikeThis
+namespace Raven35.Database.Bundles.MoreLikeThis
 {
     class RavenMoreLikeThis : Lucene.Net.Search.Similar.MoreLikeThis
     {

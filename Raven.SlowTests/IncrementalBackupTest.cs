@@ -5,15 +5,15 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.SlowTests
+namespace Raven35.SlowTests
 {
     public class IncrementalBackupTest : RavenTest
     {
@@ -63,7 +63,7 @@ namespace Raven.SlowTests
         protected override void ModifyConfiguration(InMemoryRavenConfiguration configuration)
         {
             configuration.Settings["Raven/Esent/CircularLog"] = "false";
-            configuration.Settings["Raven/Voron/AllowIncrementalBackups"] = "true";
+            configuration.Settings["Raven35.Voron/AllowIncrementalBackups"] = "true";
             configuration.RunInUnreliableYetFastModeThatIsNotSuitableForProduction = false;
             configuration.Initialize();
         }

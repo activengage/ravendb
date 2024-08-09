@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.TransformResults
+namespace Raven35.Tests.Bugs.TransformResults
 {
     public class Answers_ByAnswerEntity : AbstractIndexCreationTask<Answer>
     {

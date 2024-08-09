@@ -2,13 +2,13 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Storage;
 using Xunit;
-using Raven.Client.FileSystem;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Extensions;
+using Raven35.Client.FileSystem;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class SyncTestUtils
     {

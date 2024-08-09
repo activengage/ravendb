@@ -1,8 +1,8 @@
 using System;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Indexing.Sorting.Custom
+namespace Raven35.Database.Indexing.Sorting.Custom
 {
     public class CustomSortField : SortField
     {

@@ -9,22 +9,22 @@ using System.Collections.Specialized;
 using System.Net;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Database;
-using Raven.Database.Client;
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Util;
-using Raven.Server;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Database;
+using Raven35.Database.Client;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Server;
 
-namespace Raven.Client.Embedded
+namespace Raven35.Client.Embedded
 {
     public class EmbeddableDocumentStore : IDocumentStore
     {

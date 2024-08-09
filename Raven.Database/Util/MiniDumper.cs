@@ -4,9 +4,9 @@ using System.IO;
 using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.Threading;
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class MiniDumper : IDisposable
     {

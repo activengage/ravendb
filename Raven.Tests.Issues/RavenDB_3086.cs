@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Database.Indexing.IndexMerging;
-using Raven.Tests.Bundles.Authorization.Bugs;
-using Raven.Tests.Bundles.Compression;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Database.Indexing.IndexMerging;
+using Raven35.Tests.Bundles.Authorization.Bugs;
+using Raven35.Tests.Bundles.Compression;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3086 : RavenTestBase
     {

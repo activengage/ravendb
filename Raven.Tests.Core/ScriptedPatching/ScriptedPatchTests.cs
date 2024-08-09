@@ -1,8 +1,8 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
 using Xunit;
 
-namespace Raven.Tests.Core.ScriptedPatching
+namespace Raven35.Tests.Core.ScriptedPatching
 {
     public class ScriptedPatchTests : RavenCoreTestBase
     {

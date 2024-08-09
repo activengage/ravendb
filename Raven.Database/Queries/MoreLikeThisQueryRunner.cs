@@ -11,23 +11,23 @@ using System.Threading;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Linq;
-using Raven.Abstractions.MEF;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Database.Bundles.MoreLikeThis;
-using Raven.Database.Data;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Database.Indexing;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Linq;
+using Raven35.Abstractions.MEF;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Database.Bundles.MoreLikeThis;
+using Raven35.Database.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Database.Indexing;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-using Index = Raven.Database.Indexing.Index;
+using Index = Raven35.Database.Indexing.Index;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public class MoreLikeThisQueryRunner
     {

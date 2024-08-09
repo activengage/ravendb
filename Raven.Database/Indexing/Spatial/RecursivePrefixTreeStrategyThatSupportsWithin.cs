@@ -4,7 +4,7 @@ using Lucene.Net.Spatial.Prefix.Tree;
 using Lucene.Net.Spatial.Queries;
 using Spatial4n.Core.Shapes;
 
-namespace Raven.Database.Indexing.Spatial
+namespace Raven35.Database.Indexing.Spatial
 {
     internal class RecursivePrefixTreeStrategyThatSupportsWithin : PrefixTreeStrategy
     {

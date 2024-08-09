@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Client;
-using Raven.Client.Listeners;
-using Raven.Json.Linq;
+using Raven35.Client;
+using Raven35.Client.Listeners;
+using Raven35.Json.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class FailStore : IDocumentStoreListener
     {

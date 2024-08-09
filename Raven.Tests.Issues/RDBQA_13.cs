@@ -5,15 +5,15 @@
 // -----------------------------------------------------------------------
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Database.Server.WebApi;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Database.Server.WebApi;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RDBQA_13 : RavenTest
     {

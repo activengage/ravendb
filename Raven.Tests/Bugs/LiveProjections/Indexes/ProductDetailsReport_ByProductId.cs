@@ -1,10 +1,10 @@
-namespace Raven.Tests.Bugs.LiveProjections.Indexes
+namespace Raven35.Tests.Bugs.LiveProjections.Indexes
 {
     using System.Linq;
 
-    using Raven.Client.Indexes;
-    using Raven.Tests.Bugs.LiveProjections.Entities;
-    using Raven.Tests.Bugs.LiveProjections.Views;
+    using Raven35.Client.Indexes;
+    using Raven35.Tests.Bugs.LiveProjections.Entities;
+    using Raven35.Tests.Bugs.LiveProjections.Views;
 
     public class ProductDetailsReport_ByProductId : AbstractIndexCreationTask<Product, ProductDetailsReport>
     {

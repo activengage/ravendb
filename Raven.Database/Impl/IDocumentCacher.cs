@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Impl
+namespace Raven35.Database.Impl
 {
     public interface IDocumentCacher : IDisposable
     {

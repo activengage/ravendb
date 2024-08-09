@@ -5,7 +5,7 @@ using Lucene.Net.Spatial.Queries;
 using Spatial4n.Core.Context;
 using Spatial4n.Core.Shapes;
 
-namespace Raven.Database.Indexing.Spatial
+namespace Raven35.Database.Indexing.Spatial
 {
     internal class BBoxStrategyThatSupportsAllShapes : BBoxStrategy
     {
