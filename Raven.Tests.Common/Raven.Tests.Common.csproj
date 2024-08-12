@@ -7,8 +7,8 @@
     <ProjectGuid>{381234CC-8AA7-41FF-8CAD-22330E15F993}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Tests.Common</RootNamespace>
-    <AssemblyName>Raven.Tests.Common</AssemblyName>
+    <RootNamespace>Raven35.Tests.Common</RootNamespace>
+    <AssemblyName>Raven35.Tests.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

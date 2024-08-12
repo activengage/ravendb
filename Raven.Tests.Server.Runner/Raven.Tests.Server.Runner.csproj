@@ -9,8 +9,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Raven.Tests.Server.Runner</RootNamespace>
     <AssemblyName>Raven.Tests.Server.Runner</AssemblyName>
-    <RootNamespace>Raven.Tests.Server.Runner</RootNamespace>
-    <AssemblyName>Raven.Tests.Server.Runner</AssemblyName>
+    <RootNamespace>Raven35.Tests.Server.Runner</RootNamespace>
+    <AssemblyName>Raven35.Tests.Server.Runner</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

@@ -6,8 +6,8 @@
     <ProjectGuid>{267AC60C-751E-42E9-AA18-66035DEFF63A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Tests</RootNamespace>
-    <AssemblyName>Raven.Tests</AssemblyName>
+    <RootNamespace>Raven35.Tests</RootNamespace>
+    <AssemblyName>Raven35.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>

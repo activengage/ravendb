@@ -7,8 +7,8 @@
     <ProjectGuid>{85A32315-822F-45BE-BC57-C2CA4404E09A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.DtcTests</RootNamespace>
-    <AssemblyName>Raven.DtcTests</AssemblyName>
+    <RootNamespace>Raven35.DtcTests</RootNamespace>
+    <AssemblyName>Raven35.DtcTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
