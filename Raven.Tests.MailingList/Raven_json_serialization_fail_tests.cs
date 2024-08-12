@@ -5,7 +5,7 @@ using Xunit;
 
 namespace Raven35.Tests.MailingList
 {
-    public class Raven35.Json_serialization_fail_tests : RavenTest
+    public class Raven_json_serialization_fail_tests : RavenTest
     {
         [JsonObject(IsReference = true)]
         public class Contract
