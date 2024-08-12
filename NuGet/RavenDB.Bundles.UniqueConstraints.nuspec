@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>RavenDB.Bundles.UniqueConstraints</id>
+        <id>RavenDB35.Bundles.UniqueConstraints</id>
         <version>{{version}}</version>
         <title>RavenDB Unique Constraints Bundle</title>
         <authors>Hibernating Rhinos</authors>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <tags>nosql ravendb raven document database bundles</tags>
         <dependencies>
-            <dependency id="RavenDB.Database" version=""/>
+            <dependency id="RavenDB35.Database" version=""/>
         </dependencies>
         <iconUrl>http://static.ravendb.net/logo-for-nuget.png</iconUrl>
     </metadata>
