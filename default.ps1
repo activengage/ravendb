@@ -452,7 +452,7 @@ function SignFile($filePath){
 }
 
 task SignServer {
-  $serverFile = "$build_dir\Output\Server\Raven.Server.exe"
+  $serverFile = "$build_dir\Output\Server\Raven35.Server.exe"
   SignFile($serverFile)
 
 }
@@ -657,10 +657,10 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     New-Item $nuget_dir\RavenDB.Server -Type directory | Out-Null
     Copy-Item $base_dir\NuGet\RavenDB.Server.nuspec $nuget_dir\RavenDB.Server\RavenDB.Server.nuspec
     New-Item $nuget_dir\RavenDB.Server\tools -Type directory | Out-Null
-    @("Raven.Database.???", "Raven.Server.???", "Raven.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Server\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
+    @("Raven35.Database.???", "Raven35.Server.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Server\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
     Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB.Server\tools
-    @("Raven.Smuggler.???", "Raven.Abstractions.???", "Raven.Database.???") |% { Copy-Item "$base_dir\Raven.Smuggler\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
-    Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $nuget_dir\RavenDB.Server\tools\Raven.Server.exe.config
+    @("Raven35.Smuggler.???", "Raven35.Abstractions.???", "Raven35.Database.???") |% { Copy-Item "$base_dir\Raven.Smuggler\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
+    Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $nuget_dir\RavenDB.Server\tools\Raven35.Server.exe.config
 
     New-Item $nuget_dir\RavenDB.Embedded\lib\net45 -Type directory | Out-Null
     Copy-Item $base_dir\NuGet\RavenDB.Embedded.nuspec $nuget_dir\RavenDB.Embedded\RavenDB.Embedded.nuspec
