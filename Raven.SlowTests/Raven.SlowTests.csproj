@@ -221,7 +221,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(SolutionDir)Raven.Server\bin\$(ConfigurationName)\Raven.Server.exe.config" "$(TargetDir)Raven.Server.exe.config"</PostBuildEvent>
+    <PostBuildEvent>copy "$(SolutionDir)Raven.Server\bin\$(ConfigurationName)\Raven35.Server.exe.config" "$(TargetDir)Raven35.Server.exe.config"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
