@@ -7,8 +7,8 @@
     <ProjectGuid>{1BB3D982-9675-400D-A247-547C071FBE35}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Bundles.Encryption.IndexFileCodec</RootNamespace>
-    <AssemblyName>Raven.Bundles.Encryption.IndexFileCodec</AssemblyName>
+    <RootNamespace>Raven35.Bundles.Encryption.IndexFileCodec</RootNamespace>
+    <AssemblyName>Raven35.Bundles.Encryption.IndexFileCodec</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
