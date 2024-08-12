@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>RavenDB.Client.MvcIntegration</id>
+        <id>RavenDB35.Client.MvcIntegration</id>
         <version>{{version}}</version>
         <title>RavenDB Client MvcIntegration</title>
         <authors>Hibernating Rhinos</authors>
@@ -13,7 +13,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <tags>nosql ravendb raven document database client mvc</tags>
         <dependencies>
-            <dependency id="RavenDB.Client" version="" />
+            <dependency id="RavenDB35.Client" version="" />
         </dependencies>
         <iconUrl>http://static.ravendb.net/logo-for-nuget.png</iconUrl>
     </metadata>

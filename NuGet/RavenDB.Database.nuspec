@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>RavenDB.Database</id>
+        <id>RavenDB35.Database</id>
         <version>{{version}}</version>
         <title>RavenDB Database</title>
         <authors>Hibernating Rhinos</authors>
@@ -15,7 +15,7 @@ Note: If you encounter issue to install this package, please consult the followi
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <tags>nosql ravendb raven document database</tags>
         <dependencies>
-            <dependency id="RavenDB.Client" version="" />
+            <dependency id="RavenDB35.Client" version="" />
         </dependencies>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework="net40" />
