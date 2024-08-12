@@ -31,14 +31,14 @@ namespace Raven35.Tests.MailingList
                     Publisher = "DC",
                     Contributors = new List<Contributor>()
                     {
-                        new Contributor() {Name = "Jack Sparrow35.},
+                        new Contributor() {Name = "Jack Sparrow" },
                         new Contributor() {Name = "Will Smith"},
                         new Contributor() {Name = "Wayne Rooney"}
                     },
                     Prices = new List<Price>()
                     {
                         new Price() {price = "10$"},
-                        new Price() {price = "8£"}
+                        new Price() {price = "8ï¿½"}
                     },
                     Subjects = new List<Subject>()
                     {
