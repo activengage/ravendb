@@ -313,47 +313,47 @@ task CopyMonitor {
 }
 
 task CopySmuggler {
-    Copy-Item $base_dir\Raven.Smuggler\bin\$global:configuration\Raven.Abstractions.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Raven.Smuggler\bin\$global:configuration\Raven.Database.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Raven.Smuggler\bin\$global:configuration\Raven.Smuggler.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Smuggler\bin\$global:configuration\Raven35.Abstractions.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Smuggler\bin\$global:configuration\Raven35.Database.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Smuggler\bin\$global:configuration\Raven35.Smuggler.??? $build_dir\OutputTools
 }
 
 task CopyBackup {
-    Copy-Item $base_dir\Raven.Backup\bin\$global:configuration\Raven.Abstractions.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Raven.Backup\bin\$global:configuration\Raven.Backup.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Backup\bin\$global:configuration\Raven35.Abstractions.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Backup\bin\$global:configuration\Raven35.Backup.??? $build_dir\OutputTools
 }
 
 task CopyMigration {
-    Copy-Item $base_dir\Raven.Migration\bin\$global:configuration\Raven.Abstractions.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Raven.Migration\bin\$global:configuration\Raven.Migration.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Migration\bin\$global:configuration\Raven35.Abstractions.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.Migration\bin\$global:configuration\Raven35.Migration.??? $build_dir\OutputTools
 }
 
 task CopyRavenTraffic {
-    Copy-Item $base_dir\Tools\Raven.Traffic\bin\$global:configuration\Raven.Abstractions.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Tools\Raven.Traffic\bin\$global:configuration\Raven.Traffic.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Tools\Raven.Traffic\bin\$global:configuration\Raven35.Abstractions.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Tools\Raven.Traffic\bin\$global:configuration\Raven35.Traffic.??? $build_dir\OutputTools
 }
 
 task CopyRavenApiToken {
-    Copy-Item $base_dir\Tools\Raven.ApiToken\bin\$global:configuration\Raven.Abstractions.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Tools\Raven.ApiToken\bin\$global:configuration\Raven.ApiToken.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Tools\Raven.ApiToken\bin\$global:configuration\Raven35.Abstractions.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Tools\Raven.ApiToken\bin\$global:configuration\Raven35.ApiToken.??? $build_dir\OutputTools
     Copy-Item $base_dir\Tools\Raven.ApiToken\api_token_example.ps1 $build_dir\OutputTools
 }
 
 task CopyStorageExporter {
-    Copy-Item $base_dir\Raven.StorageExporter\bin\$global:configuration\Raven.Abstractions.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Raven.StorageExporter\bin\$global:configuration\Raven.Database.??? $build_dir\OutputTools
-    Copy-Item $base_dir\Raven.StorageExporter\bin\$global:configuration\Raven.StorageExporter.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.StorageExporter\bin\$global:configuration\Raven35.Abstractions.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.StorageExporter\bin\$global:configuration\Raven35.Database.??? $build_dir\OutputTools
+    Copy-Item $base_dir\Raven.StorageExporter\bin\$global:configuration\Raven35.StorageExporter.??? $build_dir\OutputTools
 }
 
 task CopyClient {
-    @( "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\Raven.Abstractions.???", "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\Raven.Client.Lightweight.???") | ForEach-Object { Copy-Item "$_" $build_dir\Output\Client }
+    @( "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\Raven35.Abstractions.???", "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\Raven35.Client.Lightweight.???") | ForEach-Object { Copy-Item "$_" $build_dir\Output\Client }
 
-    @("Raven.Client.Lightweight.???", "Raven.Client.Lightweight.deps.json", "Raven.Abstractions.???", "Sparrow.???") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Lightweight\bin\$global:configuration\$dotnetLib\$_" $build_dir\Output\Client\$dotnetLib }
+    @("Raven35.Client.Lightweight.???", "Raven35.Client.Lightweight.deps.json", "Raven35.Abstractions.???", "Sparrow35.???") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Lightweight\bin\$global:configuration\$dotnetLib\$_" $build_dir\Output\Client\$dotnetLib }
 }
 
 task CopyWeb {
-    @( "$base_dir\Raven.Database\bin\$global:configuration\Raven.Database.???",
-        "$base_dir\Raven.Abstractions\bin\$global:configuration\Raven.Abstractions.???",
+    @( "$base_dir\Raven.Database\bin\$global:configuration\Raven35.Database.???",
+        "$base_dir\Raven.Abstractions\bin\$global:configuration\Raven35.Abstractions.???",
         "$base_dir\Raven.Web\bin\Microsoft.Owin.???",
         "$base_dir\Raven.Web\bin\Owin.???",
         "$base_dir\Raven.Web\bin\Microsoft.Owin.Host.SystemWeb.???",
@@ -368,25 +368,25 @@ task CopyBundles {
     Copy-Item $base_dir\Bundles\Raven.Bundles.CascadeDelete\bin\$global:configuration\Raven.Bundles.CascadeDelete.??? $build_dir\Output\Bundles
     Copy-Item $base_dir\Bundles\Raven.Bundles.Encryption.IndexFileCodec\bin\$global:configuration\Raven.Bundles.Encryption.IndexFileCodec.??? $build_dir\Output\Bundles
     Copy-Item $base_dir\Bundles\Raven.Bundles.UniqueConstraints\bin\$global:configuration\Raven.Bundles.UniqueConstraints.??? $build_dir\Output\Bundles
-    Copy-Item $base_dir\Bundles\Raven.Client.Authorization\bin\$global:configuration\Raven.Client.Authorization.??? $build_dir\Output\Bundles
-    Copy-Item $base_dir\Bundles\Raven.Client.UniqueConstraints\bin\$global:configuration\Raven.Client.UniqueConstraints.??? $build_dir\Output\Bundles
+    Copy-Item $base_dir\Bundles\Raven.Client.Authorization\bin\$global:configuration\Raven35.Client.Authorization.??? $build_dir\Output\Bundles
+    Copy-Item $base_dir\Bundles\Raven.Client.UniqueConstraints\bin\$global:configuration\Raven35.Client.UniqueConstraints.??? $build_dir\Output\Bundles
 
-    @("Raven.Client.Authorization.???", "Raven.Client.Authorization.deps.json") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Authorization\bin\$global:configuration\$dotnetLib\$_" $build_dir\Output\Bundles\$dotnetLib }
-    @("Raven.Client.UniqueConstraints.???", "Raven.Client.UniqueConstraints.deps.json") |% { Copy-Item "$base_dir\NetCore\Raven.Client.UniqueConstraints\bin\$global:configuration\$dotnetLib\$_" $build_dir\Output\Bundles\$dotnetLib }
+    @("Raven35.Client.Authorization.???", "Raven35.Client.Authorization.deps.json") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Authorization\bin\$global:configuration\$dotnetLib\$_" $build_dir\Output\Bundles\$dotnetLib }
+    @("Raven35.Client.UniqueConstraints.???", "Raven35.Client.UniqueConstraints.deps.json") |% { Copy-Item "$base_dir\NetCore\Raven.Client.UniqueConstraints\bin\$global:configuration\$dotnetLib\$_" $build_dir\Output\Bundles\$dotnetLib }
 }
 
 task CopyServer -depends CreateOutpuDirectories {
-    $server_files = @( "$base_dir\Raven.Database\bin\$global:configuration\Raven.Database.???",
-        "$base_dir\Raven.Abstractions\bin\$global:configuration\Raven.Abstractions.???",
+    $server_files = @( "$base_dir\Raven.Database\bin\$global:configuration\Raven35.Database.???",
+        "$base_dir\Raven.Abstractions\bin\$global:configuration\Raven35.Abstractions.???",
         "$build_dir\Raven.Studio.Html5.zip",
-        "$base_dir\Raven.Server\bin\$global:configuration\Raven.Server.???",
+        "$base_dir\Raven.Server\bin\$global:configuration\Raven35.Server.???",
         "$base_dir\DefaultConfigs\NLog.Ignored.config")
     $server_files | ForEach-Object { Copy-Item "$_" $build_dir\Output\Server }
 
     mkdir -Path $build_dir\Output\Tools
     echo "Tools have been moved from the main distribution package and are now available as a separate download. Download dedicated tools package from our http://ravendb.net/downloads page." > $build_dir\Output\Tools\where_are_tools.txt
 
-    Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $build_dir\Output\Server\Raven.Server.exe.config
+    Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $build_dir\Output\Server\Raven35.Server.exe.config
 }
 
 function SignFile($filePath){
