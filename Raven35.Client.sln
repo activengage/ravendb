@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Abstractions", "Raven.Abstractions\Raven.Abstractions.csproj", "{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Client.Lightweight", "Raven.Client.Lightweight\Raven.Client.Lightweight.csproj", "{4E087ECB-E7CA-4891-AC3C-3C76702715B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparrow", "Raven.Sparrow\Sparrow\Sparrow.csproj", "{104699C8-0FD3-4AB9-8542-E8FA89ED199B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E087ECB-E7CA-4891-AC3C-3C76702715B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E087ECB-E7CA-4891-AC3C-3C76702715B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E087ECB-E7CA-4891-AC3C-3C76702715B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E087ECB-E7CA-4891-AC3C-3C76702715B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104699C8-0FD3-4AB9-8542-E8FA89ED199B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104699C8-0FD3-4AB9-8542-E8FA89ED199B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104699C8-0FD3-4AB9-8542-E8FA89ED199B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104699C8-0FD3-4AB9-8542-E8FA89ED199B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
