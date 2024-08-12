@@ -627,7 +627,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     New-Item $nuget_dir -Type directory | Out-Null
 
     New-Item $nuget_dir\RavenDB.Client\lib\net45 -Type directory | Out-Null
-    @("Raven.Client.Lightweight.???", "Raven.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\$_" $nuget_dir\RavenDB.Client\lib\net45 }
+    @("Raven35.Client.Lightweight.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\$_" $nuget_dir\RavenDB.Client\lib\net45 }
 
     $nuspecPath = "$nuget_dir\RavenDB.Client\RavenDB.Client.nuspec"
     Copy-Item $base_dir\NuGet\RavenDB.Client.nuspec "$nuspecPath"
@@ -635,7 +635,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     [xml] $xmlNuspec = Get-Content("$nuget_dir\RavenDB.Client\RavenDB.Client.nuspec")
 
     New-Item $nuget_dir\RavenDB.Client\lib\$dotnetLib -Type directory | Out-Null
-    @("Raven.Client.Lightweight.???", "Raven.Client.Lightweight.deps.json", "Raven.Abstractions.???", "Sparrow.???") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Lightweight\bin\$global:configuration\$dotnetLib\$_" $nuget_dir\RavenDB.Client\lib\$dotnetLib }
+    @("Raven35.Client.Lightweight.???", "Raven35.Client.Lightweight.deps.json", "Raven35.Abstractions.???", "Sparrow35.???") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Lightweight\bin\$global:configuration\$dotnetLib\$_" $nuget_dir\RavenDB.Client\lib\$dotnetLib }
 
     $projects = "$base_dir\NetCore\Sparrow\Sparrow.csproj", "$base_dir\NetCore\Raven.Client.Lightweight\Raven.Client.Lightweight.csproj", "$base_dir\NetCore\Raven.Abstractions\Raven.Abstractions.csproj"
     AddDependenciesToNuspec $projects "$nuspecPath" "$dotnetLib"
