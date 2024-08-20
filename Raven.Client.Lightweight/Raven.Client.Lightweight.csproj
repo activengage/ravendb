@@ -29,7 +29,7 @@
     <DefineConstants>TRACE;DEBUG;CLIENT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Raven.Client.Lightweight.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Raven35.Client.Lightweight.xml</DocumentationFile>
     <NoWarn>1591, 618</NoWarn>
     <CodeAnalysisRuleSet />
     <LangVersion>6</LangVersion>
@@ -42,7 +42,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
-    <DocumentationFile>bin\Release\Raven.Client.Lightweight.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Raven35.Client.Lightweight.XML</DocumentationFile>
     <NoWarn>1591, 618</NoWarn>
     <CodeAnalysisRuleSet />
   </PropertyGroup>

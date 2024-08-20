@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>1591, 618</NoWarn>
-    <DocumentationFile>bin\Debug\Raven.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Raven35.Abstractions.xml</DocumentationFile>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CodeAnalysisRuleSet>
     </CodeAnalysisRuleSet>
@@ -40,7 +40,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
-    <DocumentationFile>bin\Release\Raven.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Raven35.Abstractions.xml</DocumentationFile>
     <NoWarn>1591, 618</NoWarn>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CodeAnalysisRuleSet>
@@ -55,7 +55,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Profiling|AnyCPU'">
     <OutputPath>bin\Profiling\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>bin\Release\Raven.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Raven35.Abstractions.xml</DocumentationFile>
     <Optimize>true</Optimize>
     <NoWarn>1591, 618</NoWarn>
     <DebugType>pdbonly</DebugType>
