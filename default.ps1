@@ -629,10 +629,10 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     New-Item $nuget_dir\RavenDB.Client\lib\net45 -Type directory | Out-Null
     @("Raven35.Client.Lightweight.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\$_" $nuget_dir\RavenDB.Client\lib\net45 }
 
-    $nuspecPath = "$nuget_dir\RavenDB.Client\RavenDB.Client.nuspec"
-    Copy-Item $base_dir\NuGet\RavenDB.Client.nuspec "$nuspecPath"
+    $nuspecPath = "$nuget_dir\RavenDB35.Client\RavenDB35.Client.nuspec"
+    Copy-Item $base_dir\NuGet\RavenDB35.Client.nuspec "$nuspecPath"
 
-    [xml] $xmlNuspec = Get-Content("$nuget_dir\RavenDB.Client\RavenDB.Client.nuspec")
+    [xml] $xmlNuspec = Get-Content("$nuget_dir\RavenDB35.Client\RavenDB35.Client.nuspec")
 
     New-Item $nuget_dir\RavenDB.Client\lib\$dotnetLib -Type directory | Out-Null
     @("Raven35.Client.Lightweight.???", "Raven35.Client.Lightweight.deps.json", "Raven35.Abstractions.???", "Sparrow35.???") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Lightweight\bin\$global:configuration\$dotnetLib\$_" $nuget_dir\RavenDB.Client\lib\$dotnetLib }
@@ -641,12 +641,12 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     AddDependenciesToNuspec $projects "$nuspecPath" "$dotnetLib"
 
     New-Item $nuget_dir\RavenDB.Client.MvcIntegration\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Client.MvcIntegration.nuspec $nuget_dir\RavenDB.Client.MvcIntegration\RavenDB.Client.MvcIntegration.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Client.MvcIntegration.nuspec $nuget_dir\RavenDB.Client.MvcIntegration\RavenDB35.Client.MvcIntegration.nuspec
     @("Raven.Client.MvcIntegration.???") |% { Copy-Item "$base_dir\Raven.Client.MvcIntegration\bin\$global:configuration\$_" $nuget_dir\RavenDB.Client.MvcIntegration\lib\net45 }
 
     New-Item $nuget_dir\RavenDB.Database\lib\net45 -Type directory | Out-Null
     New-Item $nuget_dir\RavenDB.Database\tools -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Database.nuspec $nuget_dir\RavenDB.Database\RavenDB.Database.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Database.nuspec $nuget_dir\RavenDB.Database\RavenDB35.Database.nuspec
     Copy-Item $base_dir\NuGet\RavenDB.Database.install.ps1 $nuget_dir\RavenDB.Database\tools\install.ps1
     Copy-Item $base_dir\NuGet\RavenDB.Database.uninstall.ps1 $nuget_dir\RavenDB.Database\tools\uninstall.ps1
     @("Raven.Database.???", "Raven.Abstractions.???") `
@@ -655,7 +655,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB.Database\ -Recurse
 
     New-Item $nuget_dir\RavenDB.Server -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Server.nuspec $nuget_dir\RavenDB.Server\RavenDB.Server.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Server.nuspec $nuget_dir\RavenDB.Server\RavenDB35.Server.nuspec
     New-Item $nuget_dir\RavenDB.Server\tools -Type directory | Out-Null
     @("Raven35.Database.???", "Raven35.Server.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Server\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
     Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB.Server\tools
@@ -663,7 +663,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $nuget_dir\RavenDB.Server\tools\Raven35.Server.exe.config
 
     New-Item $nuget_dir\RavenDB.Embedded\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Embedded.nuspec $nuget_dir\RavenDB.Embedded\RavenDB.Embedded.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Embedded.nuspec $nuget_dir\RavenDB.Embedded\RavenDB35.Embedded.nuspec
     Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB.Embedded\ -Recurse
 
     # Client packages
@@ -672,8 +672,8 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
         New-Item $nuget_dir\RavenDB.Client.$name\lib\net45 -Type directory | Out-Null
         @("$base_dir\Bundles\Raven.Client.$_\bin\$global:configuration\Raven35.Client.$_.???") |% { Copy-Item $_ $nuget_dir\RavenDB.Client.$name\lib\net45 }
 
-        $nuspecPath = "$nuget_dir\RavenDB.Client.$name\RavenDB.Client.$name.nuspec"
-        Copy-Item $base_dir\NuGet\RavenDB.Client.$name.nuspec "$nuspecPath"
+        $nuspecPath = "$nuget_dir\RavenDB.Client.$name\RavenDB35.Client.$name.nuspec"
+        Copy-Item $base_dir\NuGet\RavenDB35.Client.$name.nuspec "$nuspecPath"
 
         New-Item $nuget_dir\RavenDB.Client.$name\lib\$dotnetLib -Type directory | Out-Null
         @("$base_dir\NetCore\Raven.Client.$name\bin\$global:configuration\$dotnetLib\Raven35.Client.$_.???", "$base_dir\NetCore\Raven.Client.$name\bin\$global:configuration\$dotnetLib\Raven35.Client.$_.deps.json" ) |% { Copy-Item $_ $nuget_dir\RavenDB.Client.$name\lib\$dotnetLib }
@@ -683,20 +683,20 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     }
 
     New-Item $nuget_dir\RavenDB.Bundles.Authorization\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Bundles.Authorization.nuspec $nuget_dir\RavenDB.Bundles.Authorization\RavenDB35.Bundles.Authorization.nuspec
-    @("Raven.Bundles.Authorization.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.Authorization\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.Authorization\lib\net45 }
+    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.Authorization.nuspec $nuget_dir\RavenDB.Bundles.Authorization\RavenDB35.Bundles.Authorization.nuspec
+    @("Raven35.Bundles.Authorization.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.Authorization\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.Authorization\lib\net45 }
 
     New-Item $nuget_dir\RavenDB.Bundles.CascadeDelete\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Bundles.CascadeDelete.nuspec $nuget_dir\RavenDB.Bundles.CascadeDelete\RavenDB35.Bundles.CascadeDelete.nuspec
-    @("Raven.Bundles.CascadeDelete.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.CascadeDelete\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.CascadeDelete\lib\net45 }
+    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.CascadeDelete.nuspec $nuget_dir\RavenDB.Bundles.CascadeDelete\RavenDB35.Bundles.CascadeDelete.nuspec
+    @("Raven35.Bundles.CascadeDelete.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.CascadeDelete\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.CascadeDelete\lib\net45 }
 
     New-Item $nuget_dir\RavenDB.Bundles.UniqueConstraints\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Bundles.UniqueConstraints.nuspec $nuget_dir\RavenDB.Bundles.UniqueConstraints\RavenDB35.Bundles.UniqueConstraints.nuspec
-    @("Raven.Bundles.UniqueConstraints.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.UniqueConstraints\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.UniqueConstraints\lib\net45 }
+    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.UniqueConstraints.nuspec $nuget_dir\RavenDB.Bundles.UniqueConstraints\RavenDB35.Bundles.UniqueConstraints.nuspec
+    @("Raven35.Bundles.UniqueConstraints.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.UniqueConstraints\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.UniqueConstraints\lib\net45 }
 
     New-Item $nuget_dir\RavenDB.Tests.Helpers\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Tests.Helpers.nuspec $nuget_dir\RavenDB.Tests.Helpers\RavenDB.Tests.Helpers.nuspec
-    @("Raven.Tests.Helpers.???", "Rachis.???") |% { Copy-Item "$base_dir\Raven.Tests.Helpers\bin\$global:configuration\$_" $nuget_dir\RavenDB.Tests.Helpers\lib\net45 }
+    Copy-Item $base_dir\NuGet\RavenDB35.Tests.Helpers.nuspec $nuget_dir\RavenDB.Tests.Helpers\RavenDB35.Tests.Helpers.nuspec
+    @("Raven35.Tests.Helpers.???", "Rachis.???") |% { Copy-Item "$base_dir\Raven.Tests.Helpers\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Tests.Helpers\lib\net45 }
 
     # Sets the package version in all the nuspec as well as any RavenDB package dependency versions
     $packages = Get-ChildItem $nuget_dir *.nuspec -recurse
