@@ -629,10 +629,10 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     New-Item $nuget_dir\RavenDB.Client\lib\net45 -Type directory | Out-Null
     @("Raven35.Client.Lightweight.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\$_" $nuget_dir\RavenDB.Client\lib\net45 }
 
-    $nuspecPath = "$nuget_dir\RavenDB35.Client\RavenDB35.Client.nuspec"
+    $nuspecPath = "$nuget_dir\RavenDB.Client\RavenDB35.Client.nuspec"
     Copy-Item $base_dir\NuGet\RavenDB35.Client.nuspec "$nuspecPath"
 
-    [xml] $xmlNuspec = Get-Content("$nuget_dir\RavenDB35.Client\RavenDB35.Client.nuspec")
+    [xml] $xmlNuspec = Get-Content("$nuget_dir\RavenDB.Client\RavenDB35.Client.nuspec")
 
     New-Item $nuget_dir\RavenDB.Client\lib\$dotnetLib -Type directory | Out-Null
     @("Raven35.Client.Lightweight.???", "Raven35.Client.Lightweight.deps.json", "Raven35.Abstractions.???", "Sparrow35.???") |% { Copy-Item "$base_dir\NetCore\Raven.Client.Lightweight\bin\$global:configuration\$dotnetLib\$_" $nuget_dir\RavenDB.Client\lib\$dotnetLib }
@@ -696,7 +696,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
 
     New-Item $nuget_dir\RavenDB.Tests.Helpers\lib\net45 -Type directory | Out-Null
     Copy-Item $base_dir\NuGet\RavenDB35.Tests.Helpers.nuspec $nuget_dir\RavenDB.Tests.Helpers\RavenDB35.Tests.Helpers.nuspec
-    @("Raven35.Tests.Helpers.???", "Rachis.???") |% { Copy-Item "$base_dir\Raven.Tests.Helpers\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Tests.Helpers\lib\net45 }
+    @("Raven35.Tests.Helpers.???", "Rachis.???") |% { Copy-Item "$base_dir\Raven.Tests.Helpers\bin\$global:configuration\$_" $nuget_dir\RavenDB.Tests.Helpers\lib\net45 }
 
     # Sets the package version in all the nuspec as well as any RavenDB package dependency versions
     $packages = Get-ChildItem $nuget_dir *.nuspec -recurse
