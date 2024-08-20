@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Abstractions.Logging
+namespace Raven35.Abstractions.Logging
 {
     public interface ILogManager
     {

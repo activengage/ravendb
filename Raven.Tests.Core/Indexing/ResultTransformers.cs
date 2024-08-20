@@ -6,14 +6,14 @@
 using System.IO;
 using System.Linq;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
-using Raven.Tests.Core.Utils.Transformers;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
+using Raven35.Tests.Core.Utils.Transformers;
 using Xunit;
 
-namespace Raven.Tests.Core.Indexing
+namespace Raven35.Tests.Core.Indexing
 {
     public class ResultTransformers : RavenCoreTestBase
     {

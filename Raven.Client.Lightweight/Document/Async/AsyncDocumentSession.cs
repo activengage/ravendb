@@ -9,20 +9,20 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Linq;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Client.Document.Batches;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Linq;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Client.Document.Batches;
 using System.Diagnostics;
 using System.Dynamic;
 
-namespace Raven.Client.Document.Async
+namespace Raven35.Client.Document.Async
 {
     /// <summary>
     /// Implementation for async document session 

@@ -2,15 +2,15 @@ using System;
 using System.ComponentModel.Composition.Hosting;
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
-using Raven.Client.Document;
-using Raven.Database.Plugins;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Database.Plugins;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Version = Lucene.Net.Util.Version;
 using System.Linq;
 
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class IndexingEachFieldInEachDocumentSeparately : RavenTest
     {

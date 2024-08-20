@@ -3,11 +3,11 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Database;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Data;
+using Raven35.Database;
+using Raven35.Database.Plugins;
 
-namespace Raven.Tests.Triggers
+namespace Raven35.Tests.Triggers
 {
     public class CascadeDeleteTrigger : AbstractDeleteTrigger 
     {

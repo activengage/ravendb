@@ -1,12 +1,12 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public class AbstractFilesQuery<T, TSelf> : IAbstractFilesQuery<T>
         where TSelf : AbstractFilesQuery<T, TSelf>

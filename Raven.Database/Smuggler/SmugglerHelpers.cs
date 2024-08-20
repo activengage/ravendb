@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     class SmugglerHelpers
     {

@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System;
 using System.ComponentModel.Composition;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Replication.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Replication.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Plugins
+namespace Raven35.Database.Bundles.Replication.Plugins
 {
     [PartNotDiscoverable]
     [Obsolete("Use RavenFS instead.")]

@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace Raven.Unix.Native
+namespace Raven35.Unix.Native
 {
     // Take from https://github.com/mono/mono/blob/master/mcs/class/Mono.Posix/Mono.Unix.Native/Syscall.cs
     // Used this way to avoid taking a hard dependency on the Mono.Posix.dll

@@ -7,7 +7,7 @@ using System.Web.Http;
 
 using Owin;
 
-namespace Raven.Tests.Server.Runner
+namespace Raven35.Tests.Server.Runner
 {
     public class Startup
     {

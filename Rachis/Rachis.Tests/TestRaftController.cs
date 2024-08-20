@@ -15,8 +15,8 @@ using Rachis.Messages;
 using Rachis.Storage;
 using Rachis.Transport;
 
-using Raven.Abstractions.Logging;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Logging;
+using Raven35.Imports.Newtonsoft.Json;
 
 namespace Rachis.Tests
 {

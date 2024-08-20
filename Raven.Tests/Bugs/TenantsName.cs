@@ -1,14 +1,14 @@
 using System;
-using Raven.Abstractions.Connection;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class TenantsName : RavenTest
     {

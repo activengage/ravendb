@@ -6,12 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Database.Indexing;
-using RTP = Raven.Database.Impl.BackgroundTaskExecuter.RavenThreadPool;
-using Raven.Tests.Common;
+using Raven35.Database.Indexing;
+using RTP = Raven35.Database.Impl.BackgroundTaskExecuter.RavenThreadPool;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.SlowTests.RavenThreadPool
+namespace Raven35.SlowTests.RavenThreadPool
 {
     public class ParallelCalculation : RavenTest
     {

@@ -7,9 +7,9 @@ using System;
 
 using Rachis.Commands;
 
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Raft.Storage.Handlers
+namespace Raven35.Database.Raft.Storage.Handlers
 {
     public abstract class CommandHandler<TCommand> : CommandHandler
         where TCommand : Command

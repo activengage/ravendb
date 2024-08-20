@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Fluent interface for specifying include paths

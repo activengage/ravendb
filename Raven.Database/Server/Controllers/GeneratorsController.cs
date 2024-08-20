@@ -1,4 +1,4 @@
-using Raven.Database.Impl.Generators;
+using Raven35.Database.Impl.Generators;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class GeneratorsController : BaseDatabaseApiController
     {

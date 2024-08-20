@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Async
+namespace Raven35.Tests.Bugs.Async
 {
     public class Querying : RavenTest
     {

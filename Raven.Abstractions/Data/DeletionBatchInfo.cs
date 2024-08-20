@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class DeletionBatchInfo
     {

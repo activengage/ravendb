@@ -1,12 +1,12 @@
 using System.Linq;
-using Raven.Abstractions.Spatial;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Spatial;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class WktSanitizerTests : RavenTest
     {

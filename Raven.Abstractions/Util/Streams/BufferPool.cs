@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.ServiceModel.Channels;
 
-namespace Raven.Abstractions.Util.Streams
+namespace Raven35.Abstractions.Util.Streams
 {
     public class BufferPool : IBufferPool
     {

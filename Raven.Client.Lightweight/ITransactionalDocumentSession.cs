@@ -6,7 +6,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Implementers of this interface provide transactional operations

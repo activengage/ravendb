@@ -1,6 +1,6 @@
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     ///<summary>
     /// Create an index that allows to tag entities by their entity name

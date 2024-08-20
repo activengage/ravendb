@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RDBQA_1 : RavenTest
     {
@@ -71,13 +71,13 @@ namespace Raven.Tests.Issues
                     var doc = session.Load<Doc>(docId);
 
                     var e1 = Assert.Throws<InvalidOperationException>(() => session.Delete(doc));
-                    Assert.Equal("Raven.Tests.Issues.RDBQA_1+Doc is marked as read only and cannot be deleted", e1.Message);
+                    Assert.Equal("Raven35.Tests.Issues.RDBQA_1+Doc is marked as read only and cannot be deleted", e1.Message);
 
                     session.Advanced.Clear();
 
                     session.Delete(docId);
                     var e2 = Assert.Throws<ErrorResponseException>(() => session.SaveChanges());
-                    Assert.Contains("DELETE vetoed on document docs/1 by Raven.Database.Plugins.Builtins.ReadOnlyDeleteTrigger because: You cannot delete document 'docs/1' because it is marked as readonly. Consider changing 'Raven-Read-Only' flag to 'False'.", e2.Message);
+                    Assert.Contains("DELETE vetoed on document docs/1 by Raven35.Database.Plugins.Builtins.ReadOnlyDeleteTrigger because: You cannot delete document 'docs/1' because it is marked as readonly. Consider changing 'Raven-Read-Only' flag to 'False'.", e2.Message);
                 }
 
                 using (var session = store.OpenSession())
@@ -100,7 +100,7 @@ namespace Raven.Tests.Issues
                     session.Advanced.GetMetadataFor(doc)[Constants.RavenReadOnly] = true;
 
                     var e = Assert.Throws<ErrorResponseException>(() => session.SaveChanges());
-                    Assert.Contains("PUT vetoed on document docs/1 by Raven.Database.Plugins.Builtins.ReadOnlyPutTrigger because: You cannot update document 'docs/1' when both of them, new and existing one, are marked as readonly. To update this document change 'Raven-Read-Only' flag to 'False' or remove it entirely.", e.Message);
+                    Assert.Contains("PUT vetoed on document docs/1 by Raven35.Database.Plugins.Builtins.ReadOnlyPutTrigger because: You cannot update document 'docs/1' when both of them, new and existing one, are marked as readonly. To update this document change 'Raven-Read-Only' flag to 'False' or remove it entirely.", e.Message);
                 }
             }
         }

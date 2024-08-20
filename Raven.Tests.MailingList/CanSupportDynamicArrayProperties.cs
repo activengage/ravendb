@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Helpers;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Helpers;
 using Xunit;
 
 namespace RavenDB.DynamicArrayProperties.RavenTests

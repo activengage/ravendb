@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     internal class MonitoringManager : IDisposable
     {

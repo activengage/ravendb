@@ -1,12 +1,12 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.Util;
+using Raven35.Json.Linq;
 using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem.Impl
+namespace Raven35.Client.FileSystem.Impl
 {
     internal class UploadFileOperation : IFilesOperation
     {

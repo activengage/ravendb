@@ -1,8 +1,8 @@
 using System;
 using Lucene.Net.Index;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class ErrorLoggingConcurrentMergeScheduler : ConcurrentMergeScheduler
     {

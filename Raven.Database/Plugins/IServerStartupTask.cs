@@ -6,9 +6,9 @@
 using System;
 using System.ComponentModel.Composition;
 
-using Raven.Database.Server;
+using Raven35.Database.Server;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     public interface IServerStartupTask : IDisposable

@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using Raven.Abstractions.Counters;
-using Raven.Client.Extensions;
+using Raven35.Abstractions.Counters;
+using Raven35.Client.Extensions;
 using Xunit;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class AdminClientTests : RavenBaseCountersTest
     {

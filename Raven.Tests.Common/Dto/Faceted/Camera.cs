@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Tests.Common.Dto.Faceted
+namespace Raven35.Tests.Common.Dto.Faceted
 {
     public class Camera
     {

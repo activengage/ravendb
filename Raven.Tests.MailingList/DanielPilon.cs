@@ -3,13 +3,13 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class DanielPilon
     {

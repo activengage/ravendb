@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Migration.Indexes
+namespace Raven35.Tests.Migration.Indexes
 {
     public class OrdersByEmployeeAndCompanyReduce : AbstractIndexCreationTask
     {

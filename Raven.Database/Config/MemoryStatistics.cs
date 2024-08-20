@@ -7,17 +7,17 @@ using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Threading;
 using Microsoft.VisualBasic.Devices;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Logging;
-using Raven.Unix.Native;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Logging;
+using Raven35.Unix.Native;
 
-using Sparrow.Collections;
+using Sparrow35.Collections;
 using Voron;
 using ThreadState = System.Threading.ThreadState;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     public interface ILowMemoryHandler
     {

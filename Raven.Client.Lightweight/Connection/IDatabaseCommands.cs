@@ -11,21 +11,21 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Replication;
-using Raven.Client.Changes;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     /// <summary>
     ///     A sync database command operations

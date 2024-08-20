@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Linq;
 
-namespace Sparrow.Collections
+namespace Sparrow35.Collections
 {
     public class ConcurrentLruSet<T>
     {

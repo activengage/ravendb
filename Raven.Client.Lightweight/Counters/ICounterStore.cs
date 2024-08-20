@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Counters;
-using Raven.Client.Connection;
-using Raven.Client.Counters.Changes;
-using Raven.Client.Counters.Replication;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Counters;
+using Raven35.Client.Connection;
+using Raven35.Client.Counters.Changes;
+using Raven35.Client.Counters.Replication;
 
-namespace Raven.Client.Counters
+namespace Raven35.Client.Counters
 {
     public interface ICounterStore : IDisposalNotification
     {

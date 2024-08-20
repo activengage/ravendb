@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4215 : RavenTest
     {

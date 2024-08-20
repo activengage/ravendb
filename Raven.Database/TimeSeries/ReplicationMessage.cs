@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     public class ReplicationMessage
     {

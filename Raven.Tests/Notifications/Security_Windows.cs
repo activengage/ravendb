@@ -5,15 +5,15 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Concurrent;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Notifications
+namespace Raven35.Tests.Notifications
 {
     public class Security_Windows : RavenTest
     {

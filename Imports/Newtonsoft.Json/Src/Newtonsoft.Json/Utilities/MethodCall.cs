@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
     internal delegate TResult MethodCall<T, TResult>(T target, params object[] args);
 }

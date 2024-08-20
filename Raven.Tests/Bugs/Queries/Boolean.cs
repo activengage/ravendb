@@ -1,9 +1,9 @@
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs.Queries
+namespace Raven35.Tests.Bugs.Queries
 {
     public class Boolean : RavenTest
     {

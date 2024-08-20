@@ -3,12 +3,12 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Database.Raft.Commands;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Raft.Commands;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Raft.Storage.Handlers
+namespace Raven35.Database.Raft.Storage.Handlers
 {
     public class ClusterConfigurationUpdateCommandHandler : CommandHandler<ClusterConfigurationUpdateCommand>
     {

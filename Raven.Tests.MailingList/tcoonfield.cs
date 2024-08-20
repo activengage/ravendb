@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class tcoonfield : RavenTest
     {

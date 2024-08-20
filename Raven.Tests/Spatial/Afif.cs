@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using FizzWare.NBuilder;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Database.Config;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class Afif
     {

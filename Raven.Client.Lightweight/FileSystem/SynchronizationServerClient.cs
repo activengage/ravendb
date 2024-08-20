@@ -7,20 +7,20 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Extensions;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Extensions;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public class SynchronizationServerClient : ISynchronizationServerClient
     {

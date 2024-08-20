@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Client.Connection.Profiling;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Client.Connection.Profiling;
 using System.Linq;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.MvcIntegration
+namespace Raven35.Client.MvcIntegration
 {
     public class JsonFormatterAndFieldsFilterer
     {

@@ -10,12 +10,12 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public abstract class PushContentBase : HttpContent, IEventsTransport
     {

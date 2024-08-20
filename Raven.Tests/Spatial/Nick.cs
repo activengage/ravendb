@@ -1,12 +1,12 @@
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class Nick : RavenTest
     {
@@ -17,7 +17,7 @@ namespace Raven.Tests.Spatial
             public double Longitude { get; set; }
         }
 
-        public class MySpatialIndex : Raven.Client.Indexes.AbstractIndexCreationTask<MySpatialDocument>
+        public class MySpatialIndex : Raven35.Client.Indexes.AbstractIndexCreationTask<MySpatialDocument>
         {
             public MySpatialIndex()
             {

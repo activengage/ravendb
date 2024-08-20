@@ -11,7 +11,7 @@ using System.Runtime.Remoting;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public class DisposableStream : Stream
     {

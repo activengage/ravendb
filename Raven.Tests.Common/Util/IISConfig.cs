@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     public class IISConfig
     {

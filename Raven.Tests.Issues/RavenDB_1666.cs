@@ -8,17 +8,17 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Web.Http;
-using Raven.Database.Counters.Controllers;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.Controllers.Admin;
-using Raven.Database.FileSystem.Controllers;
-using Raven.Tests.Common;
+using Raven35.Database.Counters.Controllers;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.Controllers.Admin;
+using Raven35.Database.FileSystem.Controllers;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
-using LogsController = Raven.Database.Server.Controllers.LogsController;
+using LogsController = Raven35.Database.Server.Controllers.LogsController;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1666 : RavenTest
     {

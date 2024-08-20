@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Raven.Imports.Newtonsoft.Json.Converters;
+using Raven35.Imports.Newtonsoft.Json.Converters;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     [JsonConverter(typeof(IsoDateTimeConverter))]
     public class IncompatibleJsonAttributeClass

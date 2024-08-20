@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
 using Xunit;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class FailoverBehaviorServerSide : RaftTestBase
     {

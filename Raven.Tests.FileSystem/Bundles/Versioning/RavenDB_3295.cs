@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
-using Raven.Client.FileSystem.Bundles.Versioning;
-using Raven.Database.Bundles.Versioning.Data;
-using Raven.Database.FileSystem.Bundles.Versioning;
-using Raven.Tests.Helpers;
+using Raven35.Client.FileSystem.Bundles.Versioning;
+using Raven35.Database.Bundles.Versioning.Data;
+using Raven35.Database.FileSystem.Bundles.Versioning;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Bundles.Versioning
+namespace Raven35.Tests.FileSystem.Bundles.Versioning
 {
     public class RavenDB_3295 : RavenFilesTestBase
     {

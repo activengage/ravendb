@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Linq;
 using System.Linq;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     public class ShardedRavenQueryInspector<T> : RavenQueryInspector<T>
     {

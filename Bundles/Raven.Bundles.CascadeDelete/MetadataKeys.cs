@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Raven.Bundles.CascadeDelete
+namespace Raven35.Bundles.CascadeDelete
 {
     public static class MetadataKeys
     {

@@ -3,12 +3,12 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class ExpressionOperatorPrecedenceTest : NoDisposalNeeded
     {

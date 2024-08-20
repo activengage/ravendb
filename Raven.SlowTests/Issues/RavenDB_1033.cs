@@ -6,15 +6,15 @@
 
 using System.Collections.Generic;
 
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_1033 : IisExpressTestClient
     {

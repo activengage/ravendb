@@ -2,15 +2,15 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_1280 : RavenTest
     {

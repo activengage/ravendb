@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // ----------------------------------------------------------------------
-using Raven.Client.Indexes;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Core.Utils.Entities;
 using System.Linq;
 
-namespace Raven.Tests.Core.Utils.Transformers
+namespace Raven35.Tests.Core.Utils.Transformers
 {
     public class CompanyEmployeesTransformer : AbstractTransformerCreationTask<Company>
     {

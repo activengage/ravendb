@@ -1,17 +1,17 @@
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.FileSystem.Util;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Util;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class SynchronizationStorageTests : RavenFilesTestWithLogs
     {

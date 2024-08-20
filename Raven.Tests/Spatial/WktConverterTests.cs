@@ -1,16 +1,16 @@
 using System.Linq;
 using GeoAPI.Geometries;
 using NetTopologySuite.Geometries;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Spatial.JsonConverters.Wkt;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Spatial.JsonConverters.Wkt;
 using Xunit;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class WktConverterTests : RavenTest
     {

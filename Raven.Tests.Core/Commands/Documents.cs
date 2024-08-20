@@ -6,16 +6,16 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using Xunit;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Abstractions.Data;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
 using System.Collections.Generic;
-using Raven.Tests.Core.Utils.Indexes;
-using Raven.Abstractions.Indexing;
+using Raven35.Tests.Core.Utils.Indexes;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Core.Commands
+namespace Raven35.Tests.Core.Commands
 {
     public class Documents : RavenCoreTestBase
     {

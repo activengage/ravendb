@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class ConcurrentPatching : RavenTest
     {

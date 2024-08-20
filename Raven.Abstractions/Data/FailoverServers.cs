@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Replication;
+using Raven35.Abstractions.Replication;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class FailoverServers
     {

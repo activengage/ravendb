@@ -5,17 +5,17 @@ using System.Reactive.Threading.Tasks;
 #endif
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Replication;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
-using Raven.Tests.Core.Utils.Transformers;
-using Sparrow.Collections;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Replication;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
+using Raven35.Tests.Core.Utils.Transformers;
+using Sparrow35.Collections;
 using Xunit;
 
-namespace Raven.Tests.Core.ChangesApi
+namespace Raven35.Tests.Core.ChangesApi
 {
     public class Subscribing : RavenReplicationCoreTest
     {

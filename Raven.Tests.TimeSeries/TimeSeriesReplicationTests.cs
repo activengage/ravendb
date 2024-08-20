@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesReplicationTests : RavenBaseTimeSeriesTest
     {

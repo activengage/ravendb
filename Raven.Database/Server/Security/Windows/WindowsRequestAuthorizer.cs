@@ -5,14 +5,14 @@ using System.Net.Http;
 using System.Security.Principal;
 using System.Threading;
 using System.Web.Http;
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Abstractions;
 using System.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Server.Controllers;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Server.Controllers;
 
-namespace Raven.Database.Server.Security.Windows
+namespace Raven35.Database.Server.Security.Windows
 {
     public class WindowsRequestAuthorizer : AbstractRequestAuthorizer
     {

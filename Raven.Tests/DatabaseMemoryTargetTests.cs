@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Database.Util;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Util;
 using Xunit;
-using Constants = Raven.Abstractions.Data.Constants;
+using Constants = Raven35.Abstractions.Data.Constants;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class DatabaseMemoryTargetTests : IDisposable
     {

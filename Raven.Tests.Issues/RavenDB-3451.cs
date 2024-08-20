@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Raven.Tests.Helpers;
-using Raven.Tests.MailingList;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.MailingList;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3451 : RavenTestBase
     {

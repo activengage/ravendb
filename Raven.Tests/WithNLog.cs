@@ -1,9 +1,9 @@
 using System.Xml;
 using NLog.Config;
-using Raven.Database.Server;
-using Raven.Tests.Common;
+using Raven35.Database.Server;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class WithNLog : NoDisposalNeeded
     {
@@ -14,7 +14,7 @@ namespace Raven.Tests
 
             HttpEndpointRegistration.RegisterHttpEndpointTarget();
 
-            using (var stream = typeof(WithNLog).Assembly.GetManifestResourceStream("Raven.Tests.DefaultLogging.config"))
+            using (var stream = typeof(WithNLog).Assembly.GetManifestResourceStream("Raven35.Tests.DefaultLogging.config"))
             using (var reader = XmlReader.Create(stream))
             {
                 NLog.LogManager.Configuration = new XmlLoggingConfiguration(reader, "default-config");

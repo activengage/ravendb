@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Specialized;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class CachedRequest
     {

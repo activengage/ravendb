@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.FileSystem
+namespace Raven35.Abstractions.FileSystem
 {
     public enum SynchronizationType
     {

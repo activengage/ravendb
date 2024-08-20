@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.LinqToSql
+namespace Raven35.Imports.Newtonsoft.Json.Tests.LinqToSql
 {
     using System.Data.Linq;
     using System.Data.Linq.Mapping;

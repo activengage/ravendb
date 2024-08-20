@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Collections.Specialized;
 
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class MoreLikeThisQuery
     {

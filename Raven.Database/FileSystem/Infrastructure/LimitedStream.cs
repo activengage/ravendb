@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Raven.Database.FileSystem.Infrastructure
+namespace Raven35.Database.FileSystem.Infrastructure
 {
     public class LimitedStream : Stream
     {

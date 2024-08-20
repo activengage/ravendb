@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lucene.Net.Analysis;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Querying
+namespace Raven35.Tests.Querying
 {
     public class CanParseNestedBooleanQueries : RavenTest
     {

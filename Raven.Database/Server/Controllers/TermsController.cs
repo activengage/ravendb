@@ -1,10 +1,10 @@
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Raven.Database.Queries;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Database.Queries;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class TermsController : ClusterAwareRavenDbApiController
     {

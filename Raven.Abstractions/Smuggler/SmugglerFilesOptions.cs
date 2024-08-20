@@ -1,6 +1,6 @@
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Smuggler
+namespace Raven35.Abstractions.Smuggler
 {
     public class SmugglerFilesOptions : SmugglerOptions<FilesConnectionStringOptions>
     {

@@ -13,15 +13,15 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Dispatcher;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Database.Server.WebApi;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Server.WebApi;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     
     public class MultiGetController : ClusterAwareRavenDbApiController
@@ -47,7 +47,7 @@ namespace Raven.Database.Server.Controllers
 
                 string clientVersion = null;
                 IEnumerable<string> values;
-                if (Request.Headers.TryGetValues("Raven-Client-Version", out values))
+                if (Request.Headers.TryGetValues("Raven35.Client-Version", out values))
                 {
                     clientVersion = values.FirstOrDefault(x => string.IsNullOrEmpty(x) == false);
                 }
@@ -56,7 +56,7 @@ namespace Raven.Database.Server.Controllers
                 {
                     getRequest.Headers["Raven-Internal-Request"] = "true";
                     if (string.IsNullOrEmpty(clientVersion) == false)
-                        getRequest.Headers["Raven-Client-Version"] = clientVersion;
+                        getRequest.Headers["Raven35.Client-Version"] = clientVersion;
                     if (DatabaseName != null)
                     {
                         getRequest.Url = "databases/" + DatabaseName + getRequest.Url;

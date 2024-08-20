@@ -6,16 +6,16 @@ using System.IO;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.TimeSeries;
-using Raven.Database.Extensions;
-using Raven.Server;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.TimeSeries;
+using Raven35.Database.Extensions;
+using Raven35.Server;
+using Raven35.Tests.Helpers;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class RavenBaseTimeSeriesTest : RavenTestBase
     {

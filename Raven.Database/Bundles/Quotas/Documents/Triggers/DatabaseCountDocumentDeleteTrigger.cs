@@ -1,8 +1,8 @@
 using System.ComponentModel.Composition;
-using Raven.Bundles.Quotas.Size;
-using Raven.Database.Plugins;
+using Raven35.Bundles.Quotas.Size;
+using Raven35.Database.Plugins;
 
-namespace Raven.Bundles.Quotas.Documents.Triggers
+namespace Raven35.Bundles.Quotas.Documents.Triggers
 {
 
     [InheritedExport(typeof(AbstractDeleteTrigger))]

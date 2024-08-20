@@ -6,15 +6,15 @@
 using System;
 using System.Linq;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1817 : RavenTest
     {

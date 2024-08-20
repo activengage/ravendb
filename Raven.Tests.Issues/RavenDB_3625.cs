@@ -6,12 +6,12 @@ using System.Reflection;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3625: RavenTest
     {

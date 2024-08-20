@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.Document.SessionOperations
+namespace Raven35.Client.Document.SessionOperations
 {
     public class MultiLoadOperation
     {

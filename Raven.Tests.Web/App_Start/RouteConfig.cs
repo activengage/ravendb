@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Raven.Tests.Web
+namespace Raven35.Tests.Web
 {
     public class RouteConfig
     {

@@ -1,10 +1,10 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles.Versioning;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles.Versioning;
 using Xunit;
 
-namespace Raven.Tests.Bundles.CompressionAndEncryption
+namespace Raven35.Tests.Bundles.CompressionAndEncryption
 {
     public class Crud : CompressionAndEncryption
     {

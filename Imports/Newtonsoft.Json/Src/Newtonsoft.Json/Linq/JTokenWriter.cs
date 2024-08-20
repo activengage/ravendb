@@ -28,9 +28,9 @@ using System.Globalization;
 #if !(NET20 || NET35 || PORTABLE40 || PORTABLE)
 using System.Numerics;
 #endif
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.

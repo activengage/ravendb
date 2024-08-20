@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2717 : RavenTest
     {

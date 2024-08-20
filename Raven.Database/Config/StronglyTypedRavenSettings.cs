@@ -4,8 +4,8 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using Rachis;
-using Raven.Abstractions.Data;
-using Raven.Database.Config.Settings;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config.Settings;
 using System;
 using System.Collections.Specialized;
 using System.IO;
@@ -13,7 +13,7 @@ using System.Net;
 using System.Runtime.Caching;
 using System.Threading;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     internal class StronglyTypedRavenSettings
     {
@@ -201,7 +201,7 @@ namespace Raven.Database.Config
                 new IntegerSettingWithMin(settings["Raven/MaxNumberOfItemsToPreFetch"] ?? settings["Raven/MaxNumberOfItemsToPreFetchForIndexing"],
                                           defaultMaxNumberOfItemsToIndexInSingleBatch, 128);
             WebDir =
-                new StringSetting(settings["Raven/WebDir"], GetDefaultWebDir);
+                new StringSetting(settings["Raven35.WebDir"], GetDefaultWebDir);
             PluginsDirectory =
                 new StringSetting(settings["Raven/PluginsDirectory"], @"~\Plugins");
             AssembliesDirectory =
@@ -226,7 +226,7 @@ namespace Raven.Database.Config
 
             TimeToWaitBeforeRunningIdleIndexes = new TimeSpanSetting(settings["Raven/TimeToWaitBeforeRunningIdleIndexes"], TimeSpan.FromMinutes(10), TimeSpanArgumentType.FromParse);
 
-            DatbaseOperationTimeout = new TimeSpanSetting(settings["Raven/DatabaseOperationTimeout"], TimeSpan.FromMinutes(5), TimeSpanArgumentType.FromParse);
+            DatbaseOperationTimeout = new TimeSpanSetting(settings["Raven35.DatabaseOperationTimeout"], TimeSpan.FromMinutes(5), TimeSpanArgumentType.FromParse);
 
             TimeToWaitBeforeMarkingAutoIndexAsIdle = new TimeSpanSetting(settings["Raven/TimeToWaitBeforeMarkingAutoIndexAsIdle"], TimeSpan.FromHours(1), TimeSpanArgumentType.FromParse);
 
@@ -240,7 +240,7 @@ namespace Raven.Database.Config
 
             TurnOffDiscoveryClient = new BooleanSetting(settings["Raven/TurnOffDiscoveryClient"], false);
 
-            ServerName = new StringSetting(settings["Raven/ServerName"], (string)null);
+            ServerName = new StringSetting(settings["Raven35.ServerName"], (string)null);
 
             MaxStepsForScript = new IntegerSetting(settings["Raven/MaxStepsForScript"], 10 * 1000);
             AdditionalStepsForScriptBasedOnDocumentSize = new IntegerSetting(settings["Raven/AdditionalStepsForScriptBasedOnDocumentSize"], 5);
@@ -348,7 +348,7 @@ namespace Raven.Database.Config
             if (settings["Raven/MaxServicePointIdleTime"] != null)
                 ServicePointManager.MaxServicePointIdleTime = Convert.ToInt32(settings["Raven/MaxServicePointIdleTime"]);
 
-            WebSockets.InitialBufferPoolSize = new IntegerSetting(settings["Raven/WebSockets/InitialBufferPoolSize"], 128 * 1024);
+            WebSockets.InitialBufferPoolSize = new IntegerSetting(settings["Raven35.WebSockets/InitialBufferPoolSize"], 128 * 1024);
 
             MaxConcurrentResourceLoads = new IntegerSetting(settings[Constants.RavenMaxConcurrentResourceLoads], 8);
             ConcurrentResourceLoadTimeout = new TimeSpanSetting(settings[Constants.ConcurrentResourceLoadTimeout],
@@ -370,7 +370,7 @@ namespace Raven.Database.Config
 
         private string GetDefaultWebDir()
         {
-            return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Raven/WebUI");
+            return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"Raven35.WebUI");
         }
 
         private int GetDefaultMemoryCacheLimitMegabytes()

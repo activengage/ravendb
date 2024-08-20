@@ -7,13 +7,13 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client;
-using Raven.Client.Indexes;
+using Raven35.Client;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.ResultsTransformer
+namespace Raven35.Tests.ResultsTransformer
 {
     public class AsyncTransformWith : RavenTest
     {

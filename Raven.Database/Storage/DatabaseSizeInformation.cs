@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public class DatabaseSizeInformation
     {

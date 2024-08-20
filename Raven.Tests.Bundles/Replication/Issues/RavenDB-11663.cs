@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication.Issues
+namespace Raven35.Tests.Bundles.Replication.Issues
 {
     public class RavenDB_11663: ReplicationBase
     {

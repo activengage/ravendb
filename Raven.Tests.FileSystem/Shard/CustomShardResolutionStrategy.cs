@@ -9,13 +9,13 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Shard;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Shard;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Shard
+namespace Raven35.Tests.FileSystem.Shard
 {
     public class CustomShardResolutionStrategy : RavenFilesTestBase
     {

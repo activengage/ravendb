@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.TimeSeries.Notifications;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Json.Linq;
-using Sparrow.Collections;
+using Raven35.Abstractions.TimeSeries.Notifications;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Json.Linq;
+using Sparrow35.Collections;
 
-namespace Raven.Client.TimeSeries.Changes
+namespace Raven35.Client.TimeSeries.Changes
 {
     public class TimeSeriesChangesClient : RemoteChangesClientBase<ITimeSeriesChanges, TimeSeriesConnectionState, TimeSeriesConvention>, ITimeSeriesChanges
     {

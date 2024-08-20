@@ -1,8 +1,8 @@
-using Sparrow.Collections;
+using Sparrow35.Collections;
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Client.Connection.Profiling
+namespace Raven35.Client.Connection.Profiling
 {
     /// <summary>
     /// Manages all profiling activities for a given item

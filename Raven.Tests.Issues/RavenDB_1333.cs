@@ -3,15 +3,15 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System;
     using System.Collections.Concurrent;
 
-    using Raven.Abstractions.Data;
-    using Raven.Client.Document;
+    using Raven35.Abstractions.Data;
+    using Raven35.Client.Document;
 
     using Xunit;
 

@@ -2,9 +2,9 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class Folders : RavenFilesTestWithLogs
     {

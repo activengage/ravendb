@@ -8,19 +8,19 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Request;
-using Raven.Client.Embedded;
-using Raven.Database;
-using Raven.Database.Util;
-using Raven.Server;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Embedded;
+using Raven35.Database;
+using Raven35.Database.Util;
+using Raven35.Server;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Common
+namespace Raven35.Tests.Common
 {
     public class RavenTest : RavenTestBase
     {

@@ -1,20 +1,20 @@
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
 using System;
 using System.Linq;
 
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RavenCannotQueryAgainstFloatProperty : RavenTestBase
     {

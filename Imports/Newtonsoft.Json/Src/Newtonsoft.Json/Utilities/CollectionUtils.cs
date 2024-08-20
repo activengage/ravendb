@@ -30,14 +30,14 @@ using System.Reflection;
 using System.Text;
 using System.Collections;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Globalization;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
     internal static class CollectionUtils
     {

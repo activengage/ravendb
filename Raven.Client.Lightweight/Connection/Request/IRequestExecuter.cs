@@ -3,12 +3,12 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Metrics;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Metrics;
 
-namespace Raven.Client.Connection.Request
+namespace Raven35.Client.Connection.Request
 {
     public interface IRequestExecuter
     {

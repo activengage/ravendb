@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public class FilesQuery
     {

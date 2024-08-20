@@ -4,11 +4,11 @@ using System.Collections.Concurrent;
 using System.Net;
 using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.OAuth;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.OAuth;
 
-namespace Raven.Abstractions.Connection
+namespace Raven35.Abstractions.Connection
 {
     [Obsolete]
     public class HttpRavenRequestFactory

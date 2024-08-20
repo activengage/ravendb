@@ -15,26 +15,26 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using Raven.Abstractions.Spatial;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Spatial;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
 using System.Threading.Tasks;
-using Raven.Client.Document.Batches;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Linq;
-using Raven.Client.Listeners;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Spatial;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
-using Raven.Client.Document.Async;
+using Raven35.Client.Document.Batches;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Linq;
+using Raven35.Client.Listeners;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Spatial;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
+using Raven35.Client.Document.Async;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     ///   A query against a Raven index

@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Bugs.Identifiers;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Bugs.Identifiers;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     //related to issue http://issues.hibernatingrhinos.com/issue/RavenDB-1450
     public class ConflictsWithIIS : IisExpressTestClient

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IAsyncFilesOrderedQuery<T> : IAsyncFilesQuery<T>, IAsyncFilesOrderedQueryBase<T, IAsyncFilesQuery<T>>
     {

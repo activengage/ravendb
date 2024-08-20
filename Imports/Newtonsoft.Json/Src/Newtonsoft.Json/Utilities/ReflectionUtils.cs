@@ -35,13 +35,13 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters;
 using System.Text;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
 #if (NETFX_CORE || PORTABLE) && !DNXCORE50
     [Flags]

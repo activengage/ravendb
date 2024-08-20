@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class MemberConverterPrecedenceClassConverter : ConverterPrecedenceClassConverter
     {

@@ -27,9 +27,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     internal enum JsonContainerType
     {

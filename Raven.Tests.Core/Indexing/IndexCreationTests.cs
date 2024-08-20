@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
-using Raven.Client.Indexes;
-using Raven.Tests.Core.Utils.Indexes;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Core.Utils.Indexes;
 using Xunit;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Tests.Core.Indexing
+namespace Raven35.Tests.Core.Indexing
 {
     public class IndexCreationTests : RavenCoreTestBase
     {

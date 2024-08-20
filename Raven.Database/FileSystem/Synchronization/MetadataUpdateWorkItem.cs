@@ -1,12 +1,12 @@
 using System.Collections.Specialized;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
-using Raven.Database.FileSystem.Storage;
-using Raven.Json.Linq;
-using Raven.Client.FileSystem;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Json.Linq;
+using Raven35.Client.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class MetadataUpdateWorkItem : SynchronizationWorkItem
     {

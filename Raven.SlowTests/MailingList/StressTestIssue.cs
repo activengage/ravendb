@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Client;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.SlowTests.MailingList
+namespace Raven35.SlowTests.MailingList
 {
     public class StreamIssueTest : RavenTestBase
     {

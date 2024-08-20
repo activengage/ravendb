@@ -1,11 +1,11 @@
 using System;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Constants = Raven.Abstractions.Data.Constants;
+using Constants = Raven35.Abstractions.Data.Constants;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class ReadOnly : RavenTest
     {

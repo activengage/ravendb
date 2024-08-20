@@ -1,9 +1,9 @@
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Client;
-using Raven.Tests.Helpers;
-using Raven.Client.Linq;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Client;
+using Raven35.Tests.Helpers;
+using Raven35.Client.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDb_2239 : RavenTestBase
     {

@@ -1,6 +1,6 @@
 using System.ComponentModel.Composition;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     [InheritedExport]
     public interface ISilverlightRequestedAware

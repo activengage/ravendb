@@ -2,15 +2,15 @@ using System;
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
 
-using Raven.Bundles.UniqueConstraints;
-using Raven.Client.Embedded;
-using Raven.Client.UniqueConstraints;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Bundles.UniqueConstraints;
+using Raven35.Client.Embedded;
+using Raven35.Client.UniqueConstraints;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class MultiTenancy : RavenTest
     {

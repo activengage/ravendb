@@ -1,11 +1,11 @@
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Commands
+namespace Raven35.Tests.Core.Commands
 {
     public class Batches : RavenCoreTestBase
     {

@@ -4,12 +4,12 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Database.Extensions;
-using Raven.Database.Indexing;
-using Raven.Database.Plugins;
+using Raven35.Database.Extensions;
+using Raven35.Database.Indexing;
+using Raven35.Database.Plugins;
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class CanUseLuceneCodecDirectory : IDisposable
     {

@@ -28,10 +28,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Runtime.Serialization;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Imports.Newtonsoft.Json.Tests.TestObjects;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Tests.TestObjects;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class VersionKeyedCollection : KeyedCollection<string, Person>, IEnumerable<Person>
     {

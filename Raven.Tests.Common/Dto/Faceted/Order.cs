@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Tests.Common.Dto.Faceted
+namespace Raven35.Tests.Common.Dto.Faceted
 {
     public class Order
     {

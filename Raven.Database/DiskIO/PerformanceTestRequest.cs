@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.DiskIO
+namespace Raven35.Database.DiskIO
 {
     public abstract class AbstractPerformanceTestRequest
     {

@@ -1,8 +1,8 @@
 extern alias client;
 using System.Collections.Generic;
-using client::Raven.Bundles.Authorization.Model;
+using client::Raven35.Bundles.Authorization.Model;
 
-namespace Raven.Bundles.Tests.Authorization.Bugs.Wayne
+namespace Raven35.Bundles.Tests.Authorization.Bugs.Wayne
 {
     public class WallMessage<T>
     {

@@ -9,7 +9,7 @@ using System.Security.Permissions;
 using System.Text;
 using Mono.Reflection;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     public static class CodeVerifier
     {

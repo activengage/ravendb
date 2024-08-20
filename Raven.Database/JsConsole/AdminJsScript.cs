@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.JsConsole
+namespace Raven35.Database.JsConsole
 {
     public class AdminJsScript
     {

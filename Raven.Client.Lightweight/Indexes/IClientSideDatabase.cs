@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     /// DatabaseAccessor for loading documents in the translator

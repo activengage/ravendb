@@ -5,12 +5,12 @@
 //-----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 using System.IO;
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
-using Raven.Database.Server;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Authorization.Triggers
+namespace Raven35.Bundles.Authorization.Triggers
 {
     [InheritedExport(typeof(AbstractPutTrigger))]
     [ExportMetadata("Bundle", "Authorization")]

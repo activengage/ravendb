@@ -6,12 +6,12 @@
 using System;
 using System.Diagnostics;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Database.Extensions;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Database.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Impl
+namespace Raven35.Database.Impl
 {
     public class DatabaseBulkOperations
     {

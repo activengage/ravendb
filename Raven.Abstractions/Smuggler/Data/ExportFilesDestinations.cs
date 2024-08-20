@@ -1,15 +1,15 @@
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Smuggler.Data
+namespace Raven35.Abstractions.Smuggler.Data
 {
     public class ExportFilesDestinations
     {
-        public const string RavenDocumentKey = "Raven/Smuggler/Export/Files/Incremental";
+        public const string RavenDocumentKey = "Raven35.Smuggler/Export/Files/Incremental";
 
         public Dictionary<string, ExportFilesDestinationKey> Destinations { get; set; }
 

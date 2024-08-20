@@ -6,13 +6,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Raven.Json.Linq;
-using Raven.Database.Storage;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Database.Storage;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Views
+namespace Raven35.Tests.Views
 {
     public class ViewStorage : RavenTest
     {

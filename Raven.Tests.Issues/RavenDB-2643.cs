@@ -1,9 +1,9 @@
 using System;
-using Raven.Client.Converters;
-using Raven.Tests.Helpers;
+using Raven35.Client.Converters;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB2643 : RavenTestBase
     {

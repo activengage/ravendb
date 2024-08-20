@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System;
 
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Data
+namespace Raven35.Database.Data
 {
     /// <summary>
     /// Describes an attachment, but without the actual attachment data

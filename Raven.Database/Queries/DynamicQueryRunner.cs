@@ -6,14 +6,14 @@
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Data;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Data;
 using System.Diagnostics;
 using System.Threading;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public class DynamicQueryRunner
     {

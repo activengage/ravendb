@@ -7,8 +7,8 @@
     <ProjectGuid>{794CC625-31A4-4DA2-968E-5D33CF1CADA1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sparrow.Tests</RootNamespace>
-    <AssemblyName>Sparrow.Tests</AssemblyName>
+    <RootNamespace>Sparrow35.Tests</RootNamespace>
+    <AssemblyName>Sparrow35.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

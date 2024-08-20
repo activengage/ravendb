@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Streaming
+namespace Raven35.Abstractions.Streaming
 {
     public class JsonOutputWriter : IOutputWriter
     {

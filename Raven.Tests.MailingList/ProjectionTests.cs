@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Listeners;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class ProjectionTests : RavenTest
     {

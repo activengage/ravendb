@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Raven.Client.FileSystem.Shard
+namespace Raven35.Client.FileSystem.Shard
 {
     public class ShardPagingInfo
     {

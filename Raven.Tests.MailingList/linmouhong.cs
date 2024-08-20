@@ -3,12 +3,12 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class linmouhong : RavenTest
     {

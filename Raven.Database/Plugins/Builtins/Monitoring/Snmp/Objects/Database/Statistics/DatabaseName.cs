@@ -6,10 +6,10 @@
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Server.Tenancy;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Statistics
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Statistics
 {
     public class DatabaseName : DatabaseScalarObjectBase<OctetString>
     {

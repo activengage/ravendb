@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Embedded;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3659 : RavenTest
     {

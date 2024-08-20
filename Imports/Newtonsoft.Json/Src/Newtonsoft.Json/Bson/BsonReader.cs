@@ -28,11 +28,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.IO;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
-namespace Raven.Imports.Newtonsoft.Json.Bson
+namespace Raven35.Imports.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.

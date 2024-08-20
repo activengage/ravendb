@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     [Flags]
     public enum SearchOptions

@@ -1,19 +1,19 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Client.Shard;
-using Raven.Server;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Shard;
+using Raven35.Server;
 using Xunit;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class LazilyLoadWithTransformerWhileUsingSharding : RavenTest
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Transactions;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     public class DummyEnlistmentNotification : IEnlistmentNotification
     {

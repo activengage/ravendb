@@ -7,20 +7,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Request;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Client.Metrics;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Client.Metrics;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class ReplicationInformer : ReplicationInformerBase<ServerClient>, IDocumentStoreReplicationInformer
     {

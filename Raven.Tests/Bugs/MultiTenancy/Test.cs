@@ -1,4 +1,4 @@
-namespace Raven.Tests.Bugs.MultiTenancy
+namespace Raven35.Tests.Bugs.MultiTenancy
 {
     public class Test
     {

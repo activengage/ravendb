@@ -5,19 +5,19 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.Embedded;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.Security.Windows;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.Embedded;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.Security.Windows;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1077 : RavenTest
     {

@@ -1,14 +1,14 @@
 using System;
 using System.Globalization;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles.Encryption;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles.Encryption;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3117 : Encryption
     {

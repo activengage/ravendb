@@ -5,18 +5,18 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Diagnostics;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Database;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Database;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class DatabaseReloadingTests : RavenTest
     {
@@ -38,8 +38,8 @@ namespace Raven.Tests.Issues
                 var tx1 = new TransactionInformation {Id = Guid.NewGuid().ToString()};
                 var tx2 = new TransactionInformation { Id = Guid.NewGuid().ToString() };
 
-                var tenantDatabaseDocument = store.DatabaseCommands.Get("Raven/Databases/" + TenantName);
-                server.SystemDatabase.Documents.Put("Raven/Databases/" + TenantName, null, tenantDatabaseDocument.DataAsJson, tenantDatabaseDocument.Metadata, tx1);
+                var tenantDatabaseDocument = store.DatabaseCommands.Get("Raven35.Databases/" + TenantName);
+                server.SystemDatabase.Documents.Put("Raven35.Databases/" + TenantName, null, tenantDatabaseDocument.DataAsJson, tenantDatabaseDocument.Metadata, tx1);
                 server.SystemDatabase.PrepareTransaction(tx1.Id);
                 server.SystemDatabase.Commit(tx1.Id);
 
@@ -68,8 +68,8 @@ namespace Raven.Tests.Issues
                 var tx1 = new TransactionInformation { Id = Guid.NewGuid().ToString() };
                 var tx2 = new TransactionInformation { Id = Guid.NewGuid().ToString() };
 
-                var tenantDatabaseDocument = store.DatabaseCommands.Get("Raven/Databases/" + TenantName);
-                server.SystemDatabase.Documents.Put("Raven/Databases/mydb", null, tenantDatabaseDocument.DataAsJson, tenantDatabaseDocument.Metadata, tx1);
+                var tenantDatabaseDocument = store.DatabaseCommands.Get("Raven35.Databases/" + TenantName);
+                server.SystemDatabase.Documents.Put("Raven35.Databases/mydb", null, tenantDatabaseDocument.DataAsJson, tenantDatabaseDocument.Metadata, tx1);
 
                 var tenantDb = GetDocumentDatabaseForTenant(server, TenantName);
                 tenantDb.Documents.Put("Foo/1", null, new RavenJObject { { "Test", "123" } }, new RavenJObject(), tx2);
@@ -103,8 +103,8 @@ namespace Raven.Tests.Issues
                 var tenantDb = GetDocumentDatabaseForTenant(server, TenantName);
                 tenantDb.Documents.Put("Foo/1", null, new RavenJObject { { "Test", "123" } }, new RavenJObject(), tx2);
                 
-                var tenantDatabaseDocument = store.DatabaseCommands.ForSystemDatabase().Get("Raven/Databases/" + TenantName);
-                server.SystemDatabase.Documents.Put("Raven/Databases/" + TenantName, null, tenantDatabaseDocument.DataAsJson, tenantDatabaseDocument.Metadata, tx1);
+                var tenantDatabaseDocument = store.DatabaseCommands.ForSystemDatabase().Get("Raven35.Databases/" + TenantName);
+                server.SystemDatabase.Documents.Put("Raven35.Databases/" + TenantName, null, tenantDatabaseDocument.DataAsJson, tenantDatabaseDocument.Metadata, tx1);
                 server.SystemDatabase.PrepareTransaction(tx1.Id);
                 server.SystemDatabase.Commit(tx1.Id);
 

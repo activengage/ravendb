@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Client.Changes;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Client.Changes;
 
-namespace Raven.Client.Counters.Changes
+namespace Raven35.Client.Counters.Changes
 {
     public class CountersConnectionState : ConnectionStateBase
     {

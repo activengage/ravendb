@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Raven.Client.Document;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.Apo {
+namespace Raven35.Tests.MailingList.Apo {
     public class Lazy:RavenTest {
 
         public class TestClass {

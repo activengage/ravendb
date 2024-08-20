@@ -5,18 +5,18 @@
 // -----------------------------------------------------------------------
 using System.Linq;
 
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.UniqueConstraints;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles.UniqueConstraints;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.UniqueConstraints;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles.UniqueConstraints;
 
 using Xunit;
 
-using User = Raven.Tests.Common.Dto.User;
+using User = Raven35.Tests.Common.Dto.User;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2172 : UniqueConstraintsTest
     {

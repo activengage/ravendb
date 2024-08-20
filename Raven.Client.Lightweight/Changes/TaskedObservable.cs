@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Util;
-using Sparrow.Collections;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Util;
+using Sparrow35.Collections;
 
-namespace Raven.Client.Changes
+namespace Raven35.Client.Changes
 {
     public class TaskedObservable<T, TConnectionState> : IObservableWithTask<T> where TConnectionState : IChangesConnectionState
     {

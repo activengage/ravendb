@@ -8,7 +8,7 @@ using System.Globalization;
 using System.IO;
 using Lucene.Net.Analysis;
 
-namespace Raven.Database.Indexing.Collation
+namespace Raven35.Database.Indexing.Collation
 {
     public class CollationAnalyzer : Analyzer
     {

@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class HiLoKeyGeneratorConcurrency : RavenTest
     {

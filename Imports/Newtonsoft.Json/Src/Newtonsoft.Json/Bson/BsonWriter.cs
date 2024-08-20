@@ -31,11 +31,11 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 using System.Globalization;
 
-namespace Raven.Imports.Newtonsoft.Json.Bson
+namespace Raven35.Imports.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.

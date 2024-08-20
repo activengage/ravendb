@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Raven.Client.Embedded;
-using Raven.Database.Config;
+using Raven35.Client.Embedded;
+using Raven35.Database.Config;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_10888
     {

@@ -1,8 +1,8 @@
 using System.Net;
-using Raven.Client.FileSystem;
+using Raven35.Client.FileSystem;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3570
     {

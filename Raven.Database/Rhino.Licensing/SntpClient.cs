@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
 namespace Rhino.Licensing
 {

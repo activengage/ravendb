@@ -27,7 +27,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     internal class JPropertyKeyedCollection : Collection<JToken>
     {

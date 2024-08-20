@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Globalization;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq.JsonPath
+namespace Raven35.Imports.Newtonsoft.Json.Linq.JsonPath
 {
     internal class FieldMultipleFilter : PathFilter
     {

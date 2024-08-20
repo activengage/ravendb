@@ -1,11 +1,11 @@
 using System.Threading.Tasks;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System.Collections.Specialized;
 using System.IO;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Bugs
+namespace Raven35.Tests.FileSystem.Bugs
 {
     public class Queries : RavenFilesTestWithLogs
     {

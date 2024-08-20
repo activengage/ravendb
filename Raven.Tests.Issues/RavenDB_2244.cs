@@ -3,16 +3,16 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.Transactions;
 
-    using Raven.Abstractions.Commands;
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Exceptions;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Commands;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Exceptions;
+    using Raven35.Json.Linq;
 
     using Xunit;
 

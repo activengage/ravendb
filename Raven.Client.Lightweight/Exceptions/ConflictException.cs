@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Runtime.Serialization;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Exceptions
+namespace Raven35.Client.Exceptions
 {
     /// <summary>
     /// This exception occurs when a (replication) conflict is encountered.

@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public class OpenFilesSessionOptions
     {

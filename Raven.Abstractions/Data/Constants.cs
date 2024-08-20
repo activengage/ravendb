@@ -1,7 +1,7 @@
 using System;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public static class Constants
     {
@@ -17,9 +17,9 @@ namespace Raven.Abstractions.Data
         public const string IndexVersion = "index-version";
         public const string TransformerVersion = "transformer-version";
 
-        public const string RavenClientPrimaryServerUrl = "Raven-Client-Primary-Server-Url";
+        public const string RavenClientPrimaryServerUrl = "Raven35.Client-Primary-Server-Url";
 
-        public const string RavenClientPrimaryServerLastCheck = "Raven-Client-Primary-Server-LastCheck";
+        public const string RavenClientPrimaryServerLastCheck = "Raven35.Client-Primary-Server-LastCheck";
 
         public const string RavenForcePrimaryServerCheck = "Raven-Force-Primary-Server-Check";
 
@@ -114,7 +114,7 @@ namespace Raven.Abstractions.Data
 
         public const string RejectClientsModeEnabled = "Raven/RejectClientsModeEnabled";
 
-        public const string RavenServerBuild = "Raven-Server-Build";
+        public const string RavenServerBuild = "Raven35.Server-Build";
 
         // Indexing
         public const string RavenPrefetchingDurationLimit = "Raven/Prefetching/DurationLimit";
@@ -264,7 +264,7 @@ namespace Raven.Abstractions.Data
 
         public const string RavenIgnoreVersioning = "Raven-Ignore-Versioning";
 
-        public const string RavenClientVersion = "Raven-Client-Version";
+        public const string RavenClientVersion = "Raven35.Client-Version";
 
         public const string RavenDefaultQueryTimeout = "Raven_Default_Query_Timeout";
 
@@ -311,9 +311,9 @@ namespace Raven.Abstractions.Data
 
         public static class Database
         {
-            public const string Prefix = "Raven/Databases/";
+            public const string Prefix = "Raven35.Databases/";
 
-            public const string DataDirectory = "Raven/Databases/DataDir";
+            public const string DataDirectory = "Raven35.Databases/DataDir";
 
             public const string UrlPrefix = "databases";
             public const string DbResourceMarker = ResourceMarkerPrefix + "database";
@@ -415,23 +415,23 @@ namespace Raven.Abstractions.Data
 
         public static class Voron
         {
-            public const string AllowIncrementalBackups = "Raven/Voron/AllowIncrementalBackups";
+            public const string AllowIncrementalBackups = "Raven35.Voron/AllowIncrementalBackups";
 
-            public const string InitialFileSize = "Raven/Voron/InitialFileSize";
+            public const string InitialFileSize = "Raven35.Voron/InitialFileSize";
 
-            public const string TempPath = "Raven/Voron/TempPath";
+            public const string TempPath = "Raven35.Voron/TempPath";
 
-            public const string MaxBufferPoolSize = "Raven/Voron/MaxBufferPoolSize";
+            public const string MaxBufferPoolSize = "Raven35.Voron/MaxBufferPoolSize";
 
-            public const string InitialSize = "Raven/Voron/InitialSize";
+            public const string InitialSize = "Raven35.Voron/InitialSize";
 
-            public const string MaxScratchBufferSize = "Raven/Voron/MaxScratchBufferSize";
+            public const string MaxScratchBufferSize = "Raven35.Voron/MaxScratchBufferSize";
 
-            public const string MaxSizePerScratchBufferFile = "Raven/Voron/MaxSizePerScratchBufferFile";
+            public const string MaxSizePerScratchBufferFile = "Raven35.Voron/MaxSizePerScratchBufferFile";
 
-            public const string AllowOn32Bits = "Raven/Voron/AllowOn32Bits";
+            public const string AllowOn32Bits = "Raven35.Voron/AllowOn32Bits";
 
-            public const string ScratchBufferSizeNotificationThreshold = "Raven/Voron/ScratchBufferSizeNotificationThreshold";
+            public const string ScratchBufferSizeNotificationThreshold = "Raven35.Voron/ScratchBufferSizeNotificationThreshold";
         }
 
         public class Versioning
@@ -480,7 +480,7 @@ namespace Raven.Abstractions.Data
 
         public static class Smuggler
         {
-            public const string CallContext = "Raven/Smuggler/CallContext";
+            public const string CallContext = "Raven35.Smuggler/CallContext";
         }
 
         public static class Cluster
@@ -511,15 +511,15 @@ namespace Raven.Abstractions.Data
         {
             public class Snmp
             {
-                public const string Enabled = "Raven/Monitoring/Snmp/Enabled";
+                public const string Enabled = "Raven35.Monitoring/Snmp/Enabled";
 
-                public const string Community = "Raven/Monitoring/Snmp/Community";
+                public const string Community = "Raven35.Monitoring/Snmp/Community";
 
-                public const string Port = "Raven/Monitoring/Snmp/Port";
+                public const string Port = "Raven35.Monitoring/Snmp/Port";
 
-                public const string DatabaseMappingDocumentKey = "Raven/Monitoring/Snmp/Databases";
+                public const string DatabaseMappingDocumentKey = "Raven35.Monitoring/Snmp/Databases";
 
-                public const string DatabaseMappingDocumentPrefix = "Raven/Monitoring/Snmp/Databases/";
+                public const string DatabaseMappingDocumentPrefix = "Raven35.Monitoring/Snmp/Databases/";
             } 
         }
 

@@ -4,9 +4,9 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Exceptions
+namespace Raven35.Abstractions.Exceptions
 {
     /// <summary>
     /// This exception is raised when a concurrency conflict is encountered

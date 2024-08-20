@@ -4,10 +4,10 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Commands
+namespace Raven35.Abstractions.Commands
 {
     ///<summary>
     /// A single batch operation for a document PATCH

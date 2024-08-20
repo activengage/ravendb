@@ -1,15 +1,15 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class LockFileTests : RavenFilesTestWithLogs
     {

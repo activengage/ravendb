@@ -9,13 +9,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util;
-using Raven.Client.Document;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     /// This class provides a way to define a strongly typed index on the client.

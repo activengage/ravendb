@@ -3,7 +3,7 @@
   <PropertyGroup>
     <VersionPrefix>3.5.0</VersionPrefix>
     <TargetFramework>netstandard1.3</TargetFramework>
-    <AssemblyName>Raven.Client.UniqueConstraints</AssemblyName>
+    <AssemblyName>Raven35.Client.UniqueConstraints</AssemblyName>
     <PackageId>Raven.Client.UniqueConstraints</PackageId>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
@@ -17,6 +17,7 @@
     <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\Raven.Database\RavenDB.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>Raven35.Client.UniqueConstraints</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

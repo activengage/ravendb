@@ -1,14 +1,14 @@
-﻿using Raven.Tests.Helpers;
+﻿using Raven35.Tests.Helpers;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Database.Extensions;
+using Raven35.Database.Extensions;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4240 : RavenFilesTestBase
     {

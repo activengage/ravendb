@@ -1,9 +1,9 @@
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Client.Changes;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Client.Changes;
 using System;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem.Changes
+namespace Raven35.Client.FileSystem.Changes
 {
     public class FilesConnectionState : ConnectionStateBase
     {

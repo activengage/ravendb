@@ -6,7 +6,7 @@
 using System;
 using Lucene.Net.Documents;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     public abstract class AbstractIndexUpdateTriggerBatcher : IDisposable
     {

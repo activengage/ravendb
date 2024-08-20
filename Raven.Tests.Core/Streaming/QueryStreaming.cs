@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
 using Xunit;
 
-namespace Raven.Tests.Core.Streaming
+namespace Raven35.Tests.Core.Streaming
 {
     public class QueryStreaming : RavenCoreTestBase
     {

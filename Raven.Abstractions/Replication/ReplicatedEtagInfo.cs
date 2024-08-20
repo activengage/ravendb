@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
     public class ReplicatedEtagInfo
     {

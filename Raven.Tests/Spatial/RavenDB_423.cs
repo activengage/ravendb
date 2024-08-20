@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class RavenDB_423 : RavenTest
     {

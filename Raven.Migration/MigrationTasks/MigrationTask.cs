@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Net;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
 
-namespace Raven.Migration.MigrationTasks
+namespace Raven35.Migration.MigrationTasks
 {
     public abstract class MigrationTask
     {

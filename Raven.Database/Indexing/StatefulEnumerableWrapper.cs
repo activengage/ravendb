@@ -7,7 +7,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class StatefulEnumerableWrapper<T> : IEnumerable<T>, IDisposable
     {

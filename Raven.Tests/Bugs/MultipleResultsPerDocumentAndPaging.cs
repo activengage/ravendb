@@ -7,17 +7,17 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Indexing;
-using Raven.Database.Server;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Indexing;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class MultipleResultsPerDocumentAndPaging : RavenTest
     {

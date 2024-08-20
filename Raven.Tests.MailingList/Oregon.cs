@@ -1,9 +1,9 @@
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Oregon : RavenTest
     {

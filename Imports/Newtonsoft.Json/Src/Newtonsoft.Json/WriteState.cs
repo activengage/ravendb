@@ -25,7 +25,7 @@
 
 using System;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Specifies the state of the <see cref="JsonWriter"/>.

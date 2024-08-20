@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using System.Net.Http;
 using System.Web.Http.Controllers;
 
-namespace Raven.Database.Server.WebApi.Attributes
+namespace Raven35.Database.Server.WebApi.Attributes
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
     public sealed class HttpResetAttribute : Attribute, IActionHttpMethodProvider

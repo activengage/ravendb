@@ -2,13 +2,13 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class DbSingleAuthTokenController : BaseDatabaseApiController
     {
@@ -43,7 +43,7 @@ namespace Raven.Database.Server.Controllers
     }
 }
 
-namespace Raven.Database.FileSystem.Controllers
+namespace Raven35.Database.FileSystem.Controllers
 {
 
     public class FsSingleAuthTokenController : BaseFileSystemApiController
@@ -64,7 +64,7 @@ namespace Raven.Database.FileSystem.Controllers
     }
 }
 
-namespace Raven.Database.Counters.Controllers
+namespace Raven35.Database.Counters.Controllers
 {
     public class CounterSingleAuthTokenController : BaseCountersApiController
     {
@@ -84,7 +84,7 @@ namespace Raven.Database.Counters.Controllers
     }
 }
 
-namespace Raven.Database.TimeSeries.Controllers
+namespace Raven35.Database.TimeSeries.Controllers
 {
     public class TimeSeriesSingleAuthTokenController : BaseTimeSeriesApiController
     {

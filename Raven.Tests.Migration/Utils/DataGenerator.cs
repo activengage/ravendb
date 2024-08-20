@@ -10,12 +10,12 @@ using System.Linq;
 
 using FakeData;
 
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Migration.Indexes;
-using Raven.Tests.Migration.Utils.Orders;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Migration.Indexes;
+using Raven35.Tests.Migration.Utils.Orders;
 
-namespace Raven.Tests.Migration.Utils
+namespace Raven35.Tests.Migration.Utils
 {
     namespace Orders
     {

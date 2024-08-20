@@ -11,17 +11,17 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Changes;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     /// <summary>
     /// Implements a sharded document store

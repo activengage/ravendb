@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Indexes.Recovery
+namespace Raven35.Tests.Indexes.Recovery
 {
     public class MapReduceRecoveryTestIndex : AbstractIndexCreationTask<Recovery>
     {

@@ -1,11 +1,11 @@
 using System.Diagnostics;
 using System.Net;
 
-using Raven.Tests.Helpers.Util;
+using Raven35.Tests.Helpers.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public static class FactIfWindowsAuthenticationIsAvailable
     {

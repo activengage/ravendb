@@ -5,17 +5,17 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3920 : RavenFilesTestWithLogs
     {

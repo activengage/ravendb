@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class Contains : RavenTest
     {

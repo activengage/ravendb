@@ -25,13 +25,13 @@
 
 using System;
 using System.Reflection;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Serialization
+namespace Raven35.Imports.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Maps a JSON property to a .NET member or constructor parameter.

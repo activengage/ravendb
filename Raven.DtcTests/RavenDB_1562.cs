@@ -8,20 +8,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Transactions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Indexes;
-using Raven.Database.Extensions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Indexes;
+using Raven35.Database.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.DtcTests
+namespace Raven35.DtcTests
 {
     public class RavenDB_1562 : ReplicationBase
     {
@@ -167,14 +167,14 @@ namespace Raven.DtcTests
 
             if (addReplicationTarget)
             {
-                var replicationDestination = new Raven.Abstractions.Replication.ReplicationDestination()
+                var replicationDestination = new Raven35.Abstractions.Replication.ReplicationDestination()
                 {
                     Url = SecondaryDocumentStore.Url,
                     TransitiveReplicationBehavior = TransitiveReplicationOptions.None,
                     Database = targetDbName
                 };
 
-                var newReplicationDocument = new Raven.Abstractions.Replication.ReplicationDocument()
+                var newReplicationDocument = new Raven35.Abstractions.Replication.ReplicationDocument()
                 {
                     Destinations = new List<ReplicationDestination>()
                     {
@@ -250,7 +250,7 @@ namespace Raven.DtcTests
 
             serverClient.ForceReadFromMaster();
 
-            if (serverClient.Get("Raven/Databases/" + Uri.EscapeDataString(databaseDocument.Id)) != null)
+            if (serverClient.Get("Raven35.Databases/" + Uri.EscapeDataString(databaseDocument.Id)) != null)
             {
                 return;
             }

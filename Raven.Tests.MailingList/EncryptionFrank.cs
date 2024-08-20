@@ -6,14 +6,14 @@
 using System;
 using System.IO;
 using System.Security.Cryptography;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Bundles.Encryption.Streams;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Bundles.Encryption.Streams;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class EncryptionFrank : NoDisposalNeeded
     {

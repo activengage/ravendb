@@ -1,17 +1,17 @@
 using System;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Database.Server;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class NullableDateTime : RavenTest
     {

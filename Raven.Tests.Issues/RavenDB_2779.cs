@@ -9,16 +9,16 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2779 : RavenTestBase
     {

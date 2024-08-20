@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Bundles.SqlReplication
+namespace Raven35.Database.Bundles.SqlReplication
 {
     internal class SqlReplicationConfigWithLastReplicatedEtag : SqlReplicationConfig
     {

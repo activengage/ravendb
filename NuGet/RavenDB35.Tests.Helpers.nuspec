@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
     <metadata>
-        <id>RavenDB.Tests.Helpers</id>
+        <id>RavenDB35.Tests.Helpers</id>
         <version>{{version}}</version>
         <title>RavenDB Test Helpers</title>
         <authors>Hibernating Rhinos</authors>
@@ -14,7 +14,7 @@
         <language>en-US</language>
         <tags>nosql ravendb raven document database test</tags>
         <dependencies>
-            <dependency id="RavenDB.Database" version="" />
+            <dependency id="RavenDB35.Database" version="" />
         </dependencies>
     </metadata>
 </package>

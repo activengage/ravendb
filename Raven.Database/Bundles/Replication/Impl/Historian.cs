@@ -1,14 +1,14 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Json.Linq;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Bundles.Replication.Impl
+namespace Raven35.Database.Bundles.Replication.Impl
 {
     using System.Linq;
 
     using Abstractions.Data;
     using Imports.Newtonsoft.Json.Linq;
-    using Raven.Json.Linq;
+    using Raven35.Json.Linq;
 
     internal static class Historian
     {

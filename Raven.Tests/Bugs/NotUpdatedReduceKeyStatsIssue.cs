@@ -3,9 +3,9 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     using System.Linq;
     using Client.Indexes;

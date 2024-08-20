@@ -4,15 +4,15 @@ using System.IO;
 using System.Linq;
 using Mono.CSharp;
 using NetTopologySuite.Operation.Buffer;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Replication.Plugins;
-using Raven.Database.Bundles.Replication.Responders.Behaviors;
-using Raven.Database.Impl;
-using Raven.Json.Linq;
-using Sparrow;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Replication.Plugins;
+using Raven35.Database.Bundles.Replication.Responders.Behaviors;
+using Raven35.Database.Impl;
+using Raven35.Json.Linq;
+using Sparrow35;
 
-namespace Raven.Bundles.Replication.Responders
+namespace Raven35.Bundles.Replication.Responders
 {
     [Obsolete("Use RavenFS instead.")]
     public class AttachmentReplicationBehavior : SingleItemReplicationBehavior<Attachment, byte[]>

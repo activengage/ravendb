@@ -1,18 +1,18 @@
 using System;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class IncrementalBackupRestore : RavenTest
     {
@@ -38,7 +38,7 @@ namespace Raven.Tests.Storage
                 Settings =
                 {
                     {"Raven/Esent/CircularLog", "false"},
-                    {"Raven/Voron/AllowIncrementalBackups", "true"}
+                    {"Raven35.Voron/AllowIncrementalBackups", "true"}
                 }
             }.Initialize(), null);
             db.Indexes.PutIndex(new RavenDocumentsByEntityName().IndexName, new RavenDocumentsByEntityName().CreateIndexDefinition());
@@ -85,7 +85,7 @@ namespace Raven.Tests.Storage
                 Settings =
                 {
                     {"Raven/Esent/CircularLog", "false"},
-                    {"Raven/Voron/AllowIncrementalBackups", "true"}
+                    {"Raven35.Voron/AllowIncrementalBackups", "true"}
                 }
 
             }, new DatabaseRestoreRequest
@@ -140,7 +140,7 @@ namespace Raven.Tests.Storage
                 Settings =
                 {
                     {"Raven/Esent/CircularLog", "false"},
-                    {"Raven/Voron/AllowIncrementalBackups", "true"}
+                    {"Raven35.Voron/AllowIncrementalBackups", "true"}
                 }
 
             }, new DatabaseRestoreRequest
@@ -203,7 +203,7 @@ namespace Raven.Tests.Storage
                 Settings =
                 {
                     {"Raven/Esent/CircularLog", "false"},
-                    {"Raven/Voron/AllowIncrementalBackups", "true"}
+                    {"Raven35.Voron/AllowIncrementalBackups", "true"}
                 }
 
             }, new DatabaseRestoreRequest

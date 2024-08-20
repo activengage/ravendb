@@ -10,7 +10,7 @@ using System.Xml;
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public class TimeBombedFactAttribute : FactAttribute
     {

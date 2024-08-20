@@ -1,25 +1,25 @@
 #if !DNXCORE50
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Server;
-using Raven.Database.Server.Security.Windows;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security.Windows;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
 using System.Collections.Generic;
 using System.Net;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Helpers.Util;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Helpers.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Core.Auth
+namespace Raven35.Tests.Core.Auth
 {
     public class Authentication : RavenCoreTestBase
     {
         [Fact(Skip = "Known failure")]
         public void CanUseApiKeyAuthentication()
         {
-            Raven.Database.Server.Security.Authentication.EnableOnce();
+            Raven35.Database.Server.Security.Authentication.EnableOnce();
             this.Server.Configuration.AnonymousUserAccessMode = AnonymousUserAccessMode.None;
             this.Server.SystemDatabase.Documents.Put(
                        "Raven/ApiKeys/CanUseApiKeyAuthentication",
@@ -43,7 +43,7 @@ namespace Raven.Tests.Core.Auth
                 Credentials = null
             }.Initialize())
             {
-                Assert.Throws<Raven.Abstractions.Connection.ErrorResponseException>(() => store.DatabaseCommands.Get("aa/1"));
+                Assert.Throws<Raven35.Abstractions.Connection.ErrorResponseException>(() => store.DatabaseCommands.Get("aa/1"));
             }
 
             using (var store = new DocumentStore
@@ -63,7 +63,7 @@ namespace Raven.Tests.Core.Auth
         public void CanUseWindowsAuthentication()
         {
             FactIfWindowsAuthenticationIsAvailable.LoadCredentials();
-            Raven.Database.Server.Security.Authentication.EnableOnce();
+            Raven35.Database.Server.Security.Authentication.EnableOnce();
             this.Server.Configuration.AnonymousUserAccessMode = AnonymousUserAccessMode.None;
             this.Server.SystemDatabase.Documents.Put(
                 "Raven/Authorization/WindowsSettings",
@@ -94,7 +94,7 @@ namespace Raven.Tests.Core.Auth
                 ConfigurationHelper.ApplySettingsToConventions(store.Conventions);
 
                 store.Initialize();
-                Assert.Throws<Raven.Abstractions.Connection.ErrorResponseException>(() => store.DatabaseCommands.Put("users/1", null, RavenJObject.FromObject(new User { }), new RavenJObject()));
+                Assert.Throws<Raven35.Abstractions.Connection.ErrorResponseException>(() => store.DatabaseCommands.Put("users/1", null, RavenJObject.FromObject(new User { }), new RavenJObject()));
             }
 
             using (var store = new DocumentStore

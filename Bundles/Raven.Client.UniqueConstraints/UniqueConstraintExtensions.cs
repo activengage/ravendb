@@ -5,10 +5,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
 
-namespace Raven.Client.UniqueConstraints
+namespace Raven35.Client.UniqueConstraints
 {
     public static class UniqueConstraintExtensions
     {

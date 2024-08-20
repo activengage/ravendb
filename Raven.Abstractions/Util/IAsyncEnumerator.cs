@@ -6,7 +6,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public interface IAsyncEnumerator<out T> : IDisposable
     {

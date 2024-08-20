@@ -27,7 +27,7 @@ using SupportClass = Lucene.Net.Support;
 //using CharBuffer = java.nio.CharBuffer;
 //using ByteBuffer = java.nio.ByteBuffer;
 
-namespace Raven.Database.Indexing.Collation
+namespace Raven35.Database.Indexing.Collation
 {
     
     /// <summary> Provides support for converting byte sequences to Strings and back again.

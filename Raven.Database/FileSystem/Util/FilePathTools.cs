@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using Raven.Database.Extensions;
+using Raven35.Database.Extensions;
 
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     public static class FilePathTools
     {

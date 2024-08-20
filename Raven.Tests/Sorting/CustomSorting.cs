@@ -7,15 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Jint.Parser;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Rhino.Mocks.Constraints;
 using Xunit;
 
-namespace Raven.Tests.Sorting
+namespace Raven35.Tests.Sorting
 {
     public class CustomSorting : RavenTest
     {

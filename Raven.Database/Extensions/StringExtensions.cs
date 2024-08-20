@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class StringExtensions
     {

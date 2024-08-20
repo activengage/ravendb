@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Client.Connection.Request;
-using Raven.Client.Metrics;
+using Raven35.Abstractions.Connection;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Metrics;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public interface IReplicationInformerBase : IDisposable
     {

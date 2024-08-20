@@ -1,10 +1,10 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Exceptions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Json.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints
+namespace Raven35.Tests.Bundles.UniqueConstraints
 {
     public class CreateTests : UniqueConstraintsTest
     {
@@ -59,7 +59,7 @@ namespace Raven.Tests.Bundles.UniqueConstraints
 
             using (var session = DocumentStore.OpenSession())
             {
-                var key = Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com");
+                var key = Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com");
                 var constraintDocument = session.Load<dynamic>("UniqueConstraints/Users/Email/" + key);
 
                 Assert.NotNull(constraintDocument);

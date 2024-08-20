@@ -26,10 +26,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Imports.Newtonsoft.Json.Schema;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Schema;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Converts an object to and from JSON.

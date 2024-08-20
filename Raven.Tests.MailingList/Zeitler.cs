@@ -2,15 +2,15 @@ using System;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
-    using Raven.Abstractions.Util.Encryptors;
+    using Raven35.Abstractions.Util.Encryptors;
 
     public class Zeitler : RavenTest
     {

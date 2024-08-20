@@ -7,13 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.Everett
+namespace Raven35.Tests.MailingList.Everett
 {
     public class CanReadBytes : RavenTest
     {

@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Data;
 
-namespace Raven.Bundles.CascadeDelete
+namespace Raven35.Bundles.CascadeDelete
 {
     /// <summary>
     /// CascadeDeleteContext is required (and we are not using Database.DisableAllTriggersForCurrentThread()) for two reasons:

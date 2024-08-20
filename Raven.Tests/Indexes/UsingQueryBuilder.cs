@@ -9,13 +9,13 @@ using Lucene.Net.Analysis.Standard;
 using System.Globalization;
 
 using Lucene.Net.Search;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Version = Lucene.Net.Util.Version;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class UsingQueryBuilder : NoDisposalNeeded
     {

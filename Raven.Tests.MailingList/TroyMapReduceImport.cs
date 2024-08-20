@@ -1,13 +1,13 @@
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Database.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Database.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class TroyMapReduceImport : RavenTest
     {
@@ -17,7 +17,7 @@ namespace Raven.Tests.MailingList
             using (var store = NewDocumentStore())
             {
                 var dataDumper = new DatabaseDataDumper(store.SystemDatabase);
-                using (var stream = typeof(TroyMapReduceImport).Assembly.GetManifestResourceStream("Raven.Tests.MailingList.Sandbox.ravendbdump"))
+                using (var stream = typeof(TroyMapReduceImport).Assembly.GetManifestResourceStream("Raven35.Tests.MailingList.Sandbox.ravendbdump"))
                 {
                     await dataDumper.ImportData(new SmugglerImportOptions<RavenConnectionStringOptions> { FromStream = stream });
                 }
@@ -38,7 +38,7 @@ namespace Raven.Tests.MailingList
             using (var store = NewDocumentStore(requestedStorage: "esent"))
             {
                 var dataDumper = new DatabaseDataDumper(store.SystemDatabase);
-                using (var stream = typeof(TroyMapReduceImport).Assembly.GetManifestResourceStream("Raven.Tests.MailingList.Sandbox.ravendbdump"))
+                using (var stream = typeof(TroyMapReduceImport).Assembly.GetManifestResourceStream("Raven35.Tests.MailingList.Sandbox.ravendbdump"))
                 {
                     await dataDumper.ImportData(new SmugglerImportOptions<RavenConnectionStringOptions> { FromStream = stream });
                 }

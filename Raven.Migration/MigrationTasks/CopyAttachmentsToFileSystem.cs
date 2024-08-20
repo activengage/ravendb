@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Migration.MigrationTasks
+namespace Raven35.Migration.MigrationTasks
 {
     public class CopyAttachmentsToFileSystem : MigrationTask
     {

@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Database.Config;
-using Raven.Database.Impl;
-using Raven.Storage.Esent;
-using Raven.Storage.Esent.SchemaUpdates;
+using Raven35.Database.Config;
+using Raven35.Database.Impl;
+using Raven35.Storage.Esent;
+using Raven35.Storage.Esent.SchemaUpdates;
 
-namespace Raven.Database.Storage.Esent.SchemaUpdates.Updates
+namespace Raven35.Database.Storage.Esent.SchemaUpdates.Updates
 {
     public class From53To54 : ISchemaUpdate
     {

@@ -5,16 +5,16 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class VacancyCampaignsTests : RavenTest
     {

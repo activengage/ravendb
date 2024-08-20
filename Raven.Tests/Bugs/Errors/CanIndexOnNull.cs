@@ -1,13 +1,13 @@
 using System;
-using Raven.Abstractions.Indexing;
-using Raven.Json.Linq;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Json.Linq;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs.Errors
+namespace Raven35.Tests.Bugs.Errors
 {
     public class CanIndexOnNull : RavenTest
     {

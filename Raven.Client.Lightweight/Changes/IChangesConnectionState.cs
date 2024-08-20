@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Changes
+namespace Raven35.Client.Changes
 {
     public interface IChangesConnectionState
     {

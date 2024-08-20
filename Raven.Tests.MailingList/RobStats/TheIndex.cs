@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.MailingList.RobStats
+namespace Raven35.Tests.MailingList.RobStats
 {
     class TheIndex : AbstractMultiMapIndexCreationTask<Summary>
     {

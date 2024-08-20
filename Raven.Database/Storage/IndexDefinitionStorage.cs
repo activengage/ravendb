@@ -12,20 +12,20 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Lucene.Net.Analysis.Standard;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Indexing.IndexMerging;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Indexing.IndexMerging;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public class IndexDefinitionStorage
     {

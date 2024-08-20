@@ -7,9 +7,9 @@ using System;
 using System.Globalization;
 using System.Threading;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class CultureHelper
     {

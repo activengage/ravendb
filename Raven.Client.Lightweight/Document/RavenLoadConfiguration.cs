@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class RavenLoadConfiguration : ILoadConfiguration
     {

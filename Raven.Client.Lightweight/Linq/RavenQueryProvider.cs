@@ -9,15 +9,15 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 using System.Threading.Tasks;
 
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     /// <summary>
     /// An implementation of <see cref="IRavenQueryProvider"/>

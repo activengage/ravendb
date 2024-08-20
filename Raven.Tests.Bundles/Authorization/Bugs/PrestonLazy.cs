@@ -1,10 +1,10 @@
-using Raven.Tests.Bundles.Authorization;
+using Raven35.Tests.Bundles.Authorization;
 
-namespace Raven.Bundles.Tests.Authorization.Bugs
+namespace Raven35.Bundles.Tests.Authorization.Bugs
 {
     extern alias client;
-    using client::Raven.Bundles.Authorization.Model;
-    using client::Raven.Client.Authorization;
+    using client::Raven35.Bundles.Authorization.Model;
+    using client::Raven35.Client.Authorization;
     using System.Linq;
     using Xunit;
 

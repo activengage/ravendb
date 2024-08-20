@@ -6,11 +6,11 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Connection.Async;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     /// <summary>
     /// Provide access to the underlying <see cref="IDocumentQuery{T}"/>

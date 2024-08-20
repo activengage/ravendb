@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     public class AsyncShardedHiloKeyGenerator
     {

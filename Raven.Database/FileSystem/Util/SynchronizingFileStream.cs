@@ -1,8 +1,8 @@
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     public class SynchronizingFileStream : StorageStream
     {

@@ -6,11 +6,11 @@
 using Jint;
 using Jint.Native;
 using Jint.Runtime;
-using Raven.Database.Json;
-using Raven.Tests.Common;
+using Raven35.Database.Json;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3996 : RavenTest
     {

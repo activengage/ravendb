@@ -5,15 +5,15 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Client.Linq.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Bhiku : RavenTest
     {

@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Imports.Newtonsoft.Json.Sample
+namespace Raven35.Imports.Newtonsoft.Json.Sample
 {
     /// <summary>
     /// A minimal
@@ -28,13 +28,13 @@ namespace RavenTestConsole.RavenTests
     {
         private class StudentDto
         {
-            [Raven.Imports.Newtonsoft.Json.Sample.JsonProperty("EmailAddress")]
+            [Raven35.Imports.Newtonsoft.Json.Sample.JsonProperty("EmailAddress")]
             public string Email { get; set; }
 
-            [Raven.Imports.Newtonsoft.Json.JsonProperty("ZipCode")]
+            [Raven35.Imports.Newtonsoft.Json.JsonProperty("ZipCode")]
             public string Postcode { get; set; }
 
-            [Raven.Imports.Newtonsoft.Json.JsonProperty("~i'm@Ivalid#")]
+            [Raven35.Imports.Newtonsoft.Json.JsonProperty("~i'm@Ivalid#")]
             public string InvalidProperty { get; set; }
         }
 

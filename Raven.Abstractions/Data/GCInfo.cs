@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class GCInfo
     {

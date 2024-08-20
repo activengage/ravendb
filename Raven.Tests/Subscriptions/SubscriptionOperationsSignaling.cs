@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions.Subscriptions;
-using Raven.Client.Document;
-using Raven.Tests.Helpers;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions.Subscriptions;
+using Raven35.Client.Document;
+using Raven35.Tests.Helpers;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 
-namespace Raven.Tests.Subscriptions
+namespace Raven35.Tests.Subscriptions
 {
     public class SubscriptionOperationsSignaling:RavenTestBase
     {

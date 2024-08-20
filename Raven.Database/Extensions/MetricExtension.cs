@@ -2,10 +2,10 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using Raven.Imports.metrics.Core;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     internal static class MetricExtensions
     {

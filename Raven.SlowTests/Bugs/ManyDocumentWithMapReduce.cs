@@ -3,12 +3,12 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class ManyDocumentBeingIndexed : RavenTest
     {

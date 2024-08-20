@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
 
-namespace Raven.Database.Bundles.Replication
+namespace Raven35.Database.Bundles.Replication
 {
     public class RavenConflictDocumentsTransformer : AbstractTransformerCreationTask
     {

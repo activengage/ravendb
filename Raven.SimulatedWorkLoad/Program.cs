@@ -7,11 +7,11 @@ using System.Reactive;
 using System.Reactive.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.SimulatedWorkLoad.Indexes;
-using Raven.SimulatedWorkLoad.Model;
+using Raven35.Client.Document;
+using Raven35.SimulatedWorkload.Indexes;
+using Raven35.SimulatedWorkload.Model;
 
-namespace Raven.SimulatedWorkLoad
+namespace Raven35.SimulatedWorkload
 {
     internal class Program
     {

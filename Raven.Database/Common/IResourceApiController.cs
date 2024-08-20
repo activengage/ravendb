@@ -4,10 +4,10 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-using Raven.Database.Config;
-using Raven.Database.Server;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
 
-namespace Raven.Database.Common
+namespace Raven35.Database.Common
 {
     public interface IResourceApiController<TResource> : IResourceApiController
         where TResource : IResourceStore

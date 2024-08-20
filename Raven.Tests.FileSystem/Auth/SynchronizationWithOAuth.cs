@@ -6,17 +6,17 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.FileSystem.Synchronization;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.FileSystem.Synchronization;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Auth
+namespace Raven35.Tests.FileSystem.Auth
 {
     public class SynchronizationWithOAuth : RavenFilesTestWithLogs
     {

@@ -1,4 +1,4 @@
-namespace Raven.Client.UniqueConstraints
+namespace Raven35.Client.UniqueConstraints
 {
     using System;
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{6146971B-1069-45EF-92A1-D9DF2400959F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.MiniDumper</RootNamespace>
-    <AssemblyName>Raven.MiniDumper</AssemblyName>
+    <RootNamespace>Raven35.MiniDumper</RootNamespace>
+    <AssemblyName>Raven35.MiniDumper</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Data
+namespace Raven35.Database.Data
 {
     public class IndexQueryResult : IEquatable<IndexQueryResult>
     {

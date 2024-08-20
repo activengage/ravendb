@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3013 : RavenTestBase
     {

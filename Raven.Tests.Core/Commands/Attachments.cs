@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using Xunit;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Tests.Core.Commands
+namespace Raven35.Tests.Core.Commands
 {
     public class Attachments : RavenCoreTestBase
     {

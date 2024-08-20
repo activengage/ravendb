@@ -10,16 +10,16 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Xml;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Impl.Clustering;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl.Clustering;
 using Rhino.Licensing;
 using Rhino.Licensing.Discovery;
 
-namespace Raven.Database.Commercial
+namespace Raven35.Database.Commercial
 {
     internal class ValidateLicense : IDisposable
     {
@@ -214,7 +214,7 @@ namespace Raven.Database.Commercial
         {
             string publicKey;
             using (
-                var stream = typeof(ValidateLicense).Assembly.GetManifestResourceStream("Raven.Database.Commercial.RavenDB.public"))
+                var stream = typeof(ValidateLicense).Assembly.GetManifestResourceStream("Raven35.Database.Commercial.RavenDB.public"))
             {
                 if (stream == null)
                     throw new InvalidOperationException("Could not find public key for the license");

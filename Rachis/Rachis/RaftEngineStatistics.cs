@@ -5,8 +5,8 @@ using System.Linq;
 using Rachis.Messages;
 using Rachis.Storage;
 using Rachis.Transport;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
 
 namespace Rachis
 {

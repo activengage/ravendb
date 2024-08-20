@@ -27,10 +27,10 @@
 using System;
 using System.Globalization;
 using System.Runtime.Serialization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
-namespace Raven.Imports.Newtonsoft.Json.Serialization
+namespace Raven35.Imports.Newtonsoft.Json.Serialization
 {
     internal class JsonFormatterConverter : IFormatterConverter
     {

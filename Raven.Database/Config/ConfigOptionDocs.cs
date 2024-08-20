@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     internal class ConfigOptionDocs : IEnumerable<string>
     {
@@ -100,11 +100,11 @@ namespace Raven.Database.Config
             {"Raven/Esent/MaxInstances", "int", null, "The max number of concurrently running Esent instances. Default: 1024."},
 
             //Voron	
-            {"Raven/Voron/AllowIncrementalBackups", "bool", "true / false", "If you want to use incremental backups, you need to turn this to true, but then journal files will not be deleted after applying them to the data file. They will be deleted only after a successful backup. Default: false."},
-            {"Raven/Voron/TempPath", "string", null, "You can use this setting to specify a different path to temporary files. By default it is empty, which means that temporary files will be created at same location as data file."},
-            {"Raven/Voron/MaxBufferPoolSize", "long", null, "You can use this setting to specify a maximum buffer pool size that can be used for transactional storage (in gigabytes). By default it is 4. Minimum value is 2."},
-            {"Raven/Voron/InitialSize", "long", null, "You can use this setting to specify an initial file size for data file (in bytes)."},
-            {"Raven/Voron/MaxScratchBufferSize", "int", null, "The maximum scratch buffer (modified data by active transactions) size that can be used by Voron. The value is in megabytes. Default: 1024."},
+            {"Raven35.Voron/AllowIncrementalBackups", "bool", "true / false", "If you want to use incremental backups, you need to turn this to true, but then journal files will not be deleted after applying them to the data file. They will be deleted only after a successful backup. Default: false."},
+            {"Raven35.Voron/TempPath", "string", null, "You can use this setting to specify a different path to temporary files. By default it is empty, which means that temporary files will be created at same location as data file."},
+            {"Raven35.Voron/MaxBufferPoolSize", "long", null, "You can use this setting to specify a maximum buffer pool size that can be used for transactional storage (in gigabytes). By default it is 4. Minimum value is 2."},
+            {"Raven35.Voron/InitialSize", "long", null, "You can use this setting to specify an initial file size for data file (in bytes)."},
+            {"Raven35.Voron/MaxScratchBufferSize", "int", null, "The maximum scratch buffer (modified data by active transactions) size that can be used by Voron. The value is in megabytes. Default: 1024."},
 
             // Advanced
             {"Raven/TransactionMode", "string", "lazy,safe", "What transaction mode to use. Safe transaction mode ensures data consistency, but is slower. Lazy is faster, but may result in a data loss if the server crashes. Default: Safe."},
@@ -113,11 +113,11 @@ namespace Raven.Database.Config
             {"Raven/LimitIndexesCapabilities","bool","true,false","Control whatever RavenDB limits what the indexes can do (to avoid potentially destabilizing operations)."},
             // Plugins
             {"Raven/PluginsDirectory", "string", null, "The location of the plugins directory for this database. Default: ~\\Plugins."},
-            {"Raven/BundlesSearchPattern", "string", null, "Allow to limit the loaded plugins by specifying a search pattern, such as Raven.*.dll. Multiple values can be specified, separated by a semi column (;)."},
+            {"Raven35.BundlesSearchPattern", "string", null, "Allow to limit the loaded plugins by specifying a search pattern, such as Raven.*.dll. Multiple values can be specified, separated by a semi column (;)."},
             {"Raven/ActiveBundles", "string", null, "Semicolon separated list of bundles names, such as: 'Replication;Versioning'. If the value is not specified, none of the bundles are installed."},
 
             // Obsolete
-            {"Raven/WebDir", "string", null, "The location of the web directory for known files that makes up the RavenDB internal website. Default: Raven/WebUI"},
+            {"Raven35.WebDir", "string", null, "The location of the web directory for known files that makes up the RavenDB internal website. Default: Raven35.WebUI"},
 
             // Bundles
             {"Raven/Quotas/Size/HardLimitInKB", "int", null, "The hard limit after which we refuse any additional writes. Default: none."},

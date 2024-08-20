@@ -1,10 +1,10 @@
 using System;
 using System.Net;
-using Raven.Database.Config;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.WebApi;
+using Raven35.Database.Config;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.WebApi;
 
-namespace Raven.Database.Server.Security
+namespace Raven35.Database.Server.Security
 {
     public abstract class AbstractRequestAuthorizer : IDisposable
     {

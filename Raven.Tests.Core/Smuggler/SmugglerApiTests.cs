@@ -1,32 +1,32 @@
 #if !DNXCORE50
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Smuggler;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
-using Raven.Tests.Core.Utils.Transformers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Smuggler;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
+using Raven35.Tests.Core.Utils.Transformers;
 using System;
 using System.IO;
 using System.Threading.Tasks;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Core.Smuggler
+namespace Raven35.Tests.Core.Smuggler
 {
     public class SmugglerApiTests : RavenCoreTestBase
     {
         public const int Port1 = 8077;
         public const int Port2 = 8078;
-        public const string ServerName1 = "Raven.Tests.Core.Server";
-        public const string ServerName2 = "Raven.Tests.Core.Server2";
+        public const string ServerName1 = "Raven35.Tests.Core.Server";
+        public const string ServerName2 = "Raven35.Tests.Core.Server2";
 
         private string BackupDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Backup");
 

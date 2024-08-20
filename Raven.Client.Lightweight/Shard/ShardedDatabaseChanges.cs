@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Changes;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Changes;
 using System.Linq;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     public class ShardedDatabaseChanges : IDatabaseChanges
     {

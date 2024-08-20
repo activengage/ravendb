@@ -4,13 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.IO;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Tests.Common;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class InMemoryOnly : RavenTest
     {

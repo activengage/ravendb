@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Bundles.Replication.Data
+namespace Raven35.Database.Bundles.Replication.Data
 {
     public enum ReplicatonNodeState
     {

@@ -19,7 +19,7 @@ using System.Diagnostics;
 using System.Security.Permissions;
 
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public class PinnableBufferCache
     {

@@ -11,12 +11,12 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Store;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.FileSystem.Extensions;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.FileSystem.Extensions;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class RavenIndexWriter : IDisposable
     {

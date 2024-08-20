@@ -38,18 +38,18 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Raven.Imports.Newtonsoft.Json.Converters;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Tests.Serialization;
-using Raven.Imports.Newtonsoft.Json.Tests.TestObjects;
+using Raven35.Imports.Newtonsoft.Json.Converters;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Tests.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Tests.TestObjects;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.IO;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Tests.Linq
 {
     [TestFixture]
     public class LinqToJsonTest : TestFixtureBase

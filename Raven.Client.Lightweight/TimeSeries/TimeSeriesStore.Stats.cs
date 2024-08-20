@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.TimeSeries
+namespace Raven35.Client.TimeSeries
 {
     public partial class TimeSeriesStore
     {

@@ -1,13 +1,13 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 using System.Linq;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
 
     public class DynamicQueriesWithStaticIndexes : RavenTest

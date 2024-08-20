@@ -3,11 +3,11 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.MEF;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public static class MoreLikeThisQueryExtensions
     {

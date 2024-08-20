@@ -1,14 +1,14 @@
 #if !DNXCORE50
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Abstractions.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -21,7 +21,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Smuggler
+namespace Raven35.Abstractions.Smuggler
 {
     public class SmugglerFilesApiBase : ISmugglerApi<FilesConnectionStringOptions, SmugglerFilesOptions, ExportFilesResult>
     {

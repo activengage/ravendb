@@ -1,10 +1,10 @@
 using System;
 using System.Threading;
 using NDesk.Options;
-using Raven.Abstractions;
-using Raven.Smuggler.Helpers;
+using Raven35.Abstractions;
+using Raven35.Smuggler.Helpers;
 
-namespace Raven.Backup
+namespace Raven35.Backup
 {
     class Program
     {
@@ -57,7 +57,7 @@ namespace Raven.Backup
             optionSet.Add("p|pass|password:", OptionCategory.None, "The password to use when the database requires the client to authenticate.", value => op.Credentials.Password = value);
             optionSet.Add("domain:", OptionCategory.None, "The domain to use when the database requires the client to authenticate.", value => op.Credentials.Domain = value);
             optionSet.Add("key|api-key|apikey:", OptionCategory.None, "The API-key to use, when using OAuth.", value => op.ApiKey = value);
-            optionSet.Add("incremental", OptionCategory.None, "When specified, the backup process will be incremental when done to a folder where a previous backup lies. If dest is an empty folder, or it does not exist, a full backup will be created. For incremental backups to work, the configuration option Raven/Esent/CircularLog must be set to false for Esent storage or option Raven/Voron/AllowIncrementalBackups must be set to true for Voron.", _ => op.Incremental = true);
+            optionSet.Add("incremental", OptionCategory.None, "When specified, the backup process will be incremental when done to a folder where a previous backup lies. If dest is an empty folder, or it does not exist, a full backup will be created. For incremental backups to work, the configuration option Raven/Esent/CircularLog must be set to false for Esent storage or option Raven35.Voron/AllowIncrementalBackups must be set to true for Voron.", _ => op.Incremental = true);
             optionSet.Add("timeout:", OptionCategory.None, "The timeout to use for requests", s => op.Timeout = int.Parse(s));
             optionSet.Add("h|?|help", OptionCategory.Help, string.Empty, v =>
             {

@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesStatsTests : RavenBaseTimeSeriesTest
     {

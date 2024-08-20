@@ -9,10 +9,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Linq;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Helper class for reflection operations

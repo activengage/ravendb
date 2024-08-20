@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Concurrent;
 
-using Raven.Abstractions.Logging;
-using Raven.Database.Server.Controllers;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Server.Controllers;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class AdminLogsTarget : Target 
     {

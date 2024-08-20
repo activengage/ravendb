@@ -1,8 +1,8 @@
 using System;
 
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Smuggler.Data
+namespace Raven35.Abstractions.Smuggler.Data
 {
     public class LastEtagsInfo
     {

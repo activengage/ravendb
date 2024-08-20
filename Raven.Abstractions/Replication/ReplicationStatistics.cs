@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
-    using Raven.Json.Linq;
+    using Raven35.Json.Linq;
 
     public class ReplicationStatistics
     {

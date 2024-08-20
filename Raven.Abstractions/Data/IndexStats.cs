@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-using Raven.Abstractions.Indexing;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Indexing;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class IndexStats
     {

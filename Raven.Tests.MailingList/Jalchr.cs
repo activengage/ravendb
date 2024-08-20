@@ -6,18 +6,18 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     using System.Collections;
 
-    using Raven.Abstractions.Indexing;
+    using Raven35.Abstractions.Indexing;
 
     public class Jalchr : RavenTest
     {

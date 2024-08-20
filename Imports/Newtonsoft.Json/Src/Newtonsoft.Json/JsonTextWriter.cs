@@ -33,9 +33,9 @@ using System.Text;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Xml;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.

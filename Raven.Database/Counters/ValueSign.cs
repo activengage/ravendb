@@ -1,4 +1,4 @@
-namespace Raven.Database.Counters
+namespace Raven35.Database.Counters
 {
     public static class ValueSign
     {

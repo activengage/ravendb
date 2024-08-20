@@ -1,10 +1,10 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Json.Linq;
 using System;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem.Impl
+namespace Raven35.Client.FileSystem.Impl
 {
     public class UpdateMetadataOperation: IFilesOperation
     {

@@ -1,8 +1,8 @@
 ﻿using System;
-using Raven.Abstractions.TimeSeries.Notifications;
-using Raven.Client.Changes;
+using Raven35.Abstractions.TimeSeries.Notifications;
+using Raven35.Client.Changes;
 
-namespace Raven.Client.TimeSeries.Changes
+namespace Raven35.Client.TimeSeries.Changes
 {
     public interface ITimeSeriesChanges : IConnectableChanges<ITimeSeriesChanges>
     {

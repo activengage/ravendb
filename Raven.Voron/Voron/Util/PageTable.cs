@@ -9,7 +9,7 @@ using Voron.Impl.Journal;
 
 namespace Voron.Util
 {
-    using Sparrow;
+    using Sparrow35;
     using System.Diagnostics;
 
     /// <summary>

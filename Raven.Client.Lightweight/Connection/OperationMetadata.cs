@@ -1,9 +1,9 @@
 using System.Net;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Connection;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class OperationMetadata
     {

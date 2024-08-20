@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
-using Raven.Database.Prefetching;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
+using Raven35.Database.Prefetching;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3539 : RavenTestBase
     {

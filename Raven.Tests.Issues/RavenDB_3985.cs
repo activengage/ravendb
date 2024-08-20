@@ -4,11 +4,11 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Tests.Issues.Prefetcher;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Issues.Prefetcher;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3985 : PrefetcherTestBase
     {

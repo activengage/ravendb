@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// Holds different setting options for base operations.

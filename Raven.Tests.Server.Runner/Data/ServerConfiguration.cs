@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Tests.Server.Runner.Data
+namespace Raven35.Tests.Server.Runner.Data
 {
     [Serializable]
     public class ServerConfiguration

@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.Connection.Async
+namespace Raven35.Client.Connection.Async
 {
     public static class AsyncDatabaseCommandsExtensions
     {

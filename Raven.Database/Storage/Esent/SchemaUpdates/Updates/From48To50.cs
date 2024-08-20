@@ -11,17 +11,17 @@ using System.Text;
 using System.Threading;
 using Microsoft.Isam.Esent.Interop;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Storage.Esent;
-using Raven.Storage.Esent.SchemaUpdates;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Storage.Esent;
+using Raven35.Storage.Esent.SchemaUpdates;
 
-namespace Raven.Database.Storage.Esent.SchemaUpdates.Updates
+namespace Raven35.Database.Storage.Esent.SchemaUpdates.Updates
 {
     public class From48To50 : ISchemaUpdate
     {

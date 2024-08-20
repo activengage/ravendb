@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Core.Utils.Entities;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Core.BulkInsert
+namespace Raven35.Tests.Core.BulkInsert
 {
     public class SimpleBulkInsert : RavenCoreTestBase
     {

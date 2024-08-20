@@ -10,13 +10,13 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
-using Raven.Abstractions.Util.Streams;
+using Raven35.Abstractions.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Util.Streams;
 
-namespace Raven.Abstractions.Connection
+namespace Raven35.Abstractions.Connection
 {
     public class JsonContent : HttpContent
     {

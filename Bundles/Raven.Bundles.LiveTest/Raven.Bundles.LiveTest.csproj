@@ -7,8 +7,8 @@
     <ProjectGuid>{108260D1-12ED-4EC5-8C6B-1DED1D73271F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Bundles.LiveTest</RootNamespace>
-    <AssemblyName>Raven.Bundles.LiveTest</AssemblyName>
+    <RootNamespace>Raven35.Bundles.LiveTest</RootNamespace>
+    <AssemblyName>Raven35.Bundles.LiveTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

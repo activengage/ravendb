@@ -3,16 +3,16 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Abstractions.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public class SmugglerBetweenOperations
     {

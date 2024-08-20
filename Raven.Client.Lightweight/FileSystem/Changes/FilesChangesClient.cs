@@ -3,17 +3,17 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Abstractions.Logging;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Json.Linq;
 
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Client.FileSystem.Changes
+namespace Raven35.Client.FileSystem.Changes
 {
 
     public class FilesChangesClient : RemoteChangesClientBase<IFilesChanges, FilesConnectionState, FilesConvention>, IFilesChanges

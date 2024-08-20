@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Tests.Common.Dto.Faceted
+namespace Raven35.Tests.Common.Dto.Faceted
 {
     public enum Currency
     {

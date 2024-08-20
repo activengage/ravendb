@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Smuggler;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Smuggler;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     public class SmugglerCounterOperationDispatcher : SmugglerOperationDispatcher<SmugglerCounterOptions>
     {

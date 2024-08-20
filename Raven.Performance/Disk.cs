@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Performance
+namespace Raven35.Performance
 {
     public class Disk
     {

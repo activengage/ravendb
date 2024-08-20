@@ -7,15 +7,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
-using Raven.Database.Impl;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Storage;
-using Raven.Database.Storage.Esent.StorageActions;
-using Raven.Storage.Esent.StorageActions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
+using Raven35.Database.Impl;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Storage;
+using Raven35.Database.Storage.Esent.StorageActions;
+using Raven35.Storage.Esent.StorageActions;
 
-namespace Raven.Storage.Esent.SchemaUpdates.Updates
+namespace Raven35.Storage.Esent.SchemaUpdates.Updates
 {
     public class From40To41 : ISchemaUpdate
     {

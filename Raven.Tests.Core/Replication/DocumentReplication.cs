@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
 using Xunit;
 
-namespace Raven.Tests.Core.Replication
+namespace Raven35.Tests.Core.Replication
 {
     public class DocumentReplication : RavenReplicationCoreTest
     {

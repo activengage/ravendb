@@ -27,7 +27,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a view of a <see cref="JProperty"/>.

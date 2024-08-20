@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication.Bugs
+namespace Raven35.Tests.Bundles.Replication.Bugs
 {
     public class SameEtagFromDifferentServers : ReplicationBase
     {

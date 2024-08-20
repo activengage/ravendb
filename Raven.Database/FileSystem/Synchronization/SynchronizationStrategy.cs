@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class SynchronizationStrategy
     {

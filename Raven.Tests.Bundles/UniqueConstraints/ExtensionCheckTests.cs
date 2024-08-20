@@ -1,10 +1,10 @@
 using System.Linq;
 
-using Raven.Client.UniqueConstraints;
+using Raven35.Client.UniqueConstraints;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints
+namespace Raven35.Tests.Bundles.UniqueConstraints
 {
     public class ExtensionCheckTests : UniqueConstraintsTest
     {
@@ -113,7 +113,7 @@ namespace Raven.Tests.Bundles.UniqueConstraints
 
                 session.Store(checkUser);
                 
-                Assert.Throws<Raven.Database.Exceptions.OperationVetoedException>(delegate
+                Assert.Throws<Raven35.Database.Exceptions.OperationVetoedException>(delegate
                 {
                     session.SaveChanges();
                 });

@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Json.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Database.Bundles.Replication.Triggers;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Database.Bundles.Replication.Triggers;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Responders.Behaviors
+namespace Raven35.Database.Bundles.Replication.Responders.Behaviors
 {
     public abstract class SingleItemReplicationBehavior<TInternal, TExternal>
     {

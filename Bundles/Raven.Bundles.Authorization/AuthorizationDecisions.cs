@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Authorization.Model;
-using Raven.Database;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Authorization.Model;
+using Raven35.Database;
 using System.Linq;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Authorization
+namespace Raven35.Bundles.Authorization
 {
     public class AuthorizationDecisions
     {

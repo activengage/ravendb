@@ -11,15 +11,15 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document.Batches;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Advanced async session operations

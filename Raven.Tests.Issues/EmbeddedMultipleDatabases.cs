@@ -3,14 +3,14 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Client.Embedded;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class EmbeddedMultipleDatabases : RavenTest
     {

@@ -1,10 +1,10 @@
 
 using System.Reflection;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Json
+namespace Raven35.Tests.Json
 {
     using System.Collections.Generic;
     using Xunit;
@@ -23,7 +23,7 @@ namespace Raven.Tests.Json
             using (var store = NewDocumentStore())
             {
                 // this is an edge case since it does not make a lot of sense for users to set this.
-                store.Conventions.CustomizeJsonSerializer = x => x.TypeNameHandling = Raven.Imports.Newtonsoft.Json.TypeNameHandling.All;
+                store.Conventions.CustomizeJsonSerializer = x => x.TypeNameHandling = Raven35.Imports.Newtonsoft.Json.TypeNameHandling.All;
 
                 using (var session = store.OpenSession())
                 {

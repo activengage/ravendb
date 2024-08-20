@@ -13,18 +13,18 @@ using Rachis;
 using Rachis.Commands;
 using Rachis.Storage;
 using Rachis.Transport;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Bundles.Replication.Data;
-using Raven.Client.Connection;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Bundles.Replication.Data;
+using Raven35.Client.Connection;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Raft
+namespace Raven35.Database.Raft
 {
     public class ClusterManager : IDisposable
     {

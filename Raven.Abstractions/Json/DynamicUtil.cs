@@ -8,7 +8,7 @@ using System.Collections.Concurrent;
 using System.Runtime.CompilerServices;
 using Microsoft.CSharp.RuntimeBinder;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     /// <summary>
     /// Helper class for working with dynamic values completely dynamically

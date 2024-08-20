@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class TransformerParameterTests : RavenTestBase
     {

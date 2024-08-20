@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 using Raven.Imports.metrics.Core;
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public sealed class MetricsTicker : IDisposable
     {

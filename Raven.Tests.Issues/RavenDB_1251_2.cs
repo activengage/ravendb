@@ -2,16 +2,16 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1251_2 : RavenTestBase
     {

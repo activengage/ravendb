@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Client.Shard;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Server;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Shard;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Server;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3726 : RavenTestBase
     {

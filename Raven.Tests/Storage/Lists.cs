@@ -6,17 +6,17 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client.Embedded;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Impl;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Embedded;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Impl;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class Lists : RavenTest
     {

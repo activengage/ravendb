@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-using Sparrow.Collections;
+using Sparrow35.Collections;
 using System;
 using System.IO;
 using System.Net;
@@ -14,7 +14,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class ObservableLineStream : IObservable<string>, IDisposable
     {

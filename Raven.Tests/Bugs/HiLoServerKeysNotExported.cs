@@ -6,23 +6,23 @@
 using System;
 using System.IO;
 using Lucene.Net.Support;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class HiLoServerKeysNotExported : RavenTest
     {

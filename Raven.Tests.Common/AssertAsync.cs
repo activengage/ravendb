@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 using Xunit.Sdk;
 
-namespace Raven.Tests.Common
+namespace Raven35.Tests.Common
 {
     /// <summary>
     /// Utility class to be used until xUnit supports async method to be used as parameters.

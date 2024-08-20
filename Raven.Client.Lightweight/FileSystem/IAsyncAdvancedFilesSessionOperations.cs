@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IAsyncAdvancedFilesSessionOperations : IAdvancedFilesSessionOperations
     {

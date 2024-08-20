@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     public class CombinedStream : Stream
     {

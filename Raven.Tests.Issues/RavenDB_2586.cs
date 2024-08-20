@@ -6,17 +6,17 @@
 using System;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Extensions;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Extensions;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2586 : RavenTest
     {

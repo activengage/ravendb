@@ -6,12 +6,12 @@
 using System;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Document;
+using Raven35.Client.Document;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class CanDetectChanges : RavenTest
     {

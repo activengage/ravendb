@@ -4,19 +4,19 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Bundles.CascadeDelete;
-using Raven.Bundles.Expiration;
-using Raven.Client.Document;
-using Raven.Database;
-using Raven.Database.Bundles.Expiration;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.CascadeDelete;
+using Raven35.Bundles.Expiration;
+using Raven35.Client.Document;
+using Raven35.Database;
+using Raven35.Database.Bundles.Expiration;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Expiration
+namespace Raven35.Tests.Bundles.Expiration
 {
     public class WithCascade : RavenTest
     {

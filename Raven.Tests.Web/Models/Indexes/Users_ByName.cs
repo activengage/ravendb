@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.Linq;
 
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common.Dto;
 
-namespace Raven.Tests.Web.Models.Indexes
+namespace Raven35.Tests.Web.Models.Indexes
 {
     public class Users_ByName : AbstractIndexCreationTask<User>
     {

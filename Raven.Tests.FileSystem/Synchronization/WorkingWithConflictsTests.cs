@@ -5,22 +5,22 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Connection;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Raven.Tests.FileSystem.Synchronization.IO;
-using Raven.Tests.FileSystem.Tools;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.FileSystem.Synchronization.IO;
+using Raven35.Tests.FileSystem.Tools;
 using Xunit;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class WorkingWithConflictsTests : RavenFilesTestWithLogs
     {

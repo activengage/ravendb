@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
 namespace Rhino.Licensing.Discovery
 {

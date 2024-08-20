@@ -7,14 +7,14 @@ using System;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Raven.Abstractions.Extensions;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4708_Conventions
     {

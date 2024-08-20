@@ -1,20 +1,20 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Profiling;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Client.Connection;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using Raven35.Client.Connection;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     public interface IAsyncFilesCommands : IDisposable, IHoldProfilingInformation
     {

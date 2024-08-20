@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
-using Raven.Client.Embedded;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues.Ravendb718
+namespace Raven35.Tests.Issues.Ravendb718
 {
     public class DateTimeOffset_QueryDynamicTests : RavenTest
     {

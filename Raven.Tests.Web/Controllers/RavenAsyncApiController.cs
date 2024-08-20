@@ -8,9 +8,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.Web.Controllers
+namespace Raven35.Tests.Web.Controllers
 {
     public abstract class RavenAsyncApiController : RavenApiController
     {

@@ -8,12 +8,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Interface for document session

@@ -1,5 +1,5 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,7 +10,7 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.OAuth
+namespace Raven35.Abstractions.OAuth
 {
     public class SecuredAuthenticator : AbstractAuthenticator, IDisposable
     {

@@ -1,7 +1,7 @@
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 using System.Collections.Specialized;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     /// <summary>
     /// Interface for managing access to RavenFS and open sessions.

@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class RacielrodTest : RavenTest
     {

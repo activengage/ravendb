@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     /// <summary>
     /// Helper class that provide a way to escape query terms

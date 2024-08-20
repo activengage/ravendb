@@ -6,9 +6,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class IdentityController : ClusterAwareRavenDbApiController
     {

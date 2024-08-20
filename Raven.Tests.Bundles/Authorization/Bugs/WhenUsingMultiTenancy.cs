@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 extern alias client;
-using Raven.Client.Extensions;
+using Raven35.Client.Extensions;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization.Bugs
+namespace Raven35.Tests.Bundles.Authorization.Bugs
 {
     public class WhenUsingMultiTenancy : AuthorizationTest
     {
@@ -24,7 +24,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             };
             using (var s = store.OpenSession(database))
             {
-                s.Store(new client::Raven.Bundles.Authorization.Model.AuthorizationUser
+                s.Store(new client::Raven35.Bundles.Authorization.Model.AuthorizationUser
                 {
                     Id = UserId,
                     Name = "Ayende Rahien",
@@ -32,11 +32,11 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
                 s.Store(company);
 
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(s, company, new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission
                             {
                                 User = UserId,
                                 Allow = true,
@@ -50,7 +50,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
             using (var s = store.OpenSession(database))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(s, UserId, "Company/Bid");
 
                 Assert.NotNull(s.Load<Company>(company.Id));
             }

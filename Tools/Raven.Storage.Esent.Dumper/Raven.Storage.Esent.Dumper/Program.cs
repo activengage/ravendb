@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Isam.Esent.Utilities;
 
-namespace Raven.Storage.Esent.Dumper
+namespace Raven35.Storage.Esent.Dumper
 {
     class Program
     {

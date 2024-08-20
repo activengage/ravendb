@@ -1,4 +1,4 @@
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class Transaction
     {

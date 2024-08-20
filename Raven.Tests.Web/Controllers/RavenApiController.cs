@@ -8,12 +8,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Tests.Web.Models;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Web.Models;
 
-namespace Raven.Tests.Web.Controllers
+namespace Raven35.Tests.Web.Controllers
 {
     public abstract class RavenApiController : ApiController
     {

@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Database;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Database;
 using Xunit;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class AllExceptionsAreSerializaable  : IDisposable
     {

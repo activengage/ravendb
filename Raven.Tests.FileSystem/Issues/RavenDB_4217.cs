@@ -4,11 +4,11 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4217 : RavenFilesTestBase
     {

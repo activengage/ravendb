@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using Microsoft.Deployment.WindowsInstaller;
 
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     public class Log
     {

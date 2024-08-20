@@ -1,6 +1,6 @@
-using Raven.Client.Document;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     ///<summary>
     /// Generate a new document query

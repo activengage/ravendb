@@ -47,7 +47,7 @@ using System.Web.Util;
 
 #endif
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
 #if NET_4_0
     public

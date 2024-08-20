@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Linq;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
-namespace Raven.Bundles.UniqueConstraints
+namespace Raven35.Bundles.UniqueConstraints
 {
     using Abstractions.Data;
     using Database.Plugins;
     using Json.Linq;
-    using Raven.Database.Extensions;
+    using Raven35.Database.Extensions;
     using System;
 
     [InheritedExport(typeof(AbstractDeleteTrigger))]

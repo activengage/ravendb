@@ -1,4 +1,4 @@
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged
 {
     /// <summary>
     /// Internal MSRDC definitions

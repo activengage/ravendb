@@ -9,20 +9,20 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.Bundles.Replication.Data;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.Bundles.Replication.Data;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3672 : RavenFilesTestWithLogs
     {

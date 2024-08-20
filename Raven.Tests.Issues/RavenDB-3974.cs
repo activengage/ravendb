@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3974 : ReplicationBase
     {

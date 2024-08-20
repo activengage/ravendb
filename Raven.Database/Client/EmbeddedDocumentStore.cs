@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Database.Config;
-using Raven.Server;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Database.Config;
+using Raven35.Server;
 
-namespace Raven.Database.Client
+namespace Raven35.Database.Client
 {
     internal class EmbeddedDocumentStore : IDocumentStore
     {

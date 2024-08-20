@@ -1,12 +1,12 @@
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Raven.Client.Document;
+using Raven35.Client.Document;
 using Xunit;
 
-namespace Raven.Tests.Core.BulkInsert
+namespace Raven35.Tests.Core.BulkInsert
 {
     public class ChunkedBulkInsert : RavenCoreTestBase
     {

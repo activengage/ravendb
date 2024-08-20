@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     public abstract class AbstractBackgroundTask : IStartupTask
     {

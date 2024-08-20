@@ -4,16 +4,16 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Changes
+namespace Raven35.Client.Changes
 {
     public abstract class RemoteChangesClientBase<TChangesApi, TConnectionState, TConventions> : IDisposable, IObserver<string>, IConnectableChanges<TChangesApi>
                                 where TConnectionState : class, IChangesConnectionState

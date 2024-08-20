@@ -6,14 +6,14 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.SlowTests
+namespace Raven35.SlowTests
 {
     public class IndexationTests : ReplicationBase
     {

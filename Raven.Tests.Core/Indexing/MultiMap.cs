@@ -1,6 +1,6 @@
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Core.Utils.Indexes;
-using Raven.Client;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Indexes;
+using Raven35.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Indexing
+namespace Raven35.Tests.Core.Indexing
 {
     public class MultiMap : RavenCoreTestBase
     {

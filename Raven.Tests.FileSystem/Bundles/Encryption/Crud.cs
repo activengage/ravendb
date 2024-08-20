@@ -6,12 +6,12 @@
 using System.IO;
 using System.Threading.Tasks;
 
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Bundles.Encryption
+namespace Raven35.Tests.FileSystem.Bundles.Encryption
 {
     public class Crud : FileSystemEncryptionTest
     {

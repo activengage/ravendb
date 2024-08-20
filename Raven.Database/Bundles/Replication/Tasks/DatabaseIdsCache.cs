@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Concurrent;
 using System.Threading;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Tasks
+namespace Raven35.Database.Bundles.Replication.Tasks
 {
     public class DatabaseIdsCache: IDisposable
     {

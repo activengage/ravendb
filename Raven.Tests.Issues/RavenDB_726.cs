@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_726 : RavenTest
     {

@@ -1,10 +1,10 @@
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class Config : RavenFilesTestWithLogs
     {

@@ -6,7 +6,7 @@
 using System;
 using Microsoft.Isam.Esent.Interop;
 
-namespace Raven.Storage.Esent
+namespace Raven35.Storage.Esent
 {
     [CLSCompliant(false)]
     public static class EsentExtension

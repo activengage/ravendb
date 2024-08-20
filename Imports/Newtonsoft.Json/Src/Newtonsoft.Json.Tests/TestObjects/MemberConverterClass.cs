@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Raven.Imports.Newtonsoft.Json.Converters;
+using Raven35.Imports.Newtonsoft.Json.Converters;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class MemberConverterClass
     {

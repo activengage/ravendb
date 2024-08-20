@@ -1,18 +1,18 @@
 using System;
 using System.Linq;
 using Newtonsoft.Json;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Helpers;
 using Xunit;
-using JsonConverter = Raven.Imports.Newtonsoft.Json.JsonConverter;
-using JsonReader = Raven.Imports.Newtonsoft.Json.JsonReader;
-using JsonSerializer = Raven.Imports.Newtonsoft.Json.JsonSerializer;
-using JsonWriter = Raven.Imports.Newtonsoft.Json.JsonWriter;
+using JsonConverter = Raven35.Imports.Newtonsoft.Json.JsonConverter;
+using JsonReader = Raven35.Imports.Newtonsoft.Json.JsonReader;
+using JsonSerializer = Raven35.Imports.Newtonsoft.Json.JsonSerializer;
+using JsonWriter = Raven35.Imports.Newtonsoft.Json.JsonWriter;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class QueryTests : RavenTestBase
     {

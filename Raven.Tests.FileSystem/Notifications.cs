@@ -4,13 +4,13 @@ using System.Net.Http;
 using System.Reactive.Linq;
 using System.Reactive.Threading.Tasks;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Client.Connection;
-using Raven.Client.FileSystem;
-using Raven.Json.Linq;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Client.Connection;
+using Raven35.Client.FileSystem;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class Notifications : RavenFilesTestWithLogs
     {

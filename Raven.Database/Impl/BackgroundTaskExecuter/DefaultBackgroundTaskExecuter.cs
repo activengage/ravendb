@@ -1,5 +1,5 @@
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
 
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class DefaultBackgroundTaskExecuter : IBackgroundTaskExecuter, ICpuUsageHandler
     {

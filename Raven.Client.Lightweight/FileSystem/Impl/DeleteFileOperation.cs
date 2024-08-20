@@ -1,9 +1,9 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
 using System;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem.Impl
+namespace Raven35.Client.FileSystem.Impl
 {
     internal class DeleteFileOperation : IFilesOperation
     {

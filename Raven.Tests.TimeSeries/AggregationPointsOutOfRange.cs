@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.TimeSeries;
+using Raven35.Abstractions.TimeSeries;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class AggregationPointsOutOfRange : TimeSeriesTest
     {

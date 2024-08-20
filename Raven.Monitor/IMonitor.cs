@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     public interface IMonitor : IDisposable
     {

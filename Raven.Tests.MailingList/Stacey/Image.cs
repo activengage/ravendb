@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Tests.MailingList.Stacey
+namespace Raven35.Tests.MailingList.Stacey
 {
     public class Image
     {

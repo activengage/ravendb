@@ -6,14 +6,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Tasks
+namespace Raven35.Database.Bundles.Replication.Tasks
 {
     public abstract class ReplicationTaskBase : IDisposable
     {

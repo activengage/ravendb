@@ -5,16 +5,16 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Bundles.Versioning.Data;
-using Raven.Client.FileSystem.Bundles.Versioning;
-using Raven.Smuggler;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Client.FileSystem.Bundles.Versioning;
+using Raven35.Smuggler;
+using Raven35.Tests.Helpers;
 using Xunit;
-using VersioningUtil = Raven.Database.FileSystem.Bundles.Versioning.VersioningUtil;
+using VersioningUtil = Raven35.Database.FileSystem.Bundles.Versioning.VersioningUtil;
 
-namespace Raven.Tests.FileSystem.Smuggler
+namespace Raven35.Tests.FileSystem.Smuggler
 {
     public class SmugglerWithDisabledVersioning_RavenDB_3219 : RavenFilesTestBase
     {

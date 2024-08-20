@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Counters
+namespace Raven35.Abstractions.Counters
 {
     public class CounterBackupRequest
     {

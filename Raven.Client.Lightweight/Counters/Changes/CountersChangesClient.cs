@@ -1,16 +1,16 @@
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Counters;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Json.Linq;
-using Sparrow.Collections;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Counters;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Json.Linq;
+using Sparrow35.Collections;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Counters.Changes
+namespace Raven35.Client.Counters.Changes
 {
 
     public class CountersChangesClient : RemoteChangesClientBase<ICountersChanges, CountersConnectionState, CountersConvention>, ICountersChanges

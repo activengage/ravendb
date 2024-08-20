@@ -7,15 +7,15 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     public class ReplicationTask : IDisposable
     {

@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     public class GlobalSettingsDocument
     {

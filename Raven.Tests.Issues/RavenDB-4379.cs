@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Client;
-using Raven.Smuggler;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client;
+using Raven35.Smuggler;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4379 : RavenTestBase
     {

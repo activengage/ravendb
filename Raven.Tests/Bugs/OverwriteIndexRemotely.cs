@@ -4,17 +4,17 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class OverwriteIndexRemotely : RavenTest, IDisposable
     {

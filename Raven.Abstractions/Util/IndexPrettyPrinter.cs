@@ -12,7 +12,7 @@ using Expression = ICSharpCode.NRefactory.CSharp.Expression;
 using LambdaExpression = ICSharpCode.NRefactory.CSharp.LambdaExpression;
 using ParenthesizedExpression = ICSharpCode.NRefactory.CSharp.ParenthesizedExpression;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public static class IndexPrettyPrinter
     {

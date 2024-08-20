@@ -3,11 +3,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Security;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.OAuth;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.OAuth;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.Extensions
+namespace Raven35.Client.Extensions
 {
     internal static class SecurityExtensions
     {

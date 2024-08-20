@@ -1,7 +1,7 @@
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class when_index_failing : RavenTestBase
     {

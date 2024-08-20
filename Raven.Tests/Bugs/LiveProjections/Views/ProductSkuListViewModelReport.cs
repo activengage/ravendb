@@ -1,4 +1,4 @@
-namespace Raven.Tests.Bugs.LiveProjections.Views
+namespace Raven35.Tests.Bugs.LiveProjections.Views
 {
     public class ProductSkuListViewModelReport
     {

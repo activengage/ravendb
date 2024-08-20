@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Database.Server.Security
+namespace Raven35.Database.Server.Security
 {
     public class IgnoreDb
     {

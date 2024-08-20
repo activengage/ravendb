@@ -9,10 +9,10 @@ using System.Text;
 using Lucene.Net.Analysis.Tokenattributes;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing.LuceneIntegration;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing.LuceneIntegration;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class LuceneASTQueryConfiguration
     {

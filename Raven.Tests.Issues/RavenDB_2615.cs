@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
-using Raven.Tests.Common.Dto.TagCloud;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
+using Raven35.Tests.Common.Dto.TagCloud;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2615 : RavenTest
     {

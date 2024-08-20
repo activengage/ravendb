@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Setup.CustomActions.Infrastructure.IIS
+namespace Raven35.Setup.CustomActions.Infrastructure.IIS
 {
     public interface IISManager
     {

@@ -7,14 +7,14 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Client.Connection;
-using Raven.Database.Server.Connections;
-using Raven.Abstractions.Util.Streams;
-using Raven.Database.Storage.Voron;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Connection;
+using Raven35.Client.Connection;
+using Raven35.Database.Server.Connections;
+using Raven35.Abstractions.Util.Streams;
+using Raven35.Database.Storage.Voron;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.Server.WebApi.Handlers
+namespace Raven35.Database.Server.WebApi.Handlers
 {
     public class GZipToJsonAndCompressHandler : DelegatingHandler
     {

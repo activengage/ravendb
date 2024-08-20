@@ -9,15 +9,15 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.TimeSeries;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.TimeSeries.Controllers
+namespace Raven35.Database.TimeSeries.Controllers
 {
     public class AdminTimeSeriesController : BaseAdminTimeSeriesApiController
     {

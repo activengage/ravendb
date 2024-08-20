@@ -1,11 +1,11 @@
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class QueryShouldNotAppendMetaData : RavenTestBase
     {

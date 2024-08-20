@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Lucene.Net.Util;
 using Rachis;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Replication.Data;
-using Raven.Database.Raft.Commands;
-using Raven.Database.Server.Tenancy;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Replication.Data;
+using Raven35.Database.Raft.Commands;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Raft.Storage.Handlers
+namespace Raven35.Database.Raft.Storage.Handlers
 {
     public class ReplicationStateCommandHandler : CommandHandler<ReplicationStateCommand>
     {

@@ -5,17 +5,17 @@
 //-----------------------------------------------------------------------
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
-using Raven.Client.Embedded;
-using Raven.Json.Linq;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Abstractions.Exceptions;
-using Raven.Database.Plugins;
-using Raven.Tests.Common;
-using Raven.Tests.Storage;
+using Raven35.Client.Embedded;
+using Raven35.Json.Linq;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Database.Plugins;
+using Raven35.Tests.Common;
+using Raven35.Tests.Storage;
 using Xunit;
 
-namespace Raven.Tests.Triggers
+namespace Raven35.Tests.Triggers
 {
     public class AttachmentDeleteTrigger: RavenTest
     {
@@ -39,7 +39,7 @@ namespace Raven.Tests.Triggers
         {
             db.Attachments.PutStatic("ayende", null, new MemoryStream(new byte[] { 1, 2, 3 }), new RavenJObject());
             var operationVetoedException = Assert.Throws<OperationVetoedException>(()=>db.Attachments.DeleteStatic("ayende", null));
-            Assert.Equal("DELETE vetoed on attachment ayende by Raven.Tests.Triggers.AttachmentDeleteTrigger+RefuseAttachmentDeleteTrigger because: Can't delete attachments", operationVetoedException.Message);
+            Assert.Equal("DELETE vetoed on attachment ayende by Raven35.Tests.Triggers.AttachmentDeleteTrigger+RefuseAttachmentDeleteTrigger because: Can't delete attachments", operationVetoedException.Message);
         }
 
         public class RefuseAttachmentDeleteTrigger: AbstractAttachmentDeleteTrigger

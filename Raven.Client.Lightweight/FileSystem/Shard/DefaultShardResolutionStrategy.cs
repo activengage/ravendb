@@ -1,11 +1,11 @@
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
 
-namespace Raven.Client.FileSystem.Shard
+namespace Raven35.Client.FileSystem.Shard
 {
     public class ShardResolutionResult
     {

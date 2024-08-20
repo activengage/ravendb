@@ -3,17 +3,17 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Client.Document.Batches
+namespace Raven35.Client.Document.Batches
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
-    using Raven.Abstractions.Data;
-    using Raven.Client.Connection;
-    using Raven.Client.Extensions;
-    using Raven.Client.Shard;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Data;
+    using Raven35.Client.Connection;
+    using Raven35.Client.Extensions;
+    using Raven35.Client.Shard;
+    using Raven35.Json.Linq;
 
     public class LazyStartsWithOperation<T> : ILazyOperation
     {

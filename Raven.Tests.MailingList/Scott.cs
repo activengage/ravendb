@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto.TagCloud;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto.TagCloud;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Scott : RavenTest
     {

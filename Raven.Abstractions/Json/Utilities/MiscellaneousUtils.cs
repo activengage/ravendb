@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace Raven.Json.Utilities
+namespace Raven35.Json.Utilities
 {
     internal static class MiscellaneousUtils
     {

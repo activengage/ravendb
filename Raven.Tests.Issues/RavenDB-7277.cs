@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Tests.Core.Replication;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Tests.Core.Replication;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_7277 : RavenReplicationCoreTest
     {

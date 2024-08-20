@@ -1,11 +1,11 @@
 #if !DNXCORE50
 using System;
 
-using Raven.Abstractions.Util;
-using Raven.Database.Util;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Util;
 using Xunit;
 
-namespace Raven.Tests.Core
+namespace Raven35.Tests.Core
 {
     public class RavenGCTests : IDisposable
     {

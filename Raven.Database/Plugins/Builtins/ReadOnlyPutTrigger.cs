@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Bundles.Versioning;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.Versioning;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Plugins.Builtins
+namespace Raven35.Database.Plugins.Builtins
 {
     public class ReadOnlyPutTrigger : AbstractPutTrigger
     {

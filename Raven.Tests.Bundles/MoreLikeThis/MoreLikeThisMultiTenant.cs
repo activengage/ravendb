@@ -1,13 +1,13 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Extensions;
-using Raven.Client.Bundles.MoreLikeThis;
+using Raven35.Client.Extensions;
+using Raven35.Client.Bundles.MoreLikeThis;
 
-namespace Raven.Tests.Bundles.MoreLikeThis
+namespace Raven35.Tests.Bundles.MoreLikeThis
 {
     public class MoreLikeThisMultiTenant : RavenTest
     {

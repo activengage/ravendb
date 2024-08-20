@@ -1,11 +1,11 @@
 using System.IO;
 using System.Linq;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class DirectoryCreation : RavenTest
     {

@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class AvoidRaceConditionWhenWeLoadTheDataNotPatched : RavenTest
     {

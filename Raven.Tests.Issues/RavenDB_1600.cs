@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading;
-using Raven.Database.Actions;
-using Raven.Tests.Common;
+using Raven35.Database.Actions;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System;
     using System.Collections.Specialized;
@@ -18,9 +18,9 @@ namespace Raven.Tests.Issues
     using Database.Config;
     using Database.Extensions;
     using Database.Queries;
-    using Raven.Abstractions;
-    using Raven.Abstractions.Data;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions;
+    using Raven35.Abstractions.Data;
+    using Raven35.Json.Linq;
     using Xunit;
 
     public class RavenDB_1600 : RavenTest

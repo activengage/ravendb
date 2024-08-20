@@ -1,16 +1,16 @@
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class CanRetrieveFacetCountsOfQueryResults2 : RavenTestBase
     {

@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class RavenGC
     {

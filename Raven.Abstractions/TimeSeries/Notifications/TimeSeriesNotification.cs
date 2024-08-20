@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.TimeSeries.Notifications
+namespace Raven35.Abstractions.TimeSeries.Notifications
 {
     public class TimeSeriesNotification
     {

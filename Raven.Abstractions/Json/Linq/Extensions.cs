@@ -4,16 +4,16 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Abstractions.Data;
 using System.Text;
 using System.Reflection;
 
-namespace Raven.Json.Linq
+namespace Raven35.Json.Linq
 {
     public static class Extensions
     {

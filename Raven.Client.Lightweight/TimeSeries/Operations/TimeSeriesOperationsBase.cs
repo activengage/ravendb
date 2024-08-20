@@ -1,12 +1,12 @@
 using System;
 using System.Globalization;
 using System.Net.Http;
-using Raven.Abstractions.Connection;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Implementation;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Connection;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Client.TimeSeries.Operations
+namespace Raven35.Client.TimeSeries.Operations
 {
     /// <summary>
     /// implements administration level time series functionality

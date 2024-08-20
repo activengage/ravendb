@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Sparrow.Collections;
-using Sparrow;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Sparrow35.Collections;
+using Sparrow35;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public interface IMappedResultsStorageAction
     {

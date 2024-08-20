@@ -10,10 +10,10 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Reflection;
-using Raven.Database.Config;
+using Raven35.Database.Config;
 using Field = Lucene.Net.Documents.Field;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public static class AssemblyExtractor
     {

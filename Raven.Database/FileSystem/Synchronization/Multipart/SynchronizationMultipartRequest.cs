@@ -1,14 +1,14 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.FileSystem;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.FileSystem;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
 
 using System;
 using System.Collections.Generic;
@@ -16,9 +16,9 @@ using System.IO;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 
-namespace Raven.Database.FileSystem.Synchronization.Multipart
+namespace Raven35.Database.FileSystem.Synchronization.Multipart
 {
     internal class SynchronizationMultipartRequest : IHoldProfilingInformation
     {

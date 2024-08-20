@@ -4,13 +4,13 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class AdminServerClient : IAdminDatabaseCommands, IGlobalAdminDatabaseCommands
     {

@@ -10,8 +10,8 @@
     <ProjectGuid>{93287FBA-732A-4603-9BBE-9CFDC82FC8BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Tests.Core</RootNamespace>
-    <AssemblyName>Raven.Tests.Core</AssemblyName>
+    <RootNamespace>Raven35.Tests.Core</RootNamespace>
+    <AssemblyName>Raven35.Tests.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Database.Bundles.ScriptedIndexResults;
-using Raven.Database.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Bundles.ScriptedIndexResults;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     
     public class RavenDB_3197 : RavenTest

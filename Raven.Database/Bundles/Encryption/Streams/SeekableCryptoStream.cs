@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Abstractions.Data;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Bundles.Encryption.Streams
+namespace Raven35.Bundles.Encryption.Streams
 {
     /// <summary>
     /// Wraps a FileStream (or other seekable stream) with an encryptor and decryptor.

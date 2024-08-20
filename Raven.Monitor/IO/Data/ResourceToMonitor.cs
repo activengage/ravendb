@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Security.AccessControl;
 
-namespace Raven.Monitor.IO.Data
+namespace Raven35.Monitor.IO.Data
 {
     internal class ResourceToMonitor : IComparable<ResourceToMonitor>
     {

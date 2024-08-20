@@ -6,16 +6,16 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
 using System.Threading.Tasks;
-using Raven.Client.Connection.Async;
+using Raven35.Client.Connection.Async;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Generate hilo numbers against a RavenDB document

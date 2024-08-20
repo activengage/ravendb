@@ -3,18 +3,18 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Linq;
 
-    using Raven.Client.Indexes;
-    using Raven.Tests.Bundles.ScriptedIndexResults;
+    using Raven35.Client.Indexes;
+    using Raven35.Tests.Bundles.ScriptedIndexResults;
 
     using Xunit;
 
@@ -122,9 +122,9 @@ namespace Raven.Tests.Issues
             {
                 using (var s = store.OpenSession())
                 {
-                    s.Store(new Raven.Abstractions.Data.ScriptedIndexResults
+                    s.Store(new Raven35.Abstractions.Data.ScriptedIndexResults
                     {
-                        Id = Raven.Abstractions.Data.ScriptedIndexResults.IdPrefix + index.IndexName,
+                        Id = Raven35.Abstractions.Data.ScriptedIndexResults.IdPrefix + index.IndexName,
                         IndexScript = @"
 var docId = 'ResultTypes/' + this.Name;
 var doc = {

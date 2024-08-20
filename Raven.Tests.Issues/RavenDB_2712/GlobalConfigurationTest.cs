@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Database.Config.Retriever;
-using Raven.Tests.Common;
+using Raven35.Database.Config.Retriever;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues.RavenDB_2712
+namespace Raven35.Tests.Issues.RavenDB_2712
 {
     public class GlobalConfigurationTest : RavenTest
     {

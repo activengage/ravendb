@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public class RemainingReductionPerLevel
     {

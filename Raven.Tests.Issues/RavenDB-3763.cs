@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3736
     {

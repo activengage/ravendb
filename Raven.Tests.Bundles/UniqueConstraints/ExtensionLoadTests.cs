@@ -1,12 +1,12 @@
 using System.Collections.Generic;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client;
-using Raven.Json.Linq;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client;
+using Raven35.Json.Linq;
 using Xunit;
 
-using Raven.Client.UniqueConstraints;
+using Raven35.Client.UniqueConstraints;
 
-namespace Raven.Tests.Bundles.UniqueConstraints
+namespace Raven35.Tests.Bundles.UniqueConstraints
 {
     public class ExtensionLoadTests : UniqueConstraintsTest
     {

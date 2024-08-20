@@ -5,12 +5,12 @@
 //-----------------------------------------------------------------------
 using System;
 using System.ComponentModel.Composition;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Expiration
+namespace Raven35.Bundles.Expiration
 {
     [InheritedExport(typeof(AbstractReadTrigger))]
     [ExportMetadata("Bundle", "DocumentExpiration")]

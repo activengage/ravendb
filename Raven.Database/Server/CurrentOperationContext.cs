@@ -9,7 +9,7 @@ using System.Collections.Specialized;
 using System.Security.Principal;
 using System.Threading;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public static class CurrentOperationContext
     {

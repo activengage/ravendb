@@ -1,16 +1,16 @@
 using System;
 using System.Net;
 using System.Net.Http;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Tests.Bundles.Versioning;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Tests.Bundles.Versioning;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     public class WritesDuringFailover : ReplicationBase
     {

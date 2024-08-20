@@ -6,10 +6,10 @@
 using System;
 using System.ComponentModel.Composition;
 using Lucene.Net.Documents;
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Bundles.Replication.Triggers
+namespace Raven35.Database.Bundles.Replication.Triggers
 {
     [ExportMetadata("Bundle", "Replication")]
     [ExportMetadata("Order", 10000)]

@@ -7,13 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     internal class SmugglerExporter
     {

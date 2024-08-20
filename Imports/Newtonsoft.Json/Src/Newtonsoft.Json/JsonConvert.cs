@@ -32,17 +32,17 @@ using System.Numerics;
 #if !(NET20 || NET35 || PORTABLE40)
 using System.Threading.Tasks;
 #endif
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using System.Xml;
-using Raven.Imports.Newtonsoft.Json.Converters;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Converters;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 using System.Text;
 #if !(NET20 || PORTABLE40)
 using System.Xml.Linq;
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Provides methods for converting between common language runtime types and JSON types.

@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Client.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.Extensions;
 
-namespace Raven.Client.FileSystem.Extensions
+namespace Raven35.Client.FileSystem.Extensions
 {
     public static class FilesTenancyExtensions
     {

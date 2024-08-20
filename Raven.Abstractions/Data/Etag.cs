@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Linq;
 using System.Runtime.InteropServices;
-using Raven.Abstractions.Util.Encryptors;
+using Raven35.Abstractions.Util.Encryptors;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     [Serializable]
     public class Etag : IEquatable<Etag>, IComparable<Etag>, IComparable

@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Changes;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Changes;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public class EvictItemsFromCacheBasedOnChanges : IObserver<DocumentChangeNotification>, IObserver<IndexChangeNotification>, IDisposable
     {

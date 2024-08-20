@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
 
-namespace Raven.Database.FileSystem.Extensions
+namespace Raven35.Database.FileSystem.Extensions
 {
     public static class StreamExtensions
     {

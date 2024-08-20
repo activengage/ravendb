@@ -6,9 +6,9 @@
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Server
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Server
 {
     public class ServerUrl : ScalarObjectBase<OctetString>
     {

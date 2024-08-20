@@ -6,14 +6,14 @@ using System.DirectoryServices.ActiveDirectory;
 using System.Linq;
 using System.Security.Principal;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Server;
-using Raven.Database.Server.Abstractions;
-using Raven.Database.Server.Security;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Abstractions;
+using Raven35.Database.Server.Security;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class RoleFinder
     {

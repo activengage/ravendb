@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Raven.Client.FileSystem.Shard
+namespace Raven35.Client.FileSystem.Shard
 {
     /// <summary>
     /// Apply an operation to all the shard session

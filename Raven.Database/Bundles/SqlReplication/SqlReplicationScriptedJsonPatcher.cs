@@ -2,11 +2,11 @@ using System;
 using System.Data;
 using System.Linq;
 using Jint;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.SqlReplication
+namespace Raven35.Database.Bundles.SqlReplication
 {
     internal class SqlReplicationScriptedJsonPatcher : ScriptedJsonPatcher
     {

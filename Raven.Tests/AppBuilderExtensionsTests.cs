@@ -1,14 +1,14 @@
 using System.IO;
 using Microsoft.Owin.Builder;
 using Owin;
-using Raven.Database.Config;
-using Raven.Database.Server;
-using Raven.Tests.Common;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class AppBuilderExtensionsTests : RavenTest
     {

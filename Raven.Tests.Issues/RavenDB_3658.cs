@@ -7,17 +7,17 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Smuggler;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
-using Raven.Tests.Core.Smuggler;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
+using Raven35.Tests.Core.Smuggler;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3658 : ReplicationBase
     {

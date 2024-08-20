@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
     /// <summary>
     /// This class represent the list of replication destinations for the server

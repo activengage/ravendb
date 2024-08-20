@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Raven.Database.FileSystem.Util;
+using Raven35.Database.FileSystem.Util;
 using Xunit;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class NarrowedStreamTests
     {

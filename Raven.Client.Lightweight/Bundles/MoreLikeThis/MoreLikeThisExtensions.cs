@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client.Bundles.MoreLikeThis
+namespace Raven35.Client.Bundles.MoreLikeThis
 {
     public static class MoreLikeThisExtensions
     {

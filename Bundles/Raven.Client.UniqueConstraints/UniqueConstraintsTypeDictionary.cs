@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Raven.Client.Document;
+using Raven35.Client.Document;
 
-namespace Raven.Client.UniqueConstraints
+namespace Raven35.Client.UniqueConstraints
 {
     using System.Collections.Concurrent;
     using System.Reflection;

@@ -6,12 +6,12 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class DatabaseDocument
     {
         /// <summary>
-        /// The ID of a database. Can be either the database name ("Northwind") or the full document name ("Raven/Databases/Northwind").
+        /// The ID of a database. Can be either the database name ("Northwind") or the full document name ("Raven35.Databases/Northwind").
         /// </summary>
         public string Id { get; set; }
         

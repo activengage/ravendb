@@ -1,16 +1,16 @@
 using System;
 using System.ComponentModel.Composition.Hosting;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Plugins;
-using Raven.Database.Plugins.Builtins;
-using Raven.Database.Plugins.Catalogs;
-using Raven.Tests.Common;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Plugins;
+using Raven35.Database.Plugins.Builtins;
+using Raven35.Database.Plugins.Catalogs;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class NoBuiltinDuplicates : NoDisposalNeeded
     {

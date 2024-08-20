@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Raven.Monitor.IO.Data
+namespace Raven35.Monitor.IO.Data
 {
     internal class DiskIoPerformanceRun
     {

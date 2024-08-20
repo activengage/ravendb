@@ -3,7 +3,7 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     /// <summary>
     /// Get the group by value from the document

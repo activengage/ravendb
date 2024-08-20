@@ -3,17 +3,17 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Connection;
-using Raven.Json.Linq;
-using Raven.Bundles.Versioning;
-using Raven.Bundles.Versioning.Triggers;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Connection;
+using Raven35.Json.Linq;
+using Raven35.Bundles.Versioning;
+using Raven35.Bundles.Versioning.Triggers;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Versioning
+namespace Raven35.Tests.Bundles.Versioning
 {
     public class RavenDB_3979_documents : RavenTest
     {
@@ -26,7 +26,7 @@ namespace Raven.Tests.Bundles.Versioning
             {
                 using (var session = documentStore.OpenSession())
                 {
-                    session.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                    session.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                     {
                         Exclude = false,
                         Id = Constants.Versioning.RavenVersioningDefaultConfiguration,
@@ -51,7 +51,7 @@ namespace Raven.Tests.Bundles.Versioning
             {
                 using (var session = documentStore.OpenSession())
                 {
-                    session.Store(new Raven.Bundles.Versioning.Data.VersioningConfiguration
+                    session.Store(new Raven35.Bundles.Versioning.Data.VersioningConfiguration
                     {
                         Exclude = false,
                         Id = Constants.Versioning.RavenVersioningDefaultConfiguration,

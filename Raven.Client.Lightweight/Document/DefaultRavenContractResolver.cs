@@ -7,10 +7,10 @@ using System;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// The default json contract will serialize all properties and all public fields
@@ -20,10 +20,10 @@ namespace Raven.Client.Document
         /// <summary>
         /// Initializes a new instance of the <see cref="DefaultRavenContractResolver"/> class.
         /// </summary>
-        /// <param name="shareCache">If set to <c>true</c> the <see cref="T:Raven.Imports.Newtonsoft.Json.Serialization.DefaultContractResolver"/> will use a cached shared with other resolvers of the same type.
+        /// <param name="shareCache">If set to <c>true</c> the <see cref="T:Raven35.Imports.Newtonsoft.Json.Serialization.DefaultContractResolver"/> will use a cached shared with other resolvers of the same type.
         /// Sharing the cache will significantly performance because expensive reflection will only happen once but could cause unexpected
         /// behavior if different instances of the resolver are suppose to produce different results. When set to false it is highly
-        /// recommended to reuse <see cref="T:Raven.Imports.Newtonsoft.Json.Serialization.DefaultContractResolver"/> instances with the <see cref="T:Raven.Imports.Newtonsoft.Json.JsonSerializer"/>.</param>
+        /// recommended to reuse <see cref="T:Raven35.Imports.Newtonsoft.Json.Serialization.DefaultContractResolver"/> instances with the <see cref="T:Raven35.Imports.Newtonsoft.Json.JsonSerializer"/>.</param>
         public DefaultRavenContractResolver(bool shareCache) : base(shareCache)
         {
             clearExtensionData = new DisposableAction(() => currentExtensionData = null);

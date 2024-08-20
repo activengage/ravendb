@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reactive.Disposables;
-using Raven.Database.Util;
+using Raven35.Database.Util;
 
-namespace Raven.SimulatedWorkLoad
+namespace Raven35.SimulatedWorkload
 {
     public class Observing<T> : IObservable<T>
     {

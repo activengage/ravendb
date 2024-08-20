@@ -5,10 +5,10 @@
 // //-----------------------------------------------------------------------
 using System.ComponentModel.Composition;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Plugins;
 
-namespace Raven.Bundles.Replication.Triggers
+namespace Raven35.Bundles.Replication.Triggers
 {
     [ExportMetadata("Bundle", "Replication")]
     [ExportMetadata("Order", 10000)]

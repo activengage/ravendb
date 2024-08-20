@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Database.Indexing.IndexMerging
+namespace Raven35.Database.Indexing.IndexMerging
 {
     internal class IndexData
     {

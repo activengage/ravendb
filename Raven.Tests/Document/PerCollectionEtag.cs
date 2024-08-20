@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Document {
+namespace Raven35.Tests.Document {
   public class PerCollectionEtag : RavenTest {
      
     [Fact]

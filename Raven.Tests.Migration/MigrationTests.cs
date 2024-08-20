@@ -12,20 +12,20 @@ using System.Linq;
 using System.Threading;
 using System.Xml.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
-using Raven.Tests.Migration.Indexes;
-using Raven.Tests.Migration.Utils;
-using Raven.Tests.Migration.Utils.Orders;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Migration.Indexes;
+using Raven35.Tests.Migration.Utils;
+using Raven35.Tests.Migration.Utils.Orders;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Migration
+namespace Raven35.Tests.Migration
 {
     public class MigrationTests : RavenTest
     {
@@ -211,7 +211,7 @@ namespace Raven.Tests.Migration
                     try
                     {
                         var process = Process.GetProcessById(int.Parse(processId));
-                        if (string.Equals(process.ProcessName, "Raven.Server", StringComparison.OrdinalIgnoreCase))
+                        if (string.Equals(process.ProcessName, "Raven35.Server", StringComparison.OrdinalIgnoreCase))
                             process.Kill();
                     }
                     catch
@@ -353,7 +353,7 @@ namespace Raven.Tests.Migration
             var serverDirectory = NewDataPath(packageName, true);
             IOExtensions.CopyDirectory("../../../packages/" + packageName + "/tools/", serverDirectory);
 
-            return ServerRunner.Run(Port, storageType, Path.Combine(serverDirectory, "Raven.Server.exe"));
+            return ServerRunner.Run(Port, storageType, Path.Combine(serverDirectory, "Raven35.Server.exe"));
         }
 
         private class ServerConfiguration

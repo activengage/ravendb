@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Runtime.Serialization;
 
-namespace Raven.Abstractions.Exceptions
+namespace Raven35.Abstractions.Exceptions
 {
     using System;
 

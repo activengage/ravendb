@@ -3,14 +3,14 @@
 // //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // // </copyright>
 // //-----------------------------------------------------------------------
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Client.UniqueConstraints;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Client.UniqueConstraints;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class JimBolla : UniqueConstraintsTest
     {

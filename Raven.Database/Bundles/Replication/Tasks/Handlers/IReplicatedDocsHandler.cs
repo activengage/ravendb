@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Bundles.Replication.Tasks.Handlers
+namespace Raven35.Database.Bundles.Replication.Tasks.Handlers
 {
     public interface IReplicatedDocsHandler
     {

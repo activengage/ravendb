@@ -5,17 +5,17 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Abstractions.Data;
-using Raven.Client.Document.DTC;
-using Raven.Client.Exceptions;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.Impl;
-using Raven.Database.Util;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document.DTC;
+using Raven35.Client.Exceptions;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.Impl;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_6626 : RavenTestBase
     {
@@ -44,7 +44,7 @@ namespace Raven.Tests.Issues
                         Etag.Empty,
                         RavenJObject.FromObject(entity),
                         new RavenJObject(),
-                        new Raven.Abstractions.Data.TransactionInformation { Id = "1" },
+                        new Raven35.Abstractions.Data.TransactionInformation { Id = "1" },
                         Etag.Empty,
                         new DummyUuidGenerator());
                 }

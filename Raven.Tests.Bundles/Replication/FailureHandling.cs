@@ -4,12 +4,12 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Threading;
-using Raven.Client.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Client.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     public class FailureHandling : ReplicationBase
     {

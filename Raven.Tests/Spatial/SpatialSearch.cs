@@ -1,18 +1,18 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class SpatialSearch : RavenTest
     {

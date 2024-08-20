@@ -27,9 +27,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.LinqToSql
+namespace Raven35.Imports.Newtonsoft.Json.Tests.LinqToSql
 {
     public class DepartmentConverter : JsonConverter
     {

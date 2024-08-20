@@ -7,12 +7,12 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Indexing;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Actions
+namespace Raven35.Database.Actions
 {
     public class LastCollectionEtags
     {

@@ -6,11 +6,11 @@
 
 using Lextm.SharpSnmpLib;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Server.Tenancy;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects
 {
     public abstract class DatabaseIndexScalarObjectBase<TData> : DatabaseScalarObjectBase<TData>
         where TData : ISnmpData

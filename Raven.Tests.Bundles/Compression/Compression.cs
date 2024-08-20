@@ -4,12 +4,12 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.IO;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 
-namespace Raven.Tests.Bundles.Compression
+namespace Raven35.Tests.Bundles.Compression
 {
     public abstract class Compression : RavenTest
     {

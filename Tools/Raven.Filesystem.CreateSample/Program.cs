@@ -1,7 +1,7 @@
 using NDesk.Options;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Client.RavenFS;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Client.RavenFS;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Filesystem.CreateSample
+namespace Raven35.Filesystem.CreateSample
 {
     public class Program
     {

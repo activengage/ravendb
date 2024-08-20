@@ -7,13 +7,13 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Client.Exceptions;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
+using Raven35.Client.Exceptions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
 using Xunit;
 
 
-namespace Raven.SlowTests.Bundles.Replication.Async
+namespace Raven35.SlowTests.Bundles.Replication.Async
 {
     public class ConflictWhenReplicating : ReplicationBase
     {

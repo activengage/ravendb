@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Generate a hilo key for each given type

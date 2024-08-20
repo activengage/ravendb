@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues.Ravendb718
+namespace Raven35.Tests.Issues.Ravendb718
 {
     public class DateTime_QueryMultiMapTests : RavenTest
     {

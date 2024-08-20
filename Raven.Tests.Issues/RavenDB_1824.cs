@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Tests.Common;
 using System.Text;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1824 : NoDisposalNeeded
     {

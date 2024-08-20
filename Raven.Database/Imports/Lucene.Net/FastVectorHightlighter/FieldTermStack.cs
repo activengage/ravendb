@@ -26,9 +26,9 @@ using Lucene.Net.Search;
 using Lucene.Net.Index;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Store;
-using Raven.Abstractions.Util;
-using Raven.Client.Linq;
-using Raven.Database.Util;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Linq;
+using Raven35.Database.Util;
 
 
 namespace Lucene.Net.Search.Vectorhighlight

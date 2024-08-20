@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 using Xunit;
-using Raven.Client.Indexes;
-using Raven.Tests.Helpers;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Helpers;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDb3973 : RavenTestBase
     {

@@ -1,9 +1,9 @@
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 using System;
 using NetTopologySuite.Features;
 
 // From: https://code.google.com/p/nettopologysuite/source/browse/#svn%2Ftrunk%2FNetTopologySuite.IO%2FNetTopologySuite.IO.GeoJSON
-namespace Raven.Tests.Spatial.JsonConverters.GeoJson
+namespace Raven35.Tests.Spatial.JsonConverters.GeoJson
 {
     /// <summary>
     /// Converts Feature object to its JSON representation.

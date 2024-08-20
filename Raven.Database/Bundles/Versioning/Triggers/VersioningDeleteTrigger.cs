@@ -9,12 +9,12 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Threading;
 // using Microsoft.VisualBasic.Logging;
-using Raven.Abstractions.Data;
-using Raven.Database.Impl;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Impl;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Versioning.Triggers
+namespace Raven35.Bundles.Versioning.Triggers
 {
     [InheritedExport(typeof(AbstractDeleteTrigger))]
     [ExportMetadata("Bundle", "Versioning")]

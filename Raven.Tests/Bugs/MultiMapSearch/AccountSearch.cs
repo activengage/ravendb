@@ -1,9 +1,9 @@
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Client.Linq.Indexing;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq.Indexing;
 
-namespace Raven.Tests.Bugs.MultiMapSearch
+namespace Raven35.Tests.Bugs.MultiMapSearch
 {
     public class AccountSearch : AbstractMultiMapIndexCreationTask<AccountSearch.ReduceResult>
     {

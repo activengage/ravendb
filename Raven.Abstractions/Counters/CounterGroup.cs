@@ -1,4 +1,4 @@
-﻿namespace Raven.Abstractions.Counters
+﻿namespace Raven35.Abstractions.Counters
 {
     public class CounterGroup
     {

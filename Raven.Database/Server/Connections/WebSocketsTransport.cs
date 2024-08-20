@@ -7,18 +7,18 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Owin;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Common;
-using Raven.Database.Config;
-using Raven.Database.Server.Abstractions;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Common;
+using Raven35.Database.Config;
+using Raven35.Database.Server.Abstractions;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     /*
      * This is really ugly way to go about it, but that is the interface that OWIN

@@ -9,11 +9,11 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class LandlordBug : RavenTest
     {
@@ -26,7 +26,7 @@ namespace Raven.SlowTests.Bugs
 
                 store.DatabaseCommands.GlobalAdmin.CreateDatabase(new DatabaseDocument()
                 {
-                    Id = "Raven/Databases/" + dbName,
+                    Id = "Raven35.Databases/" + dbName,
                     Settings =
                     {
                         {
@@ -45,9 +45,9 @@ namespace Raven.SlowTests.Bugs
                     {
                         try
                         {
-                            var jsonDocument = store.SystemDatabase.Documents.Get("Raven/Databases/" + dbName, null);
+                            var jsonDocument = store.SystemDatabase.Documents.Get("Raven35.Databases/" + dbName, null);
 
-                            store.SystemDatabase.Documents.Put("Raven/Databases/" + dbName, null, jsonDocument.DataAsJson, jsonDocument.Metadata, null);
+                            store.SystemDatabase.Documents.Put("Raven35.Databases/" + dbName, null, jsonDocument.DataAsJson, jsonDocument.Metadata, null);
                         }
                         catch (Exception)
                         {

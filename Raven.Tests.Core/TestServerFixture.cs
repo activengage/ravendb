@@ -6,19 +6,19 @@
 // -----------------------------------------------------------------------
 using System;
 using System.IO;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Server;
-using Raven.Tests.Common.Util;
-using Raven.Tests.Helpers.Util;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Server;
+using Raven35.Tests.Common.Util;
+using Raven35.Tests.Helpers.Util;
 
-namespace Raven.Tests.Core
+namespace Raven35.Tests.Core
 {
     public class TestServerFixture : IDisposable
     {
         public const int Port = 8079;
-        public const string ServerName = "Raven.Tests.Core.Server";
+        public const string ServerName = "Raven35.Tests.Core.Server";
 
         public TestServerFixture()
         {

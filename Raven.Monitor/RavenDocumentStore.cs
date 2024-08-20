@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Client.Document;
+using Raven35.Client;
+using Raven35.Client.Document;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     public static class RavenDocumentStore
     {

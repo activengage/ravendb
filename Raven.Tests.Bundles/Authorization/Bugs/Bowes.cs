@@ -2,23 +2,23 @@ extern alias client;
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Client;
+using Raven35.Client;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization.Bugs
+namespace Raven35.Tests.Bundles.Authorization.Bugs
 {
     public class Bowes : AuthorizationTest
     {
         public void SetupData(IDocumentSession session)
         {
             session.Store(
-                    new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                    new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                     {
                         Id = "Authorization/Roles/Administrator",
                         Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow=true,
                                 Operation="OrgDocs/View",
@@ -28,12 +28,12 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                     });
 
             session.Store(
-                new client::Raven.Bundles.Authorization.Model.AuthorizationRole
+                new client::Raven35.Bundles.Authorization.Model.AuthorizationRole
                 {
                     Id = "Authorization/Roles/OrganizationUser",
                     Permissions =
                         {
-                            new client::Raven.Bundles.Authorization.Model.OperationPermission
+                            new client::Raven35.Bundles.Authorization.Model.OperationPermission
                             {
                                 Allow=true,
                                 Operation="OrgDocs/View",
@@ -123,42 +123,42 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                 });
 
 
-            client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, session.Load<OrgDoc>("OrgDocs/1"),
-                new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+            client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, session.Load<OrgDoc>("OrgDocs/1"),
+                new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions = 
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
                         },
                     Tags = new List<string> { "Organizations/2" }
                 });
 
-            client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, session.Load<OrgDoc>("OrgDocs/2"),
-                new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+            client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, session.Load<OrgDoc>("OrgDocs/2"),
+                new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions = 
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
                         },
                     Tags = new List<string> { "Organizations/1" }
                 });
 
-            client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, session.Load<OrgDoc>("OrgDocs/3"),
-                new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+            client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, session.Load<OrgDoc>("OrgDocs/3"),
+                new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions = 
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
                         },
                     Tags = new List<string> { "Organizations/2" }
                 });
-            client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session,
+            client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session,
                 session.Load<OrgDoc>("OrgDocs/4"),
-                new client::Raven.Bundles.Authorization.Model.DocumentAuthorization
+                new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization
                 {
                     Permissions = 
                         {
-                            new client::Raven.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
+                            new client::Raven35.Bundles.Authorization.Model.DocumentPermission { Allow=true, Operation="OrgDocs/View",Role="Authorization/Roles/Administrator"}
                         },
                     Tags = new List<string> { "Organizations/2" }
                 });
@@ -176,7 +176,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
             using (var session = store.OpenSession(DatabaseName))
             {
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(session, "Users/4", "OrgDocs/View");
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(session, "Users/4", "OrgDocs/View");
 
                 var vm = session.Query<OrgDoc>().ToList();
 
@@ -194,7 +194,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             public string Id { get; set; }
             public string Name { get; set; }
         }
-        public class User : client::Raven.Bundles.Authorization.Model.AuthorizationUser
+        public class User : client::Raven35.Bundles.Authorization.Model.AuthorizationUser
         {
             public string OrganizationId { get; set; }
         }

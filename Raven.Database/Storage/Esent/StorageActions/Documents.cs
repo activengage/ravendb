@@ -12,17 +12,17 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Bundles.Compression.Plugin;
-using Raven.Json.Linq;
-using Raven.Storage.Esent.StorageActions;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Bundles.Compression.Plugin;
+using Raven35.Json.Linq;
+using Raven35.Storage.Esent.StorageActions;
 
-namespace Raven.Database.Storage.Esent.StorageActions
+namespace Raven35.Database.Storage.Esent.StorageActions
 {
     public partial class DocumentStorageActions : IDocumentStorageActions
     {

@@ -6,10 +6,10 @@ using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Text.RegularExpressions;
-using Raven.Abstractions.Replication;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Replication;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
 
     public class ConnectionStringOptions

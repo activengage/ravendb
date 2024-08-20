@@ -1,10 +1,10 @@
 using System.Linq;
-using Raven.Client.Connection;
-using Raven.Tests.Common;
+using Raven35.Client.Connection;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     public class FailoverDisabled : ReplicationBase
     {

@@ -7,14 +7,14 @@ using System;
 using System.ComponentModel.Composition;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Json.Linq;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Json.Linq;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Triggers
+namespace Raven35.Database.Bundles.Replication.Triggers
 {
     [ExportMetadata("Bundle", "Replication")]
     [ExportMetadata("Order", 10000)]

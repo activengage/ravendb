@@ -8,7 +8,7 @@ using System.Threading;
 using Rachis.Interfaces;
 using Rachis.Messages;
 
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
 namespace Rachis.Transport
 {

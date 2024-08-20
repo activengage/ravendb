@@ -7,17 +7,17 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Shard;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Shard;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.Shard.Async
+namespace Raven35.Tests.Shard.Async
 {
     public class RoundRobinSharding : RavenTest
     {

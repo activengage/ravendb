@@ -2,9 +2,9 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Security.Permissions;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper
 {
     [ClassInterface(ClassInterfaceType.None)]
     [Guid("96236A89-9DBC-11DA-9E3F-0011114AE311")]

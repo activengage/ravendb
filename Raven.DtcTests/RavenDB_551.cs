@@ -2,16 +2,16 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Client;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
-using TransactionInformation = Raven.Abstractions.Data.TransactionInformation;
+using TransactionInformation = Raven35.Abstractions.Data.TransactionInformation;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_551 : RavenTest
     {

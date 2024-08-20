@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Client.Linq.Indexing;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Client.Linq.Indexing;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Stacey
+namespace Raven35.Tests.Bugs.Stacey
 {
     public class Aspects : RavenTest
     {

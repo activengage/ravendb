@@ -35,7 +35,7 @@ namespace Voron.Impl
         public const string RootTreeName = "Root";
         public const string FreeSpaceTreeName = "Free Space";
 
-        public const string DatabaseFilename = "Raven.voron";
+        public const string DatabaseFilename = "Raven35.Voron";
 
         public const int DefaultMaxLogLengthBeforeCompaction = 64; //how much entries in log to keep before compacting it into snapshot
     }

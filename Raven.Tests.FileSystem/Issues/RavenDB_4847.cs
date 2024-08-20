@@ -9,14 +9,14 @@ using System.IO.Compression;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Database.FileSystem.Storage;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4847 : RavenFilesTestBase
     {

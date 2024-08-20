@@ -10,15 +10,15 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.MEF;
-using Raven.Database.Impl;
-using Raven.Database.Impl.DTC;
-using Raven.Database.Plugins;
-using Raven.Storage.Esent;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Impl;
+using Raven35.Database.Impl.DTC;
+using Raven35.Database.Plugins;
+using Raven35.Storage.Esent;
 
-namespace Raven.Database.Storage.Esent.StorageActions
+namespace Raven35.Database.Storage.Esent.StorageActions
 {
     [CLSCompliant(false)]
     public partial class DocumentStorageActions : IDisposable, IGeneralStorageActions

@@ -8,18 +8,18 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Replication;
-using Raven.Client.FileSystem;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.FileSystem.Synchronization.Multipart;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.FileSystem;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Synchronization.Multipart;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
-using FileSystemInfo = Raven.Abstractions.FileSystem.FileSystemInfo;
+using FileSystemInfo = Raven35.Abstractions.FileSystem.FileSystemInfo;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class AutomaticConflictResolutions : RavenFilesTestWithLogs
     {

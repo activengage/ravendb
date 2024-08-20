@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.FileSystem.Connection
+namespace Raven35.Client.FileSystem.Connection
 {
     public interface IFilesReplicationInformer : IReplicationInformerBase<IAsyncFilesCommands>
     {

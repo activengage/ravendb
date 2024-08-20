@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 using System.ComponentModel.Composition;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Synchronization.Conflictuality.Resolvers
+namespace Raven35.Database.FileSystem.Synchronization.Conflictuality.Resolvers
 {
     [PartNotDiscoverable]
     public class LatestFileSynchronizationConflictResolver : AbstractFileSynchronizationConflictResolver

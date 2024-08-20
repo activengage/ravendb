@@ -8,11 +8,11 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.FileSystem;
-using Raven.Tests.Common.Util;
+using Raven35.Client.FileSystem;
+using Raven35.Tests.Common.Util;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3919 : RavenFilesTestWithLogs
     {

@@ -27,9 +27,9 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Bson
+namespace Raven35.Imports.Newtonsoft.Json.Bson
 {
     internal class BsonBinaryWriter
     {

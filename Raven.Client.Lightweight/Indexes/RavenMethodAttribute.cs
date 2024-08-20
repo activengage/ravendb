@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     /// When applied to a custom extension method used in an index, RavenDB will translate

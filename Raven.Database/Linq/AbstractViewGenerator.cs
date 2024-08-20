@@ -10,15 +10,15 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Text.RegularExpressions;
 using Lucene.Net.Documents;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
 using System.Linq;
-using Raven.Abstractions.Linq;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Linq;
+using Raven35.Database.Indexing;
 using Spatial4n.Core.Shapes;
 using Spatial4n.Core.Util;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     /// <summary>
     /// This class represents a base class for all "Views" we generate and compile on the fly - all

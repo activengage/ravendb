@@ -5,14 +5,14 @@
 //-----------------------------------------------------------------------
 using System.Net.Http;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Request;
-using Raven.Client.Metrics;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Request;
+using Raven35.Client.Metrics;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
 using System;
 using System.Collections.Generic;
@@ -22,9 +22,9 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Connection;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     /// <summary>
     /// Replication and failover management on the client side

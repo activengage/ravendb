@@ -6,11 +6,11 @@
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class HttpExtensions
     {

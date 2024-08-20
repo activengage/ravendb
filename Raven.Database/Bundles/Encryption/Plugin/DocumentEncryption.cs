@@ -1,11 +1,11 @@
 using System.ComponentModel.Composition;
 using System.IO;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Database.Bundles.Encryption.Settings;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Database.Bundles.Encryption.Settings;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Encryption.Plugin
+namespace Raven35.Bundles.Encryption.Plugin
 {
     [InheritedExport(typeof(AbstractDocumentCodec))]
     [ExportMetadata("Order", 5000)]

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace Raven.Client.Metrics
+namespace Raven35.Client.Metrics
 {
     public interface IRequestTimeMetric
     {

@@ -6,11 +6,11 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Database.Server.WebApi;
-using Raven.Tests.Common;
+using Raven35.Database.Server.WebApi;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class DocumentWithNaN : RavenTest
     {

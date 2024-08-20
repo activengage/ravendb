@@ -3,17 +3,17 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Json.Linq;
 
 using System;
 using System.Collections.Generic;
@@ -25,9 +25,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Synchronization;
 
-namespace Raven.Database.FileSystem.Controllers
+namespace Raven35.Database.FileSystem.Controllers
 {
     public class AdminFileSystemController : BaseAdminFileSystemApiController
     {
@@ -336,7 +336,7 @@ namespace Raven.Database.FileSystem.Controllers
                 transactionalStorage is Storage.Voron.TransactionalStorage &&
                 FileSystem.Configuration.Storage.Voron.AllowIncrementalBackups == false)
             {
-                throw new InvalidOperationException("In order to run incremental backups using Voron you must have the appropriate setting key (Raven/Voron/AllowIncrementalBackups) set to true");
+                throw new InvalidOperationException("In order to run incremental backups using Voron you must have the appropriate setting key (Raven35.Voron/AllowIncrementalBackups) set to true");
             }
 
             FileSystem.Storage.Batch(accessor => accessor.SetConfig(BackupStatus.RavenBackupStatusDocumentKey, RavenJObject.FromObject(new BackupStatus

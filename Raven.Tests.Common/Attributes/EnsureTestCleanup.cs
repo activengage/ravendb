@@ -13,7 +13,7 @@ using System.Text;
 
 using Xunit;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public class EnsureTestCleanupAttribute : BeforeAfterTestAttribute
     {

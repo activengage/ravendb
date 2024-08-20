@@ -1,10 +1,10 @@
 using System;
 using System.Net;
 
-using Raven.Abstractions.FileSystem;
-using Raven.Client.FileSystem.Connection;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Client.FileSystem.Connection;
 
-namespace Raven.Client.FileSystem.Extensions
+namespace Raven35.Client.FileSystem.Extensions
 {
     public static class FilesSynchronizationExtensions
     {

@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System.ComponentModel.Composition.Hosting;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client.Indexes;
-using Raven.Database.Bundles.ScriptedIndexResults;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Indexes;
+using Raven35.Database.Bundles.ScriptedIndexResults;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class ScriptedIndexResultsAndDecimals : RavenTest
     {

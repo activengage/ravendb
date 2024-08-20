@@ -4,9 +4,9 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Bundles.Authorization.Model
+namespace Raven35.Bundles.Authorization.Model
 {
     public class OperationPermission : IPermission
     {

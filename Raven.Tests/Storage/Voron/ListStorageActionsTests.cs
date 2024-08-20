@@ -5,16 +5,16 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Globalization;
-using Raven.Abstractions;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Storage.Voron
+namespace Raven35.Tests.Storage.Voron
 {
     using System.Linq;
 
-    using Raven.Abstractions.Data;
-    using Raven.Database.Storage;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Data;
+    using Raven35.Database.Storage;
+    using Raven35.Json.Linq;
 
     using Xunit;
     using Xunit.Extensions;

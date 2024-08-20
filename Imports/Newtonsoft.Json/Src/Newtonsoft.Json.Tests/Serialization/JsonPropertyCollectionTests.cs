@@ -34,10 +34,10 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 #else
 using NUnit.Framework;
 #endif
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Imports.Newtonsoft.Json.Tests.TestObjects;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Tests.TestObjects;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.Serialization
+namespace Raven35.Imports.Newtonsoft.Json.Tests.Serialization
 {
     [TestFixture]
     public class JsonPropertyCollectionTests : TestFixtureBase

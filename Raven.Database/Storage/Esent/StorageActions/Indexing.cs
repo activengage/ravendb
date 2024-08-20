@@ -10,16 +10,16 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Extensions;
-using Raven.Database.Indexing;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Extensions;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Storage.Esent.StorageActions
+namespace Raven35.Database.Storage.Esent.StorageActions
 {
     public partial class DocumentStorageActions : IIndexingStorageActions
     {

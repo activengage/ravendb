@@ -5,9 +5,9 @@
 // -----------------------------------------------------------------------
 using Lextm.SharpSnmpLib;
 
-using Raven.Database.Server.Tenancy;
+using Raven35.Database.Server.Tenancy;
 
-namespace Raven.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Requests
+namespace Raven35.Database.Plugins.Builtins.Monitoring.Snmp.Objects.Database.Requests
 {
     public class DatabaseRequestsPerSecond : DatabaseScalarObjectBase<Gauge32>
     {

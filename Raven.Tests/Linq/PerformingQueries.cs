@@ -6,17 +6,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Abstractions.MEF;
-using Raven.Database.Json;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Json;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
 
 using Xunit;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class PerformingQueries : IDisposable
     {

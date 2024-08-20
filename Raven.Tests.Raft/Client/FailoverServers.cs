@@ -3,14 +3,14 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
 
 using Xunit;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class FailoverServers : RaftTestBase
     {

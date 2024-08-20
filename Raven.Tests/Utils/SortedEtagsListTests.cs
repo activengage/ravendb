@@ -3,14 +3,14 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Database.Util;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Util;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Utils
+namespace Raven35.Tests.Utils
 {
     public class SortedEtagsListTests : NoDisposalNeeded
     {

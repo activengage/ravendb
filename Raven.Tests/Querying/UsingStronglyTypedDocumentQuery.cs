@@ -1,11 +1,11 @@
 using System;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Querying
+namespace Raven35.Tests.Querying
 {
     public class UsingStronglyTypedDocumentQuery : NoDisposalNeeded
     {

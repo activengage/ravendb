@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sparrow
+namespace Sparrow35
 {
     public class NumericEqualityComparer : IEqualityComparer<long>, IEqualityComparer<int>
     {

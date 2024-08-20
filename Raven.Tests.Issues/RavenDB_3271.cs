@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
-using Raven.Bundles.Authorization.Model;
-using Raven.Client;
-using Raven.Client.Authorization;
-using Raven.Client.Exceptions;
-using Raven.Database.Config;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Tests.Bundles.Authorization;
-using Raven.Tests.Common;
+using Raven35.Bundles.Authorization.Model;
+using Raven35.Client;
+using Raven35.Client.Authorization;
+using Raven35.Client.Exceptions;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Tests.Bundles.Authorization;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class SanityCheck : AuthorizationTest
 {

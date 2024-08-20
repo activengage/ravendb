@@ -5,11 +5,11 @@
 //-----------------------------------------------------------------------
 using System;
 using System.IO;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions;
 
-namespace Raven.Database.Plugins.Builtins
+namespace Raven35.Database.Plugins.Builtins
 {
     public class CreateFolderIcon : IStartupTask
     {
@@ -44,7 +44,7 @@ namespace Raven.Database.Plugins.Builtins
             if (File.Exists(desktopIni) && File.Exists(icon))
                 return;
 
-            using (var iconFile = typeof (CreateFolderIcon).Assembly.GetManifestResourceStream("Raven.Database.Server.WebUI.raven-data.ico"))
+            using (var iconFile = typeof (CreateFolderIcon).Assembly.GetManifestResourceStream("Raven35.Database.Server.WebUI.raven-data.ico"))
             {
                 File.WriteAllBytes(icon, iconFile.ReadData());
             }

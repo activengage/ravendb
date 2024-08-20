@@ -1,7 +1,7 @@
-using Raven.Client;
-using Raven.Client.Listeners;
+using Raven35.Client;
+using Raven35.Client.Listeners;
 
-namespace Raven.Tests.Helpers
+namespace Raven35.Tests.Helpers
 {
     /// <summary>
     /// Forces all document session queryies to wait for non stale results.

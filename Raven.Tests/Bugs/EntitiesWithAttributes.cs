@@ -1,14 +1,14 @@
 using System.Linq;
 using System.Runtime.Serialization;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     [DataContract]
     public class Item

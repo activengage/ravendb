@@ -7,20 +7,20 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
 /*
  * Different test using where clause
  */
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class UsingWhereConditions : RavenTest
     {

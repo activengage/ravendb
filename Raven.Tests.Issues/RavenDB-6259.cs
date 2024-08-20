@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Common.Dto;
-using Raven.Tests.Core.Replication;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common.Dto;
+using Raven35.Tests.Core.Replication;
+using Raven35.Tests.Helpers;
 using Xunit;
-using User = Raven.Tests.Core.Utils.Entities.User;
+using User = Raven35.Tests.Core.Utils.Entities.User;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_6259 : RavenReplicationCoreTest
     {

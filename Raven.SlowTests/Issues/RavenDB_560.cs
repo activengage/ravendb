@@ -3,18 +3,18 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_560 : ReplicationBase
     {
@@ -223,7 +223,7 @@ namespace Raven.SlowTests.Issues
         private void StopServer(RavenDbServer server)
         {
             server.Dispose();
-            SystemTime.UtcDateTime = () => DateTime.UtcNow.AddSeconds(4); // just to prevent Raven-Client-Primary-Server-LastCheck to have same second
+            SystemTime.UtcDateTime = () => DateTime.UtcNow.AddSeconds(4); // just to prevent Raven35.Client-Primary-Server-LastCheck to have same second
         }
 
         public override void Dispose()

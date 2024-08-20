@@ -7,19 +7,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions.Subscriptions;
-using Raven.Abstractions.Util;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection.Async;
-using Raven.Client.Extensions;
-using Raven.Client.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
-using Sparrow.Collections;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions.Subscriptions;
+using Raven35.Abstractions.Util;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Extensions;
+using Raven35.Client.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
+using Sparrow35.Collections;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class AsyncDocumentSubscriptions : IAsyncReliableSubscriptions
     {

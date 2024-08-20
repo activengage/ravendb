@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
 using Xunit;
 
-namespace Raven.Tests.Shard.BlogModel
+namespace Raven35.Tests.Shard.BlogModel
 {
     public class CanMapReduce : ShardingScenario
     {

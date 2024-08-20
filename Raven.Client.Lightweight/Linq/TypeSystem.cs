@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Linq
+namespace Raven35.Client.Linq
 {
     internal static class TypeSystem
     {

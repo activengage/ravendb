@@ -9,12 +9,12 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using Rachis.Storage;
-using Raven.Client.Document;
-using Raven.Database.Raft.Util;
+using Raven35.Client.Document;
+using Raven35.Database.Raft.Util;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft
+namespace Raven35.Tests.Raft
 {
     public class ClusterLeave : RaftTestBase
     {

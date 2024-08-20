@@ -7,14 +7,14 @@ using System.IO;
 using System.Security.Cryptography;
 using Xunit;
 
-namespace Raven.Tests.Utils
+namespace Raven35.Tests.Utils
 {
     public class SettingsDat
     {
         // [Fact]
         public void GenerateSettingsDatFile()
         {
-            using (var file = File.Create(@"C:\work\RavenDB\Raven.Studio\Settings.dat"))
+            using (var file = File.Create(@"C:\work\RavenDB\Raven35.Studio\Settings.dat"))
             {
                 using (var aes = new AesManaged())
                 {

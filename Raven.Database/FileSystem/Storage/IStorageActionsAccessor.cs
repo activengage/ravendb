@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
-using Raven.Database.FileSystem.Synchronization.Rdc;
-using Raven.Json.Linq;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Data;
+using Raven35.Database.FileSystem.Synchronization.Rdc;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.FileSystem.Storage
+namespace Raven35.Database.FileSystem.Storage
 {
     public interface IStorageActionsAccessor : IDisposable
     {

@@ -9,15 +9,15 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.FileSystem;
-using Raven.Database.FileSystem.Actions;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Database.FileSystem.Actions;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4164 : RavenFilesTestWithLogs
     {

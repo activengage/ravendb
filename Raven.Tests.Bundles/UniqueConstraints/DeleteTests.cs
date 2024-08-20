@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints
+namespace Raven35.Tests.Bundles.UniqueConstraints
 {
     public class DeleteTests : UniqueConstraintsTest
     {
@@ -16,13 +16,13 @@ namespace Raven.Tests.Bundles.UniqueConstraints
 
                 // Ensures constraint was created
                 Assert.NotNull(
-                    DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("foo@bar.com"))));
+                    DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("foo@bar.com"))));
                 Assert.NotNull(DocumentStore.DatabaseCommands.Get("users/1"));
 
                 DocumentStore.DatabaseCommands.Delete("users/1", null);
 
                 // Both docs should be deleted
-                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
+                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
                 Assert.Null(DocumentStore.DatabaseCommands.Get("users/1"));
             }
         }
@@ -38,15 +38,15 @@ namespace Raven.Tests.Bundles.UniqueConstraints
                 session.SaveChanges();
 
                 // Ensures constraint was created
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task1"))));
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task2"))));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task1"))));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task2"))));
                 Assert.NotNull(DocumentStore.DatabaseCommands.Get("users/1"));
 
                 DocumentStore.DatabaseCommands.Delete("users/1", null);
 
                 // Both docs should be deleted
-                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task1"))));
-                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task2"))));
+                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task1"))));
+                Assert.Null(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/TaskIds/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue(("Task2"))));
                 Assert.Null(DocumentStore.DatabaseCommands.Get("users/1"));
             }
         }
@@ -62,10 +62,10 @@ namespace Raven.Tests.Bundles.UniqueConstraints
                 session.SaveChanges();
 
                 // Ensures constraint was created
-                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
+                Assert.NotNull(DocumentStore.DatabaseCommands.Get("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com")));
                 Assert.NotNull(DocumentStore.DatabaseCommands.Get("users/1"));
 
-                DocumentStore.DatabaseCommands.Delete("UniqueConstraints/Users/Email/" + Raven.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com"), null);
+                DocumentStore.DatabaseCommands.Delete("UniqueConstraints/Users/Email/" + Raven35.Bundles.UniqueConstraints.Util.EscapeUniqueValue("foo@bar.com"), null);
 
                 // Base doc still intact
                 Assert.NotNull(DocumentStore.DatabaseCommands.Get("users/1"));

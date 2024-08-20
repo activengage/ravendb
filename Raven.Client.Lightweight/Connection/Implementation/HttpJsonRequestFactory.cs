@@ -9,17 +9,17 @@ using System.Threading;
 using System.Runtime.Remoting.Messaging;
 #endif
 
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Connection.Profiling;
-using Raven.Client.Extensions;
-using Raven.Client.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Client.Extensions;
+using Raven35.Client.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     ///<summary>
     /// Create the HTTP Json Requests to the RavenDB Server
@@ -227,7 +227,7 @@ namespace Raven.Client.Connection
             get
             {
 #if !DNXCORE50
-                return CallContext.LogicalGetData("Raven/Client/AggressiveCacheDuration") as TimeSpan?;
+                return CallContext.LogicalGetData("Raven35.Client/AggressiveCacheDuration") as TimeSpan?;
 #else
                 return aggressiveCacheDuration.Value;
 #endif
@@ -235,7 +235,7 @@ namespace Raven.Client.Connection
             set
             {
 #if !DNXCORE50
-                CallContext.LogicalSetData("Raven/Client/AggressiveCacheDuration", value);
+                CallContext.LogicalSetData("Raven35.Client/AggressiveCacheDuration", value);
 #else
                 aggressiveCacheDuration.Value = value;
 #endif
@@ -254,7 +254,7 @@ namespace Raven.Client.Connection
             get
             {
 #if !DNXCORE50
-                return CallContext.LogicalGetData("Raven/Client/RequestTimeout") as TimeSpan?;
+                return CallContext.LogicalGetData("Raven35.Client/RequestTimeout") as TimeSpan?;
 #else
                 return requestTimeout.Value;
 #endif
@@ -262,7 +262,7 @@ namespace Raven.Client.Connection
             set
             {
 #if !DNXCORE50
-                CallContext.LogicalSetData("Raven/Client/RequestTimeout", value);
+                CallContext.LogicalSetData("Raven35.Client/RequestTimeout", value);
 #else
                 requestTimeout.Value = value;
 #endif
@@ -281,7 +281,7 @@ namespace Raven.Client.Connection
             get
             {
 #if !DNXCORE50
-                var value = CallContext.LogicalGetData("Raven/Client/DisableHttpCaching");
+                var value = CallContext.LogicalGetData("Raven35.Client/DisableHttpCaching");
                 if (value == null)
                     return false;
 
@@ -293,7 +293,7 @@ namespace Raven.Client.Connection
             set
             {
 #if !DNXCORE50
-                CallContext.LogicalSetData("Raven/Client/DisableHttpCaching", value);
+                CallContext.LogicalSetData("Raven35.Client/DisableHttpCaching", value);
 #else
                 disableHttpCaching.Value = value;
 #endif

@@ -1,14 +1,14 @@
 using System;
 using System.IO;
 using System.Linq;
-using Raven.Database.FileSystem;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Database.FileSystem;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class StorageStreamTest : RavenFilesTestBase
     {

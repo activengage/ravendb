@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.Threading;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public class InterlockedLock
     {

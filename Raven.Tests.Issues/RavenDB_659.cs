@@ -3,16 +3,16 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.Linq;
     using System.Threading;
 
-    using Raven.Client;
-    using Raven.Client.Indexes;
-    using Raven.Json.Linq;
+    using Raven35.Client;
+    using Raven35.Client.Indexes;
+    using Raven35.Json.Linq;
 
     using Xunit;
 

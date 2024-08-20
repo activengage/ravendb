@@ -4,12 +4,12 @@ using System.IO;
 #if !DNXCORE50
 using System.IO.IsolatedStorage;
 #endif
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public static class ReplicationInformerLocalCache
     {

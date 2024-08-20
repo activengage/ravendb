@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.FileSystem
+namespace Raven35.Abstractions.FileSystem
 {
     public class FileSystemDocument
     {

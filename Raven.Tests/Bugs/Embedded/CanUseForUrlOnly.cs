@@ -1,9 +1,9 @@
-using Raven.Client.Embedded;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Embedded
+namespace Raven35.Tests.Bugs.Embedded
 {
     public class CanUseForUrlOnly : NoDisposalNeeded
     {

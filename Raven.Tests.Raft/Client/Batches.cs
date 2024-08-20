@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Replication;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Replication;
+using Raven35.Json.Linq;
 
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class Batches : RaftTestBase
     {

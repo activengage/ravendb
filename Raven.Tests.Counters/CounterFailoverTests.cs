@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CounterFailoverTests : RavenBaseCountersTest
     {

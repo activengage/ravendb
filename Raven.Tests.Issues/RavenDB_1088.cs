@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Globalization;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1088 : RavenTest
     {

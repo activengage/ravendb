@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Database.Impl;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Impl;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class FieldsToFetch
     {

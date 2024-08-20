@@ -1,14 +1,14 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.spokeypokey
+namespace Raven35.Tests.MailingList.spokeypokey
 {
     public class spokeypokey2 : RavenTest
     {

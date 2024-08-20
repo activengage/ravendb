@@ -1,8 +1,8 @@
 using System.Linq;
-using Raven.Bundles.Authorization.Model;
-using Raven.Client.Indexes;
+using Raven35.Bundles.Authorization.Model;
+using Raven35.Client.Indexes;
 
-namespace Raven.Bundles.Tests.Authorization.Bugs.Wayne
+namespace Raven35.Bundles.Tests.Authorization.Bugs.Wayne
 {
     public class MessagesForAccountByCreatorId : AbstractTransformerCreationTask<WallMessage<AuthorizationUser>>
     {

@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     ///     Query highlightings for the documents.

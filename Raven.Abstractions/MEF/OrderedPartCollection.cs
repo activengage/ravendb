@@ -7,7 +7,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Threading;
 
-namespace Raven.Abstractions.MEF
+namespace Raven35.Abstractions.MEF
 {
     public class OrderedPartCollection<T> : ICollection<Lazy<T, IPartMetadata>>, INotifyCollectionChanged
     {

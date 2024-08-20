@@ -1,7 +1,7 @@
 ﻿using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Impl.DTC
+namespace Raven35.Database.Impl.DTC
 {
     public interface IInFlightStateSnapshot
     {

@@ -10,14 +10,14 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     /// Helper class for creating indexes from implementations of <see cref="AbstractIndexCreationTask"/>.

@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Bundles.Replication.Bugs
+namespace Raven35.SlowTests.Bundles.Replication.Bugs
 {
     public class AddingAndDeletingRemote : ReplicationBase
     {

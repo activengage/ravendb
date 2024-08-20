@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Bundles.Encryption
+namespace Raven35.Tests.FileSystem.Bundles.Encryption
 {
     public class ShouldErrorOnMissingConfiguration : RavenFilesTestBase
     {

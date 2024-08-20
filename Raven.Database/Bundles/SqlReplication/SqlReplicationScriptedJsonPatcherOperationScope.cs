@@ -1,9 +1,9 @@
 using Jint.Native;
 
-using Raven.Database.Json;
-using Raven.Json.Linq;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Bundles.SqlReplication
+namespace Raven35.Database.Bundles.SqlReplication
 {
     internal class SqlReplicationScriptedJsonPatcherOperationScope : DefaultScriptedJsonPatcherOperationScope
     {

@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Client.Exceptions
+namespace Raven35.Client.Exceptions
 {
     /// <summary>
     /// This exception is raised when a non authoritative information is encountered

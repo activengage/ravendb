@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace Raven.Tests.Security.OAuth
+namespace Raven35.Tests.Security.OAuth
 {
     public static class HttpWebRequestExtensions
     {

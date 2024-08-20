@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
 
-namespace Raven.Database.Config
+namespace Raven35.Database.Config
 {
     internal static class GlobalSettingsDocumentProtector
     {

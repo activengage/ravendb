@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     public static class EnumerableExtensions
     {

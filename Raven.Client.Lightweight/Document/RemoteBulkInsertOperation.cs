@@ -1,10 +1,10 @@
 using System.Diagnostics;
 using System.Net;
 
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Async;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Async;
 
 using System;
 using System.Collections.Concurrent;
@@ -12,24 +12,24 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Implementation;
-using Raven.Client.Util;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Client.Util;
+using Raven35.Imports.Newtonsoft.Json;
 
-using Raven.Imports.Newtonsoft.Json.Bson;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Bson;
+using Raven35.Json.Linq;
 using System.IO.Compression;
 using System.Net.Http;
-using Raven.Client.Extensions;
+using Raven35.Client.Extensions;
 using System.Text;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
 
     public interface ILowLevelBulkInsertOperation : IDisposable
@@ -491,10 +491,10 @@ namespace Raven.Client.Document
             catch (Exception e)
             {
                 ReportInternal("Failed to write all results to a server, probably something happened to the server. Exception : {0}", e);
-                if (e.Message.Contains("Raven.Abstractions.Exceptions.ConcurrencyException"))
+                if (e.Message.Contains("Raven35.Abstractions.Exceptions.ConcurrencyException"))
                     throw new ConcurrencyException("ConcurrencyException while writing bulk insert items in the server. Did you run bulk insert operation with OverwriteExisting == false?. Exception returned from server: " + e.Message, e);
 
-                if (e.Message.Contains("Raven.Abstractions.Exceptions.OperationVetoedException"))
+                if (e.Message.Contains("Raven35.Abstractions.Exceptions.OperationVetoedException"))
                     throw new OperationVetoedException(e.Message, e);
                 throw;
             }

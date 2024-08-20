@@ -6,13 +6,13 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.TimeSeries;
-using Raven.Database.TimeSeries;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database.TimeSeries;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesOperations : RavenBaseTimeSeriesTest
     {

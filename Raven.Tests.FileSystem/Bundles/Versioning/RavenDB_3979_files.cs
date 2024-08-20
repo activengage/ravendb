@@ -7,19 +7,19 @@
 using System.IO;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Database.Bundles.Versioning.Data;
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Bundles.Versioning;
-using Raven.Database.FileSystem.Bundles.Versioning.Plugins;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Bundles.Versioning.Data;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Bundles.Versioning;
+using Raven35.Database.FileSystem.Bundles.Versioning.Plugins;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Bundles.Versioning
+namespace Raven35.Tests.FileSystem.Bundles.Versioning
 {
     public class RavenDB_3979_files : RavenFilesTestBase
     {

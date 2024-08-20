@@ -6,11 +6,11 @@
 
 using System;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     public class PeriodicExportSetup
     {
-        public const string RavenDocumentKey = "Raven/Backup/Periodic/Setup";
+        public const string RavenDocumentKey = "Raven35.Backup/Periodic/Setup";
 
         /// <summary>
         /// Indicates if periodic export is disabled.
@@ -99,7 +99,7 @@ namespace Raven.Abstractions.Data
 
     public class PeriodicExportStatus
     {
-        public const string RavenDocumentKey = "Raven/Backup/Periodic/Status";
+        public const string RavenDocumentKey = "Raven35.Backup/Periodic/Status";
         public DateTime LastBackup { get; set; }
         public DateTime LastFullBackup { get; set; }
         public Etag LastDocsEtag { get; set; }

@@ -7,7 +7,7 @@ using System;
 using System.Net;
 using System.Runtime.Serialization;
 
-namespace Raven.Abstractions.Exceptions.Subscriptions
+namespace Raven35.Abstractions.Exceptions.Subscriptions
 {
     [Serializable]
     public abstract class SubscriptionException : Exception

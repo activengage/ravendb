@@ -6,9 +6,9 @@
 using System;
 using System.Data;
 using System.Linq;
-using Raven.Database.Plugins;
+using Raven35.Database.Plugins;
 
-namespace Raven.Tests.Triggers
+namespace Raven35.Tests.Triggers
 {
     public class IndexToDataTable : AbstractIndexUpdateTrigger
     {

@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Client.Connection;
-using Raven.Client.Document;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     public class ShardedHiloKeyGenerator
     {

@@ -15,11 +15,11 @@ using Owin;
 using Rachis.Messages;
 using Rachis.Storage;
 using Rachis.Transport;
-using Raven.Database.Server;
+using Raven35.Database.Server;
 using Voron;
 using Xunit;
 
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
 namespace Rachis.Tests
 {

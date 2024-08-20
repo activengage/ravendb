@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Threading;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     public class TemporaryCulture: IDisposable
     {

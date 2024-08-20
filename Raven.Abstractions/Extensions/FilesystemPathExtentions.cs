@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     public static class FileSystemPathExtentions
     {

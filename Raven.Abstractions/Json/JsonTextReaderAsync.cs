@@ -29,9 +29,9 @@ using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
 using System.Globalization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to JSON text data.

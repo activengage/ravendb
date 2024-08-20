@@ -5,17 +5,17 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Json.Linq;
-using Raven.Database.Indexing;
-using Raven.Database.Json;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Json.Linq;
+using Raven35.Database.Indexing;
+using Raven35.Database.Json;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class LinqTransformerCompilationTests : NoDisposalNeeded
     {

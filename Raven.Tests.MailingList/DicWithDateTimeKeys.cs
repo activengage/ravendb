@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class DicWithDateTimeKeys : RavenTest
     {

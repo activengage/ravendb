@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Bundles.Authorization.Model
+namespace Raven35.Bundles.Authorization.Model
 {
     public class DocumentAuthorization
     {

@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     [Serializable]
     public class ConflictResolvedInFavourOfCurrentVersionException : Exception

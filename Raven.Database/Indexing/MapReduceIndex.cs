@@ -18,26 +18,26 @@ using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
-using Raven.Abstractions.Logging;
-using Raven.Database.Extensions;
-using Raven.Database.Plugins;
-using Raven.Database.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Linq;
-using Raven.Database.Data;
-using Raven.Database.Linq;
-using Raven.Database.Storage;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Extensions;
+using Raven35.Database.Plugins;
+using Raven35.Database.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Linq;
+using Raven35.Database.Data;
+using Raven35.Database.Linq;
+using Raven35.Database.Storage;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 using Spatial4n.Core.Exceptions;
-using Sparrow.Collections;
-using Raven.Abstractions.Json;
+using Sparrow35.Collections;
+using Raven35.Abstractions.Json;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     internal class MapReduceIndex : Index
     {

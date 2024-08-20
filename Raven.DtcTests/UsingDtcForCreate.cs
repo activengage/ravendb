@@ -1,12 +1,12 @@
 using System.Transactions;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.DTC
+namespace Raven35.Tests.Bugs.DTC
 {
     public class UsingDtcForCreate : RavenTest
     {

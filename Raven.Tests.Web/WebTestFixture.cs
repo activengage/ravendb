@@ -6,10 +6,10 @@
 using System;
 using System.IO;
 
-using Raven.Database.Extensions;
-using Raven.Tests.Common.Util;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common.Util;
 
-namespace Raven.Tests.Web
+namespace Raven35.Tests.Web
 {
     public class WebTestFixture : IDisposable
     {

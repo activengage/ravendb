@@ -6,14 +6,14 @@
 using System;
 using System.IO;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
 using Xunit;
 
-namespace Raven.Tests.Core.Replication
+namespace Raven35.Tests.Core.Replication
 {
     public class AutomaticConflictResolution : RavenReplicationCoreTest
     {

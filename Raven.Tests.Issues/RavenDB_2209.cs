@@ -4,11 +4,11 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2209 : RavenTest
     {

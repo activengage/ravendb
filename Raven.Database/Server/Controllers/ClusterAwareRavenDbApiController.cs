@@ -12,12 +12,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using Rachis.Transport;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Raft.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Raft.Util;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class ClusterAwareRavenDbApiController : BaseDatabaseApiController
     {

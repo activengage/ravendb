@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Abstractions.Spatial;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Spatial;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1877 : NoDisposalNeeded
     {

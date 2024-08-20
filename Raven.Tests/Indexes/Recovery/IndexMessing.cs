@@ -6,7 +6,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Raven.Tests.Indexes.Recovery
+namespace Raven35.Tests.Indexes.Recovery
 {
     public static class IndexMessing
     {

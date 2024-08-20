@@ -3,14 +3,14 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System.Threading.Tasks;
 
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Indexing;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Indexing;
 
     using Xunit;
 

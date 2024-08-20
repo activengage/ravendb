@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Client.Connection.Request
+namespace Raven35.Client.Connection.Request
 {
     public class AsyncOperationResult<T>
     {

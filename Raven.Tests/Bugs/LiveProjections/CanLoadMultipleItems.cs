@@ -1,10 +1,10 @@
 using System.Linq;
-using Raven.Client;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.LiveProjections
+namespace Raven35.Tests.Bugs.LiveProjections
 {
     public class CanLoadMultipleItems : RavenTest
     {

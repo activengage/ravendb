@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
-using Raven.Abstractions.Replication;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     public abstract class QueryConvention : ConventionBase
     {

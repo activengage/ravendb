@@ -1,4 +1,4 @@
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Commands
+namespace Raven35.Tests.Core.Commands
 {
     public class Transformers : RavenCoreTestBase
     {

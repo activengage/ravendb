@@ -8,7 +8,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Connection
+namespace Raven35.Abstractions.Connection
 {
     public class CountingStream : Stream
     {

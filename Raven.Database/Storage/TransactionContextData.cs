@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public class TransactionContextData
     {

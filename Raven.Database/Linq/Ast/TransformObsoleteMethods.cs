@@ -8,7 +8,7 @@ using System;
 using ICSharpCode.NRefactory.CSharp;
 using System.Linq;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class TransformObsoleteMethods : DepthFirstAstVisitor<object,object>

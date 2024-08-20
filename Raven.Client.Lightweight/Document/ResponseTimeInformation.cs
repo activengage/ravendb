@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class ResponseTimeInformation
     {

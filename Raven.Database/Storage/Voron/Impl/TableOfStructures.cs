@@ -3,11 +3,11 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Util.Streams;
+using Raven35.Abstractions.Util.Streams;
 using Voron;
 using Voron.Impl;
 
-namespace Raven.Database.Storage.Voron.Impl
+namespace Raven35.Database.Storage.Voron.Impl
 {
     internal class TableOfStructures<T> : Table
     {

@@ -1,16 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     //tests for http://issues.hibernatingrhinos.com/issue/RavenDB-3229
     public class CollectionSpecific : ReplicationBase

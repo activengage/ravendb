@@ -7,20 +7,20 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Common;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Database.Server.Connections;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Sparrow.Collections;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Common;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Database.Server.Connections;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Server.Tenancy
+namespace Raven35.Database.Server.Tenancy
 {
     public abstract class AbstractLandlord<TResource> : IResourceLandlord<TResource>
         where TResource : IResourceStore

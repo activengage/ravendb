@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     public class RavenPagingInformation
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{018485C2-30C2-444E-BF41-95102C215E01}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Xunit.Runner</RootNamespace>
-    <AssemblyName>Raven.Xunit.Runner</AssemblyName>
+    <RootNamespace>Raven35.Xunit.Runner</RootNamespace>
+    <AssemblyName>Raven35.Xunit.Runner</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

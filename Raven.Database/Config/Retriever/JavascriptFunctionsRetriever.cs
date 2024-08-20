@@ -3,10 +3,10 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     public class JavascriptFunctionsRetriever : ConfigurationRetrieverBase<RavenJObject>
     {

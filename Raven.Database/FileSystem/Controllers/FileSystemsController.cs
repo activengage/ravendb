@@ -5,12 +5,12 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Controllers;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Controllers;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Json.Linq;
 
 // -----------------------------------------------------------------------
 //  <copyright file="FileSystemsController.cs" company="Hibernating Rhinos LTD">
@@ -18,7 +18,7 @@ using Raven.Json.Linq;
 //  </copyright>
 // -----------------------------------------------------------------------
 
-namespace Raven.Database.FileSystem.Controllers
+namespace Raven35.Database.FileSystem.Controllers
 {
     public class FileSystemsController : BaseDatabaseApiController
     {

@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Tests.Common.Dto
+namespace Raven35.Tests.Common.Dto
 {
     public class Person
     {

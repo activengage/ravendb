@@ -6,7 +6,7 @@
 
 using System.Collections.Generic;
 
-namespace Raven.Abstractions.TimeSeries
+namespace Raven35.Abstractions.TimeSeries
 {
     /// <summary>
     /// This class represent the list of replication destinations for the server

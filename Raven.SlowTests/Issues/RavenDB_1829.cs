@@ -11,21 +11,21 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_1829 : ReplicationBase
     {

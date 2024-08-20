@@ -7,13 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3082 : RavenTest
     {

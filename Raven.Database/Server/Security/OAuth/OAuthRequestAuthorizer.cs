@@ -4,10 +4,10 @@ using System.Net;
 using System.Net.Http;
 using System.Security.Principal;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Database.Server.Controllers;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Server.Controllers;
 
-namespace Raven.Database.Server.Security.OAuth
+namespace Raven35.Database.Server.Security.OAuth
 {
     public class OAuthRequestAuthorizer : AbstractRequestAuthorizer
     {

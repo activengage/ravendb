@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
-using Raven.Abstractions.Util.Encryptors;
+using Raven35.Abstractions.Util.Encryptors;
 
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     public class HashKey
     {

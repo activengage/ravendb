@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Database.Commercial;
+using Raven35.Abstractions;
+using Raven35.Database.Commercial;
 
-namespace Raven.Database.Server.Security
+namespace Raven35.Database.Server.Security
 {
     public static class Authentication
     {

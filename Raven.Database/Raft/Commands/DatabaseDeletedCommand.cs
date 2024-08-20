@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using Rachis.Commands;
 
-namespace Raven.Database.Raft.Commands
+namespace Raven35.Database.Raft.Commands
 {
     public class DatabaseDeletedCommand : Command
     {

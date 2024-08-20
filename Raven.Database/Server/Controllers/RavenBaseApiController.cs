@@ -18,25 +18,25 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.Controllers;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Database.Config;
-using Raven.Database.Raft;
-using Raven.Database.Server.Abstractions;
-using Raven.Database.Server.Tenancy;
-using Raven.Database.Server.WebApi;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Bson;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Database.Config;
+using Raven35.Database.Raft;
+using Raven35.Database.Server.Abstractions;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Database.Server.WebApi;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Bson;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public abstract class RavenBaseApiController : ApiController
     {
@@ -301,7 +301,7 @@ namespace Raven.Database.Server.Controllers
         protected static bool ClientIsV3OrHigher(HttpRequestMessage req)
         {
             IEnumerable<string> values;
-            if (req.Headers.TryGetValues("Raven-Client-Version", out values) == false)
+            if (req.Headers.TryGetValues("Raven35.Client-Version", out values) == false)
                 return false; // probably 1.0 client?
             foreach (var value in values)
             {
@@ -315,7 +315,7 @@ namespace Raven.Database.Server.Controllers
         protected static bool ClientIsV4OrHigher(HttpRequestMessage req)
         {
             IEnumerable<string> values;
-            if (req.Headers.TryGetValues("Raven-Client-Version", out values) == false)
+            if (req.Headers.TryGetValues("Raven35.Client-Version", out values) == false)
                 return false; // probably 1.0 client?
             foreach (var value in values)
             {
@@ -607,7 +607,7 @@ namespace Raven.Database.Server.Controllers
             if (File.Exists(filePath))
                 return WriteFile(filePath);
             
-            filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../Raven.Studio.Html5/", docPath);
+            filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../Raven35.Studio.Html5/", docPath);
             if (File.Exists(filePath))
                 return WriteFile(filePath);
 
@@ -615,7 +615,7 @@ namespace Raven.Database.Server.Controllers
             if (File.Exists(filePath))
                 return WriteFile(filePath);
 
-            filePath = Path.Combine("~/../../../../Raven.Studio.Html5", docPath);
+            filePath = Path.Combine("~/../../../../Raven35.Studio.Html5", docPath);
             if (File.Exists(filePath))
                 return WriteFile(filePath);
 
@@ -740,7 +740,7 @@ namespace Raven.Database.Server.Controllers
         private HttpResponseMessage EmbeddedFileNotFound(string docPath)
         {
             var message = "The following embedded file was not available: " + docPath +
-                          ". Please make sure that the Raven.Studio.Html5.zip file exist in the main directory (near to the Raven.Database.dll).";
+                          ". Please make sure that the Raven35.Studio.Html5.zip file exist in the main directory (near to the Raven35.Database.dll).";
             return GetMessageWithObject(new {Message = message}, HttpStatusCode.NotFound);
         }
 

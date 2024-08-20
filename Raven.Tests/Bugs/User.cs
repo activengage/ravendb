@@ -3,7 +3,7 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class User
     {

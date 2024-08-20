@@ -7,14 +7,14 @@
 using System;
 using System.IO;
 using System.Transactions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Document.DTC;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Document.DTC;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
-    /// An implementation of <see cref="IEnlistmentNotification"/> for the Raven Client API, allowing Raven
+    /// An implementation of <see cref="IEnlistmentNotification"/> for the Raven35.Client API, allowing Raven
     /// Client API to participate in Distributed Transactions
     /// </summary>
     public class RavenClientEnlistment : IEnlistmentNotification

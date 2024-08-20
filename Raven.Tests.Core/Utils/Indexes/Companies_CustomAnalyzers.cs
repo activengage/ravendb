@@ -6,12 +6,12 @@
 #if !DNXCORE50
 using Lucene.Net;
 #endif
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Core.Utils.Entities;
 using System.Linq;
 
-namespace Raven.Tests.Core.Utils.Indexes
+namespace Raven35.Tests.Core.Utils.Indexes
 {
     public class Companies_CustomAnalyzers : AbstractIndexCreationTask<Company>
     {

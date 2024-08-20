@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Raven.Database.Counters
+namespace Raven35.Database.Counters
 {
     public class ReplicationMessage
     {

@@ -26,7 +26,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Raven.Imports.Newtonsoft.Json.Bson
+namespace Raven35.Imports.Newtonsoft.Json.Bson
 {
     internal abstract class BsonToken
     {

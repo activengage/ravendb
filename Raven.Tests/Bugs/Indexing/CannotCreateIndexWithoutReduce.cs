@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class QueryWithStaticIndexesAndCommonBaseClass : RavenTest
     {

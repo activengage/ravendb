@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.OAuth;
+using Raven35.Abstractions;
+using Raven35.Abstractions.OAuth;
 
-namespace Raven.ApiToken
+namespace Raven35.ApiToken
 {
     class Program
     {
@@ -53,10 +53,10 @@ Copyright (C) 2008 - {0} - Hibernating Rhinos
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(@"
 Usage:
-    Raven.ApiToken [Url] [ApiKey]
+    Raven35.ApiToken [Url] [ApiKey]
 
 Example:
-    Raven.ApiToken http://localhost:8080/ ""key1/sAdVA0KLqigQu67Dxj7a""");
+    Raven35.ApiToken http://localhost:8080/ ""key1/sAdVA0KLqigQu67Dxj7a""");
         }
     }
 }

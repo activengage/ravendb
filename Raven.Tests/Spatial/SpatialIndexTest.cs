@@ -6,25 +6,25 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Client.Spatial;
-using Raven.Database.Indexing;
-using Raven.Json.Linq;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Client.Spatial;
+using Raven35.Database.Indexing;
+using Raven35.Json.Linq;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Spatial4n.Core.Context.Nts;
 using Spatial4n.Core.Shapes;
 using Xunit;
 using System.Linq;
-using SpatialRelation = Raven.Abstractions.Indexing.SpatialRelation;
+using SpatialRelation = Raven35.Abstractions.Indexing.SpatialRelation;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class SpatialIndexTest : RavenTest
     {

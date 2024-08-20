@@ -9,11 +9,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Raven.Abstractions.Util.Encryptors;
+using Raven35.Abstractions.Util.Encryptors;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
-    using Raven.Abstractions.Util;
+    using Raven35.Abstractions.Util;
 
     public static class IOExtensions
     {

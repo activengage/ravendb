@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Transactions;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.DTC
+namespace Raven35.Tests.Bugs.DTC
 {
     public class Embedded : RavenTest
     {

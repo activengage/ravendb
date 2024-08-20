@@ -6,15 +6,15 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection.Implementation;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Counters
+namespace Raven35.Client.Counters
 {
     public partial class CounterStore
     {

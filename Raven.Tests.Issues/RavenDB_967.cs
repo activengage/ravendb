@@ -6,15 +6,15 @@
 using System;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Indexes;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Indexes;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_967 : RavenTest
     {

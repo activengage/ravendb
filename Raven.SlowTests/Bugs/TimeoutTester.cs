@@ -2,15 +2,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Tests.Bugs.TransformResults;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Tests.Bugs.TransformResults;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class TimeoutTester : RavenTest
     {

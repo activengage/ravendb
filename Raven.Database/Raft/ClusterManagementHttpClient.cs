@@ -21,20 +21,20 @@ using Rachis.Commands;
 using Rachis.Storage;
 using Rachis.Transport;
 using Rachis.Utils;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.OAuth;
-using Raven.Abstractions.Util;
-using Raven.Database.Raft.Commands;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Raft.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.OAuth;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Raft.Commands;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Raft.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Raft
+namespace Raven35.Database.Raft
 {
     public class ClusterManagementHttpClient : IDisposable
     {

@@ -1,8 +1,8 @@
 using System.IO;
 
-using Raven.Database.Config;
+using Raven35.Database.Config;
 
-namespace Raven.Database.FileSystem.Infrastructure
+namespace Raven35.Database.FileSystem.Infrastructure
 {
     public class TempDirectoryTools
     {

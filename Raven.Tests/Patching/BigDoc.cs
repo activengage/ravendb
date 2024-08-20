@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Database.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Database.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Patching
+namespace Raven35.Tests.Patching
 {
     public class BigDoc : RavenTest
     {
@@ -16,7 +16,7 @@ namespace Raven.Tests.Patching
         {
             using (var store = NewDocumentStore())
             {
-                using (var stream = typeof(BigDoc).Assembly.GetManifestResourceStream("Raven.Tests.Patching.failingdump11.ravendbdump"))
+                using (var stream = typeof(BigDoc).Assembly.GetManifestResourceStream("Raven35.Tests.Patching.failingdump11.ravendbdump"))
                 {
                     new DatabaseDataDumper(store.SystemDatabase).ImportData(new SmugglerImportOptions<RavenConnectionStringOptions> { FromStream = stream }).Wait(TimeSpan.FromSeconds(15));
                 }

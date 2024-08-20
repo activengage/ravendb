@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Database.Indexing;
-using Raven.Tests.Common;
+using Raven35.Database.Indexing;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4010 : RavenTest
     {

@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public enum NoSyncReason
     {

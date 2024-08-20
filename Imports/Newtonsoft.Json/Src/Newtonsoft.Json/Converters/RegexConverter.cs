@@ -25,11 +25,11 @@
 
 using System;
 using System.Text.RegularExpressions;
-using Raven.Imports.Newtonsoft.Json.Bson;
+using Raven35.Imports.Newtonsoft.Json.Bson;
 using System.Globalization;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="Regex"/> to and from JSON and BSON.

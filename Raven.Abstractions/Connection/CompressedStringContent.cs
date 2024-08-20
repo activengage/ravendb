@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO.Compression;
 using System.Net.Http.Headers;
 
-namespace Raven.Abstractions.Connection
+namespace Raven35.Abstractions.Connection
 {
     public class CompressedStringContent : HttpContent
     {

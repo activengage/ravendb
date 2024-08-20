@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Concurrent;
-using Raven.Abstractions.Data;
-using Raven.Tests.Bugs.Identifiers;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Bugs.Identifiers;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Notifications
+namespace Raven35.Tests.Notifications
 {
     public class WithIIS : IisExpressTestClient
     {

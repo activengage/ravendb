@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class UserGuid
     {

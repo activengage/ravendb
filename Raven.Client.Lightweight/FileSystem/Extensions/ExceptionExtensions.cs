@@ -7,14 +7,14 @@ using System.Linq.Expressions;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.FileSystem;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Client.FileSystem.Extensions
+namespace Raven35.Client.FileSystem.Extensions
 {
     /// <summary>
     ///     Extension methods to handle common scenarios

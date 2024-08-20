@@ -1,14 +1,14 @@
 using System.Collections.Generic;
-using Raven.Client;
-using Raven.Client.Listeners;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Listeners;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 using System.Linq;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class RavenDB14 : RavenTest
     {

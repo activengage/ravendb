@@ -2,11 +2,11 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Database.Bundles.Encryption;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Database.Bundles.Encryption;
 
-namespace Raven.Bundles.Encryption.Streams
+namespace Raven35.Bundles.Encryption.Streams
 {
     internal class BlockReaderWriter : IDisposable
     {

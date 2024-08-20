@@ -8,11 +8,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Logging;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Logging;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.WebApi.Handlers
+namespace Raven35.Database.Server.WebApi.Handlers
 {
     public class ThrottlingHandler : DelegatingHandler
     {

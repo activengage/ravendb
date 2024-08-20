@@ -1,12 +1,12 @@
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 using Enumerable = System.Linq.Enumerable;
 
-namespace Raven.Tests.MailingList.Stacey
+namespace Raven35.Tests.MailingList.Stacey
 {
     public class InServerTesting : RavenTest
     {

@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Sparrow;
+using Sparrow35;
 using Voron.Util;
 using Xunit.Extensions;
 

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel.Channels;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Storage.Esent.StorageActions
+namespace Raven35.Storage.Esent.StorageActions
 {
     public static class IndexReaderBuffers
     {

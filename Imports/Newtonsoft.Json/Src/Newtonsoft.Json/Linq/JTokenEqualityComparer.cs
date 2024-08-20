@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Compares tokens to determine whether they are equal.

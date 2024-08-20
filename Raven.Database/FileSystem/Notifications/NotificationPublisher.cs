@@ -1,7 +1,7 @@
-using Raven.Abstractions.FileSystem;
-using Raven.Database.Server.Connections;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Database.Server.Connections;
 
-namespace Raven.Database.FileSystem.Notifications
+namespace Raven35.Database.FileSystem.Notifications
 {
     public class NotificationPublisher : INotificationPublisher
     {

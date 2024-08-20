@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class DocumentSubscriptions : IReliableSubscriptions
     {

@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Impl.DTC
+namespace Raven35.Database.Impl.DTC
 {
     public class EsentTransactionContext : IDisposable
     {

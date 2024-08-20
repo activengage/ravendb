@@ -1,13 +1,13 @@
-using Raven.Abstractions.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Linq;
+using Raven35.Tests.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
-using Raven.Imports.Newtonsoft.Json;
-namespace Raven.Tests.Issues
+using Raven35.Imports.Newtonsoft.Json;
+namespace Raven35.Tests.Issues
 {
     public class RavenDb_2123 : RavenTestBase
     {
@@ -64,7 +64,7 @@ namespace Raven.Tests.Issues
                      Exception
                         Xunit.Sdk.IsAssignableFromException: Assert.IsAssignableFrom() Failure
                         Expected: System.Collections.Generic.List`1[RavenSerializationBugTests.RavenTests.JsonAttributesRespectedOnNestedClasses+SomeChildType]
-                        Actual:   Raven.Abstractions.Linq.DynamicList
+                        Actual:   Raven35.Abstractions.Linq.DynamicList
                            at RavenSerializationBugTests.RavenTests.JsonAttributesRespectedOnNestedClasses.CanRestoreGrandchildrenWithDifferentParentClass() in D:\OtherDev\GitHub\NEventStore\src\RavenSerializationBugTests\RavenTests\JsonAttributesRespectedOnNestedClasses.cs:line 59
 
                      */

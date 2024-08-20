@@ -5,14 +5,14 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.JsConsole;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.JsConsole;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3390 : RavenTest
     {
@@ -141,9 +141,9 @@ namespace Raven.Tests.Issues
                 new AdminJsConsole(store.DocumentDatabase).ApplyScript(new AdminJsScript
                 {
                     Script = @"
-                                var doc = Raven.Json.Linq.RavenJObject.Parse('{ ""Name"" : ""Raven"" }');
-                                var metadata = Raven.Json.Linq.RavenJObject.Parse('{ ""Raven-Entity-Name"" : ""Docs"" }');
-                                database.Documents.Put('doc/1', null, doc, metadata, null, null,Raven.Database.Storage.InvokeSource.Default);
+                                var doc = Raven35.Json.Linq.RavenJObject.Parse('{ ""Name"" : ""Raven"" }');
+                                var metadata = Raven35.Json.Linq.RavenJObject.Parse('{ ""Raven-Entity-Name"" : ""Docs"" }');
+                                database.Documents.Put('doc/1', null, doc, metadata, null, null,Raven35.Database.Storage.InvokeSource.Default);
                              "
                 });
 

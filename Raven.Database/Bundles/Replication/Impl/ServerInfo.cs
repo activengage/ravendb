@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Database.Bundles.Replication.Impl
+namespace Raven35.Database.Bundles.Replication.Impl
 {
     public class ServerInfo
     {

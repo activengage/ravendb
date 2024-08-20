@@ -7,13 +7,13 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database;
-using Raven.Database.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database;
+using Raven35.Database.Extensions;
 using Xunit;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public abstract class AbstractDocumentStorageTest : IDisposable
     {

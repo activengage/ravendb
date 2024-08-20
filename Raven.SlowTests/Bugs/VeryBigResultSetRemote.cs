@@ -1,17 +1,17 @@
 using System;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-using User = Raven.Tests.Bugs.User;
+using User = Raven35.Tests.Bugs.User;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class VeryBigResultSetRemote : RavenTest
     {

@@ -8,28 +8,28 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection;
-using Raven.Client.Document;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
 #if !DNXCORE50
-using Raven.Client.Embedded;
+using Raven35.Client.Embedded;
 #endif
-using Raven.Client.Extensions;
+using Raven35.Client.Extensions;
 using System.Linq;
 
-using Raven.Client;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Client;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using Xunit;
 #if !DNXCORE50
-using Raven.Server;
-using Raven.Database;
-using Raven.Database.Server;
-using Authentication = Raven.Database.Server.Security.Authentication;
+using Raven35.Server;
+using Raven35.Database;
+using Raven35.Database.Server;
+using Authentication = Raven35.Database.Server.Security.Authentication;
 #endif
 
-namespace Raven.Tests.Core
+namespace Raven35.Tests.Core
 {
 #if DNXCORE50
     [CollectionDefinition("Core")]

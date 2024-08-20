@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 using Xunit;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_7406 : RavenTest
     {

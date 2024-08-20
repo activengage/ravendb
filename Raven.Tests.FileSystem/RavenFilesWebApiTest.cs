@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Net;
-using Raven.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Connection;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class RavenFilesWebApiTest : RavenFilesTestWithLogs
     {

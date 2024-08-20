@@ -8,14 +8,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Database.Config;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Config;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Issues.Prefetcher
+namespace Raven35.Tests.Issues.Prefetcher
 {
     public class RavenDB_3581 : PrefetcherTestBase
     {

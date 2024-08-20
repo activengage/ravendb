@@ -1,7 +1,7 @@
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.FileSystem
+namespace Raven35.Abstractions.FileSystem
 {
     public class SourceSynchronizationInformation
     {

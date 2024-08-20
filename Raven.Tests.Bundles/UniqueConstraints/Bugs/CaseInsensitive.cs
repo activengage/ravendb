@@ -1,10 +1,10 @@
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.UniqueConstraints;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.UniqueConstraints;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.UniqueConstraints.Bugs
+namespace Raven35.Tests.Bundles.UniqueConstraints.Bugs
 {
     public class CaseInsensitive : UniqueConstraintsTest
     {

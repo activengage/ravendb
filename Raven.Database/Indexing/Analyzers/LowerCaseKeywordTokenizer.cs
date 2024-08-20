@@ -1,12 +1,12 @@
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Tokenattributes;
 using Lucene.Net.Util;
-using Raven.Abstractions.Util;
-using Sparrow;
+using Raven35.Abstractions.Util;
+using Sparrow35;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class LowerCaseKeywordTokenizer : Tokenizer
     {

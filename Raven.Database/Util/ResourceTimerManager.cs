@@ -6,11 +6,11 @@
 using System;
 using System.Threading;
 
-using Raven.Abstractions.Logging;
-using Raven.Database.Impl;
-using Sparrow.Collections;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Impl;
+using Sparrow35.Collections;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class ResourceTimerManager : IDisposable
     {

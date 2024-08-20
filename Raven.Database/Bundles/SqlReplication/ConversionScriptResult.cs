@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Database.Bundles.SqlReplication
+namespace Raven35.Database.Bundles.SqlReplication
 {
     public class ConversionScriptResult
     {

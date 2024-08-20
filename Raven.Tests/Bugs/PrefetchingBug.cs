@@ -1,11 +1,11 @@
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class PrefetchingBug : RavenTest
     {
@@ -59,7 +59,7 @@ namespace Raven.Tests.Bugs
                 var putResult2 = store.SystemDatabase.Documents.Put("key/2", null, new RavenJObject(), new RavenJObject(), null);
                 var putResult3 = store.SystemDatabase.Documents.Put("key/2", null, new RavenJObject(), new RavenJObject(), null); // update
 
-                var docs = store.SystemDatabase.Prefetcher.CreatePrefetchingBehavior(PrefetchingUser.Indexer, null, string.Empty).GetDocumentsBatchFrom(Raven.Abstractions.Data.Etag.Empty);
+                var docs = store.SystemDatabase.Prefetcher.CreatePrefetchingBehavior(PrefetchingUser.Indexer, null, string.Empty).GetDocumentsBatchFrom(Raven35.Abstractions.Data.Etag.Empty);
 
                 Assert.Equal(2, docs.Count);
                 Assert.Equal(putResult1.ETag, docs[0].Etag); // the document taken from memory
@@ -80,7 +80,7 @@ namespace Raven.Tests.Bugs
                 var putResult2 = store.SystemDatabase.Documents.Put("key/2", null, new RavenJObject(), new RavenJObject(), null);
                 var putResult3 = store.SystemDatabase.Documents.Put("key/2", null, new RavenJObject(), new RavenJObject(), null); // update
 
-                var docs = store.SystemDatabase.Prefetcher.CreatePrefetchingBehavior(PrefetchingUser.Indexer, null, string.Empty).GetDocumentsBatchFrom(Raven.Abstractions.Data.Etag.Empty);
+                var docs = store.SystemDatabase.Prefetcher.CreatePrefetchingBehavior(PrefetchingUser.Indexer, null, string.Empty).GetDocumentsBatchFrom(Raven35.Abstractions.Data.Etag.Empty);
                 Assert.Equal(2, docs.Count);
                 Assert.Equal(putResult1.ETag, docs[0].Etag);
                 Assert.Equal(putResult3.ETag, docs[1].Etag);

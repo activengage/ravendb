@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Smuggler.Helpers
+namespace Raven35.Smuggler.Helpers
 {
     public static class ConsoleHelper
     {

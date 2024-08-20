@@ -1,4 +1,4 @@
-namespace Raven.Tests.MailingList.Thor
+namespace Raven35.Tests.MailingList.Thor
 {
     public class Transport
     {

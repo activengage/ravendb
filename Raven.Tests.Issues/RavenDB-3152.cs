@@ -1,19 +1,19 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Smuggler;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
-using Raven.Database.Extensions;
-using Raven.Smuggler;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
+using Raven35.Database.Extensions;
+using Raven35.Smuggler;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3152 : RavenTestBase
     {

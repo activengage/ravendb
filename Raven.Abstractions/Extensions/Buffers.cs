@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     public class Buffers
     {

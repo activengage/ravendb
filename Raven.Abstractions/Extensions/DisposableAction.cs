@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     /// <summary>
     /// A helper class that translate between Disposable and Action

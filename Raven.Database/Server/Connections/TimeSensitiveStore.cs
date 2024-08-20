@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
-using Raven.Abstractions;
+using Raven35.Abstractions;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class TimeSensitiveStore<T>
     {

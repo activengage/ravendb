@@ -6,12 +6,12 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
 using Rhino.Licensing;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class NtpServers : RavenTest
     {

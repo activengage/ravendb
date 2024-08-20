@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Dynamic;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Linq;
-using Raven.Database.Impl;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Linq;
+using Raven35.Database.Impl;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using System.Linq;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     [JsonObject]
     internal class DynamicLuceneOrParentDocumntObject : DynamicJsonObject

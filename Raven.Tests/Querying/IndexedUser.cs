@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System;
 
-namespace Raven.Tests.Querying
+namespace Raven35.Tests.Querying
 {
     public class IndexedUser
     {

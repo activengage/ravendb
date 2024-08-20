@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Database.Config;
-using Raven.Database.Impl;
+using Raven35.Database.Config;
+using Raven35.Database.Impl;
 using BitConverter = System.BitConverter;
 
-namespace Raven.Storage.Esent.SchemaUpdates.Updates
+namespace Raven35.Storage.Esent.SchemaUpdates.Updates
 {
     public class From45To46 : ISchemaUpdate
     {

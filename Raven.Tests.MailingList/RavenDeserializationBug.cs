@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RavenDeserializationBug : RavenTestBase
     {
@@ -51,22 +51,22 @@ namespace Raven.Tests.MailingList
 //to be a string rather than a URI, the test will pass in both versions of RavenDB.
 //
 //The exception/stack trace in Raven 2.0 is as follows:
-//Raven.Imports.Newtonsoft.Json.JsonSerializationException : Unexpected token while deserializing object: PropertyName. Path 'Name'.
-//   at Raven.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 266#0
-//   at Raven.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 653#1
-//   at Raven.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 1361#2
-//   at Raven.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 359#3
-//   at Raven.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 229#4
-//   at Raven.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 152#5
-//   at Raven.Imports.Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\JsonSerializer.cs:line 546#6
-//   at Raven.Client.Document.SessionOperations.QueryOperation.DeserializedResult[T](RavenJObject result) in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Document\SessionOperations\QueryOperation.cs:line 215#7
-//   at Raven.Client.Document.SessionOperations.QueryOperation.Deserialize[T](RavenJObject result) in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Document\SessionOperations\QueryOperation.cs:line 179#8
+//Raven35.Imports.Newtonsoft.Json.JsonSerializationException : Unexpected token while deserializing object: PropertyName. Path 'Name'.
+//   at Raven35.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 266#0
+//   at Raven35.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 653#1
+//   at Raven35.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 1361#2
+//   at Raven35.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 359#3
+//   at Raven35.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 229#4
+//   at Raven35.Imports.Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 152#5
+//   at Raven35.Imports.Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in c:\Builds\RavenDB-Stable\Imports\Newtonsoft.Json\Src\Newtonsoft.Json\JsonSerializer.cs:line 546#6
+//   at Raven35.Client.Document.SessionOperations.QueryOperation.DeserializedResult[T](RavenJObject result) in c:\Builds\RavenDB-Stable\Raven35.Client.Lightweight\Document\SessionOperations\QueryOperation.cs:line 215#7
+//   at Raven35.Client.Document.SessionOperations.QueryOperation.Deserialize[T](RavenJObject result) in c:\Builds\RavenDB-Stable\Raven35.Client.Lightweight\Document\SessionOperations\QueryOperation.cs:line 179#8
 //   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
 //   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
 //   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
-//   at Raven.Client.Document.SessionOperations.QueryOperation.Complete[T]() in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Document\SessionOperations\QueryOperation.cs:line 135#9
-//   at Raven.Client.Document.AbstractDocumentQuery`2.GetEnumerator() in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Document\AbstractDocumentQuery.cs:line 751#10
-//   at Raven.Client.Linq.RavenQueryInspector`1.GetEnumerator() in c:\Builds\RavenDB-Stable\Raven.Client.Lightweight\Linq\RavenQueryInspector.cs:line 100#11
+//   at Raven35.Client.Document.SessionOperations.QueryOperation.Complete[T]() in c:\Builds\RavenDB-Stable\Raven35.Client.Lightweight\Document\SessionOperations\QueryOperation.cs:line 135#9
+//   at Raven35.Client.Document.AbstractDocumentQuery`2.GetEnumerator() in c:\Builds\RavenDB-Stable\Raven35.Client.Lightweight\Document\AbstractDocumentQuery.cs:line 751#10
+//   at Raven35.Client.Linq.RavenQueryInspector`1.GetEnumerator() in c:\Builds\RavenDB-Stable\Raven35.Client.Lightweight\Linq\RavenQueryInspector.cs:line 100#11
 //   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
 //   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
 //   at Tests.RavenDeserializationBug.ShouldBeAbleToIndexChildrenWithUris()

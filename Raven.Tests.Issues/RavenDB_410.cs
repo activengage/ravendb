@@ -3,15 +3,15 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Extensions;
-using Raven.Abstractions.Extensions;
+using Raven35.Client.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_410 : RavenTest
     {
@@ -59,7 +59,7 @@ namespace Raven.Tests.Issues
                                                                 }
                                                         });
 
-                var jsonDocument = store.DatabaseCommands.Get("Raven/Databases/mydb");
+                var jsonDocument = store.DatabaseCommands.Get("Raven35.Databases/mydb");
                 var jsonDeserialization = jsonDocument.DataAsJson.JsonDeserialization<DatabaseDocument>();
                 Assert.NotEqual("Pass", jsonDeserialization.SecuredSettings["Secret"]);
             }

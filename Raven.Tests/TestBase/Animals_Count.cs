@@ -1,7 +1,7 @@
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.TestBase
+namespace Raven35.Tests.TestBase
 {
     public class Animals_Count : AbstractMultiMapIndexCreationTask<Animals_Count.AnimalCountResult>
     {

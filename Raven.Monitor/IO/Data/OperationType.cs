@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Monitor.IO.Data
+namespace Raven35.Monitor.IO.Data
 {
     internal enum OperationType
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.MapRedue
+namespace Raven35.Tests.Bugs.MapRedue
 {
     /// <summary>
     /// Index definition containing only last version of each document

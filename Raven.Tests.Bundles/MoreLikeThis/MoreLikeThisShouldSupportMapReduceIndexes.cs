@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Specialized;
 using System.Linq;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Bundles.MoreLikeThis;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Bundles.MoreLikeThis;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.MoreLikeThis
+namespace Raven35.Tests.Bundles.MoreLikeThis
 {
     public class MoreLikeThisShouldSupportMapReduceIndexes : RavenTest
     {

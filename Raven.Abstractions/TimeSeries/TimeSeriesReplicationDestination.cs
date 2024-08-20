@@ -7,7 +7,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Raven.Abstractions.TimeSeries
+namespace Raven35.Abstractions.TimeSeries
 {
     public class TimeSeriesReplicationDestination
     {

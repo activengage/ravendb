@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-using Sparrow;
+using Sparrow35;
 
 using Voron.Impl;
 using Voron.Impl.FileHeaders;

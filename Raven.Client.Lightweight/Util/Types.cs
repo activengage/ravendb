@@ -1,7 +1,7 @@
 using System;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public static class Types
     {

@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System.Linq;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// The result of a query

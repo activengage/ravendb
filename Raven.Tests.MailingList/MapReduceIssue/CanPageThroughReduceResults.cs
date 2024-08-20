@@ -1,16 +1,16 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.MapReduceIssue
+namespace Raven35.Tests.MailingList.MapReduceIssue
 {
     public class CanPageThroughReduceResults : RavenTest
     {
@@ -20,7 +20,7 @@ namespace Raven.Tests.MailingList.MapReduceIssue
             using(GetNewServer())
             using (var store = new DocumentStore{Url = "http://localhost:8079/"}.Initialize())
             {
-                using (var stream = typeof(CanPageThroughReduceResults).Assembly.GetManifestResourceStream("Raven.Tests.MailingList.MapReduceIssue.MvcMusicStore_Dump.json"))
+                using (var stream = typeof(CanPageThroughReduceResults).Assembly.GetManifestResourceStream("Raven35.Tests.MailingList.MapReduceIssue.MvcMusicStore_Dump.json"))
                 {
                     new SmugglerDatabaseApi().ImportData(new SmugglerImportOptions<RavenConnectionStringOptions> { FromStream = stream, To = new RavenConnectionStringOptions { Url = store.Url } }).Wait(TimeSpan.FromSeconds(15));
                 }

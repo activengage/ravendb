@@ -1,17 +1,17 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Indexing;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bundles.Replication
+namespace Raven35.Tests.Bundles.Replication
 {
     public class StoreIndex : ReplicationBase
     {

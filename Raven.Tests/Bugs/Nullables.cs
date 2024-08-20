@@ -1,17 +1,17 @@
 using System;
 using System.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class Nullables : RavenTest
     {

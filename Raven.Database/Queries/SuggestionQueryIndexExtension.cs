@@ -9,13 +9,13 @@ using Lucene.Net.Analysis.Tokenattributes;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Store;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing;
 using SpellChecker.Net.Search.Spell;
 using Directory = Lucene.Net.Store.Directory;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public class SuggestionQueryIndexExtension : IIndexExtension
     {

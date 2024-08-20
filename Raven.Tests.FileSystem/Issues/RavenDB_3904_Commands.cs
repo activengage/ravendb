@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Raven.Abstractions.FileSystem;
-using Raven.Json.Linq;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3904_Commands : RavenFilesTestWithLogs
     {

@@ -29,7 +29,7 @@ using System.Text;
 using System.Collections.ObjectModel;
 using System.Runtime.CompilerServices;
 
-namespace Raven.Imports.Newtonsoft.Json
+namespace Raven35.Imports.Newtonsoft.Json
 {
     /// <summary>
     /// Represents a collection of <see cref="JsonConverter"/>.

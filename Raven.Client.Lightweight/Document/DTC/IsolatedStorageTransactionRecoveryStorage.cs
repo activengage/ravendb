@@ -1,5 +1,5 @@
 #if !DNXCORE50
-namespace Raven.Client.Document.DTC
+namespace Raven35.Client.Document.DTC
 {
     public class IsolatedStorageTransactionRecoveryStorage : ITransactionRecoveryStorage
     {

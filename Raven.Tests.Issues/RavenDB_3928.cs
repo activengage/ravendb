@@ -7,13 +7,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-using Raven.Abstractions.Data;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Abstractions.Data;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto.Faceted;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3928 : RavenTest
     {

@@ -4,13 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class WhenRavenClrTypeNotFound : RavenTest
     {

@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System;
 using Lucene.Net.Analysis;
-using Raven.Database.Indexing;
+using Raven35.Database.Indexing;
 using Xunit;
 
-namespace Raven.Tests.Queries
+namespace Raven35.Tests.Queries
 {
     public class CommentsInQueries : IDisposable
     {

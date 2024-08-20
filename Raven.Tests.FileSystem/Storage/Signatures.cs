@@ -3,7 +3,7 @@ using System.IO;
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.FileSystem
+namespace Raven35.Tests.FileSystem
 {
     public class Signatures : StorageTest
     {

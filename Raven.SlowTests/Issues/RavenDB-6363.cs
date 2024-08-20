@@ -2,13 +2,13 @@
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 using Xunit;
-using User = Raven.Tests.Common.Dto.User;
+using User = Raven35.Tests.Common.Dto.User;
 
-namespace Raven.SlowTests.Issues
+namespace Raven35.SlowTests.Issues
 {
     public class RavenDB_6363 : ReplicationBase
     {

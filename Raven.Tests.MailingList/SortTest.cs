@@ -1,13 +1,13 @@
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList 
+namespace Raven35.Tests.MailingList 
 {
     public class SortTest : RavenTestBase
     {

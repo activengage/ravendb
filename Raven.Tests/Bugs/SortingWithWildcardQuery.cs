@@ -4,12 +4,12 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
-using Raven.Tests.Document;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
+using Raven35.Tests.Document;
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class SortingWithWildcardQuery : RavenTest
     {

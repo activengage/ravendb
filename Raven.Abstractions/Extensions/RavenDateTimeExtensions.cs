@@ -4,9 +4,9 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     public static class RavenDateTimeExtensions
     {

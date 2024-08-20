@@ -1,8 +1,8 @@
 using System;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.FileSystem
+namespace Raven35.Abstractions.FileSystem
 {
     public class SynchronizationReport
     {

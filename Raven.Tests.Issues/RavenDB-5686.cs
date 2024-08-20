@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Abstractions.Util.MiniMetrics;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Linq;
+using Raven35.Abstractions.Util.MiniMetrics;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
 using Xunit;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_5686
     {

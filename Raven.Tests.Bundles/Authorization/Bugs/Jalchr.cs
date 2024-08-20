@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Authorization.Bugs
+namespace Raven35.Tests.Bundles.Authorization.Bugs
 {
     public class Jalchr : AuthorizationTest
     {
@@ -31,10 +31,10 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             string operation = "operation";
             using (var s = store.OpenSession(DatabaseName))
             {
-                client::Raven.Bundles.Authorization.Model.AuthorizationUser user = new client::Raven.Bundles.Authorization.Model.AuthorizationUser { Id = userId, Name = "Name" };
-                user.Permissions = new List<client::Raven.Bundles.Authorization.Model.OperationPermission>
+                client::Raven35.Bundles.Authorization.Model.AuthorizationUser user = new client::Raven35.Bundles.Authorization.Model.AuthorizationUser { Id = userId, Name = "Name" };
+                user.Permissions = new List<client::Raven35.Bundles.Authorization.Model.OperationPermission>
                 {
-                    new client::Raven.Bundles.Authorization.Model.OperationPermission {Allow = true, Operation = operation}
+                    new client::Raven35.Bundles.Authorization.Model.OperationPermission {Allow = true, Operation = operation}
                 };
                 s.Store(user);
 
@@ -43,8 +43,8 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
 
             using (var s = store.OpenSession(DatabaseName))
             {
-                var authorizationUser = s.Load<client::Raven.Bundles.Authorization.Model.AuthorizationUser>(userId);
-                Assert.True(client::Raven.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
+                var authorizationUser = s.Load<client::Raven35.Bundles.Authorization.Model.AuthorizationUser>(userId);
+                Assert.True(client::Raven35.Client.Authorization.AuthorizationClientExtensions.IsAllowed(s, authorizationUser, operation));
             }
         }
     }

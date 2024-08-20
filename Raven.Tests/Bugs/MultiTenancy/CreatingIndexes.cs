@@ -5,19 +5,19 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Extensions;
+using Raven35.Client.Extensions;
 
-namespace Raven.Tests.Bugs.MultiTenancy
+namespace Raven35.Tests.Bugs.MultiTenancy
 {
     public class CreatingIndexes : RavenTest
     {

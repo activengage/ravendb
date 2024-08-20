@@ -5,17 +5,17 @@
 //-----------------------------------------------------------------------
 using System.IO;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 using System;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bundles.Replication.Async
+namespace Raven35.Tests.Bundles.Replication.Async
 {
     public class AttachmentReplication : ReplicationBase
     {

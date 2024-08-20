@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Raven.Database.Data
+namespace Raven35.Database.Data
 {
     public class DynamicQueryMappingItem
     {

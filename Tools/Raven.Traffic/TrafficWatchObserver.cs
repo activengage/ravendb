@@ -1,14 +1,14 @@
 using System;
 using System.Net.Http;
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Util;
-using Raven.Client;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Implementation;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Util;
+using Raven35.Client;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Implementation;
+using Raven35.Json.Linq;
 
-namespace Raven.Traffic
+namespace Raven35.Traffic
 {
     public class TrafficWatchObserver : IObserver<string>
     {

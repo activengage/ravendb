@@ -11,14 +11,14 @@ using Jint.Native;
 using Jint.Parser;
 using Jint.Runtime;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Json;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Json;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3929 : RavenTest
     {

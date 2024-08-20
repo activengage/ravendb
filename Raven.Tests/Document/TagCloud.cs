@@ -5,15 +5,15 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto.TagCloud;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto.TagCloud;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Document
+namespace Raven35.Tests.Document
 {
     public class TagCloud : RavenTest
     {

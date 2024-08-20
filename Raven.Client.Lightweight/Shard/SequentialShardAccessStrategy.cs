@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Async;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Async;
 
-namespace Raven.Client.Shard
+namespace Raven35.Client.Shard
 {
     /// <summary>
     /// Apply an operation to all the shard session in sequence

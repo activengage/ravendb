@@ -1,12 +1,12 @@
 using System.Linq;
 
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     /// <summary>
     /// Demonstrates that "Id" can't be used in the where clause of a map/reduce query.

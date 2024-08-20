@@ -2,13 +2,13 @@
 using System.IO;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Database.Extensions;
-using Raven.Database.Smuggler;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Database.Extensions;
+using Raven35.Database.Smuggler;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class SmugglerTests : RavenBaseTimeSeriesTest
     {

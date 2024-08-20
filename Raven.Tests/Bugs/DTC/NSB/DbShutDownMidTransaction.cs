@@ -4,14 +4,14 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.DTC.NSB
+namespace Raven35.Tests.Bugs.DTC.NSB
 {
     public class DbShutDownMidTransaction : RavenTest
     {

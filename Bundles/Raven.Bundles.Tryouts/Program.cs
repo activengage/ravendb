@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System;
 
-namespace Raven.Bundles.Tryouts
+namespace Raven35.Bundles.Tryouts
 {
     class Program
     {

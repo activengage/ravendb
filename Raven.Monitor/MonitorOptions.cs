@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     internal class MonitorOptions
     {

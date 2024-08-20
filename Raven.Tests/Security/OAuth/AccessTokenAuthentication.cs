@@ -1,20 +1,20 @@
 using System;
 using System.Linq;
 using System.Net;
-using Raven.Abstractions.Data;
-using Raven.Database.Server.Security;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Client;
-using Raven.Database.Config;
-using Raven.Database.Server;
-using Raven.Database.Server.Security.OAuth;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Server.Security;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Client;
+using Raven35.Database.Config;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security.OAuth;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Security.OAuth
+namespace Raven35.Tests.Security.OAuth
 {
     public class AccessTokenAuthentication : RavenTest
     {

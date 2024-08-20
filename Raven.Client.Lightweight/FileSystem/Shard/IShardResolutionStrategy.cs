@@ -1,7 +1,7 @@
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 using System.Collections.Generic;
 
-namespace Raven.Client.FileSystem.Shard
+namespace Raven35.Client.FileSystem.Shard
 {
     /// <summary>
     /// Implementers of this interface provide a way to decide which shards will be queried

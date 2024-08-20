@@ -1,15 +1,15 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public class SmugglerFilesApi : SmugglerFilesApiBase
     {

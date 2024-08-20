@@ -26,11 +26,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using System.Globalization;
 
-namespace Raven.Imports.Newtonsoft.Json.Schema
+namespace Raven35.Imports.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

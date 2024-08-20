@@ -6,16 +6,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto.Faceted;
 using Rhino.Mocks.Constraints;
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.Faceted
+namespace Raven35.Tests.Faceted
 {
     public class Aggregation : RavenTest
     {
@@ -357,7 +357,7 @@ namespace Raven.Tests.Faceted
                     var facetResult = r.Results["At"];
                     Assert.Equal(2, facetResult.Values.Count);
 
-                    Assert.Equal(1, facetResult.Values.Count(x => x.Range == DateTime.Today.ToString(Raven.Abstractions.Default.DateTimeFormatsToWrite)));
+                    Assert.Equal(1, facetResult.Values.Count(x => x.Range == DateTime.Today.ToString(Raven35.Abstractions.Default.DateTimeFormatsToWrite)));
                 }
             }
         }

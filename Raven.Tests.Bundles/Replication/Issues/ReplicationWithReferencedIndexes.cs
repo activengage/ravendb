@@ -1,11 +1,11 @@
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Database.Config;
-using Raven.Tests.Common;
+using Raven35.Client.Indexes;
+using Raven35.Database.Config;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication.Issues
+namespace Raven35.Tests.Bundles.Replication.Issues
 {
     public class ReplicationWithReferencedIndexes : ReplicationBase
     {

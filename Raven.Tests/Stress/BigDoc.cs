@@ -1,12 +1,12 @@
 using System;
-using Raven.Client.Document;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Stress
+namespace Raven35.Tests.Stress
 {
     [CLSCompliant(false)]
     public class BigDoc : RavenTest

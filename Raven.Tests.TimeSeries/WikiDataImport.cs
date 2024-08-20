@@ -9,13 +9,13 @@ using System.Globalization;
 using System.IO;
 using System.IO.Compression;
 using System.Net;
-using Raven.Abstractions.TimeSeries;
-using Raven.Database.Config;
-using Raven.Database.TimeSeries;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database.Config;
+using Raven35.Database.TimeSeries;
 using Voron;
 using Xunit;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class WikiDataImport
     {

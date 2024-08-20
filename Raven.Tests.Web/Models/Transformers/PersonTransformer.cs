@@ -5,10 +5,10 @@
 // -----------------------------------------------------------------------
 using System.Linq;
 
-using Raven.Client.Indexes;
-using Raven.Tests.Common.Dto;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common.Dto;
 
-namespace Raven.Tests.Web.Models.Transformers
+namespace Raven35.Tests.Web.Models.Transformers
 {
     public class PersonTransformer : AbstractTransformerCreationTask<Person>
     {

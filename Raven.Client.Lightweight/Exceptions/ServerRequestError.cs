@@ -1,4 +1,4 @@
-namespace Raven.Client.Exceptions
+namespace Raven35.Client.Exceptions
 {
     public class ServerRequestError
     {

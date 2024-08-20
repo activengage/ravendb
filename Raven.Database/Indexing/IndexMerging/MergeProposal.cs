@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Database.Indexing.IndexMerging
+namespace Raven35.Database.Indexing.IndexMerging
 {
     internal class MergeProposal
     {

@@ -7,19 +7,19 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class BackupRestore : RavenTest
     {

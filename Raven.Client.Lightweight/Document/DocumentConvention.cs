@@ -14,26 +14,26 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.CSharp.RuntimeBinder;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection.Async;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Abstractions;
-using Raven.Abstractions.Json;
-using Raven.Client.Connection;
-using Raven.Client.Converters;
-using Raven.Client.Util;
-using Raven.Json.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Metrics;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection.Async;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Json;
+using Raven35.Client.Connection;
+using Raven35.Client.Converters;
+using Raven35.Client.Util;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Metrics;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// The set of conventions used by the <see cref="DocumentStore"/> which allow the users to customize
-    /// the way the Raven client API behaves
+    /// the way the Raven35.Client API behaves
     /// </summary>
     public class DocumentConvention : QueryConvention
     {

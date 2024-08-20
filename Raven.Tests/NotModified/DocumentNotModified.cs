@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
-using Raven.Client.Document;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 
-namespace Raven.Tests.NotModified
+namespace Raven35.Tests.NotModified
 {
     /// <summary>
     /// The tests in this class test that 304 is returned when nothing at all is changed, and that 200 is returned when the
@@ -42,8 +42,8 @@ namespace Raven.Tests.NotModified
         public void ServerReturnsNotModifiedWhenAppropriateForDatabases()
         {
             RunNotModifiedTestsForUrl(
-                new { Id = "Raven/Databases/FirstDatabase" },
-                new { Id = "Raven/Databases/SecondDatabase" },
+                new { Id = "Raven35.Databases/FirstDatabase" },
+                new { Id = "Raven35.Databases/SecondDatabase" },
                 "http://localhost:8079/databases/"
             );
         }
@@ -54,7 +54,7 @@ namespace Raven.Tests.NotModified
             using (var docStore = new DocumentStore { Url = "http://localhost:8079" }.Initialize())
             {
                 // Store an item
-                Raven.Abstractions.Data.Etag firstEtag;
+                Raven35.Abstractions.Data.Etag firstEtag;
                 using (var session = docStore.OpenSession())
                 {
                     session.Store(firstItemToStore);
@@ -78,7 +78,7 @@ namespace Raven.Tests.NotModified
                 }
 
                 // Change the item or add a second item
-                Raven.Abstractions.Data.Etag secondEtag;
+                Raven35.Abstractions.Data.Etag secondEtag;
                 using (var session = docStore.OpenSession())
                 {
                     session.Store(secondItemToStore);

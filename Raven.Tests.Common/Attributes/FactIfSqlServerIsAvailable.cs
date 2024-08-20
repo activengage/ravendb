@@ -4,7 +4,7 @@ using System.Data.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public class MaybeSqlServerIsAvailable
     {
@@ -69,7 +69,7 @@ namespace Raven.Tests.Common.Attributes
                 var connectionString = settings.ConnectionString;
 
                 if (string.Equals(connectionStringName, "CiHost", StringComparison.OrdinalIgnoreCase))
-                    connectionString = connectionString.Replace("Initial Catalog=Raven.Tests", "Initial Catalog=Raven.Tests" + Environment.MachineName);
+                    connectionString = connectionString.Replace("Initial Catalog=Raven35.Tests", "Initial Catalog=Raven35.Tests" + Environment.MachineName);
 
                 var localSettings = new ConnectionStringSettings(connectionStringName, connectionString, connectionStringProvider);
 

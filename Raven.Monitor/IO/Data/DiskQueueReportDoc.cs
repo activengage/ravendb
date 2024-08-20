@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Monitor.IO.Data
+namespace Raven35.Monitor.IO.Data
 {
     public class DiskQueueReportDoc
     {

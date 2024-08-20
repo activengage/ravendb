@@ -7,15 +7,15 @@
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
 
-using Raven.Abstractions.Data;
-using Raven.Bundles.CascadeDelete;
-using Raven.Client.Document;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.CascadeDelete;
+using Raven35.Client.Document;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.CascadeDelete
+namespace Raven35.Tests.Bundles.CascadeDelete
 {
     public class CascadeDelete : RavenTest
     {

@@ -5,14 +5,14 @@
 //-----------------------------------------------------------------------
 
 using System;
-using Raven.Client;
-using Raven.Client.Listeners;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Listeners;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Metadata
+namespace Raven35.Tests.Bugs.Metadata
 {
     public class MetadataPropertyInEntity : RavenTest
     {

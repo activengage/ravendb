@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 namespace Rhino.Licensing
 {
-    using Raven.Abstractions.Util.Encryptors;
+    using Raven35.Abstractions.Util.Encryptors;
 
     /// <summary>
     /// LicenseGenerator generates and signs license.

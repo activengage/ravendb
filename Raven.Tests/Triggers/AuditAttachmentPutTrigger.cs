@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Tests.Triggers
+namespace Raven35.Tests.Triggers
 {
     public class AuditAttachmentPutTrigger : AbstractAttachmentPutTrigger
     {

@@ -12,14 +12,14 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using Raven.Json.Linq;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Indexes
+namespace Raven35.Client.Indexes
 {
     /// <summary>
     ///   Based off of System.Linq.Expressions.ExpressionStringBuilder
@@ -1585,7 +1585,7 @@ namespace Raven.Client.Indexes
             {
                 if (node.Method.DeclaringType == typeof(Enumerable) && node.Method.Name == "Cast")
                 {
-                    Out("new Raven.Abstractions.Linq.DynamicList(");
+                    Out("new Raven35.Abstractions.Linq.DynamicList(");
                     Visit(node.Arguments[0]);
                     Out(")");
                     return node; // we don't do casting on the server

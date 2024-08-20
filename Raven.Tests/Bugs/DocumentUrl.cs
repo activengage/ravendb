@@ -4,14 +4,14 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Client.Document;
-using Raven.Database.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Indexes;
+using Raven35.Client.Document;
+using Raven35.Database.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Indexes;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class DocumentUrl : RavenTest
     {

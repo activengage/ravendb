@@ -6,16 +6,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Linq;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Dto.Faceted;
 
 using Xunit;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Faceted
+namespace Raven35.Tests.Faceted
 {
     public class FacetedIndexLimit : FacetTestBase
     {

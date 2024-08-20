@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database.Queries;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Queries;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2101 : RavenTest
     {

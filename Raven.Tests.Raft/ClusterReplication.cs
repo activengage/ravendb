@@ -9,15 +9,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Database.Raft.Dto;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Database.Raft.Dto;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Raft
+namespace Raven35.Tests.Raft
 {
     public class ClusterReplication : RaftTestBase
     {

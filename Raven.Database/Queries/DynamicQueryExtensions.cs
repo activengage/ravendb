@@ -6,11 +6,11 @@
 
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Database.Data;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Data;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Queries
+namespace Raven35.Database.Queries
 {
     public static class DynamicQueryExtensions
     {

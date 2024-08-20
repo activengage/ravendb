@@ -1,6 +1,6 @@
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Client.FileSystem
+namespace Raven35.Client.FileSystem
 {
     /// <summary>
     /// Statistics about a the files query.

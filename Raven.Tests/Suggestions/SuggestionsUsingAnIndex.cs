@@ -5,17 +5,17 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Suggestions
+namespace Raven35.Tests.Suggestions
 {
     public class SuggestionsUsingAnIndex : RavenTest, IDisposable
     {

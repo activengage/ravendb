@@ -12,20 +12,20 @@ using System.Threading;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Store;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Database.Extensions;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
-using Raven.Database.Storage;
-using Raven.Database.Util;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Extensions;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Database.Storage;
+using Raven35.Database.Util;
 using Spatial4n.Core.Exceptions;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     internal class SimpleIndex : Index
     {

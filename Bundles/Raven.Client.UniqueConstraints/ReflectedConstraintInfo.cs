@@ -1,9 +1,9 @@
 using System;
 using System.Reflection;
 
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.UniqueConstraints
+namespace Raven35.Client.UniqueConstraints
 {
     public class ReflectedConstraintInfo : ConstraintInfo
     {

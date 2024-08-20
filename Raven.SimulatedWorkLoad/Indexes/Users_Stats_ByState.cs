@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.SimulatedWorkLoad.Model;
+using Raven35.Client.Indexes;
+using Raven35.SimulatedWorkload.Model;
 
-namespace Raven.SimulatedWorkLoad.Indexes
+namespace Raven35.SimulatedWorkload.Indexes
 {
     public class Users_Stats_ByState : AbstractIndexCreationTask<User, Users_Stats_ByState.Result>
     {

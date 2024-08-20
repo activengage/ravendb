@@ -1,8 +1,8 @@
-using Raven.Abstractions.Logging;
-using Raven.Database.Server.Connections;
-using Raven.Database.Util;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Server.Connections;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Server
+namespace Raven35.Database.Server
 {
     public static class HttpEndpointRegistration
     {

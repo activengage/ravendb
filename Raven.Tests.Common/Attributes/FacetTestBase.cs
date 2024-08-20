@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Tests.Common.Dto.Faceted;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public abstract class FacetTestBase : RavenTest
     {
@@ -18,7 +18,7 @@ namespace Raven.Tests.Common.Attributes
             store.DatabaseCommands.PutIndex(index.IndexName, index.CreateIndexDefinition());
         }
 
-        public class CameraCostIndex : Raven.Client.Indexes.AbstractIndexCreationTask
+        public class CameraCostIndex : Raven35.Client.Indexes.AbstractIndexCreationTask
         {
             public override IndexDefinition CreateIndexDefinition()
             {
@@ -44,7 +44,7 @@ namespace Raven.Tests.Common.Attributes
             }
         }
 
-        public class CameraCostIndexWithTyptedSorts : Raven.Client.Indexes.AbstractIndexCreationTask
+        public class CameraCostIndexWithTyptedSorts : Raven35.Client.Indexes.AbstractIndexCreationTask
         {
             public override IndexDefinition CreateIndexDefinition()
             {

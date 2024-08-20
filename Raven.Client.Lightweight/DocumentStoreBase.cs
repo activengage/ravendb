@@ -6,25 +6,25 @@ using System.Collections.Specialized;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Changes;
-using Raven.Client.Connection;
-using Raven.Client.Connection.Profiling;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Changes;
+using Raven35.Client.Connection;
+using Raven35.Client.Connection.Profiling;
 #if !DNXCORE50
-using Raven.Client.Document.DTC;
+using Raven35.Client.Document.DTC;
 #endif
-using Raven.Client.Indexes;
-using Raven.Client.Listeners;
-using Raven.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Listeners;
+using Raven35.Client.Document;
 
-using Raven.Client.Connection.Async;
-using Raven.Client.Util;
-using Raven.Abstractions.Util.Encryptors;
-using SaveChangesData = Raven.Client.Document.InMemoryDocumentSessionOperations.SaveChangesData;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Util;
+using Raven35.Abstractions.Util.Encryptors;
+using SaveChangesData = Raven35.Client.Document.InMemoryDocumentSessionOperations.SaveChangesData;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
 
     /// <summary>

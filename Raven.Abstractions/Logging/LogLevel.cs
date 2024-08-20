@@ -1,4 +1,4 @@
-namespace Raven.Abstractions.Logging
+namespace Raven35.Abstractions.Logging
 {
     public enum LogLevel
     {

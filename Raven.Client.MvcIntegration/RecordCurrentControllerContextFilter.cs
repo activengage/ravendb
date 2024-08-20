@@ -1,7 +1,7 @@
 using System;
 using System.Web.Mvc;
 
-namespace Raven.Client.MvcIntegration
+namespace Raven35.Client.MvcIntegration
 {
     public class RecordCurrentControllerContextFilter: ActionFilterAttribute
     {

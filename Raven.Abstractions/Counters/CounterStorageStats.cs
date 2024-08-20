@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Abstractions.Counters
+namespace Raven35.Abstractions.Counters
 {
     public class CounterStorageStats
     {

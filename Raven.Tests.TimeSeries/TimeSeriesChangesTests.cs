@@ -4,13 +4,13 @@ using System.Reactive.Linq;
 using System.Reactive.Threading.Tasks;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.TimeSeries;
-using Raven.Abstractions.TimeSeries.Notifications;
-using Raven.Client.TimeSeries.Changes;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Abstractions.TimeSeries.Notifications;
+using Raven35.Client.TimeSeries.Changes;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesChangesTests : RavenBaseTimeSeriesTest
     {

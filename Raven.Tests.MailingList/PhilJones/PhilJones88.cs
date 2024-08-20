@@ -1,14 +1,14 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList.PhilJones
+namespace Raven35.Tests.MailingList.PhilJones
 {
     public class PhilJones88 : RavenTest
     {

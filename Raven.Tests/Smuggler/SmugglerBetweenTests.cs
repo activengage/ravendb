@@ -6,20 +6,20 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Smuggler;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Smuggler
+namespace Raven35.Tests.Smuggler
 {
     public class SmugglerBetweenTests : RavenTest
     {

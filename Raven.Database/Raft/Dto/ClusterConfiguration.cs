@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Database.Raft.Dto
+namespace Raven35.Database.Raft.Dto
 {
     public class ClusterConfiguration
     {

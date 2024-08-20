@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public class SmugglerFilesOperationDispatcher : SmugglerOperationDispatcher<SmugglerFilesOptions>
     {

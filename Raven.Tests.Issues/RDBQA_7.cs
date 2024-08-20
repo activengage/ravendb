@@ -3,21 +3,21 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     using System;
     using System.IO;
 
     using Lucene.Net.Support;
 
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Smuggler;
-    using Raven.Client;
-    using Raven.Database.Extensions;
-    using Raven.Json.Linq;
-    using Raven.Smuggler;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Smuggler;
+    using Raven35.Client;
+    using Raven35.Database.Extensions;
+    using Raven35.Json.Linq;
+    using Raven35.Smuggler;
 
     using Xunit;
 

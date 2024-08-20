@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Monitor.IO.Data;
+using Raven35.Monitor.IO.Data;
 
-namespace Raven.Monitor.CPU
+namespace Raven35.Monitor.CPU
 {
     internal class CpuPerformanceMonitoring : IMonitor
     {

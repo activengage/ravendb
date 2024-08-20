@@ -1,18 +1,18 @@
 #if !DNXCORE50
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Database.Server;
-using Raven.Database.Server.Security.Windows;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security.Windows;
+using Raven35.Json.Linq;
 using System.Collections.Generic;
 using System.Net;
-using Raven.Client.Extensions;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Helpers.Util;
+using Raven35.Client.Extensions;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Helpers.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Core.Auth
+namespace Raven35.Tests.Core.Auth
 {
     public class WindowsAuthenticationUserInfo : RavenCoreTestBase
     {
@@ -24,7 +24,7 @@ namespace Raven.Tests.Core.Auth
         [Fact]
         public void GetUserInfoAndPermissionsWindowsAuthentication()
         {
-            Raven.Database.Server.Security.Authentication.EnableOnce();
+            Raven35.Database.Server.Security.Authentication.EnableOnce();
             Server.Configuration.AnonymousUserAccessMode = AnonymousUserAccessMode.None;
             Server.SystemDatabase.Documents.Put(
                 "Raven/Authorization/WindowsSettings",

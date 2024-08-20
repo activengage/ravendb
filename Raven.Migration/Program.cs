@@ -3,13 +3,13 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using NDesk.Options;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Migration.MigrationTasks;
-using Raven.Smuggler.Helpers;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Migration.MigrationTasks;
+using Raven35.Smuggler.Helpers;
 
-namespace Raven.Migration
+namespace Raven35.Migration
 {
     public class Program
     {
@@ -159,9 +159,9 @@ Copyright (C) 2008 - {0} - Hibernating Rhinos
 ----------------------------------------------
 Usage:
     - Move all attachments from MyDatabase database to the specified MyFileSystem file system within the same RavenDB instance:
-        Raven.Migration http://localhost:8080/ --database=MyDatabase --filesystem=MyFileSystem
+        Raven35.Migration http://localhost:8080/ --database=MyDatabase --filesystem=MyFileSystem
     - Move all attachments from MyDatabase database to the specified MyFileSystem file system on the different RavenDB instance:
-        Raven.Migration http://localhost:8080/ --database=MyDatabase --filesystem=MyFileSystem --fs-server=http://localhost:8081/
+        Raven35.Migration http://localhost:8080/ --database=MyDatabase --filesystem=MyFileSystem --fs-server=http://localhost:8081/
 
 Command line options:", SystemTime.UtcNow.Year);
 

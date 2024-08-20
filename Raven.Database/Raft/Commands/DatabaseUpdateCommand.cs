@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 using Rachis.Commands;
 
-using Raven.Abstractions.Data;
-using Raven.Database.Util;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Raft.Commands
+namespace Raven35.Database.Raft.Commands
 {
     public class DatabaseUpdateCommand : Command
     {

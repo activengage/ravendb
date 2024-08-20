@@ -6,18 +6,18 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Metrics;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Metrics;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_752 : NoDisposalNeeded
     {

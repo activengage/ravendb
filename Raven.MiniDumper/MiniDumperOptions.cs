@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Raven.MiniDumper
+namespace Raven35.MiniDumper
 {
     internal class MiniDumperOptions
     {

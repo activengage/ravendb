@@ -8,18 +8,18 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Rachis.Transport;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Connection;
-using Raven.Database.Raft;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Raft.Util;
-using Raven.Json.Linq;
-using Raven.Server;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Connection;
+using Raven35.Database.Raft;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Raft.Util;
+using Raven35.Json.Linq;
+using Raven35.Server;
 using Xunit;
 
-namespace Raven.Tests.Raft
+namespace Raven35.Tests.Raft
 {
     public class SnaphshottingTest : RaftTestBase
     {

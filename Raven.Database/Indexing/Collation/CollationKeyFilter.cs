@@ -8,7 +8,7 @@ using System.Globalization;
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Tokenattributes;
 
-namespace Raven.Database.Indexing.Collation
+namespace Raven35.Database.Indexing.Collation
 {
     public class CollationKeyFilter : TokenFilter
     {

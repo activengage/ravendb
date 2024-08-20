@@ -6,7 +6,7 @@
 
 using System;
 
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 
 namespace Rachis.Behaviors
 {

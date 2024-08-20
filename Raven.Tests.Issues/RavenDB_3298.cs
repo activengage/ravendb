@@ -6,15 +6,15 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Client.Shard;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Client.Shard;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3298 : ReplicationBase
     {

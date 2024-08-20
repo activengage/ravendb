@@ -9,16 +9,16 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.MEF;
-using Raven.Client.Indexes;
-using Raven.Database.Linq;
-using Raven.Database.Plugins;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.MEF;
+using Raven35.Client.Indexes;
+using Raven35.Database.Linq;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     //TODO: test me!
     public class IndexDefinitionCodeGenerator

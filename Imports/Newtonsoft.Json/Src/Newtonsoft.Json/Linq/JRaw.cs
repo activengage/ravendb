@@ -26,7 +26,7 @@
 using System.Globalization;
 using System.IO;
 
-namespace Raven.Imports.Newtonsoft.Json.Linq
+namespace Raven35.Imports.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a raw JSON string.

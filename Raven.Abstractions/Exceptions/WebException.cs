@@ -1,7 +1,7 @@
 ﻿#if DNXCORE50
 using System;
 
-namespace Raven.Abstractions.Exceptions
+namespace Raven35.Abstractions.Exceptions
 {
     public class WebException : Exception
     {

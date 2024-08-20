@@ -13,10 +13,10 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Xml;
-using Raven.Abstractions.Util;
-using Raven.Client.Extensions;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Extensions;
 
-namespace Raven.Database.Client.Aws
+namespace Raven35.Database.Client.Aws
 {
     public abstract class RavenAwsClient : RavenStorageClient
     {
@@ -167,7 +167,7 @@ namespace Raven.Database.Client.Aws
                 return;
             }
 
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Raven.Database.Client.Aws.Amazon.AWS.endpoints.xml"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Raven35.Database.Client.Aws.Amazon.AWS.endpoints.xml"))
             using (var reader = new StreamReader(stream))
                 LoadEndpointsFromReader(reader);
         }

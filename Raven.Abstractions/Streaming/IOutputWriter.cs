@@ -1,7 +1,7 @@
 ﻿using System;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Streaming
+namespace Raven35.Abstractions.Streaming
 {
     public interface IOutputWriter : IDisposable
     {

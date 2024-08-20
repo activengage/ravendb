@@ -9,16 +9,16 @@ using System.Web;
 using System.Web.Http;
 using Microsoft.Owin.Hosting;
 using Owin;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Database.Server;
-using Raven.Server;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Database.Server;
+using Raven35.Server;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3574 : ReplicationBase
     {

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class PersonRaw
     {

@@ -1,12 +1,12 @@
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RavenDbBugs : RavenTest
     {

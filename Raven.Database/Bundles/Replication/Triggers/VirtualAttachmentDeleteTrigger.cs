@@ -7,17 +7,17 @@ using System;
 using System.ComponentModel.Composition;
 using System.IO;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Bundles.Replication.Impl;
-using Raven.Database.Bundles.Replication.Impl;
-using Raven.Database.Impl;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.Replication.Impl;
+using Raven35.Database.Bundles.Replication.Impl;
+using Raven35.Database.Impl;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
 
-namespace Raven.Bundles.Replication.Triggers
+namespace Raven35.Bundles.Replication.Triggers
 {
-    using Raven.Abstractions.Extensions;
+    using Raven35.Abstractions.Extensions;
 
     /// <summary>
     /// We can't allow real deletes when using replication, because

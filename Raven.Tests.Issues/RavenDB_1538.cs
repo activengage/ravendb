@@ -1,12 +1,12 @@
 using System;
 
-using Raven.Client.UniqueConstraints;
-using Raven.Json.Linq;
-using Raven.Tests.Bundles.UniqueConstraints;
+using Raven35.Client.UniqueConstraints;
+using Raven35.Json.Linq;
+using Raven35.Tests.Bundles.UniqueConstraints;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1538 : UniqueConstraintsTest
     {

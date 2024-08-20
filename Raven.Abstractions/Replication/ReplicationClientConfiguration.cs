@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
     public class ReplicationClientConfiguration
     {

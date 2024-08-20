@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Imports.Newtonsoft.Json.Tests.TestObjects
+namespace Raven35.Imports.Newtonsoft.Json.Tests.TestObjects
 {
     public class ListOfIds<T> : JsonConverter where T : Bar, new()
     {

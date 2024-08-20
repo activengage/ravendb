@@ -1,8 +1,8 @@
 using System;
-using Raven.Client.Embedded;
+using Raven35.Client.Embedded;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3422 
     {

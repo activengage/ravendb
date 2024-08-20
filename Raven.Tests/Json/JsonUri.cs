@@ -1,10 +1,10 @@
 using System;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Json
+namespace Raven35.Tests.Json
 {
     public class JsonUri : RavenTest
     {

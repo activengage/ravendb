@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 using System.Diagnostics;
 using System.Net.Http.Headers;
 
-namespace Raven.Abstractions.Logging
+namespace Raven35.Abstractions.Logging
 {
     public class LogHttpRequestStatsParams
     {

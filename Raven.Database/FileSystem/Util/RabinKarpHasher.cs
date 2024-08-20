@@ -6,7 +6,7 @@
 using System;
 using System.Linq;
 
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     /// <remarks>
     /// Adapted from http://algs4.cs.princeton.edu/53substring/RabinKarp.java.html

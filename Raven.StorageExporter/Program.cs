@@ -3,10 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Security;
 using System.Security.Permissions;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
 
-namespace Raven.StorageExporter
+namespace Raven35.StorageExporter
 {
     public class Program
     {
@@ -198,9 +198,9 @@ Copyright (C) 2008 - {0} - Hibernating Rhinos
             Console.WriteLine(@"
 Usage:
   - Export a RavenDB database to a file in raven.dump format.
-    Raven.StorageExporter.exe c:\RavenDB\Databases\Northwind\ c:\RavenDB\Dumps\Northwind\northwind.raven [-BatchSize]
+    Raven35.StorageExporter.exe c:\RavenDB\Databases\Northwind\ c:\RavenDB\Dumps\Northwind\northwind.raven [-BatchSize]
   - Export an ESENT table from given RavenDB database into a CSV formated file.
-    Raven.StorageExporter.exe c:\RavenDB\Databases\Northwind\ c:\RavenDB\Dumps\Northwind\ref.csv -T ref 
+    Raven35.StorageExporter.exe c:\RavenDB\Databases\Northwind\ c:\RavenDB\Dumps\Northwind\ref.csv -T ref 
 
 Parameters:
  -T <TableName> : The name of the table to be exported.

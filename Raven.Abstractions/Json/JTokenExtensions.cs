@@ -6,11 +6,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     /// <summary>
     /// Extensions for RavenJToken

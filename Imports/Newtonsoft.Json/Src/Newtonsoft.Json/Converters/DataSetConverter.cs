@@ -26,9 +26,9 @@
 #if !(NETFX_CORE || PORTABLE40 || PORTABLE || MONO)
 using System;
 using System.Data;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="DataSet"/> to and from JSON.

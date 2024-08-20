@@ -7,9 +7,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class DefaultIndexingClassifier : IIndexingClassifier
     {

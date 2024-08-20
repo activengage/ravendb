@@ -1,15 +1,15 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
-using Raven.Json.Linq;
-using Raven.Database.FileSystem.Synchronization;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
+using Raven35.Database.FileSystem.Synchronization;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
 using Xunit;
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class SynchronizationQueueTests : StorageTest
     {

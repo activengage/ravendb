@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 using System.Net.Http;
 using System.Net.Http.Headers;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public static class HttpContentExtentions
     {

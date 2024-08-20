@@ -5,16 +5,16 @@
 // -----------------------------------------------------------------------
 using System.Linq;
 using System.Reflection;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database;
-using Raven.Database.Actions;
-using Raven.Database.Storage;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database;
+using Raven35.Database.Actions;
+using Raven35.Database.Storage;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RecreatingIndexes : RavenTest
     {

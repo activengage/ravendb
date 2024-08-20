@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Collections.Concurrent;
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class ConcurrentDictionaryInheritence : RavenTest
     {

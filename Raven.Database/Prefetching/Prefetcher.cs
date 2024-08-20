@@ -4,11 +4,11 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
 
-namespace Raven.Database.Prefetching
+namespace Raven35.Database.Prefetching
 {
     using System.Linq;
 

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Jint;
 using Jint.Native;
 using Jint.Runtime;
-using Raven.Abstractions.Data;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     internal abstract class JintOperationScope : IDisposable
     {

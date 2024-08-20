@@ -3,19 +3,19 @@ using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Bundles.Versioning;
-using Raven.Database.FileSystem.Plugins;
-using Raven.Database.FileSystem.Util;
-using Raven.Database.Impl;
-using Raven.Database.Indexing;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Bundles.Versioning;
+using Raven35.Database.FileSystem.Plugins;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Database.Impl;
+using Raven35.Database.Indexing;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -24,13 +24,13 @@ using System.IO;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Threading;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Constants = Raven.Abstractions.Data.Constants;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Constants = Raven35.Abstractions.Data.Constants;
 using Directory = System.IO.Directory;
 using LuceneDirectory = Lucene.Net.Store.Directory;
 
-namespace Raven.Database.FileSystem.Search
+namespace Raven35.Database.FileSystem.Search
 {
     /// <summary>
     /// 	Thread safe, single instance for the entire application

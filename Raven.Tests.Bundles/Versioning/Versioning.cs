@@ -5,16 +5,16 @@
 //-----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Bundles.Versioning.Data;
-using Raven.Client.Bundles.Versioning;
-using Raven.Smuggler;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Client.Bundles.Versioning;
+using Raven35.Smuggler;
 using Xunit;
 
-namespace Raven.Tests.Bundles.Versioning
+namespace Raven35.Tests.Bundles.Versioning
 {
     public class Versioning : VersioningTest
     {

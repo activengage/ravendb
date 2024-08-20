@@ -6,16 +6,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Plugins.Builtins
+namespace Raven35.Database.Plugins.Builtins
 {
     public class ActiveBundlesProtection : AbstractPutTrigger
     {
-        private const string RavenDatabasesPrefix = "Raven/Databases/";
+        private const string RavenDatabasesPrefix = "Raven35.Databases/";
 
         public override VetoResult AllowPut(string key, RavenJObject document, RavenJObject metadata, TransactionInformation transactionInformation)
         {

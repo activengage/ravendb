@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
-using Raven.Client.Extensions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Smuggler;
+using Raven35.Client.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Smuggler;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class LargeObjectsWithJsonTextReader : RavenTestBase
     {

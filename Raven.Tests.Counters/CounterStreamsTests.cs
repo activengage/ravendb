@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Client.Counters;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Counters;
 using Xunit;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class CounterStreamsTests : RavenBaseCountersTest
     {

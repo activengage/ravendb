@@ -9,9 +9,9 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Util;
 
-using Raven.Database.Indexing;
+using Raven35.Database.Indexing;
 
-namespace Raven.Tests.Common.Analyzers
+namespace Raven35.Tests.Common.Analyzers
 {
     [NotForQuerying]
     public class NGramAnalyzer : Analyzer

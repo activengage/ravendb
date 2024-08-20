@@ -26,7 +26,7 @@
 using System;
 using System.Text;
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
     internal static class JsonTokenUtils
     {

@@ -1,9 +1,9 @@
-using Raven.Abstractions.Util.Streams;
+using Raven35.Abstractions.Util.Streams;
 
 using System;
 using System.Collections.Concurrent;
 
-namespace Raven.Database.FileSystem.Storage.Voron.Impl
+namespace Raven35.Database.FileSystem.Storage.Voron.Impl
 {
     internal class Table : TableBase
     {

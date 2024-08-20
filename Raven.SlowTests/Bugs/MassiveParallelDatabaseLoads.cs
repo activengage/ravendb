@@ -5,18 +5,18 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class MassiveParallelDatabaseLoads:RavenTestBase
     {

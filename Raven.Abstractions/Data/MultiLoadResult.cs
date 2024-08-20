@@ -4,9 +4,9 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// Represent a result which include both document results and included documents

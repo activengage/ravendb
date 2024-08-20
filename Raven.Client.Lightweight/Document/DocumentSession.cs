@@ -4,13 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document.Batches;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Indexes;
-using Raven.Client.Linq;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Indexes;
+using Raven35.Client.Linq;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -19,7 +19,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Implements Unit of Work for accessing the RavenDB server
@@ -463,7 +463,7 @@ namespace Raven.Client.Document
         }
 
         /// <summary>
-        /// Refreshes the specified entity from Raven server.
+        /// Refreshes the specified entity from Raven35.Server.
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="entity">The entity.</param>
@@ -728,7 +728,7 @@ namespace Raven.Client.Document
         }
 
         /// <summary>
-        /// Saves all the changes to the Raven server.
+        /// Saves all the changes to the Raven35.Server.
         /// </summary>
         public virtual void SaveChanges()
         {

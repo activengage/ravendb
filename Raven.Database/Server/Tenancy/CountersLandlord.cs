@@ -3,20 +3,20 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Abstractions;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Database.Commercial;
-using Raven.Database.Config;
-using Raven.Database.Counters;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Connections;
-using Raven.Json.Linq;
-using Raven.Database.Server.Security;
-using Raven.Abstractions.Exceptions;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Commercial;
+using Raven35.Database.Config;
+using Raven35.Database.Counters;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Connections;
+using Raven35.Json.Linq;
+using Raven35.Database.Server.Security;
+using Raven35.Abstractions.Exceptions;
 
 using System;
 using System.Collections.Generic;
@@ -28,7 +28,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Raven.Database.Server.Tenancy
+namespace Raven35.Database.Server.Tenancy
 {
     public class CountersLandlord : AbstractLandlord<CounterStorage>
     {

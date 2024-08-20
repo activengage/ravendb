@@ -9,17 +9,17 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Abstractions.Indexing;
-using Raven.Json.Linq;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Database.Json;
-using Raven.Database.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Json.Linq;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Database.Json;
+using Raven35.Database.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class LinqIndexesFromClient : NoDisposalNeeded
     {

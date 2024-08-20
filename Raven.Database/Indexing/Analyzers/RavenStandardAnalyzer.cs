@@ -8,7 +8,7 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
 using Version = Lucene.Net.Util.Version;
 
-namespace Raven.Database.Indexing.Analyzers
+namespace Raven35.Database.Indexing.Analyzers
 {
     public class RavenStandardAnalyzer : StandardAnalyzer
     {

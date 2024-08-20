@@ -1,6 +1,6 @@
-using Raven.Abstractions.Data;
-using Raven.Client.Exceptions;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Exceptions;
+using Raven35.Tests.Core.Utils.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Replication
+namespace Raven35.Tests.Core.Replication
 {
     public class ManualConflictResolution : RavenReplicationCoreTest
     {

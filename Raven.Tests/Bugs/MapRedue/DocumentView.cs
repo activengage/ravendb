@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Tests.Bugs.MapRedue
+namespace Raven35.Tests.Bugs.MapRedue
 {
     /// <summary>
     /// View for index VersionedDocuments

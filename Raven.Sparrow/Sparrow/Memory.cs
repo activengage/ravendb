@@ -1,5 +1,5 @@
 #if !DNXCORE50
-using Sparrow.Platform;
+using Sparrow35.Platform;
 using System;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Threading.Tasks;
 
-namespace Sparrow
+namespace Sparrow35
 {
     public unsafe static class Memory
     {

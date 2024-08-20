@@ -6,15 +6,15 @@
 using System;
 using System.IO;
 
-using Raven.Abstractions.Data;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.FileSystem;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4066 : RavenFilesTestBase
     {

@@ -29,7 +29,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     /// <summary>
     /// Original code taken from:

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Raven.IndexCleaner
+namespace Raven35.IndexCleaner
 {
     public static class ConsoleUtils
     {

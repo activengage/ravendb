@@ -7,16 +7,16 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Smuggler;
-using Raven.Database.FileSystem.Smuggler;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Database.FileSystem.Smuggler;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_4092 : RavenFilesTestBase
     {

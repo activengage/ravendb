@@ -31,7 +31,7 @@ using System.Reflection;
 using System.Text;
 using System.Globalization;
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
     internal delegate T Creator<T>();
 

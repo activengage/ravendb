@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc
+namespace Raven35.Database.FileSystem.Synchronization.Rdc
 {
     public class SignatureLevels
     {

@@ -6,7 +6,7 @@ using Xunit;
 using Xunit.Sdk;
 
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
 
     [CLSCompliant(false)]
@@ -20,7 +20,7 @@ namespace Raven.Tests.Common.Attributes
             {
                 yield return
                     new SkipCommand(method, displayName,
-                        "Could not execute " + displayName + " because it requires Raven.Server.exe and Raven.MiniDumper.exe");
+                        "Could not execute " + displayName + " because it requires Raven35.Server.exe and Raven35.MiniDumper.exe");
                 yield break;
             }
 
@@ -33,24 +33,24 @@ namespace Raven.Tests.Common.Attributes
         private bool LookForRavenPaths()
         {
             var baseDir = AppDomain.CurrentDomain.BaseDirectory;
-            var expectedRavenPath = Path.Combine(baseDir, @"..\..\..\Raven.Server\bin\Debug\Raven.Server.exe");
+            var expectedRavenPath = Path.Combine(baseDir, @"..\..\..\Raven35.Server\bin\Debug\Raven35.Server.exe");
             if (File.Exists(expectedRavenPath))
             {
                 RavenServerPath = expectedRavenPath;
             }
             else
             {
-                expectedRavenPath = Path.Combine(baseDir, @"..\..\..\Raven.Server\bin\Release\Raven.Server.exe");
+                expectedRavenPath = Path.Combine(baseDir, @"..\..\..\Raven35.Server\bin\Release\Raven35.Server.exe");
                 if (File.Exists(expectedRavenPath))
                     RavenServerPath = expectedRavenPath;
                 else return false;
             }
-            var expectedMiniDumperPath = Path.Combine(baseDir, @"..\..\..\Raven.MiniDumper\bin\Debug\Raven.MiniDumper.exe");
+            var expectedMiniDumperPath = Path.Combine(baseDir, @"..\..\..\Raven35.MiniDumper\bin\Debug\Raven35.MiniDumper.exe");
             if (File.Exists(expectedMiniDumperPath))
                 MiniDumperPath = expectedMiniDumperPath;
             else
             {
-                expectedMiniDumperPath = Path.Combine(baseDir, @"..\..\..\Raven.MiniDumper\bin\Release\Raven.MiniDumper.exe");
+                expectedMiniDumperPath = Path.Combine(baseDir, @"..\..\..\Raven35.MiniDumper\bin\Release\Raven35.MiniDumper.exe");
                 if (File.Exists(expectedMiniDumperPath))
                     MiniDumperPath = expectedMiniDumperPath;
                 else return false;

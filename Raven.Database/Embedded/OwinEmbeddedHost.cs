@@ -17,7 +17,7 @@ using Microsoft.Owin.Hosting.Services;
 using Microsoft.Owin.Hosting.Tracing;
 using Owin;
 
-namespace Raven.Database.Embedded
+namespace Raven35.Database.Embedded
 {
     public sealed class OwinEmbeddedHost : IDisposable
     {

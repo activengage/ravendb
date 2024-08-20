@@ -6,12 +6,12 @@
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class AsyncShouldThrowConcurrencyException : RavenTest
     {

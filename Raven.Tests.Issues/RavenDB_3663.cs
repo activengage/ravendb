@@ -1,10 +1,10 @@
 
 
 using System.Collections.Generic;
-using Raven.Database.Util;
+using Raven35.Database.Util;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3663
     {

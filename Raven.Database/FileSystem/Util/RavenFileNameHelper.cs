@@ -1,9 +1,9 @@
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 using System;
 using System.Globalization;
 using System.Text;
 
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     public static class RavenFileNameHelper
     {

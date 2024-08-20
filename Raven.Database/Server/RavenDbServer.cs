@@ -8,18 +8,18 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Lucene.Net.Search;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Client.FileSystem;
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Embedded;
-using Raven.Database.FileSystem;
-using Raven.Database.Server;
-using Raven.Database.Server.WebApi;
-using Raven.Database.Util;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Client.FileSystem;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Embedded;
+using Raven35.Database.FileSystem;
+using Raven35.Database.Server;
+using Raven35.Database.Server.WebApi;
+using Raven35.Database.Util;
 
-namespace Raven.Server
+namespace Raven35.Server
 {
     public class RavenDbServer : IDisposable
     {

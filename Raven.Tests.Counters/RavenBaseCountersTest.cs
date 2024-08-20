@@ -7,21 +7,21 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Counters;
-using Raven.Database.Config;
-using Raven.Database.Counters;
-using Raven.Database.Extensions;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Counters;
+using Raven35.Database.Config;
+using Raven35.Database.Counters;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Helpers;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class RavenBaseCountersTest : RavenTestBase
     {

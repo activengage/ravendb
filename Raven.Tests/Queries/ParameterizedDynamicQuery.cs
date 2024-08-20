@@ -6,18 +6,18 @@
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Client.Embedded;
-using Raven.Database.Config;
-using Raven.Database.Queries;
-using Raven.Tests.Common;
-using Raven.Tests.Storage;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Embedded;
+using Raven35.Database.Config;
+using Raven35.Database.Queries;
+using Raven35.Tests.Common;
+using Raven35.Tests.Storage;
 using Xunit;
-using Raven.Database;
-using Raven.Json.Linq;
+using Raven35.Database;
+using Raven35.Json.Linq;
 
-namespace Raven.Tests.Queries
+namespace Raven35.Tests.Queries
 {
     public class ParameterizedDynamicQuery : RavenTest
     {

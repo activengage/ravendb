@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 
-namespace Sparrow.Collections
+namespace Sparrow35.Collections
 {
     [DebuggerTypeProxy(typeof(ConcurrentSet<>.DebugProxy))]
     public class ConcurrentSet<T> : IEnumerable<T>

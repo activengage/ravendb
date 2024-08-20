@@ -9,18 +9,18 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection.Async;
-using Raven.Client.Document.Batches;
-using Raven.Client.Document.SessionOperations;
-using Raven.Client.Listeners;
-using Raven.Client.Connection;
-using Raven.Client.Shard;
-using Raven.Json.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection.Async;
+using Raven35.Client.Document.Batches;
+using Raven35.Client.Document.SessionOperations;
+using Raven35.Client.Listeners;
+using Raven35.Client.Connection;
+using Raven35.Client.Shard;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// A query that is executed against sharded instances

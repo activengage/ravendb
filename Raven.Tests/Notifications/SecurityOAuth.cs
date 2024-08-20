@@ -8,18 +8,18 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Net;
 using Lucene.Net.Util;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Client.Document;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Document;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Notifications
+namespace Raven35.Tests.Notifications
 {
     public class SecurityOAuth : RavenTest
     {
@@ -122,10 +122,10 @@ namespace Raven.Tests.Notifications
         {
             using (var server = GetNewServer(enableAuthentication:true))
             {
-                server.SystemDatabase.Documents.Put("Raven/Databases/OAuthTest", null, RavenJObject.FromObject(new DatabaseDocument
+                server.SystemDatabase.Documents.Put("Raven35.Databases/OAuthTest", null, RavenJObject.FromObject(new DatabaseDocument
                 {
                     Disabled = false,
-                    Id = "Raven/Databases/OAuthTest",
+                    Id = "Raven35.Databases/OAuthTest",
                     Settings = new IdentityDictionary<string, string>
                     {
                         {"Raven/DataDir", "~\\Databases\\OAuthTest"}
@@ -179,20 +179,20 @@ namespace Raven.Tests.Notifications
         {
             using (var server = GetNewServer(enableAuthentication:true))
             {
-                server.SystemDatabase.Documents.Put("Raven/Databases/OAuthTest1", null, RavenJObject.FromObject(new DatabaseDocument
+                server.SystemDatabase.Documents.Put("Raven35.Databases/OAuthTest1", null, RavenJObject.FromObject(new DatabaseDocument
                 {
                     Disabled = false,
-                    Id = "Raven/Databases/OAuthTest1",
+                    Id = "Raven35.Databases/OAuthTest1",
                     Settings = new IdentityDictionary<string, string>
                     {
                         {"Raven/DataDir", "~\\Databases\\OAuthTest1"}
                     }
                 }), new RavenJObject(), null);
 
-                server.SystemDatabase.Documents.Put("Raven/Databases/OAuthTest2", null, RavenJObject.FromObject(new DatabaseDocument
+                server.SystemDatabase.Documents.Put("Raven35.Databases/OAuthTest2", null, RavenJObject.FromObject(new DatabaseDocument
                 {
                     Disabled = false,
-                    Id = "Raven/Databases/OAuthTest2",
+                    Id = "Raven35.Databases/OAuthTest2",
                     Settings = new IdentityDictionary<string, string>
                     {
                         {"Raven/DataDir", "~\\Databases\\OAuthTest2"}
@@ -235,10 +235,10 @@ namespace Raven.Tests.Notifications
         {
             using (var server = GetNewServer(enableAuthentication:true))
             {
-                server.SystemDatabase.Documents.Put("Raven/Databases/OAuthTest", null, RavenJObject.FromObject(new DatabaseDocument
+                server.SystemDatabase.Documents.Put("Raven35.Databases/OAuthTest", null, RavenJObject.FromObject(new DatabaseDocument
                 {
                     Disabled = false,
-                    Id = "Raven/Databases/OAuthTest",
+                    Id = "Raven35.Databases/OAuthTest",
                     Settings = new IdentityDictionary<string, string>
                     {
                         {"Raven/DataDir", "~\\Databases\\OAuthTest"}

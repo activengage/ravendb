@@ -4,13 +4,13 @@ using System.IO;
 using System.Threading;
 using System.Xml;
 
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
 
 using Xunit;
 
-namespace Raven.Tests.Common.Util
+namespace Raven35.Tests.Common.Util
 {
     public class IisExpressTestClient : IDisposable
     {
@@ -34,21 +34,21 @@ namespace Raven.Tests.Common.Util
 
         private static string GetRavenWebSource()
         {
-            foreach (var path in new[] { @".\..\..\..\Raven.Web", @".\_PublishedWebsites\Raven.Web" })
+            foreach (var path in new[] { @".\..\..\..\Raven35.Web", @".\_PublishedWebsites\Raven35.Web" })
             {
                 var fullPath = Path.GetFullPath(path);
 
                 if (Directory.Exists(fullPath) && File.Exists(Path.Combine(fullPath, "web.config")))
                 {
                     var combine = Path.Combine(fullPath, "bin");
-                    if (!Directory.Exists(combine) || Directory.GetFiles(combine, "Raven.Web.dll").Length == 0)
-                        throw new Exception("Raven.Web\\bin at " + fullPath + " was nonexistent or empty, you need to build Raven.Web.");
+                    if (!Directory.Exists(combine) || Directory.GetFiles(combine, "Raven35.Web.dll").Length == 0)
+                        throw new Exception("Raven35.Web\\bin at " + fullPath + " was nonexistent or empty, you need to build Raven35.Web.");
 
                     return fullPath;
                 }
             }
 
-            throw new FileNotFoundException("Could not find source directory for Raven.Web");
+            throw new FileNotFoundException("Could not find source directory for Raven35.Web");
         }
 
         public IDocumentStore NewDocumentStore(bool fiddler = false, Dictionary<string, string> settings = null)

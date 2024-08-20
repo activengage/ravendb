@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
 
-namespace Raven.SlowTests.Migration
+namespace Raven35.SlowTests.Migration
 {
     namespace Orders
     {

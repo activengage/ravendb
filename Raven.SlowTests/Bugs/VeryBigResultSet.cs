@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Bugs
+namespace Raven35.SlowTests.Bugs
 {
     public class VeryBigResultSet : RavenTest
     {

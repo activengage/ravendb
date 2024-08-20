@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Collections.Concurrent;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     public class MultiDatabaseHiLoGenerator
     {

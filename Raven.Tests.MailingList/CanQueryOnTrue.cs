@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 using System.Linq;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class CanQueryOnTrue : RavenTest
     {

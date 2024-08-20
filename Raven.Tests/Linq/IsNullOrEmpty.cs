@@ -1,10 +1,10 @@
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class IsNullOrEmpty : RavenTest
     {

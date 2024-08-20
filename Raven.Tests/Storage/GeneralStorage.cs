@@ -6,23 +6,23 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Raven.Client.Embedded;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
-using Raven.Database;
-using Raven.Database.Tasks;
-using Raven.Tests.Common;
+using Raven35.Client.Embedded;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
+using Raven35.Database;
+using Raven35.Database.Tasks;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Config;
-using Raven.Storage.Esent;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Config;
+using Raven35.Storage.Esent;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class GeneralStorage : RavenTest
     {
@@ -45,14 +45,14 @@ namespace Raven.Tests.Storage
         public void Can_query_by_id_prefix()
         {
             db.Documents.Put("abc", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
-            db.Documents.Put("Raven/Databases/Hello", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
-            db.Documents.Put("Raven/Databases/Northwind", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
-            db.Documents.Put("Raven/Databases/Sys", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
-            db.Documents.Put("Raven/Databases/Db", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
-            db.Documents.Put("Raven/Database", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
+            db.Documents.Put("Raven35.Databases/Hello", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
+            db.Documents.Put("Raven35.Databases/Northwind", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
+            db.Documents.Put("Raven35.Databases/Sys", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
+            db.Documents.Put("Raven35.Databases/Db", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
+            db.Documents.Put("Raven35.Database", null, new RavenJObject { { "a", "b" } }, new RavenJObject(), null);
 
             int nextPageStart = 0;
-            var dbs = db.Documents.GetDocumentsWithIdStartingWith("Raven/Databases/", null, null, 0, 10, CancellationToken.None, ref nextPageStart);
+            var dbs = db.Documents.GetDocumentsWithIdStartingWith("Raven35.Databases/", null, null, 0, 10, CancellationToken.None, ref nextPageStart);
 
             Assert.Equal(4, dbs.Length);
         }

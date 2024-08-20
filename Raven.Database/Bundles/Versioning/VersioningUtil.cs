@@ -1,14 +1,14 @@
 using System;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Bundles.Versioning.Data;
-using Raven.Client.Connection;
-using Raven.Database;
-using Raven.Database.Config.Retriever;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Client.Connection;
+using Raven35.Database;
+using Raven35.Database.Config.Retriever;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Versioning
+namespace Raven35.Bundles.Versioning
 {
     internal static class VersioningUtil
     {

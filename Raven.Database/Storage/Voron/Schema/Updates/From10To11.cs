@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Raven.Abstractions;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Storage.Voron.Impl;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Storage.Voron.Impl;
+using Raven35.Json.Linq;
 using Voron;
 
-namespace Raven.Database.Storage.Voron.Schema.Updates
+namespace Raven35.Database.Storage.Voron.Schema.Updates
 {
     internal class From10To11 : SchemaUpdateBase
     {

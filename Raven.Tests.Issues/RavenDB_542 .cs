@@ -2,14 +2,14 @@ using System;
 using System.Linq;
 using System.Reflection;
 using FizzWare.NBuilder;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_542 : RavenTest
     {

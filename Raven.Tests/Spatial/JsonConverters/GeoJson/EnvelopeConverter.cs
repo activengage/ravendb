@@ -1,11 +1,11 @@
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
 using System;
 using System.Diagnostics;
 using GeoAPI.Geometries;
 
 // From: https://code.google.com/p/nettopologysuite/source/browse/#svn%2Ftrunk%2FNetTopologySuite.IO%2FNetTopologySuite.IO.GeoJSON
-namespace Raven.Tests.Spatial.JsonConverters.GeoJson
+namespace Raven35.Tests.Spatial.JsonConverters.GeoJson
 {
     public class EnvelopeConverter : JsonConverter
     {

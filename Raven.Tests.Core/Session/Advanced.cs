@@ -1,9 +1,9 @@
-using Raven.Abstractions.Commands;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.Connection.Profiling;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Commands;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.Connection.Profiling;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Utils.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Raven.Tests.Core.Session
+namespace Raven35.Tests.Core.Session
 {
     public class Advanced : RavenCoreTestBase
     {

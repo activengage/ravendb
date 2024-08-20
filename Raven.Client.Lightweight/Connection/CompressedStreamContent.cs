@@ -6,9 +6,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 
 using System.IO.Compression;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Client.Connection
+namespace Raven35.Client.Connection
 {
     public class CompressedStreamContent : HttpContent
     {

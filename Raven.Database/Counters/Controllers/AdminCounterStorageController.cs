@@ -12,18 +12,18 @@ using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Raven.Abstractions;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Counters.Backup;
-using Raven.Database.Counters.Replication;
-using Raven.Database.Extensions;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Counters.Backup;
+using Raven35.Database.Counters.Replication;
+using Raven35.Database.Extensions;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Counters.Controllers
+namespace Raven35.Database.Counters.Controllers
 {
     public class AdminCounterStorageController : BaseAdminCountersApiController
     {
@@ -368,7 +368,7 @@ namespace Raven.Database.Counters.Controllers
             if (incrementalBackup &&
                 Counters.Configuration.Storage.Voron.AllowIncrementalBackups == false)
             {
-                throw new InvalidOperationException("In order to run incremental backups using Voron you must have the appropriate setting key (Raven/Voron/AllowIncrementalBackups) set to true");
+                throw new InvalidOperationException("In order to run incremental backups using Voron you must have the appropriate setting key (Raven35.Voron/AllowIncrementalBackups) set to true");
             }
 
             using (var writer = Counters.CreateWriter())

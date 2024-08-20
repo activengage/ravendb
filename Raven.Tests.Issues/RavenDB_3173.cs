@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3173 : RavenTestBase
     {

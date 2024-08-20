@@ -2,10 +2,10 @@ using System;
 using System.Linq;
 using System.Text;
 
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.UniqueConstraints
+namespace Raven35.Client.UniqueConstraints
 {
     public static class Util
     {

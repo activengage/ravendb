@@ -4,7 +4,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Client.Document.DTC
+namespace Raven35.Client.Document.DTC
 {
     public interface ITransactionRecoveryStorage
     {

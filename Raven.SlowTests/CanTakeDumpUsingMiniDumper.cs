@@ -8,13 +8,13 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Attributes;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Attributes;
 using System.Web;
 using Jint.Parser.Ast;
 using Xunit;
 
-namespace Raven.SlowTests
+namespace Raven35.SlowTests
 {
     public class CanTakeDumpUsingMiniDumper: RavenTest
     {

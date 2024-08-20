@@ -9,18 +9,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndexReplacer
     {

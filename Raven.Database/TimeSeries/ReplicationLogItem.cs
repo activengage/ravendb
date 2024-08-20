@@ -1,4 +1,4 @@
-namespace Raven.Database.TimeSeries
+namespace Raven35.Database.TimeSeries
 {
     public class ReplicationLogItem
     {

@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Database.Impl.DTC
+namespace Raven35.Database.Impl.DTC
 {
     public class ItemsToTouch
     {

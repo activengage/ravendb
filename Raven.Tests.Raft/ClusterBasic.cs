@@ -8,13 +8,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Raft.Dto;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Raft.Dto;
+using Raven35.Json.Linq;
 using Xunit;
 
-namespace Raven.Tests.Raft
+namespace Raven35.Tests.Raft
 {
     public class ClusterBasic : RaftTestBase
     {

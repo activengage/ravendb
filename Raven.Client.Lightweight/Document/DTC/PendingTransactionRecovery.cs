@@ -8,11 +8,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Transactions;
-using Raven.Abstractions.Logging;
-using Raven.Client.Connection;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Connection;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Document.DTC
+namespace Raven35.Client.Document.DTC
 {
     public class PendingTransactionRecovery
     {

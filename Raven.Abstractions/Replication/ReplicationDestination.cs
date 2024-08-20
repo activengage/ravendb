@@ -8,9 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-using Raven.Abstractions.Cluster;
+using Raven35.Abstractions.Cluster;
 
-namespace Raven.Abstractions.Replication
+namespace Raven35.Abstractions.Replication
 {
     /// <summary>
     /// Data class for replication destination documents

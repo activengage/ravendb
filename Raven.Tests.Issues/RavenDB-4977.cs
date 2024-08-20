@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Core.Replication;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Core.Replication;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_4977 : RavenReplicationCoreTest
     {

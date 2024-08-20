@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     /// <summary>
     /// This is used to provide a way for a translator function 

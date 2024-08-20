@@ -4,7 +4,7 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Util.Streams;
+using Raven35.Abstractions.Util.Streams;
 
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ using Voron.Impl;
 using Voron.Impl.Paging;
 using Voron.Util;
 
-namespace Raven.Database.FileSystem.Storage.Voron.Impl
+namespace Raven35.Database.FileSystem.Storage.Voron.Impl
 {
     internal class TableStorage : IDisposable
     {

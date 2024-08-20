@@ -1,6 +1,6 @@
 using System;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public interface IEventsTransport : IDisposable
     {

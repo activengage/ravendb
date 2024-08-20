@@ -1,9 +1,9 @@
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Bundles.Versioning;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Bundles.Versioning;
 using Xunit;
 
-namespace Raven.Tests.Bundles.CompressionAndEncryption
+namespace Raven35.Tests.Bundles.CompressionAndEncryption
 {
     public class Indexes : CompressionAndEncryption
     {

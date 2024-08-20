@@ -4,12 +4,12 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class UsingLoadStartsWithAndDashSeperator : RavenTest
     {

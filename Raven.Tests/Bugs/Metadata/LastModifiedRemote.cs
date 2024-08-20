@@ -4,13 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System;
-using Raven.Abstractions;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs.Metadata
+namespace Raven35.Tests.Bugs.Metadata
 {
     public class LastModifiedRemote : RavenTest
     {

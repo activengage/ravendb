@@ -5,14 +5,14 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Json;
 using System.Linq;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     public class JsonPatcher
     {

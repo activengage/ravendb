@@ -1,4 +1,4 @@
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     using System;
     using System.Threading;

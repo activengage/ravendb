@@ -4,20 +4,20 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
-using Raven.Bundles.Replication.Tasks;
-using Raven.Database.Bundles.Replication.Utils;
-using Raven.Database.Bundles.SqlReplication;
-using Raven.Database.Config;
-using Raven.Database.Indexing;
-using Raven.Database.Raft;
-using Raven.Database.Raft.Dto;
-using Raven.Database.Server.WebApi;
-using Raven.Database.Tasks;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
+using Raven35.Bundles.Replication.Tasks;
+using Raven35.Database.Bundles.Replication.Utils;
+using Raven35.Database.Bundles.SqlReplication;
+using Raven35.Database.Config;
+using Raven35.Database.Indexing;
+using Raven35.Database.Raft;
+using Raven35.Database.Raft.Dto;
+using Raven35.Database.Server.WebApi;
+using Raven35.Database.Tasks;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 
 using System;
 using System.Collections.Generic;
@@ -26,9 +26,9 @@ using System.IO.Compression;
 using System.Linq;
 using System.Management;
 using System.Reflection;
-using Raven.Database.Config.Settings;
+using Raven35.Database.Config.Settings;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public static class DebugInfoProvider
     {

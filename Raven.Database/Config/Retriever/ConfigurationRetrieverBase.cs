@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Commercial;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Commercial;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     public interface IConfigurationRetriever
     {

@@ -35,7 +35,7 @@ using Assert = Newtonsoft.Json.Tests.XUnitAssert;
 using NUnit.Framework;
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Tests
+namespace Raven35.Imports.Newtonsoft.Json.Tests
 {
     [TestFixture]
     public class JsonArrayAttributeTests : TestFixtureBase

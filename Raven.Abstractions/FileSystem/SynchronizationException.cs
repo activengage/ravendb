@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.Serialization;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions.FileSystem
+namespace Raven35.Abstractions.FileSystem
 {
     [Serializable]
     public class SynchronizationException : Exception

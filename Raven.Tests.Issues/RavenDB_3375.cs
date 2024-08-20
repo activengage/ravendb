@@ -2,9 +2,9 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
 using Xunit;
 
 namespace Bug

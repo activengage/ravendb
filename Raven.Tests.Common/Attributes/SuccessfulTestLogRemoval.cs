@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Raven.Database.Extensions;
+using Raven35.Database.Extensions;
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Common.Attributes
+namespace Raven35.Tests.Common.Attributes
 {
     public class SuccessfulTestLogRemoval : TestResultCallbackAttribute
     {

@@ -1,7 +1,7 @@
 using System;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Client.Changes
+namespace Raven35.Client.Changes
 {
     public interface IDatabaseChanges : IConnectableChanges<IDatabaseChanges>
     {

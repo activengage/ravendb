@@ -9,12 +9,12 @@ using Microsoft.Diagnostics.Tracing.Session;
 using Microsoft.Owin.Hosting;
 using NDesk.Options;
 
-using Raven.Abstractions;
-using Raven.Monitor.CPU;
-using Raven.Monitor.IO;
-using Raven.Monitor.Memory;
+using Raven35.Abstractions;
+using Raven35.Monitor.CPU;
+using Raven35.Monitor.IO;
+using Raven35.Monitor.Memory;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     public class Program
     {
@@ -32,7 +32,7 @@ namespace Raven.Monitor
 
             if (TraceEventSession.IsElevated() == false)
             {
-                Console.WriteLine("Raven.Monitor requires elevated privileges. Please run it as administrator.");
+                Console.WriteLine("Raven35.Monitor requires elevated privileges. Please run it as administrator.");
                 Environment.Exit((int)ExitCodes.InsufficientPrivileges);
             }
             Console.WriteLine();
@@ -67,20 +67,20 @@ namespace Raven.Monitor
             }
             if (options.ProcessId <= 0)
             {
-                var proc = Process.GetProcessesByName("Raven.Server");
+                var proc = Process.GetProcessesByName("Raven35.Server");
                 switch (proc.Length)
                 {
                     case 0:
-                        Console.WriteLine("ProcessID (--process-id) is empty, and no Raven.Server process was found.");
+                        Console.WriteLine("ProcessID (--process-id) is empty, and no Raven35.Server process was found.");
                         Environment.Exit((int)ExitCodes.InvalidArguments);
                         break;
 
                     case 1:
-                        NotifyAssumption(string.Format("--process-id was not specified, assuming you meant Raven.Server process {0}", proc[0].Id));
+                        NotifyAssumption(string.Format("--process-id was not specified, assuming you meant Raven35.Server process {0}", proc[0].Id));
                         options.ProcessId = proc[0].Id;
                         break;
                     default:
-                        Console.WriteLine("ProcessID (--process-id) is empty, and there is more than a single Raven.Server process in the system, specify which one to use!");
+                        Console.WriteLine("ProcessID (--process-id) is empty, and there is more than a single Raven35.Server process in the system, specify which one to use!");
                         Environment.Exit((int)ExitCodes.InvalidArguments);
                         break;
                 }

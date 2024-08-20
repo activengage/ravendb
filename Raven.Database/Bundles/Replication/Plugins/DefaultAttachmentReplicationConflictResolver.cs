@@ -1,15 +1,15 @@
-using Raven.Abstractions.Json.Linq;
+using Raven35.Abstractions.Json.Linq;
 
-namespace Raven.Database.Bundles.Replication.Plugins
+namespace Raven35.Database.Bundles.Replication.Plugins
 {
     using System;
     using System.Linq;
 
-    using Raven.Abstractions.Data;
-    using Raven.Abstractions.Extensions;
-    using Raven.Bundles.Replication.Plugins;
-    using Raven.Database.Bundles.Replication.Impl;
-    using Raven.Json.Linq;
+    using Raven35.Abstractions.Data;
+    using Raven35.Abstractions.Extensions;
+    using Raven35.Bundles.Replication.Plugins;
+    using Raven35.Database.Bundles.Replication.Impl;
+    using Raven35.Json.Linq;
 
     [Obsolete("Use RavenFS instead.")]
     public class DefaultAttachmentReplicationConflictResolver : AbstractAttachmentReplicationConflictResolver

@@ -4,13 +4,13 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
-using Raven.Client.FileSystem.Connection;
-using Raven.Client.FileSystem.Extensions;
-using Raven.Tests.FileSystem.Synchronization;
+using Raven35.Client.FileSystem.Connection;
+using Raven35.Client.FileSystem.Extensions;
+using Raven35.Tests.FileSystem.Synchronization;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Issues
+namespace Raven35.Tests.FileSystem.Issues
 {
     public class RavenDB_3648 : RavenSynchronizationTestBase
     {

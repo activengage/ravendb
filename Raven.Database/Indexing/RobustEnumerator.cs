@@ -8,10 +8,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
-using Raven.Database.Linq;
-using Raven.Database.Util;
+using Raven35.Database.Linq;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class RobustEnumerator
     {        

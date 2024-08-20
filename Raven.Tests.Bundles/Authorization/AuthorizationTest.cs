@@ -7,14 +7,14 @@ using System.Collections;
 using System.ComponentModel.Composition.Hosting;
 using System.Web;
 
-using Raven.Bundles.Authorization;
-using Raven.Client.Document;
-using Raven.Database;
-using Raven.Database.Server.WebApi;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Bundles.Authorization;
+using Raven35.Client.Document;
+using Raven35.Database;
+using Raven35.Database.Server.WebApi;
+using Raven35.Server;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Bundles.Authorization
+namespace Raven35.Tests.Bundles.Authorization
 {
     public abstract class AuthorizationTest : RavenTest
     {
@@ -22,7 +22,7 @@ namespace Raven.Tests.Bundles.Authorization
         protected readonly DocumentStore store;
         protected readonly RavenDbServer server;
 
-        protected readonly string DatabaseName = Raven.Abstractions.Data.Constants.SystemDatabase;
+        protected readonly string DatabaseName = Raven35.Abstractions.Data.Constants.SystemDatabase;
         
         protected AuthorizationTest()
         {

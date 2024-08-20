@@ -5,9 +5,9 @@
 //-----------------------------------------------------------------------
 using System;
 using System.Globalization;
-using Raven.Abstractions.Indexing;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// A query using spatial filtering

@@ -3,12 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Raven.Abstractions.TimeSeries;
+using Raven35.Abstractions.TimeSeries;
 using Xunit;
 using Xunit.Extensions;
 using Xunit.Sdk;
 
-namespace Raven.Tests.TimeSeries
+namespace Raven35.Tests.TimeSeries
 {
     public class TimeSeriesChangeTests : RavenBaseTimeSeriesTest
     {

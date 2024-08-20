@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System;
 
-namespace Raven.Database.Storage
+namespace Raven35.Database.Storage
 {
     public class IncrementalBackupState
     {

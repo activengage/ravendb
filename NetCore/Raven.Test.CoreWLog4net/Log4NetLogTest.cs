@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 using Xunit;
 
-namespace Raven.Test.CoreWLog4net
+namespace Raven35.Test.CoreWLog4net
 {
     public class Log4NetLogTest
     {
@@ -21,7 +21,7 @@ namespace Raven.Test.CoreWLog4net
             var internalLogger = loggerField.GetValue(log);
             Assert.NotNull(internalLogger);
             Assert.False(internalLogger is LogManager.NoOpLogger);
-            Assert.True(internalLogger is Raven.Abstractions.Logging.LogProviders.Log4NetLogManager.Log4NetLogger);
+            Assert.True(internalLogger is Raven35.Abstractions.Logging.LogProviders.Log4NetLogManager.Log4NetLogger);
 
         }
     }

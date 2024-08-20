@@ -1,13 +1,13 @@
 extern alias client;
 using System.Threading;
 
-using Raven.Client;
+using Raven35.Client;
 
 using Xunit;
 
 using System.Linq;
 
-namespace Raven.Tests.Bundles.Authorization.Bugs
+namespace Raven35.Tests.Bundles.Authorization.Bugs
 {
     public class DeanWard : AuthorizationTest
     {
@@ -26,14 +26,14 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
                 session.Store(contentWithoutPermission);
                 session.Store(contentWithPermission);
 
-                client::Raven.Bundles.Authorization.Model.DocumentAuthorization authorization = client::Raven.Client.Authorization.AuthorizationClientExtensions.GetAuthorizationFor(session, contentWithoutPermission) ??
-                                                      new client::Raven.Bundles.Authorization.Model.DocumentAuthorization();
-                authorization.Permissions.Add(new client::Raven.Bundles.Authorization.Model.DocumentPermission {Allow = false, Operation = Operation, User = user.Id});
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, contentWithoutPermission, authorization);
+                client::Raven35.Bundles.Authorization.Model.DocumentAuthorization authorization = client::Raven35.Client.Authorization.AuthorizationClientExtensions.GetAuthorizationFor(session, contentWithoutPermission) ??
+                                                      new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization();
+                authorization.Permissions.Add(new client::Raven35.Bundles.Authorization.Model.DocumentPermission {Allow = false, Operation = Operation, User = user.Id});
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, contentWithoutPermission, authorization);
 
-                authorization = client::Raven.Client.Authorization.AuthorizationClientExtensions.GetAuthorizationFor(session, contentWithPermission) ?? new client::Raven.Bundles.Authorization.Model.DocumentAuthorization();
-                authorization.Permissions.Add(new client::Raven.Bundles.Authorization.Model.DocumentPermission {Allow = true, Operation = Operation, User = user.Id});
-                client::Raven.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, contentWithPermission, authorization);
+                authorization = client::Raven35.Client.Authorization.AuthorizationClientExtensions.GetAuthorizationFor(session, contentWithPermission) ?? new client::Raven35.Bundles.Authorization.Model.DocumentAuthorization();
+                authorization.Permissions.Add(new client::Raven35.Bundles.Authorization.Model.DocumentPermission {Allow = true, Operation = Operation, User = user.Id});
+                client::Raven35.Client.Authorization.AuthorizationClientExtensions.SetAuthorizationFor(session, contentWithPermission, authorization);
 
                 session.SaveChanges();
             }
@@ -47,7 +47,7 @@ namespace Raven.Tests.Bundles.Authorization.Bugs
             {
                 using (IDocumentSession session = store.OpenSession())
                 {
-                    client::Raven.Client.Authorization.AuthorizationClientExtensions.SecureFor(session, user.Id, Operation);
+                    client::Raven35.Client.Authorization.AuthorizationClientExtensions.SecureFor(session, user.Id, Operation);
                     Content contentY = session.Query<Content>().FirstOrDefault();
                     Assert.NotNull(contentY);
                     Assert.Equal(contentWithPermission.Id, contentY.Id);

@@ -10,8 +10,8 @@
     <ProjectGuid>{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.Abstractions</RootNamespace>
-    <AssemblyName>Raven.Abstractions</AssemblyName>
+    <RootNamespace>Raven35.Abstractions</RootNamespace>
+    <AssemblyName>Raven35.Abstractions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\ravendb\</SolutionDir>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>1591, 618</NoWarn>
-    <DocumentationFile>bin\Debug\Raven.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Raven35.Abstractions.xml</DocumentationFile>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CodeAnalysisRuleSet>
     </CodeAnalysisRuleSet>
@@ -40,7 +40,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
-    <DocumentationFile>bin\Release\Raven.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Raven35.Abstractions.xml</DocumentationFile>
     <NoWarn>1591, 618</NoWarn>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CodeAnalysisRuleSet>
@@ -55,7 +55,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Profiling|AnyCPU'">
     <OutputPath>bin\Profiling\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>bin\Release\Raven.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Raven35.Abstractions.xml</DocumentationFile>
     <Optimize>true</Optimize>
     <NoWarn>1591, 618</NoWarn>
     <DebugType>pdbonly</DebugType>

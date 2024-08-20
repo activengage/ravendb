@@ -1,9 +1,9 @@
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication.Issues
+namespace Raven35.Tests.Bundles.Replication.Issues
 {
     public class RavenDB693_Embeddable : ReplicationBase
     {

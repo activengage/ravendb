@@ -8,8 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Rachis.Messages;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Logging;
 
 namespace Rachis.Behaviors
 {

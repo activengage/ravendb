@@ -1,12 +1,12 @@
-using Raven.Database;
-using Raven.Database.Config;
-using Raven.Database.Data;
-using Raven.Tests.Common;
+using Raven35.Database;
+using Raven35.Database.Config;
+using Raven35.Database.Data;
+using Raven35.Tests.Common;
 
 using Xunit;
 using System.Linq;
 
-namespace Raven.Tests.Bugs.Queries
+namespace Raven35.Tests.Bugs.Queries
 {
     public class DynamicQueriesOnMetadata : RavenTest
     {

@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     /// <summary>
     /// 	Defining the indexing function for a set of documents

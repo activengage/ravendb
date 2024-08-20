@@ -32,17 +32,17 @@ using System.Numerics;
 #endif
 using System.Text;
 using System.Text.RegularExpressions;
-using Raven.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
 using System.Reflection;
 #if NET20
-using Raven.Imports.Newtonsoft.Json.Utilities.LinqBridge;
+using Raven35.Imports.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 #if !(NETFX_CORE || PORTABLE40 || PORTABLE)
 using System.Data.SqlTypes;
 
 #endif
 
-namespace Raven.Imports.Newtonsoft.Json.Utilities
+namespace Raven35.Imports.Newtonsoft.Json.Utilities
 {
     internal enum PrimitiveTypeCode
     {

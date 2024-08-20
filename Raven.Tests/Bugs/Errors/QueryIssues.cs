@@ -1,18 +1,18 @@
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client.Indexes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client;
+using Raven35.Client;
 
 
-namespace Raven.Tests.Bugs.Errors
+namespace Raven35.Tests.Bugs.Errors
 {
     public class QueryIssues : RavenTest
     {

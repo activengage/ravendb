@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Client;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Util;
+using Raven35.Client;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Util;
 
-namespace Raven.Tests.Bugs.Async
+namespace Raven35.Tests.Bugs.Async
 {
     // related to issue RavenDB-2082 Trying to use sync API inside Web API hangs
     public class WebApi : IisExpressTestClient

@@ -1,15 +1,15 @@
 using System;
 using System.Collections.Generic;
 
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Shard;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Shard;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Shard.BlogModel
+namespace Raven35.Tests.Shard.BlogModel
 {
     public class ShardedDocumentStoreTest : NoDisposalNeeded
     {

@@ -7,13 +7,13 @@ using System.Security.Cryptography.Xml;
 using System.ServiceModel;
 using System.Threading;
 using System.Xml;
-using Raven.Abstractions;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Logging;
 using Rhino.Licensing.Discovery;
 
 namespace Rhino.Licensing
 {
-    using Raven.Abstractions.Util.Encryptors;
+    using Raven35.Abstractions.Util.Encryptors;
 
     /// <summary>
     /// Base license validator.

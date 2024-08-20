@@ -5,16 +5,16 @@
 // -----------------------------------------------------------------------
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Smuggler;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Smuggler;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Smuggler
+namespace Raven35.Tests.Smuggler
 {
     public class SmugglerBetweenFromEmbeddedTests_RavenDB_3318 : RavenTest
     {

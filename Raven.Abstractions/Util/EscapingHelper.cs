@@ -6,7 +6,7 @@
 using System;
 using System.Text;
 
-namespace Raven.Abstractions.Util
+namespace Raven35.Abstractions.Util
 {
     public static class EscapingHelper
     {

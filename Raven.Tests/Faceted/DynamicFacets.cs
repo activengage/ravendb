@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Net;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common.Attributes;
-using Raven.Tests.Common.Dto.Faceted;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common.Attributes;
+using Raven35.Tests.Common.Dto.Faceted;
 
 using Xunit;
 
-namespace Raven.Tests.Faceted
+namespace Raven35.Tests.Faceted
 {
     public class DynamicFacets : FacetTestBase
     {

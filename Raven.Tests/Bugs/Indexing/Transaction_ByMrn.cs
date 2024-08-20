@@ -1,7 +1,7 @@
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.Indexing
+namespace Raven35.Tests.Bugs.Indexing
 {
     public class Transaction_ByMrn : AbstractIndexCreationTask<Transaction>
     {

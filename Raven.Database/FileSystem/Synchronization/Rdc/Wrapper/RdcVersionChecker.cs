@@ -3,12 +3,12 @@ using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 using System.Threading;
-using Raven.Abstractions.Logging;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged;
-using Raven.Abstractions;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper.Unmanaged;
+using Raven35.Abstractions;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper
 {
     public class RdcVersionChecker : CriticalFinalizerObject, IDisposable
     {

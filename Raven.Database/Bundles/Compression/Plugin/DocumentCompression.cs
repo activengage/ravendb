@@ -7,11 +7,11 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Bundles.Compression.Streams;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Bundles.Compression.Streams;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Compression.Plugin
+namespace Raven35.Bundles.Compression.Plugin
 {
     [InheritedExport(typeof(AbstractDocumentCodec))]
     [ExportMetadata("Order", 10000)]

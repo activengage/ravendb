@@ -4,16 +4,16 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using Raven.Client.Connection;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Client.Exceptions;
-using Raven.Json.Linq;
-using Raven.Abstractions.Extensions;
+using Raven35.Client.Connection;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Linq;
+using Raven35.Abstractions.Logging;
+using Raven35.Client.Exceptions;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Client.Document.SessionOperations
+namespace Raven35.Client.Document.SessionOperations
 {
     public class QueryOperation
     {

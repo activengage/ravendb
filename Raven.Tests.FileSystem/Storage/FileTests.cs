@@ -6,14 +6,14 @@
 using System;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Util;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Json.Linq;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Storage
+namespace Raven35.Tests.FileSystem.Storage
 {
     public class FileTests : StorageAccessorTestBase
     {

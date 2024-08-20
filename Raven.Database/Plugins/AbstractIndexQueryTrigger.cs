@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel.Composition;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Plugins
+namespace Raven35.Database.Plugins
 {
     /// <summary>
     /// Allows to extend the query parsing capability of RavenDB, providing users with a way to modify

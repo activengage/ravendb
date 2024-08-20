@@ -1,12 +1,12 @@
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Util;
-using Raven.Client.Connection;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Connection;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Counters
+namespace Raven35.Tests.Counters
 {
     public class PurgeTombstones : RavenBaseCountersTest
     {

@@ -9,13 +9,13 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-using Raven.Abstractions.Connection;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class WillNotFailSystemIfServerIsNotAvailableOnStartup : RavenTest
     {

@@ -1,14 +1,14 @@
 #if !DNXCORE50
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Abstractions.Util;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Abstractions.Util;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,9 +22,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Database.Data;
+using Raven35.Database.Data;
 
-namespace Raven.Abstractions.Smuggler
+namespace Raven35.Abstractions.Smuggler
 {
     public abstract class SmugglerDatabaseApiBase : ISmugglerApi<RavenConnectionStringOptions, SmugglerDatabaseOptions, OperationState>
     {
@@ -1464,7 +1464,7 @@ namespace Raven.Abstractions.Smuggler
         {
             var now = SystemTime.UtcNow;
             var count = 0;
-            string continuationDocId = "Raven/Smuggler/Continuation/" + Options.ContinuationToken;
+            string continuationDocId = "Raven35.Smuggler/Continuation/" + Options.ContinuationToken;
 
             var state = new OperationState
             {

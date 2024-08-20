@@ -9,18 +9,18 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
-using Raven.Abstractions.Json;
-using Raven.Abstractions.Linq;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Bson;
-using Raven.Imports.Newtonsoft.Json.Serialization;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Json;
+using Raven35.Abstractions.Linq;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Bson;
+using Raven35.Imports.Newtonsoft.Json.Serialization;
+using Raven35.Json.Linq;
 using System.Collections.Generic;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Util;
-using Raven.Abstractions.Util.MiniMetrics;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Util;
+using Raven35.Abstractions.Util.MiniMetrics;
 
-namespace Raven.Abstractions.Extensions
+namespace Raven35.Abstractions.Extensions
 {
     /// <summary>
     /// Json extensions 

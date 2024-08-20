@@ -3,15 +3,15 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
-using Raven.Abstractions.Commands;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common.Util;
+using Raven35.Abstractions.Commands;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common.Util;
 using Xunit;
 
-namespace Raven.SlowTests
+namespace Raven35.SlowTests
 {
     public class RunExternalProcess : IDisposable
     {

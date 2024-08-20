@@ -9,13 +9,13 @@ using System.Linq;
 using Rachis;
 using Rachis.Commands;
 using Rachis.Transport;
-using Raven.Abstractions.Counters;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Counters;
-using Raven.Database.Util;
+using Raven35.Abstractions.Counters;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Counters;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Raft.Util
+namespace Raven35.Database.Raft.Util
 {
     public static class RaftHelper
     {

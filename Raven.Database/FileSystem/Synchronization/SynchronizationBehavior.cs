@@ -6,17 +6,17 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.FileSystem.Notifications;
-using Raven.Abstractions.Logging;
-using Raven.Database.FileSystem.Extensions;
-using Raven.Database.FileSystem.Storage;
-using Raven.Database.FileSystem.Synchronization.Multipart;
-using Raven.Database.FileSystem.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem.Notifications;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.FileSystem.Extensions;
+using Raven35.Database.FileSystem.Storage;
+using Raven35.Database.FileSystem.Synchronization.Multipart;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Synchronization
+namespace Raven35.Database.FileSystem.Synchronization
 {
     public class SynchronizationBehavior
     {

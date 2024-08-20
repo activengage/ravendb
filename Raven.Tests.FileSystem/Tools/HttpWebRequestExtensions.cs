@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-namespace Raven.Tests.FileSystem.Tools
+namespace Raven35.Tests.FileSystem.Tools
 {
     public static class HttpWebRequestExtensions
     {

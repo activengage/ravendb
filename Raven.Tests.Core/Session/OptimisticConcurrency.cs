@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Tests.Core.Utils.Entities;
 using Xunit;
 
-namespace Raven.Tests.Core.Session
+namespace Raven35.Tests.Core.Session
 {
     public class OptimisticConcurrency : RavenCoreTestBase
     {

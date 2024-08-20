@@ -11,12 +11,12 @@ using System.IO;
 using System.Net;
 using System.Reflection;
 
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Database.Config;
-using Raven.Json.Linq;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Database.Config;
+using Raven35.Json.Linq;
 
-namespace Raven.Tests.Helpers.Util
+namespace Raven35.Tests.Helpers.Util
 {
     public static class ConfigurationHelper
     {

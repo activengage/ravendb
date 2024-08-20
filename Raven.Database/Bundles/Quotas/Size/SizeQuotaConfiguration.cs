@@ -1,12 +1,12 @@
 using System;
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Database;
-using Raven.Database.Plugins;
-using Raven.Abstractions.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Database;
+using Raven35.Database.Plugins;
+using Raven35.Abstractions.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Bundles.Quotas.Size
+namespace Raven35.Bundles.Quotas.Size
 {
     public class SizeQuotaConfiguration
     {
@@ -21,7 +21,7 @@ namespace Raven.Bundles.Quotas.Size
         {
             return
                 (SizeQuotaConfiguration)
-                database.ExtensionsState.GetOrAdd("Raven.Bundles.Quotas.SizeQuotaConfiguration", s =>
+                database.ExtensionsState.GetOrAdd("Raven35.Bundles.Quotas.SizeQuotaConfiguration", s =>
                 {
                     var sizeQuotaConfiguration = new SizeQuotaConfiguration(database);
                     return sizeQuotaConfiguration;

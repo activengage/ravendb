@@ -1,13 +1,13 @@
 using System.Threading.Tasks;
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.Replication.Async
+namespace Raven35.Tests.Bundles.Replication.Async
 {
     public class MultihopReplication : ReplicationBase
     {

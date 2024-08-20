@@ -15,11 +15,11 @@ using Amazon;
 using Amazon.Runtime;
 using Amazon.S3;
 using Amazon.S3.Model;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.Client.Aws
+namespace Raven35.Database.Client.Aws
 {
     public class RavenAwsS3Client : RavenAwsClient
     {

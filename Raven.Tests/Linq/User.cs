@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------
 using System;
 
-namespace Raven.Tests.Linq
+namespace Raven35.Tests.Linq
 {
     public class User
     {

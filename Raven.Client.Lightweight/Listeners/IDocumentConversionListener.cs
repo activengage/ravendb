@@ -3,9 +3,9 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Listeners
+namespace Raven35.Client.Listeners
 {
     /// <summary>
     /// Extended hook for users to provide additional logic for converting to / from 

@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Tryouts
+namespace Raven35.Tryouts
 {
     public class CompressionPerformance
     {

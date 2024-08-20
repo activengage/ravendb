@@ -1,4 +1,4 @@
-namespace Raven.Database.FileSystem.Util
+namespace Raven35.Database.FileSystem.Util
 {
     public enum StorageStreamAccess
     {

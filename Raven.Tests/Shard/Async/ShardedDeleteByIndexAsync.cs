@@ -2,20 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Replication;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Client.Shard;
-using Raven.Server;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Replication;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Client.Shard;
+using Raven35.Server;
+using Raven35.Tests.Common;
 using System.Threading.Tasks;
-using Raven.Client.Connection;
+using Raven35.Client.Connection;
 using Xunit;
 
 
-namespace Raven.Tests.Shard.Async
+namespace Raven35.Tests.Shard.Async
 {
     public class ShardedDeleteByIndexAsync : RavenTest
     {

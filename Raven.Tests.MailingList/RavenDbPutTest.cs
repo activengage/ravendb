@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class RavenDbPutTest : RavenTest
     {
@@ -26,7 +26,7 @@ namespace Raven.Tests.MailingList
             using(GetNewServer())
             using (var documentStore = new DocumentStore { Url = "http://localhost:8079/" })
             {
-                documentStore.Conventions.DefaultQueryingConsistency = Raven.Client.Document.ConsistencyOptions.QueryYourWrites;
+                documentStore.Conventions.DefaultQueryingConsistency = Raven35.Client.Document.ConsistencyOptions.QueryYourWrites;
 
                 documentStore.Initialize();
 

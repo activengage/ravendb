@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Isam.Esent.Interop;
-using Raven.Abstractions.Logging;
-using Raven.Database.Tasks;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Tasks;
 
-namespace Raven.Database.Storage.Esent.StorageActions
+namespace Raven35.Database.Storage.Esent.StorageActions
 {
     public partial class DocumentStorageActions : ITasksStorageActions
     {

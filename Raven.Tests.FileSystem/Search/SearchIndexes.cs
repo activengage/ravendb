@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Indexing
+namespace Raven35.Tests.FileSystem.Indexing
 {
     public class SearchIndexes : RavenFilesTestWithLogs
     {

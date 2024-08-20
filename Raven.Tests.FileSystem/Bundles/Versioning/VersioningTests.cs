@@ -7,21 +7,21 @@
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Util;
-using Raven.Client.FileSystem.Bundles.Versioning;
-using Raven.Database.Bundles.Versioning.Data;
-using Raven.Database.FileSystem.Bundles.Versioning;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Util;
+using Raven35.Client.FileSystem.Bundles.Versioning;
+using Raven35.Database.Bundles.Versioning.Data;
+using Raven35.Database.FileSystem.Bundles.Versioning;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.FileSystem.Bundles.Versioning
+namespace Raven35.Tests.FileSystem.Bundles.Versioning
 {
     public class VersioningTests : RavenFilesTestWithLogs
     {
@@ -425,7 +425,7 @@ namespace Raven.Tests.FileSystem.Bundles.Versioning
 
                     var ex = Assert.Throws<ErrorResponseException>(() => AsyncHelpers.RunSync(() => session.SaveChangesAsync()));
 
-                    Assert.Contains("PUT vetoed on file /file.txt/revisions/1 by Raven.Database.FileSystem.Bundles.Versioning.Plugins.VersioningPutTrigger because: Modifying a historical revision is not allowed", ex.Message);
+                    Assert.Contains("PUT vetoed on file /file.txt/revisions/1 by Raven35.Database.FileSystem.Bundles.Versioning.Plugins.VersioningPutTrigger because: Modifying a historical revision is not allowed", ex.Message);
                 }
             }
         }
@@ -473,7 +473,7 @@ namespace Raven.Tests.FileSystem.Bundles.Versioning
 
                     var ex = Assert.Throws<ErrorResponseException>(() => AsyncHelpers.RunSync(() => session.SaveChangesAsync()));
 
-                    Assert.Contains("POST vetoed on file /file.txt/revisions/1 by Raven.Database.FileSystem.Bundles.Versioning.Plugins.VersioningMetadataUpdateTrigger because: Modifying a historical revision is not allowed", ex.Message);
+                    Assert.Contains("POST vetoed on file /file.txt/revisions/1 by Raven35.Database.FileSystem.Bundles.Versioning.Plugins.VersioningMetadataUpdateTrigger because: Modifying a historical revision is not allowed", ex.Message);
                 }
             }
         }

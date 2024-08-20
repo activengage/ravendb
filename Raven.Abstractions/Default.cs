@@ -1,8 +1,8 @@
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Json;
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
-namespace Raven.Abstractions
+namespace Raven35.Abstractions
 {
     public static class Default
     {

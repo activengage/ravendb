@@ -2,18 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Imports.Newtonsoft.Json.Utilities;
-using MiscellaneousUtils = Raven.Json.Utilities.MiscellaneousUtils;
-using StringUtils = Raven.Json.Utilities.StringUtils;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
+using MiscellaneousUtils = Raven35.Json.Utilities.MiscellaneousUtils;
+using StringUtils = Raven35.Json.Utilities.StringUtils;
 using System.Collections.Concurrent;
-using Raven.Abstractions;
-using Raven.Abstractions.Json;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Json;
 
-namespace Raven.Json.Linq
+namespace Raven35.Json.Linq
 {
     /// <summary>
     /// Represents a value in JSON (string, integer, date, etc).

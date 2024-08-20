@@ -6,19 +6,19 @@
 using System;
 using System.Threading.Tasks;
 
-using Raven.Abstractions;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Extensions;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Extensions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 
 using Xunit;
-using Raven.Client.Connection.Async;
+using Raven35.Client.Connection.Async;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_2129 : ReplicationBase
     {

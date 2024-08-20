@@ -1,9 +1,9 @@
 using BenchmarkDotNet;
 using BenchmarkDotNet.Tasks;
-using Sparrow;
+using Sparrow35;
 using System;
 
-namespace Sparrow.Tryout
+namespace Sparrow35.Tryout
 {
 
     [BenchmarkTask(platform: BenchmarkPlatform.X64, jitVersion: BenchmarkJitVersion.LegacyJit)]

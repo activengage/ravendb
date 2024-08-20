@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Abstractions.Data;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Impl.DTC
+namespace Raven35.Database.Impl.DTC
 {
     internal class DtcNotSupportedTransactionalState : InFlightTransactionalState
     {

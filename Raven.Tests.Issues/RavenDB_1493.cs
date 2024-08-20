@@ -1,6 +1,6 @@
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Logging;
-using Raven.Client;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Logging;
+using Raven35.Client;
 
 using System;
 using System.Collections.Concurrent;
@@ -11,12 +11,12 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
 
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     /// <remarks>
     /// issue opened as consequence of conversion in mailing list --> https://groups.google.com/forum/#!topic/ravendb/o3PRd8M5b3A

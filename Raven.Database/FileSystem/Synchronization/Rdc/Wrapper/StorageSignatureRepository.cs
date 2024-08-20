@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Raven.Abstractions.Logging;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.FileSystem.Infrastructure;
-using Raven.Database.FileSystem.Storage;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.FileSystem.Infrastructure;
+using Raven35.Database.FileSystem.Storage;
 
-namespace Raven.Database.FileSystem.Synchronization.Rdc.Wrapper
+namespace Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper
 {
     public class StorageSignatureRepository : ISignatureRepository
     {

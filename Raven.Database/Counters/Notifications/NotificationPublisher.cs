@@ -1,7 +1,7 @@
-using Raven.Abstractions.Counters.Notifications;
-using Raven.Database.Server.Connections;
+using Raven35.Abstractions.Counters.Notifications;
+using Raven35.Database.Server.Connections;
 
-namespace Raven.Database.Counters.Notifications
+namespace Raven35.Database.Counters.Notifications
 {
     public class NotificationPublisher
     {

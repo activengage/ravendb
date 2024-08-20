@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 using System.Web.Util;
 
-namespace Raven.Database.Extensions
+namespace Raven35.Database.Extensions
 {
     /// <summary>
     /// We have to use this stupid trick because HttpUtility.UrlEncode / Decode

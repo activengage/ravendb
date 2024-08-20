@@ -4,7 +4,7 @@ using System.Linq;
 using ICSharpCode.NRefactory.CSharp;
 using ICSharpCode.NRefactory.PatternMatching;
 
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     [CLSCompliant(false)]
     public class TransformDynamicLambdaExpressions : DepthFirstAstVisitor<object,object>

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 using Rachis.Commands;
 
-using Raven.Database.Raft.Dto;
+using Raven35.Database.Raft.Dto;
 
-namespace Raven.Database.Raft.Commands
+namespace Raven35.Database.Raft.Commands
 {
     public class ClusterConfigurationUpdateCommand : Command
     {

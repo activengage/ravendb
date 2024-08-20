@@ -7,8 +7,8 @@
     <ProjectGuid>{46152256-7443-426C-A20D-B2F354B51810}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Raven.SlowTests</RootNamespace>
-    <AssemblyName>Raven.SlowTests</AssemblyName>
+    <RootNamespace>Raven35.SlowTests</RootNamespace>
+    <AssemblyName>Raven35.SlowTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -221,7 +221,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(SolutionDir)Raven.Server\bin\$(ConfigurationName)\Raven.Server.exe.config" "$(TargetDir)Raven.Server.exe.config"</PostBuildEvent>
+    <PostBuildEvent>copy "$(SolutionDir)Raven.Server\bin\$(ConfigurationName)\Raven35.Server.exe.config" "$(TargetDir)Raven35.Server.exe.config"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

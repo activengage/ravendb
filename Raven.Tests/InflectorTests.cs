@@ -3,13 +3,13 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Client.Util;
-using Raven.Tests.Common;
+using Raven35.Client.Util;
+using Raven35.Tests.Common;
 
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests
+namespace Raven35.Tests
 {
     public class InflectorTests : NoDisposalNeeded
     {

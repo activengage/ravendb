@@ -1,14 +1,14 @@
 using System.Diagnostics;
 using System.Linq;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Linq;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Client.Linq;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MultiGet
+namespace Raven35.Tests.MultiGet
 {
     public class MultiGetNonStaleResults : RavenTest
     {

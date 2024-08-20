@@ -6,17 +6,17 @@
 using System.ComponentModel.Composition.Hosting;
 using System.Configuration;
 
-using Raven.Abstractions.Data;
-using Raven.Bundles.LiveTest;
-using Raven.Client.Connection;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Data;
+using Raven35.Bundles.LiveTest;
+using Raven35.Client.Connection;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Bundles.LiveTest
+namespace Raven35.Tests.Bundles.LiveTest
 {
     public class PutTriggerTests : RavenTest
     {
@@ -43,7 +43,7 @@ namespace Raven.Tests.Bundles.LiveTest
                         }
                     });
 
-                var document = store.DatabaseCommands.Get("Raven/Databases/Northwind");
+                var document = store.DatabaseCommands.Get("Raven35.Databases/Northwind");
                 Assert.NotNull(document);
 
                 var databaseDocument = document.DataAsJson.Deserialize<DatabaseDocument>(store.Conventions);
@@ -56,9 +56,9 @@ namespace Raven.Tests.Bundles.LiveTest
                 databaseDocument.Settings[Constants.RunInMemory] = "false";
                 databaseDocument.Settings["Raven/StorageEngine"] = "esent";
 
-                store.DatabaseCommands.Put("Raven/Databases/Northwind", null, RavenJObject.FromObject(databaseDocument), document.Metadata);
+                store.DatabaseCommands.Put("Raven35.Databases/Northwind", null, RavenJObject.FromObject(databaseDocument), document.Metadata);
 
-                document = store.DatabaseCommands.Get("Raven/Databases/Northwind");
+                document = store.DatabaseCommands.Get("Raven35.Databases/Northwind");
                 Assert.NotNull(document);
 
                 databaseDocument = document.DataAsJson.Deserialize<DatabaseDocument>(store.Conventions);
@@ -73,8 +73,8 @@ namespace Raven.Tests.Bundles.LiveTest
             Assert.Contains("Replication", activeBundles);
 
             Assert.Contains("Quotas", activeBundles);
-            Assert.Equal(ConfigurationManager.AppSettings["Raven/Bundles/LiveTest/Quotas/Size/HardLimitInKB"], databaseDocument.Settings[Constants.SizeHardLimitInKB]);
-            Assert.Equal(ConfigurationManager.AppSettings["Raven/Bundles/LiveTest/Quotas/Size/SoftLimitInKB"], databaseDocument.Settings[Constants.SizeSoftLimitInKB]);
+            Assert.Equal(ConfigurationManager.AppSettings["Raven35.Bundles/LiveTest/Quotas/Size/HardLimitInKB"], databaseDocument.Settings[Constants.SizeHardLimitInKB]);
+            Assert.Equal(ConfigurationManager.AppSettings["Raven35.Bundles/LiveTest/Quotas/Size/SoftLimitInKB"], databaseDocument.Settings[Constants.SizeSoftLimitInKB]);
             Assert.Null(databaseDocument.Settings[Constants.DocsHardLimit]);
             Assert.Null(databaseDocument.Settings[Constants.DocsSoftLimit]);
 

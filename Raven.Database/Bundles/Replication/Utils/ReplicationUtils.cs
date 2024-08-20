@@ -6,11 +6,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
-using Raven.Bundles.Replication.Tasks;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
+using Raven35.Bundles.Replication.Tasks;
 
-namespace Raven.Database.Bundles.Replication.Utils
+namespace Raven35.Database.Bundles.Replication.Utils
 {
     public static class ReplicationUtils
     {

@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Raven.Json.Linq;
-using Raven.Abstractions.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Abstractions.Data
+namespace Raven35.Abstractions.Data
 {
     /// <summary>
     /// An advanced patch request for a specified document (using JavaScript)

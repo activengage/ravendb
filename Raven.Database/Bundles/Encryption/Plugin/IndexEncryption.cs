@@ -1,12 +1,12 @@
 using System.ComponentModel.Composition;
 using System.IO;
-using Raven.Database.Bundles.Encryption.Settings;
-using Raven.Database.Plugins;
-using Raven.Bundles.Encryption.Streams;
-using Raven.Bundles.Encryption.Settings;
-using Raven.Database;
+using Raven35.Database.Bundles.Encryption.Settings;
+using Raven35.Database.Plugins;
+using Raven35.Bundles.Encryption.Streams;
+using Raven35.Bundles.Encryption.Settings;
+using Raven35.Database;
 
-namespace Raven.Bundles.Encryption.Plugin
+namespace Raven35.Bundles.Encryption.Plugin
 {
     [InheritedExport(typeof(AbstractIndexCodec))]
     [ExportMetadata("Bundle", "Encryption")]

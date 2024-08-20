@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Client.Indexes;
-using Raven.Tests.Common;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class Rob : RavenTest
     {

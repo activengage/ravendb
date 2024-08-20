@@ -1,7 +1,7 @@
 using System;
 using System.Transactions;
 
-namespace Raven.Database.Plugins.Builtins
+namespace Raven35.Database.Plugins.Builtins
 {
     public class RecoveryEnlistment : IEnlistmentNotification
     {

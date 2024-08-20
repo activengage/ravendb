@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System.Linq;
 
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
-using Raven.Client.Linq;
+using Raven35.Client.Linq;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class Q14235692 : RavenTestBase
     {

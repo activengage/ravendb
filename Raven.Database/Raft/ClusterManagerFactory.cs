@@ -7,14 +7,14 @@ using System;
 using System.IO;
 using Rachis;
 using Rachis.Transport;
-using Raven.Database.Raft.Storage;
-using Raven.Database.Raft.Util;
-using Raven.Database.Server.Tenancy;
-using Raven.Database.Util;
+using Raven35.Database.Raft.Storage;
+using Raven35.Database.Raft.Util;
+using Raven35.Database.Server.Tenancy;
+using Raven35.Database.Util;
 
 using Voron;
 
-namespace Raven.Database.Raft
+namespace Raven35.Database.Raft
 {
     public static class ClusterManagerFactory
     {

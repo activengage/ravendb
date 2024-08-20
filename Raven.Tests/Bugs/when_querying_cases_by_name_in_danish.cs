@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
-using Raven.Client.Embedded;
-using Raven.Client.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Client.Embedded;
+using Raven35.Client.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class when_querying_cases_by_name_in_danish : RavenTest
     {

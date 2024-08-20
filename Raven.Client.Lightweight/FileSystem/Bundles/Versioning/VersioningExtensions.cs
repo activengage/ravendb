@@ -6,9 +6,9 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Client.FileSystem.Bundles.Versioning
+namespace Raven35.Client.FileSystem.Bundles.Versioning
 {
     public static class VersioningExtensions
     {

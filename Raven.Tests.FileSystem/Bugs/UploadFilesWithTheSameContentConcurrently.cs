@@ -1,10 +1,10 @@
 using System.Collections.Concurrent;
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Database.Extensions;
+using Raven35.Database.Extensions;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Bugs
+namespace Raven35.Tests.FileSystem.Bugs
 {
     public class UploadFilesWithTheSameContentConcurrently : RavenFilesTestWithLogs
     {

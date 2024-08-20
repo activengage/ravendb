@@ -8,14 +8,14 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Text;
 
-using Raven.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json;
 
 using Xunit;
 using Xunit.Extensions;
-using Raven.Json.Linq;
-using Raven.Database.FileSystem.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Database.FileSystem.Extensions;
 
-namespace Raven.Tests.FileSystem.Storage
+namespace Raven35.Tests.FileSystem.Storage
 {
     public class PageTests : StorageAccessorTestBase
     {

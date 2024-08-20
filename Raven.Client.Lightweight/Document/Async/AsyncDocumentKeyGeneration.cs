@@ -5,11 +5,11 @@
 // -----------------------------------------------------------------------
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Raven.Abstractions.Util;
-using Raven.Client.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Util;
+using Raven35.Client.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Client.Document.Async
+namespace Raven35.Client.Document.Async
 {
     public class AsyncDocumentKeyGeneration
     {

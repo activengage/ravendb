@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Smuggler.Data
+namespace Raven35.Abstractions.Smuggler.Data
 {
     public class ExportFilesResult : LastFilesEtagsInfo
     {

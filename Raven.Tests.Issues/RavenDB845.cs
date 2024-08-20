@@ -1,12 +1,12 @@
 using System;
-using Raven.Abstractions;
-using Raven.Client;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions;
+using Raven35.Client;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB845 : RavenTestBase
     {

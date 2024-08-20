@@ -1,7 +1,7 @@
 using System.Linq;
-using Raven.Client.Indexes;
+using Raven35.Client.Indexes;
 
-namespace Raven.Tests.Bugs.LiveProjections
+namespace Raven35.Tests.Bugs.LiveProjections
 {
     public class ParentAndChildrenNames : AbstractIndexCreationTask<Person>
     {

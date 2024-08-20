@@ -3,12 +3,12 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1565 : ReplicationBase
     {
-        // moved to Raven.Tests.Core -> AutomaticConflictResolution.cs
+        // moved to Raven35.Tests.Core -> AutomaticConflictResolution.cs
     }
 }

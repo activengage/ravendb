@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System;
-using Raven.Client.Document;
+using Raven35.Client.Document;
 using Xunit;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class CanCustomizeConventionsBeforeInitializingTheStore : IDisposable
     {

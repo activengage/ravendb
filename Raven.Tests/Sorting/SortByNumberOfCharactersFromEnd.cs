@@ -6,10 +6,10 @@
 using System;
 using Lucene.Net.Index;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing.Sorting.Custom;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing.Sorting.Custom;
 
-namespace Raven.Tests.Sorting
+namespace Raven35.Tests.Sorting
 {
     public class SortByNumberOfCharactersFromEnd : IndexEntriesToComparablesGenerator
     {

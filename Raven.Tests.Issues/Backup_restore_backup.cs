@@ -6,16 +6,16 @@
 using System.IO;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Database.Actions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Dto;
+using Raven35.Abstractions.Data;
+using Raven35.Client;
+using Raven35.Database.Actions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Dto;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class Backup_restore_backup : RavenTest
     {
@@ -123,7 +123,7 @@ namespace Raven.Tests.Issues
         protected override void ModifyConfiguration(InMemoryRavenConfiguration configuration)
         {
             configuration.Settings["Raven/Esent/CircularLog"] = "false";
-            configuration.Settings["Raven/Voron/AllowIncrementalBackups"] = "true";
+            configuration.Settings["Raven35.Voron/AllowIncrementalBackups"] = "true";
             configuration.RunInUnreliableYetFastModeThatIsNotSuitableForProduction = false;
             configuration.Initialize();
         }

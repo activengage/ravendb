@@ -1,8 +1,8 @@
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Tests.Bugs.LiveProjections.Entities;
+using Raven35.Client.Indexes;
+using Raven35.Tests.Bugs.LiveProjections.Entities;
 
-namespace Raven.Tests.Bugs.LiveProjections.Indexes
+namespace Raven35.Tests.Bugs.LiveProjections.Indexes
 {
     public class TaskSummaryIndex : AbstractIndexCreationTask<Task, TaskSummary>
     {
@@ -11,7 +11,7 @@ namespace Raven.Tests.Bugs.LiveProjections.Indexes
             Map = docs => from t in docs
                           select new { t.Start };
 
-            IndexSortOptions.Add(s => s.Start, Raven.Abstractions.Indexing.SortOptions.String);
+            IndexSortOptions.Add(s => s.Start, Raven35.Abstractions.Indexing.SortOptions.String);
         }
     }
 
@@ -21,8 +21,8 @@ namespace Raven.Tests.Bugs.LiveProjections.Indexes
         {
 
             TransformResults = results => from result in results
-                                                      let giver = LoadDocument<Raven.Tests.Bugs.LiveProjections.Entities.User>("users/" + result.GiverId)
-                                                      let taker = LoadDocument<Raven.Tests.Bugs.LiveProjections.Entities.User>("users/" + result.TakerId)
+                                                      let giver = LoadDocument<Raven35.Tests.Bugs.LiveProjections.Entities.User>("users/" + result.GiverId)
+                                                      let taker = LoadDocument<Raven35.Tests.Bugs.LiveProjections.Entities.User>("users/" + result.TakerId)
                                                       let place = LoadDocument<Place>("places/" + result.PlaceId)
                                                       select new
                                                       {

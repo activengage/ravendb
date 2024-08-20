@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using Raven.Abstractions.Exceptions;
-using Raven.Monitor.IO;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Monitor.IO;
 
-namespace Raven.Monitor
+namespace Raven35.Monitor
 {
     public class MonitorController: ApiController
     {
@@ -31,9 +31,9 @@ namespace Raven.Monitor
             }
             else
             {
-                var proc = Process.GetProcessesByName("Raven.Server");
+                var proc = Process.GetProcessesByName("Raven35.Server");
                 if (proc.Length != 1)
-                    throw new BadRequestException("More than one raven server is up and no pid was provided.");
+                    throw new BadRequestException("More than one Raven35.Server is up and no pid was provided.");
                 options.ProcessId = proc[0].Id;
             }
             options.Action = MonitorActions.DiskIo;
@@ -49,7 +49,7 @@ namespace Raven.Monitor
             }
             catch (Exception)
             {
-                throw new BadRequestException("Could not verify raven server url.");
+                throw new BadRequestException("Could not verify Raven35.Server url.");
             }
             options.ServerUrl = serverUrl;
             var durationStr = nvc["duration"];

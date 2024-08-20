@@ -4,15 +4,15 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Storage.Voron.Backup;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Storage.Voron.Backup;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class FullAndIncrementalBackups : RavenTestBase
     {

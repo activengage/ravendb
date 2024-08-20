@@ -4,22 +4,22 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Client.Connection;
-using Raven.Client.Document;
-using Raven.Client.Embedded;
-using Raven.Client.Extensions;
-using Raven.Database.Server;
-using Raven.Database.Server.Security;
-using Raven.Database.Server.Security.Windows;
-using Raven.Json.Linq;
-using Raven.Server;
-using Raven.Tests.Core.Utils.Entities;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Connection;
+using Raven35.Client.Document;
+using Raven35.Client.Embedded;
+using Raven35.Client.Extensions;
+using Raven35.Database.Server;
+using Raven35.Database.Server.Security;
+using Raven35.Database.Server.Security.Windows;
+using Raven35.Json.Linq;
+using Raven35.Server;
+using Raven35.Tests.Core.Utils.Entities;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Sdk;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3559 : RavenTestBase
     {

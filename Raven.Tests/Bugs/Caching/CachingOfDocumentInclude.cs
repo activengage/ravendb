@@ -6,15 +6,15 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Raven.Abstractions;
-using Raven.Abstractions.Indexing;
-using Raven.Database.Linq.PrivateExtensions;
-using Raven.Tests.Common;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Database.Linq.PrivateExtensions;
+using Raven35.Tests.Common;
 using Rhino.Mocks.Constraints;
 using Xunit;
 using System.Collections.Generic;
 
-namespace Raven.Tests.Bugs.Caching
+namespace Raven35.Tests.Bugs.Caching
 {
     public class CachingOfDocumentInclude : RavenTest
     {

@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Raven.Abstractions.Extensions;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Extensions;
+using Raven35.Client.Indexes;
 
-namespace Raven.Client.Document
+namespace Raven35.Client.Document
 {
     /// <summary>
     /// Fluent implementation for specifying include paths

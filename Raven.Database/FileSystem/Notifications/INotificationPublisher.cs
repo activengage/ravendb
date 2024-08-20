@@ -1,6 +1,6 @@
-using Raven.Abstractions.FileSystem;
+using Raven35.Abstractions.FileSystem;
 
-namespace Raven.Database.FileSystem.Notifications
+namespace Raven35.Database.FileSystem.Notifications
 {
     public interface INotificationPublisher
     {

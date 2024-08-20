@@ -3,13 +3,13 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class AccessControlHeaders : RavenTest
     {

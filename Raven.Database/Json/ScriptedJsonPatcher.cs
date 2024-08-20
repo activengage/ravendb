@@ -16,12 +16,12 @@ using Jint.Parser;
 using Jint.Runtime;
 using Jint.Runtime.Environments;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Json
+namespace Raven35.Database.Json
 {
     internal class ScriptedJsonPatcher
     {
@@ -239,9 +239,9 @@ namespace Raven.Database.Json
                 cfg.MaxStatements(int.MaxValue); // allow lodash to load
             });
 
-            AddScript(jintEngine, "Raven.Database.Json.lodash.js");
-            AddScript(jintEngine, "Raven.Database.Json.ToJson.js");
-            AddScript(jintEngine, "Raven.Database.Json.RavenDB.js");
+            AddScript(jintEngine, "Raven35.Database.Json.lodash.js");
+            AddScript(jintEngine, "Raven35.Database.Json.ToJson.js");
+            AddScript(jintEngine, "Raven35.Database.Json.RavenDB.js");
 
             jintEngine.Options.MaxStatements(maxSteps);
 

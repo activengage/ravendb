@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System.IO;
 
-using Raven.Abstractions.Cluster;
-using Raven.Abstractions.Replication;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Cluster;
+using Raven35.Abstractions.Replication;
+using Raven35.Json.Linq;
 
 using Xunit.Extensions;
 
-namespace Raven.Tests.Raft.Client
+namespace Raven35.Tests.Raft.Client
 {
     public class Attachments : RaftTestBase
     {

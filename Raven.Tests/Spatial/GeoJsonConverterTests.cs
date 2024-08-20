@@ -1,17 +1,17 @@
 using System.Linq;
 using GeoAPI.Geometries;
 using NetTopologySuite.Geometries;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Embedded;
-using Raven.Client.Indexes;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
-using Raven.Tests.Spatial.JsonConverters.GeoJson;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
+using Raven35.Tests.Spatial.JsonConverters.GeoJson;
 using Xunit;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public class GeoJsonConverterTests : RavenTest
     {

@@ -7,7 +7,7 @@
 using System;
 using System.Net;
 using Newtonsoft.Json;
-using Raven.Abstractions.Connection;
+using Raven35.Abstractions.Connection;
 
 namespace Rachis.Transport
 {

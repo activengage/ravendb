@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------
 using System.ComponentModel;
 
-namespace Raven.Abstractions.Smuggler
+namespace Raven35.Abstractions.Smuggler
 {
     public enum SmugglerExportType
     {

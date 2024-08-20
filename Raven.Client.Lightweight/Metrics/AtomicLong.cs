@@ -1,6 +1,6 @@
 using System.Threading;
 
-namespace Raven.Client.Metrics
+namespace Raven35.Client.Metrics
 {
     /// <summary>
     /// Provides support for atomic operations around a <see cref="long" /> value

@@ -1,9 +1,9 @@
 using System.IO;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Replication;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Replication;
 
-namespace Raven.Database.Config.Retriever
+namespace Raven35.Database.Config.Retriever
 {
     internal class ReplicationConflictResolutionConfigurationRetriever : ConfigurationRetrieverBase<ReplicationConfig>
     {

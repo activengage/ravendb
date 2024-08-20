@@ -8,14 +8,14 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Smuggler.Data;
-using Raven.Client.Document;
-using Raven.Smuggler;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Smuggler.Data;
+using Raven35.Client.Document;
+using Raven35.Smuggler;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     public class DatabaseDataDumper : SmugglerDatabaseApiBase
     {

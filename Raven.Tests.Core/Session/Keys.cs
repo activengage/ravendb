@@ -5,12 +5,12 @@
 // -----------------------------------------------------------------------
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Util;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Abstractions.Util;
+using Raven35.Tests.Core.Utils.Entities;
 
 using Xunit;
 
-namespace Raven.Tests.Core.Session
+namespace Raven35.Tests.Core.Session
 {
     public class Keys : RavenCoreTestBase
     {

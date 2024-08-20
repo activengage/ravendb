@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 
-namespace Raven.Abstractions.Json
+namespace Raven35.Abstractions.Json
 {
     /// <summary>
     /// This converter is used when a property is a Linq-To-Entities query, enumerating and 

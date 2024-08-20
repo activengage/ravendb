@@ -4,12 +4,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Threading;
-using Raven.Client.Connection;
-using Raven.Client.Helpers;
+using Raven35.Client.Connection;
+using Raven35.Client.Helpers;
 
-using Sparrow.Collections;
+using Sparrow35.Collections;
 
-namespace Raven.Client.Util
+namespace Raven35.Client.Util
 {
     public class SimpleCache : IDisposable
     {

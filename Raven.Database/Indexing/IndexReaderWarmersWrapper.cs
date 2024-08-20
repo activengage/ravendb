@@ -1,8 +1,8 @@
 using Lucene.Net.Index;
-using Raven.Abstractions.MEF;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndexReaderWarmersWrapper: IndexWriter.IndexReaderWarmer 
     {

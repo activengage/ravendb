@@ -3,9 +3,9 @@
 //     Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Client
+namespace Raven35.Client
 {
     /// <summary>
     /// Delegate definition for converting an entity to a document and metadata

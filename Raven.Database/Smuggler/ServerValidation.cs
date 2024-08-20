@@ -6,12 +6,12 @@
 using System;
 using System.Net;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Client.Document;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client.Document;
 
-namespace Raven.Database.Smuggler
+namespace Raven35.Database.Smuggler
 {
     internal class ServerValidation
     {

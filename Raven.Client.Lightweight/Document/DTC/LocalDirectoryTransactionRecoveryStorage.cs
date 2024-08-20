@@ -4,7 +4,7 @@ using System.Transactions;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Raven.Client.Document.DTC
+namespace Raven35.Client.Document.DTC
 {
     public class LocalDirectoryTransactionRecoveryStorage : ITransactionRecoveryStorageContext, ITransactionRecoveryStorage
     {

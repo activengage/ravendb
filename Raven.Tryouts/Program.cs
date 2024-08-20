@@ -4,45 +4,45 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.FileSystem;
-using Raven.Abstractions.Smuggler;
-using Raven.Client.Document;
-using Raven.Database.Extensions;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
-using Raven.Tests.FileSystem;
-using Raven.Tests.Raft.Client;
-using Raven.Tests.Smuggler;
-using Raven.Tests.Subscriptions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.FileSystem;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Client.Document;
+using Raven35.Database.Extensions;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
+using Raven35.Tests.FileSystem;
+using Raven35.Tests.Raft.Client;
+using Raven35.Tests.Smuggler;
+using Raven35.Tests.Subscriptions;
 using Xunit;
-using Order = Raven.Tests.Common.Dto.Faceted.Order;
-using Raven.Tests.Raft;
-using Raven.Tests.Faceted;
-using Raven.Abstractions.Replication;
-using Raven.Tests.Bundles.LiveTest;
-using Raven.Tests.Core.BulkInsert;
-using Raven.Tests.Notifications;
-using Raven.Database.Bundles.SqlReplication;
+using Order = Raven35.Tests.Common.Dto.Faceted.Order;
+using Raven35.Tests.Raft;
+using Raven35.Tests.Faceted;
+using Raven35.Abstractions.Replication;
+using Raven35.Tests.Bundles.LiveTest;
+using Raven35.Tests.Core.BulkInsert;
+using Raven35.Tests.Notifications;
+using Raven35.Database.Bundles.SqlReplication;
 using System.Linq;
-using Raven.Client.Indexes;
-using Raven.Client.Embedded;
+using Raven35.Client.Indexes;
+using Raven35.Client.Embedded;
 
-using Raven.Tests.Common.Util;
-using Raven.Client;
+using Raven35.Tests.Common.Util;
+using Raven35.Client;
 #if !DNXCORE50
-using Raven.Tests.Sorting;
-using Raven.SlowTests.RavenThreadPool;
-using Raven.Tests.Core;
-using Raven.Tests.Core.Commands;
-using Raven.Tests.Issues;
-using Raven.Tests.MailingList;
-using Raven.Tests.FileSystem.ClientApi;
+using Raven35.Tests.Sorting;
+using Raven35.SlowTests.RavenThreadPool;
+using Raven35.Tests.Core;
+using Raven35.Tests.Core.Commands;
+using Raven35.Tests.Issues;
+using Raven35.Tests.MailingList;
+using Raven35.Tests.FileSystem.ClientApi;
 #endif
 
-namespace Raven.Tryouts
+namespace Raven35.Tryouts
 {
 
     public class User

@@ -6,12 +6,12 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Raven.Client.Document;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Tests.Common;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3931 : NoDisposalNeeded
     {

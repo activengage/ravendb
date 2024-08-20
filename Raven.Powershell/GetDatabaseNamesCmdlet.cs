@@ -1,7 +1,7 @@
 ﻿using System.Management.Automation;
-using Raven.Client.Document;
+using Raven35.Client.Document;
 
-namespace Raven.Powershell
+namespace Raven35.Powershell
 {
     [Cmdlet(VerbsCommon.Get, "DatabaseNames")]
     [OutputType(typeof(string[]))]

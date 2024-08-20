@@ -1,13 +1,13 @@
 using System;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
-using Raven.Client.Extensions;
+using Raven35.Client.Extensions;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 {
     public class BAM : RavenTest
     {
@@ -54,7 +54,7 @@ namespace Raven.Tests.MailingList
 
                     var throws = Assert.Throws<ErrorResponseException>(()=>session.SaveChanges());
 
-                    Assert.Contains(@"PUT vetoed on document bad\one by Raven.Database.Plugins.Builtins.InvalidDocumentNames because: Document name cannot contain '\' but attempted to save with: bad\one", throws.Message);
+                    Assert.Contains(@"PUT vetoed on document bad\one by Raven35.Database.Plugins.Builtins.InvalidDocumentNames because: Document name cannot contain '\' but attempted to save with: bad\one", throws.Message);
                 }
             }
         }

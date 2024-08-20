@@ -6,21 +6,21 @@
 using System.Net.Http;
 using System.Runtime.Remoting.Messaging;
 using NDesk.Options;
-using Raven.Abstractions;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Abstractions.Extensions;
 using System;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Util;
-using Raven.Database.Smuggler;
-using Raven.Smuggler.Helpers;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Util;
+using Raven35.Database.Smuggler;
+using Raven35.Smuggler.Helpers;
 
-namespace Raven.Smuggler
+namespace Raven35.Smuggler
 {
     public class Program
     {
@@ -450,17 +450,17 @@ Copyright (C) 2008 - {0} - Hibernating Rhinos
             Console.WriteLine(@"
 Usage:
   - Import the dump.raven file to the 'Northwind' database found on specified server:
-    Raven.Smuggler in http://localhost:8080/ dump.raven --database=Northwind
+    Raven35.Smuggler in http://localhost:8080/ dump.raven --database=Northwind
   - Export 'Northwind' database from specified server to the dump.raven file:
-    Raven.Smuggler out http://localhost:8080/ dump.raven --database=Northwind
+    Raven35.Smuggler out http://localhost:8080/ dump.raven --database=Northwind
   - Export from 'sourceDB' to 'targetDB' between two different servers:
-    Raven.Smuggler between http://localhost:8080/  http://localhost:8081/ --database=sourceDB --database2=targetDB
+    Raven35.Smuggler between http://localhost:8080/  http://localhost:8081/ --database=sourceDB --database2=targetDB
   - Import a file system dump.ravenfs file to the MyFiles filesystem of the specified RavenDB instance:
-    Raven.Smuggler in http://localhost:8080/ dump.ravenfs --filesystem=MyFiles
+    Raven35.Smuggler in http://localhost:8080/ dump.ravenfs --filesystem=MyFiles
   - Export from MyFiles file system of the specified RavenDB instance to the dump.ravenfs file:
-    Raven.Smuggler out http://localhost:8080/ dump.ravenfs --filesystem=MyFiles
+    Raven35.Smuggler out http://localhost:8080/ dump.ravenfs --filesystem=MyFiles
   - Export from MyFiles1 to MyFiles2 on a different RavenDB instance:
-    Raven.Smuggler between http://localhost:8080/ http://localhost:8081/ --filesystem=sourceDB --filesystem2=targetDB
+    Raven35.Smuggler between http://localhost:8080/ http://localhost:8081/ --filesystem=sourceDB --filesystem2=targetDB
     
 
 Command line options:");

@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Raven.Abstractions.Indexing;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.MailingList
+namespace Raven35.Tests.MailingList
 { /// <summary>
     /// This test demonstrates an exception being thrown when sorting nullable Ints in Dynamic Fields.
     /// "Invalid shift value in prefixCoded string (is encoded value really an INT?)"
@@ -100,20 +100,20 @@ namespace Raven.Tests.MailingList
                     at Lucene.Net.Search.IndexSearcher.Search(Weight weight, Filter filter, Int32 nDocs, Sort sort, Boolean fillFields) in z:\Libs\lucene.net\src\core\Search\IndexSearcher.cs:line 274
                     at Lucene.Net.Search.IndexSearcher.Search(Weight weight, Filter filter, Int32 nDocs, Sort sort) in z:\Libs\lucene.net\src\core\Search\IndexSearcher.cs:line 206
                     at Lucene.Net.Search.Searcher.Search(Query query, Filter filter, Int32 n, Sort sort) in z:\Libs\lucene.net\src\core\Search\Searcher.cs:line 107
-                    at Raven.Database.Indexing.Index.IndexQueryOperation.ExecuteQuery(IndexSearcher indexSearcher, Query luceneQuery, Int32 start, Int32 pageSize, IndexQuery indexQuery) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Indexing\Index.cs:line 1018
-                    at Raven.Database.Indexing.Index.IndexQueryOperation.<Query>d__41.MoveNext() in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Indexing\Index.cs:line 778
+                    at Raven35.Database.Indexing.Index.IndexQueryOperation.ExecuteQuery(IndexSearcher indexSearcher, Query luceneQuery, Int32 start, Int32 pageSize, IndexQuery indexQuery) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Indexing\Index.cs:line 1018
+                    at Raven35.Database.Indexing.Index.IndexQueryOperation.<Query>d__41.MoveNext() in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Indexing\Index.cs:line 778
                     at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
                     at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
                     at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
-                    at Raven.Database.DocumentDatabase.<>c__DisplayClass88.<Query>b__7e(IStorageActionsAccessor actions) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\DocumentDatabase.cs:line 946
-                    at Raven.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Storage\Esent\TransactionalStorage.cs:line 437
-                    at Raven.Storage.Esent.TransactionalStorage.Batch(Action`1 action) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Storage\Esent\TransactionalStorage.cs:line 397
-                    at Raven.Database.DocumentDatabase.Queries.Query(String index, IndexQuery query) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\DocumentDatabase.cs:line 951
-                    at Raven.Database.Server.Responders.Index.PerformQueryAgainstExistingIndex(IHttpContext context, String index, IndexQuery indexQuery, Guid& indexEtag) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Server\Responders\Index.cs:line 386
-                    at Raven.Database.Server.Responders.Index.ExecuteQuery(IHttpContext context, String index, Guid& indexEtag) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Server\Responders\Index.cs:line 323
-                    at Raven.Database.Server.Responders.Index.GetIndexQueryResult(IHttpContext context, String index) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Server\Responders\Index.cs:line 262
-                    at Raven.Database.Server.HttpServer.DispatchRequest(IHttpContext ctx) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Server\HttpServer.cs:line 685
-                    at Raven.Database.Server.HttpServer.HandleActualRequest(IHttpContext ctx) in c:\Builds\RavenDB-Unstable-v1.2\Raven.Database\Server\HttpServer.cs:line 447*/
+                    at Raven35.Database.DocumentDatabase.<>c__DisplayClass88.<Query>b__7e(IStorageActionsAccessor actions) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\DocumentDatabase.cs:line 946
+                    at Raven35.Storage.Esent.TransactionalStorage.ExecuteBatch(Action`1 action) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Storage\Esent\TransactionalStorage.cs:line 437
+                    at Raven35.Storage.Esent.TransactionalStorage.Batch(Action`1 action) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Storage\Esent\TransactionalStorage.cs:line 397
+                    at Raven35.Database.DocumentDatabase.Queries.Query(String index, IndexQuery query) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\DocumentDatabase.cs:line 951
+                    at Raven35.Database.Server.Responders.Index.PerformQueryAgainstExistingIndex(IHttpContext context, String index, IndexQuery indexQuery, Guid& indexEtag) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Server\Responders\Index.cs:line 386
+                    at Raven35.Database.Server.Responders.Index.ExecuteQuery(IHttpContext context, String index, Guid& indexEtag) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Server\Responders\Index.cs:line 323
+                    at Raven35.Database.Server.Responders.Index.GetIndexQueryResult(IHttpContext context, String index) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Server\Responders\Index.cs:line 262
+                    at Raven35.Database.Server.HttpServer.DispatchRequest(IHttpContext ctx) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Server\HttpServer.cs:line 685
+                    at Raven35.Database.Server.HttpServer.HandleActualRequest(IHttpContext ctx) in c:\Builds\RavenDB-Unstable-v1.2\Raven35.Database\Server\HttpServer.cs:line 447*/
                 });
             }}
         }

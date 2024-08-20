@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-using Raven.Database.Config;
-using Raven.Database.FileSystem.Synchronization.Rdc.Wrapper;
-using Raven.Database.FileSystem.Util;
-using Raven.Tests.FileSystem.Synchronization.IO;
+using Raven35.Database.Config;
+using Raven35.Database.FileSystem.Synchronization.Rdc.Wrapper;
+using Raven35.Database.FileSystem.Util;
+using Raven35.Tests.FileSystem.Synchronization.IO;
 using Xunit;
 
-namespace Raven.Tests.FileSystem.Synchronization
+namespace Raven35.Tests.FileSystem.Synchronization
 {
     public class NeedListGeneratorTest
     {

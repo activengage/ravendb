@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using Raven.Abstractions.Logging;
-using Raven.Abstractions.Util;
+using Raven35.Abstractions.Logging;
+using Raven35.Abstractions.Util;
 
-namespace Raven.Database.Server.Connections
+namespace Raven35.Database.Server.Connections
 {
     public class AdminLogsConnectionState : IDisposable
     {

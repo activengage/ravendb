@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 
-using Raven.Abstractions.Indexing;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Indexing;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.SlowTests.Indexes
+namespace Raven35.SlowTests.Indexes
 {
     public class MapReduceIndexOnLargeDataSet : RavenTest
     {

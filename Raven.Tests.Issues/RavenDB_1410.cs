@@ -1,14 +1,14 @@
-using Raven.Abstractions.Connection;
-using Raven.Client;
-using Raven.Client.Indexes;
+using Raven35.Abstractions.Connection;
+using Raven35.Client;
+using Raven35.Client.Indexes;
 using System;
 using System.Linq;
 
-using Raven.Tests.Common;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     // Relating to http://issues.hibernatingrhinos.com/issue/RavenDB-1410 and http://issues.hibernatingrhinos.com/issue/RavenDB-1285 (duplicates)
 

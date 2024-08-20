@@ -1,12 +1,12 @@
 using System.Transactions;
-using Raven.Client.Document;
-using Raven.Tests.Bugs;
-using Raven.Tests.Common;
-using Raven.Tests.Common.Util;
+using Raven35.Client.Document;
+using Raven35.Tests.Bugs;
+using Raven35.Tests.Common;
+using Raven35.Tests.Common.Util;
 
 using Xunit;
 
-namespace Raven.Tests.MultiGet
+namespace Raven35.Tests.MultiGet
 {
     public class MultiGetDTC : RavenTest
     {

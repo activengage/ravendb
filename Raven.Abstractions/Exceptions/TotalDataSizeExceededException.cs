@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Raven.Abstractions.Exceptions
+namespace Raven35.Abstractions.Exceptions
 {
     /// <summary>
     /// Exception thrown when first time index population exceeds configured threshold

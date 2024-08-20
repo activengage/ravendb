@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Raven.Tests.Bundles.ScriptedIndexResults
+namespace Raven35.Tests.Bundles.ScriptedIndexResults
 {
     public class AnimalType
     {

@@ -9,7 +9,7 @@ using System.IO;
 using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Tokenattributes;
 
-namespace Raven.Tests.Indexes
+namespace Raven35.Tests.Indexes
 {
     public class LuceneAnalyzerUtils
     {

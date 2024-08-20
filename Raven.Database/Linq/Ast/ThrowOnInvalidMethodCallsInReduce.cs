@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Database.Linq.Ast
+namespace Raven35.Database.Linq.Ast
 {
     using System;
     using System.Linq;

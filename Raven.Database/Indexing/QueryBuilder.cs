@@ -12,14 +12,14 @@ using Lucene.Net.Analysis;
 using Lucene.Net.Index;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
-using Raven.Abstractions.Data;
-using Raven.Database.Indexing.LuceneIntegration;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Indexing.LuceneIntegration;
 using Version = Lucene.Net.Util.Version;
 using System.Linq;
-using Raven.Database.Queries;
-using Raven.Database.Util;
+using Raven35.Database.Queries;
+using Raven35.Database.Util;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public static class QueryBuilder
     {

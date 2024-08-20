@@ -1,6 +1,6 @@
 using ICSharpCode.NRefactory.CSharp;
 
-namespace Raven.Database.Indexing.IndexMerging
+namespace Raven35.Database.Indexing.IndexMerging
 {
     internal class ChangeRootReferenceVisitor : DepthFirstAstVisitor
     {

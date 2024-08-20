@@ -4,11 +4,11 @@
 // </copyright>
 //-----------------------------------------------------------------------
 using System.IO;
-using Raven.Imports.Newtonsoft.Json;
-using Raven.Abstractions.Extensions;
-using Raven.Abstractions.Indexing;
+using Raven35.Imports.Newtonsoft.Json;
+using Raven35.Abstractions.Extensions;
+using Raven35.Abstractions.Indexing;
 
-namespace Raven.Tests.Spatial
+namespace Raven35.Tests.Spatial
 {
     public static class SpatialIndexTestHelper
     {

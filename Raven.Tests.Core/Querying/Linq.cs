@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.Linq;
-using Raven.Tests.Core.Utils.Entities;
+using Raven35.Tests.Core.Utils.Entities;
 using Xunit;
 
-namespace Raven.Tests.Core.Querying
+namespace Raven35.Tests.Core.Querying
 {
     public class Linq : RavenCoreTestBase
     {

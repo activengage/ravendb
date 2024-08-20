@@ -1,17 +1,17 @@
 using System;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Impl;
-using Raven.Database.Indexing;
-using Raven.Database.Plugins;
-using Raven.Database.Storage;
-using Raven.Json.Linq;
-using Raven.Tests.Common;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Impl;
+using Raven35.Database.Indexing;
+using Raven35.Database.Plugins;
+using Raven35.Database.Storage;
+using Raven35.Json.Linq;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Storage
+namespace Raven35.Tests.Storage
 {
     public class ReduceStaleness : RavenTest
     {

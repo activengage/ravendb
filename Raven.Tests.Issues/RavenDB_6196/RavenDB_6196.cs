@@ -6,20 +6,20 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Smuggler;
-using Raven.Json.Linq;
-using Raven.Smuggler;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Json.Linq;
+using Raven35.Smuggler;
+using Raven35.Tests.Helpers;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Issues.RavenDB_6196
+namespace Raven35.Tests.Issues.RavenDB_6196
 {
     public class RavenDB_6196 : RavenTestBase
     {
         [Theory]
-        [InlineData("Raven.Tests.Issues.RavenDB_6196.Smuggler.Northwind_4.0.40008.ravendbdump")]
+        [InlineData("Raven35.Tests.Issues.RavenDB_6196.Smuggler.Northwind_4.0.40008.ravendbdump")]
         public async Task CanImportNorthwind(string file)
         {
             using (var stream = GetType().GetTypeInfo().Assembly.GetManifestResourceStream(file))

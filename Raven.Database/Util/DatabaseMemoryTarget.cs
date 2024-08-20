@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Logging;
-using Raven.Database.Server;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Logging;
+using Raven35.Database.Server;
 
-namespace Raven.Database.Util
+namespace Raven35.Database.Util
 {
     public class DatabaseMemoryTarget : Target
     {

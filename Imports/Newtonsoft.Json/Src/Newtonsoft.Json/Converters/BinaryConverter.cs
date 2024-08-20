@@ -27,10 +27,10 @@
 using System;
 using System.Data.SqlTypes;
 using System.Globalization;
-using Raven.Imports.Newtonsoft.Json.Utilities;
+using Raven35.Imports.Newtonsoft.Json.Utilities;
 using System.Collections.Generic;
 
-namespace Raven.Imports.Newtonsoft.Json.Converters
+namespace Raven35.Imports.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a binary value to and from a base 64 string value.

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Raven.Abstractions.Data;
+using Raven35.Abstractions.Data;
 
-namespace Raven.Database.Indexing
+namespace Raven35.Database.Indexing
 {
     public class IndependentBatchSizeAutoTuner : BaseBatchSizeAutoTuner
     {

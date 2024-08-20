@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
-using Raven.Json.Linq;
+using Raven35.Json.Linq;
 
-namespace Raven.Abstractions.Linq
+namespace Raven35.Abstractions.Linq
 {
     public class DynamicList : DynamicObject, IEnumerable<object>
     {

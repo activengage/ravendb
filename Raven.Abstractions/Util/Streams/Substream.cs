@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Raven.Abstractions.Util.Streams
+namespace Raven35.Abstractions.Util.Streams
 {
     public class Substream : Stream
     {

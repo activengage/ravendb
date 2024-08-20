@@ -2,14 +2,14 @@ using System;
 using System.Text;
 using System.Text.RegularExpressions;
 using ICSharpCode.NRefactory.CSharp;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Indexing;
-using Raven.Abstractions.MEF;
-using Raven.Database.Config;
-using Raven.Database.Linq.Ast;
-using Raven.Database.Plugins;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Indexing;
+using Raven35.Abstractions.MEF;
+using Raven35.Database.Config;
+using Raven35.Database.Linq.Ast;
+using Raven35.Database.Plugins;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     /// <summary>
     /// 	Takes a query expression as string, and compile them.

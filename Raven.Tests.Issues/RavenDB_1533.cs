@@ -5,13 +5,13 @@
 // -----------------------------------------------------------------------
 using System;
 using System.Threading.Tasks;
-using Raven.Client.Document;
-using Raven.Client.Document.Async;
-using Raven.Tests.Common;
+using Raven35.Client.Document;
+using Raven35.Client.Document.Async;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_1533 : RavenTest
     {

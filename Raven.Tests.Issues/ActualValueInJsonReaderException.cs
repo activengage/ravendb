@@ -2,14 +2,14 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Extensions;
-using Raven.Database.Server.WebApi;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Extensions;
+using Raven35.Database.Server.WebApi;
+using Raven35.Tests.Common;
 
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class ActualValueInJsonReaderException : RavenTest
     {

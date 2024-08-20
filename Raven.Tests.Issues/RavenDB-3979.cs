@@ -1,18 +1,18 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Raven.Abstractions.Connection;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Exceptions;
-using Raven.Abstractions.Smuggler;
-using Raven.Bundles.Versioning.Data;
-using Raven.Database.FileSystem.Bundles.Versioning;
-using Raven.Smuggler;
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Abstractions.Connection;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Abstractions.Smuggler;
+using Raven35.Bundles.Versioning.Data;
+using Raven35.Database.FileSystem.Bundles.Versioning;
+using Raven35.Smuggler;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 using Xunit;
 
-namespace Raven.Tests.Issues
+namespace Raven35.Tests.Issues
 {
     public class RavenDB_3979 : RavenFilesTestBase
     {
@@ -63,7 +63,7 @@ namespace Raven.Tests.Issues
 
                 var e = await AssertAsync.Throws<ErrorResponseException>(async () => await smuggler.ImportData(new SmugglerImportOptions<FilesConnectionStringOptions> { FromFile = export, To = options }));
 
-                Assert.Contains("PUT vetoed on file /test-0/revisions/1 by Raven.Database.FileSystem.Bundles.Versioning.Plugins.VersioningPutTrigger because: Creating a historical revision is not allowed", e.Message);
+                Assert.Contains("PUT vetoed on file /test-0/revisions/1 by Raven35.Database.FileSystem.Bundles.Versioning.Plugins.VersioningPutTrigger because: Creating a historical revision is not allowed", e.Message);
 
             }
         }

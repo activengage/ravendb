@@ -8,17 +8,17 @@ using ICSharpCode.NRefactory.PatternMatching;
 using Lucene.Net.Documents;
 
 using Microsoft.CSharp;
-using Raven.Abstractions;
-using Raven.Abstractions.MEF;
-using Raven.Abstractions.Util.Encryptors;
-using Raven.Database.Config;
-using Raven.Database.Extensions;
-using Raven.Database.Indexing;
-using Raven.Database.Linq.Ast;
-using Raven.Database.Linq.PrivateExtensions;
-using Raven.Database.Plugins;
-using Raven.Database.Server;
-using Raven.Database.Storage;
+using Raven35.Abstractions;
+using Raven35.Abstractions.MEF;
+using Raven35.Abstractions.Util.Encryptors;
+using Raven35.Database.Config;
+using Raven35.Database.Extensions;
+using Raven35.Database.Indexing;
+using Raven35.Database.Linq.Ast;
+using Raven35.Database.Linq.PrivateExtensions;
+using Raven35.Database.Plugins;
+using Raven35.Database.Server;
+using Raven35.Database.Storage;
 
 using System;
 using System.CodeDom.Compiler;
@@ -34,10 +34,10 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using Raven.Abstractions.Logging;
+using Raven35.Abstractions.Logging;
 using Directory = System.IO.Directory;
 
-namespace Raven.Database.Linq
+namespace Raven35.Database.Linq
 {
     public static class QueryParsingUtils
     {
@@ -246,7 +246,7 @@ namespace Raven.Database.Linq
             }
 
             var simpleType = typeReference.Type as SimpleType;
-            if (simpleType != null && simpleType.Identifier != "Raven.Database.Linq.PrivateExtensions.DynamicExtensionMethods")
+            if (simpleType != null && simpleType.Identifier != "Raven35.Database.Linq.PrivateExtensions.DynamicExtensionMethods")
                 return expression;
 
             switch (memberReferenceExpression.MemberName)

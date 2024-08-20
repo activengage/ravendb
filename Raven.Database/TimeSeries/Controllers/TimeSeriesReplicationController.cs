@@ -3,10 +3,10 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Raven.Abstractions.TimeSeries;
-using Raven.Database.Server.WebApi.Attributes;
+using Raven35.Abstractions.TimeSeries;
+using Raven35.Database.Server.WebApi.Attributes;
 
-namespace Raven.Database.TimeSeries.Controllers
+namespace Raven35.Database.TimeSeries.Controllers
 {
     public class TimeSeriesReplicationController : BaseTimeSeriesApiController
     {

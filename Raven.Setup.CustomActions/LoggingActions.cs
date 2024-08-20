@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Microsoft.Deployment.WindowsInstaller;
 
-namespace Raven.Setup.CustomActions
+namespace Raven35.Setup.CustomActions
 {
     public class LoggingActions
     {

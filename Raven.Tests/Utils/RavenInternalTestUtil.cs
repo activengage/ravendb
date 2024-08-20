@@ -9,12 +9,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-using Raven.Tests.Common;
-using Raven.Tests.Helpers;
+using Raven35.Tests.Common;
+using Raven35.Tests.Helpers;
 
 using Xunit;
 
-namespace Raven.Tests.Utils
+namespace Raven35.Tests.Utils
 {
     public class RavenInternalTestUtil
     {
@@ -29,7 +29,7 @@ namespace Raven.Tests.Utils
             var arguments = new StringBuilder("/edit ");
             foreach (var type in array)
             {
-                var fileInfos = new DirectoryInfo(@"C:\Work\RavenDB-New3\Raven.Tests").GetFiles(type.Name + ".cs", SearchOption.AllDirectories);
+                var fileInfos = new DirectoryInfo(@"C:\Work\RavenDB-New3\Raven35.Tests").GetFiles(type.Name + ".cs", SearchOption.AllDirectories);
                 foreach (var fileInfo in fileInfos)
                 {
                     var name = Path.Combine(fileInfo.Directory.FullName, fileInfo.Name);

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
-using Raven.Abstractions.Data;
-using Raven.Database.Extensions;
-using Raven.Database.Raft.Util;
-using Raven.Database.Server.WebApi.Attributes;
-using Raven.Database.Util;
-using Raven.Json.Linq;
+using Raven35.Abstractions.Data;
+using Raven35.Database.Extensions;
+using Raven35.Database.Raft.Util;
+using Raven35.Database.Server.WebApi.Attributes;
+using Raven35.Database.Util;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.Server.Controllers
+namespace Raven35.Database.Server.Controllers
 {
     public class DatabasesController : BaseDatabaseApiController
     {
@@ -37,7 +37,7 @@ namespace Raven.Database.Server.Controllers
                         }
                     }
 
-                    var dbName = database.Value<RavenJObject>("@metadata").Value<string>("@id").Replace("Raven/Databases/", string.Empty);
+                    var dbName = database.Value<RavenJObject>("@metadata").Value<string>("@id").Replace("Raven35.Databases/", string.Empty);
                     var isDatabaseLoaded = DatabasesLandlord.IsDatabaseLoaded(dbName);
                     DocumentDatabase.ReducedDatabaseStatistics stats = null;
                     if (isDatabaseLoaded)

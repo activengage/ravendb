@@ -1,11 +1,11 @@
-using Raven.Abstractions.Exceptions;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Tests.Common;
+using Raven35.Abstractions.Exceptions;
+using Raven35.Client;
+using Raven35.Client.Document;
+using Raven35.Tests.Common;
 using Xunit;
 using Xunit.Extensions;
 
-namespace Raven.Tests.Bugs
+namespace Raven35.Tests.Bugs
 {
     public class BulkInsert : RavenTest
     {

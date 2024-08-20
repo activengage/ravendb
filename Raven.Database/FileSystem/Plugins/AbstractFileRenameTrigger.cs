@@ -4,10 +4,10 @@
 //  </copyright>
 // -----------------------------------------------------------------------
 using System.ComponentModel.Composition;
-using Raven.Database.Plugins;
-using Raven.Json.Linq;
+using Raven35.Database.Plugins;
+using Raven35.Json.Linq;
 
-namespace Raven.Database.FileSystem.Plugins
+namespace Raven35.Database.FileSystem.Plugins
 {
     [InheritedExport]
     public abstract class AbstractFileRenameTrigger : IRequiresFileSystemInitialization

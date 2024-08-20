@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading;
-using Raven.Abstractions.Data;
-using Raven.Abstractions.Extensions;
+using Raven35.Abstractions.Data;
+using Raven35.Abstractions.Extensions;
 
-namespace Raven.Database.Prefetching
+namespace Raven35.Database.Prefetching
 {
     public class ConcurrentJsonDocumentSortedList
     {

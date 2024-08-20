@@ -3,7 +3,7 @@
 //      Copyright (c) Hibernating Rhinos LTD. All rights reserved.
 //  </copyright>
 // -----------------------------------------------------------------------
-namespace Raven.Tests.Web.Models
+namespace Raven35.Tests.Web.Models
 {
     public class ApiControllerMethod
     {
