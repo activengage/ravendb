@@ -627,6 +627,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     New-Item $nuget_dir -Type directory | Out-Null
 
     New-Item $nuget_dir\RavenDB35.Client\lib\net45 -Type directory | Out-Null
+    @("$base_dir\Raven.Abstractions\bin\$global:configuration\Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Abstractions\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Client\lib\net45 }
     @("Raven35.Client.Lightweight.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Client.Lightweight\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Client\lib\net45 }
 
     $nuspecPath = "$nuget_dir\RavenDB35.Client\RavenDB35.Client.nuspec"
