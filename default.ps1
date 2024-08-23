@@ -683,19 +683,19 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     }
 
     New-Item $nuget_dir\RavenDB35.Bundles.Authorization\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Bundles.Authorization.nuspec $nuget_dir\RavenDB35.Bundles.Authorization\RavenDB35.Bundles.Authorization.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.Authorization.nuspec $nuget_dir\RavenDB35.Bundles.Authorization\RavenDB35.Bundles.Authorization.nuspec
     @("Raven35.Bundles.Authorization.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.Authorization\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Bundles.Authorization\lib\net45 }
 
     New-Item $nuget_dir\RavenDB35.Bundles.CascadeDelete\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Bundles.CascadeDelete.nuspec $nuget_dir\RavenDB35.Bundles.CascadeDelete\RavenDB35.Bundles.CascadeDelete.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.CascadeDelete.nuspec $nuget_dir\RavenDB35.Bundles.CascadeDelete\RavenDB35.Bundles.CascadeDelete.nuspec
     @("Raven35.Bundles.CascadeDelete.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.CascadeDelete\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Bundles.CascadeDelete\lib\net45 }
 
     New-Item $nuget_dir\RavenDB35.Bundles.UniqueConstraints\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Bundles.UniqueConstraints.nuspec $nuget_dir\RavenDB35.Bundles.UniqueConstraints\RavenDB35.Bundles.UniqueConstraints.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.UniqueConstraints.nuspec $nuget_dir\RavenDB35.Bundles.UniqueConstraints676RavenDB35.Bundles.UniqueConstraints.nuspec
     @("Raven35.Bundles.UniqueConstraints.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.UniqueConstraints\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Bundles.UniqueConstraints\lib\net45 }
 
     New-Item $nuget_dir\RavenDB35.Tests.Helpers\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB.Tests.Helpers.nuspec $nuget_dir\RavenDB35.Tests.Helpers\RavenDB35.Tests.Helpers.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Tests.Helpers.nuspec $nuget_dir\RavenDB35.Tests.Helpers\RavenDB35.Tests.Helpers.nuspec
     @("Raven35.Tests.Helpers.???", "Rachis.???") |% { Copy-Item "$base_dir\Raven.Tests.Helpers\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Tests.Helpers\lib\net45 }
 
     # Sets the package version in all the nuspec as well as any RavenDB package dependency versions
