@@ -658,44 +658,44 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     Copy-Item $base_dir\NuGet\RavenDB35.Server.nuspec $nuget_dir\RavenDB35.Server\RavenDB35.Server.nuspec
     New-Item $nuget_dir\RavenDB35.Server\tools -Type directory | Out-Null
     @("Raven35.Database.???", "Raven35.Server.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Server\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Server\tools }
-    Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB.Server\tools
+    Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB35.Server\tools
     @("Raven35.Smuggler.???", "Raven35.Abstractions.???", "Raven35.Database.???") |% { Copy-Item "$base_dir\Raven.Smuggler\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Server\tools }
-    Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $nuget_dir\RavenDB.Server\tools\Raven35.Server.exe.config
+    Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $nuget_dir\RavenDB35.Server\tools\Raven35.Server.exe.config
 
     New-Item $nuget_dir\RavenDB35.Embedded\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Embedded.nuspec $nuget_dir\RavenDB.Embedded\RavenDB35.Embedded.nuspec
-    Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB.Embedded\ -Recurse
+    Copy-Item $base_dir\NuGet\RavenDB35.Embedded.nuspec $nuget_dir\RavenDB35.Embedded\RavenDB35.Embedded.nuspec
+    Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB35.Embedded\ -Recurse
 
     # Client packages
     @("Authorization", "UniqueConstraints") | Foreach-Object {
         $name = $_;
-        New-Item $nuget_dir\RavenDB.Client.$name\lib\net45 -Type directory | Out-Null
-        @("$base_dir\Bundles\Raven.Client.$_\bin\$global:configuration\Raven35.Client.$_.???") |% { Copy-Item $_ $nuget_dir\RavenDB.Client.$name\lib\net45 }
+        New-Item $nuget_dir\RavenDB35.Client.$name\lib\net45 -Type directory | Out-Null
+        @("$base_dir\Bundles\Raven.Client.$_\bin\$global:configuration\Raven35.Client.$_.???") |% { Copy-Item $_ $nuget_dir\RavenDB35.Client.$name\lib\net45 }
 
         $nuspecPath = "$nuget_dir\RavenDB.Client.$name\RavenDB35.Client.$name.nuspec"
         Copy-Item $base_dir\NuGet\RavenDB35.Client.$name.nuspec "$nuspecPath"
 
-        New-Item $nuget_dir\RavenDB.Client.$name\lib\$dotnetLib -Type directory | Out-Null
-        @("$base_dir\NetCore\Raven.Client.$name\bin\$global:configuration\$dotnetLib\Raven35.Client.$_.???", "$base_dir\NetCore\Raven.Client.$name\bin\$global:configuration\$dotnetLib\Raven35.Client.$_.deps.json" ) |% { Copy-Item $_ $nuget_dir\RavenDB.Client.$name\lib\$dotnetLib }
+        New-Item $nuget_dir\RavenDB35.Client.$name\lib\$dotnetLib -Type directory | Out-Null
+        @("$base_dir\NetCore\Raven.Client.$name\bin\$global:configuration\$dotnetLib\Raven35.Client.$_.???", "$base_dir\NetCore\Raven.Client.$name\bin\$global:configuration\$dotnetLib\Raven35.Client.$_.deps.json" ) |% { Copy-Item $_ $nuget_dir\RavenDB35.Client.$name\lib\$dotnetLib }
 
         $projects = "$base_dir\NetCore\Raven.Client.$name\Raven.Client.$name.csproj"
         AddDependenciesToNuspec $projects "$nuspecPath" "$dotnetLib"
     }
 
-    New-Item $nuget_dir\RavenDB.Bundles.Authorization\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.Authorization.nuspec $nuget_dir\RavenDB.Bundles.Authorization\RavenDB35.Bundles.Authorization.nuspec
-    @("Raven35.Bundles.Authorization.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.Authorization\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.Authorization\lib\net45 }
+    New-Item $nuget_dir\RavenDB35.Bundles.Authorization\lib\net45 -Type directory | Out-Null
+    Copy-Item $base_dir\NuGet\RavenDB.Bundles.Authorization.nuspec $nuget_dir\RavenDB35.Bundles.Authorization\RavenDB35.Bundles.Authorization.nuspec
+    @("Raven35.Bundles.Authorization.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.Authorization\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Bundles.Authorization\lib\net45 }
 
-    New-Item $nuget_dir\RavenDB.Bundles.CascadeDelete\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.CascadeDelete.nuspec $nuget_dir\RavenDB.Bundles.CascadeDelete\RavenDB35.Bundles.CascadeDelete.nuspec
-    @("Raven35.Bundles.CascadeDelete.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.CascadeDelete\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.CascadeDelete\lib\net45 }
+    New-Item $nuget_dir\RavenDB35.Bundles.CascadeDelete\lib\net45 -Type directory | Out-Null
+    Copy-Item $base_dir\NuGet\RavenDB.Bundles.CascadeDelete.nuspec $nuget_dir\RavenDB35.Bundles.CascadeDelete\RavenDB35.Bundles.CascadeDelete.nuspec
+    @("Raven35.Bundles.CascadeDelete.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.CascadeDelete\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Bundles.CascadeDelete\lib\net45 }
 
-    New-Item $nuget_dir\RavenDB.Bundles.UniqueConstraints\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Bundles.UniqueConstraints.nuspec $nuget_dir\RavenDB.Bundles.UniqueConstraints\RavenDB35.Bundles.UniqueConstraints.nuspec
-    @("Raven35.Bundles.UniqueConstraints.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.UniqueConstraints\bin\$global:configuration\$_" $nuget_dir\RavenDB.Bundles.UniqueConstraints\lib\net45 }
+    New-Item $nuget_dir\RavenDB35.Bundles.UniqueConstraints\lib\net45 -Type directory | Out-Null
+    Copy-Item $base_dir\NuGet\RavenDB.Bundles.UniqueConstraints.nuspec $nuget_dir\RavenDB35.Bundles.UniqueConstraints\RavenDB35.Bundles.UniqueConstraints.nuspec
+    @("Raven35.Bundles.UniqueConstraints.???") |% { Copy-Item "$base_dir\Bundles\Raven.Bundles.UniqueConstraints\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Bundles.UniqueConstraints\lib\net45 }
 
-    New-Item $nuget_dir\RavenDB.Tests.Helpers\lib\net45 -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Tests.Helpers.nuspec $nuget_dir\RavenDB.Tests.Helpers\RavenDB35.Tests.Helpers.nuspec
+    New-Item $nuget_dir\RavenDB35.Tests.Helpers\lib\net45 -Type directory | Out-Null
+    Copy-Item $base_dir\NuGet\RavenDB.Tests.Helpers.nuspec $nuget_dir\RavenDB35.Tests.Helpers\RavenDB35.Tests.Helpers.nuspec
     @("Raven35.Tests.Helpers.???", "Rachis.???") |% { Copy-Item "$base_dir\Raven.Tests.Helpers\bin\$global:configuration\$_" $nuget_dir\RavenDB.Tests.Helpers\lib\net45 }
 
     # Sets the package version in all the nuspec as well as any RavenDB package dependency versions
