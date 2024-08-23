@@ -59,7 +59,7 @@ task NuGetRestore {
 task Init -depends Verify40, Clean, NuGetRestore {
     Write-Host "Start Init"
     
-    $global:msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe"
+    $global:msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Current\Bin\MSBuild.exe"
     if (!(Test-Path -Path $global:msbuild)) {
         $global:msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"
     }
@@ -644,25 +644,25 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
     Copy-Item $base_dir\NuGet\RavenDB35.Client.MvcIntegration.nuspec $nuget_dir\RavenDB.Client.MvcIntegration\RavenDB35.Client.MvcIntegration.nuspec
     @("Raven35.Client.MvcIntegration.???") |% { Copy-Item "$base_dir\Raven.Client.MvcIntegration\bin\$global:configuration\$_" $nuget_dir\RavenDB.Client.MvcIntegration\lib\net45 }
 
-    New-Item $nuget_dir\RavenDB.Database\lib\net45 -Type directory | Out-Null
-    New-Item $nuget_dir\RavenDB.Database\tools -Type directory | Out-Null
+    New-Item $nuget_dir\RavenDB35.Database\lib\net45 -Type directory | Out-Null
+    New-Item $nuget_dir\RavenDB35.Database\tools -Type directory | Out-Null
     Copy-Item $base_dir\NuGet\RavenDB35.Database.nuspec $nuget_dir\RavenDB.Database\RavenDB35.Database.nuspec
-    Copy-Item $base_dir\NuGet\RavenDB.Database.install.ps1 $nuget_dir\RavenDB.Database\tools\install.ps1
-    Copy-Item $base_dir\NuGet\RavenDB.Database.uninstall.ps1 $nuget_dir\RavenDB.Database\tools\uninstall.ps1
+    Copy-Item $base_dir\NuGet\RavenDB.Database.install.ps1 $nuget_dir\RavenDB35.Database\tools\install.ps1
+    Copy-Item $base_dir\NuGet\RavenDB.Database.uninstall.ps1 $nuget_dir\RavenDB35.Database\tools\uninstall.ps1
     @("Raven35.Database.???", "Raven35.Abstractions.???") `
-         |% { Copy-Item "$base_dir\Raven.Database\bin\$global:configuration\$_" $nuget_dir\RavenDB.Database\lib\net45 }
-    Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB.Database\tools
-    Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB.Database\ -Recurse
+         |% { Copy-Item "$base_dir\Raven.Database\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Database\lib\net45 }
+    Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB35.Database\tools
+    Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB35.Database\ -Recurse
 
-    New-Item $nuget_dir\RavenDB.Server -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Server.nuspec $nuget_dir\RavenDB.Server\RavenDB35.Server.nuspec
-    New-Item $nuget_dir\RavenDB.Server\tools -Type directory | Out-Null
-    @("Raven35.Database.???", "Raven35.Server.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Server\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
+    New-Item $nuget_dir\RavenDB35.Server -Type directory | Out-Null
+    Copy-Item $base_dir\NuGet\RavenDB35.Server.nuspec $nuget_dir\RavenDB35.Server\RavenDB35.Server.nuspec
+    New-Item $nuget_dir\RavenDB35.Server\tools -Type directory | Out-Null
+    @("Raven35.Database.???", "Raven35.Server.???", "Raven35.Abstractions.???") |% { Copy-Item "$base_dir\Raven.Server\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Server\tools }
     Copy-Item "$build_dir\Raven.Studio.Html5.zip" $nuget_dir\RavenDB.Server\tools
-    @("Raven35.Smuggler.???", "Raven35.Abstractions.???", "Raven35.Database.???") |% { Copy-Item "$base_dir\Raven.Smuggler\bin\$global:configuration\$_" $nuget_dir\RavenDB.Server\tools }
+    @("Raven35.Smuggler.???", "Raven35.Abstractions.???", "Raven35.Database.???") |% { Copy-Item "$base_dir\Raven.Smuggler\bin\$global:configuration\$_" $nuget_dir\RavenDB35.Server\tools }
     Copy-Item $base_dir\DefaultConfigs\RavenDb.exe.config $nuget_dir\RavenDB.Server\tools\Raven35.Server.exe.config
 
-    New-Item $nuget_dir\RavenDB.Embedded\lib\net45 -Type directory | Out-Null
+    New-Item $nuget_dir\RavenDB35.Embedded\lib\net45 -Type directory | Out-Null
     Copy-Item $base_dir\NuGet\RavenDB35.Embedded.nuspec $nuget_dir\RavenDB.Embedded\RavenDB35.Embedded.nuspec
     Copy-Item $base_dir\NuGet\readme.txt $nuget_dir\RavenDB.Embedded\ -Recurse
 
