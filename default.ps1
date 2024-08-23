@@ -646,7 +646,7 @@ task CreateNugetPackages -depends Compile, CompileHtml5, InitNuget {
 
     New-Item $nuget_dir\RavenDB35.Database\lib\net45 -Type directory | Out-Null
     New-Item $nuget_dir\RavenDB35.Database\tools -Type directory | Out-Null
-    Copy-Item $base_dir\NuGet\RavenDB35.Database.nuspec $nuget_dir\RavenDB.Database\RavenDB35.Database.nuspec
+    Copy-Item $base_dir\NuGet\RavenDB35.Database.nuspec $nuget_dir\RavenDB35.Database\RavenDB35.Database.nuspec
     Copy-Item $base_dir\NuGet\RavenDB.Database.install.ps1 $nuget_dir\RavenDB35.Database\tools\install.ps1
     Copy-Item $base_dir\NuGet\RavenDB.Database.uninstall.ps1 $nuget_dir\RavenDB35.Database\tools\uninstall.ps1
     @("Raven35.Database.???", "Raven35.Abstractions.???") `
