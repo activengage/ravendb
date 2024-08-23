@@ -35,10 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Database", "Raven.Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{DB851A36-F2E8-4584-BB39-3CEC4928651B}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Raven.Setup", "Raven.Setup\Raven.Setup.wixproj", "{2FF37223-8F38-4584-821A-9BEB6D76F7A1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raven.Setup.CustomActions", "Raven.Setup.CustomActions\Raven.Setup.CustomActions.csproj", "{C36D71A5-F8F3-45A5-A632-80854926E55E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3BE614B3-26A4-4598-9A81-DDAE9CB71E55}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config

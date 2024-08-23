@@ -547,9 +547,7 @@ task DoReleasePart1 -depends Compile, `
 
     Write-Host "Done building RavenDB"
 }
-task DoRelease -depends DoReleasePart1, `
-    CopyInstaller, `
-    SignInstaller,
+task DoRelease -depends DoReleasePart1,
     CreateNugetPackages {
 
     Write-Host "Done building RavenDB"
