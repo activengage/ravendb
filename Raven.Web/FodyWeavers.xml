@@ -7,8 +7,8 @@
       Microsoft.Owin.Host.SystemWeb
       Owin
       System.Web.Http.Owin
-      Raven.Abstractions
-      Raven.Database
+      Raven35.Abstractions
+      Raven35.Database
     </ExcludeAssemblies>
   </Costura>
 </Weavers>

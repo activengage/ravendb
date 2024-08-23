@@ -2,8 +2,8 @@
 <Weavers>
   <Costura IncludeDebugSymbols='false'>
     <ExcludeAssemblies>
-      Raven.Abstractions
-      Raven.Database
+      Raven35.Abstractions
+      Raven35.Database
     </ExcludeAssemblies>
   </Costura>
 </Weavers>
