@@ -430,11 +430,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Raven.Abstractions\Raven.Abstractions.csproj">
       <Project>{41AC479E-1EB2-4D23-AAF2-E4C8DF1BC2BA}</Project>
-      <Name>Raven35.Abstractions</Name>
+      <Name>Raven.Abstractions</Name>
     </ProjectReference>
     <ProjectReference Include="..\Raven.Sparrow\Sparrow\Sparrow.csproj">
       <Project>{104699C8-0FD3-4AB9-8542-E8FA89ED199B}</Project>
-      <Name>Sparrow35</Name>
+      <Name>Sparrow</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -446,6 +446,6 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" Condition="'$(TasksTargetsImported)' == ''" />
   <Target Name="AfterBuild">
   </Target>
-  <Import Project="..\Imports\Fody\Fody.targets" Condition="$(Configuration) == 'Release'" />
+  <!--Import Project="..\Imports\Fody\Fody.targets" Condition="$(Configuration) == 'Release'" /-->
   <Import Project="..\Imports\Tasks.targets" Condition="'$(TasksTargetsImported)' == ''" />
 </Project>
